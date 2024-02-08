@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/jiranim1/public_html
+group: jiranim1
+hascgi: 1
+homedir: /home/jiranim1
+ip: 198.23.59.221
+ipv6: ~
+owner: cloudkwe
+phpopenbasedirprotect: 1
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@jiranimall.com
+serveralias: mail.jiranimall.com www.jiranimall.com
+servername: jiranimall.com
+ssl: 1
+usecanonicalname: 'Off'
+user: jiranim1
+userdirprotect: ''

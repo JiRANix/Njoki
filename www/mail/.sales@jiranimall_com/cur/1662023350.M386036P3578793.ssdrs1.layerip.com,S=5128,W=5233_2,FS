@@ -1,0 +1,105 @@
+Return-Path: <jiranimall.com@gmail.com>
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id yPx+FrZ2EGOpmzYAvE7qNg
+	(envelope-from <jiranimall.com@gmail.com>); Thu, 01 Sep 2022 09:09:10 +0000
+Return-path: <jiranimall.com@gmail.com>
+Envelope-to: sales@jiranimall.com,
+ admin@jiranimall.com
+Delivery-date: Thu, 01 Sep 2022 09:09:10 +0000
+Received: from mail-lf1-f45.google.com ([209.85.167.45]:43843)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <jiranimall.com@gmail.com>)
+	id 1oTgCF-00F5sj-5V;
+	Thu, 01 Sep 2022 09:09:10 +0000
+Received: by mail-lf1-f45.google.com with SMTP id v26so13230696lfd.10;
+        Thu, 01 Sep 2022 02:08:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date;
+        bh=Y1M3oOyUCIAlLUkuqKCErLVPKFtmALRf2wcX4U7XaRc=;
+        b=oHiP3QvwNXP3VU5QECv12WeTEtiTjBA/UoJ0IHAOrnJVlZNsooXVWYcNgcCmA85FNm
+         82LPi7j3A6PB7WULLwD2ypdtyk/Ihcm34A4u5+2ILCGIQQev/AYE80LLKArv2eAoj5NP
+         HgO8ZoZ5pFM0jkSXMOqMxMw/jC+v/zrnZELQCVtomcq+3rPSXXoTfw9CvUgPBQ329+e9
+         EeZYpCb0T5d9ySQmgDWeHNRIAAPL/s0hQpPde8eHy8pDNTp/HOVa8933TPXZkUMQM0Vl
+         O7CxSp+jBsms4dw1nBxgv2Iq7zvSUKNAIxUGCKp+Sa5TwuMajGNJvh7sk1A4sn0/O76n
+         pIVA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-message-state:from:to:cc:subject:date;
+        bh=Y1M3oOyUCIAlLUkuqKCErLVPKFtmALRf2wcX4U7XaRc=;
+        b=1811UrzXlTtkWfKnGhEXEIRsz7KQiV2wOHe3OxJ+pVaHTENEHeafAPPB02Yl0BSMs5
+         KLNabn6y1Z4R2EfMSD7AthUFFPR7geergdP0cevoitntLegJuOkX1vHiSYv27XDfYrfn
+         93NT8S6cMtTgFC/BXd85blvEqo8NFxr6BmAVoHPh34oY7pUODa53DGDjA2WWiic0gFfl
+         hinyQWyG8yjYOeF8g4al3jDZXOoYu+iTmoIRkrSV5a+JW0m9cslUhIsJsHH9Kd6vpuTF
+         7VJfdHXOg8K7TkIxkqiiurVB//DkNmCW86Fr73V0DA5LWTcUro9PbOopiof1jAJJkn7w
+         9f1w==
+X-Gm-Message-State: ACgBeo1svjnAlIQ99HsgKO0wSdn9wycV73Fr4qf7FjYW5Rx3m1IYduKX
+	GHAeoY09pVnRep6ylLuEZRfbpsLptZ7U5JBA7xIyPNvoMZU=
+X-Google-Smtp-Source: AA6agR4mxkfx8hYi/omscA6/ybREG348UbA6VxwRAULzheTDEHyt2KV0WppQhRTLhPO3iKFk8npe8FbCy79Odx0Bt1M=
+X-Received: by 2002:a05:6512:230c:b0:494:8ddb:606 with SMTP id
+ o12-20020a056512230c00b004948ddb0606mr1953195lfu.44.1662023286868; Thu, 01
+ Sep 2022 02:08:06 -0700 (PDT)
+MIME-Version: 1.0
+References: <0036d9ecd71621ae167bb930e81b7b79@jiranimall.com>
+In-Reply-To: <0036d9ecd71621ae167bb930e81b7b79@jiranimall.com>
+From: JiRANi MALL <jiranimall.com@gmail.com>
+Date: Thu, 1 Sep 2022 12:07:54 +0300
+Message-ID: <CAPD2z-CjE7FruXCKR2tk9Z-yx=+s=wH=F5TTVdCsW8C06g1szg@mail.gmail.com>
+Subject: Re: TEST
+To: admin@jiranimall.com
+Cc: sales@jiranimall.com
+Content-Type: multipart/alternative; boundary="0000000000009f4ceb05e799f3d8"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Yes, I did. On Thu, 1 Sept 2022, 12:05 , wrote: > have you
+    received this email? > 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [jiranimall.com[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--0000000000009f4ceb05e799f3d8
+Content-Type: text/plain; charset="UTF-8"
+
+Yes, I did.
+
+On Thu, 1 Sept 2022, 12:05 , <admin@jiranimall.com> wrote:
+
+> have you received this email?
+>
+
+--0000000000009f4ceb05e799f3d8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Yes, I did.=C2=A0</div><br><div class=3D"gmail_quote"><di=
+v dir=3D"ltr" class=3D"gmail_attr">On Thu, 1 Sept 2022, 12:05 , &lt;<a href=
+=3D"mailto:admin@jiranimall.com">admin@jiranimall.com</a>&gt; wrote:<br></d=
+iv><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex">have you received this email?<br>
+</blockquote></div>
+
+--0000000000009f4ceb05e799f3d8--

@@ -1,0 +1,143 @@
+Return-Path: <dxb@nepentheanhelp.tech>
+Delivered-To: ceo+spam@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id WKdZEAhGVGXWYjcAvE7qNg
+	(envelope-from <dxb@nepentheanhelp.tech>)
+	for <ceo+spam@jiranimall.com>; Wed, 15 Nov 2023 04:16:08 +0000
+Return-path: <dxb@nepentheanhelp.tech>
+Envelope-to: ceo@jiranimall.com
+Delivery-date: Wed, 15 Nov 2023 04:16:08 +0000
+Received: from out208-127.dm.aliyun.com ([140.205.208.127]:49766)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <dxb@nepentheanhelp.tech>)
+	id 1r37Js-00FEtP-3B
+	for ceo@jiranimall.com;
+	Wed, 15 Nov 2023 04:16:08 +0000
+X-AliDM-RcptTo: Y2VvQGppcmFuaW1hbGwuY29t
+Feedback-ID: default:dxb@nepentheanhelp.tech:batch:326995
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=nepentheanhelp.tech; s=aliyun-cn-hangzhou;
+	t=1700021718; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=fTBL6Dimc91au6kGJwp7hxZt3knhQkqfIaqzTJI7RhI=;
+	b=SyQFFOFv6BwcamF0wYfBXkq3Mh8XNd+8MJ3mb2jZ/xdE7nQvfknPmi/63/HsQO7gnMq0sh4FkcwQTRUcgge8Q8z6U84xzkxbKUjMcFKq+YqvkXpgdy1ohrEE67UXdu2RHYk+RFh4HUxi+ZJC3ZrZNdKNQ6pwgqV0suxG5kTPHvo=
+X-EnvId: 600000049666799195
+Received: from HULINYUNNB2.CXISHD01.CATHAY(mailfrom:dxb@nepentheanhelp.tech fp:SMTPD_-VHcBr.anNK)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Wed, 15 Nov 2023 12:15:15 +0800
+Date: Wed, 15 Nov 2023 12:15:15 +0800 (CST)
+From: =?utf-8?B?5bqX5bCP5L+d?= <dxb@nepentheanhelp.tech>
+To: ceo@jiranimall.com
+Message-ID: <f3471e66-d8fc-495f-b297-93c7c72fc383@nepentheanhelp.tech>
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: Yes, score=5.1
+X-Spam-Score: 51
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  现在成为我们的用户更有多种权益可享，点击链接立即开通：（戳链接领取）（仅支持中国商家，Only
+    Chinese Enterprises） 也可扫描下方二维码定制您的专属解决方案：
+    
+ Content analysis details:   (5.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cathay-ins.com.cn]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: nepentheanhelp.tech]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of
+                             words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?44CQ5YWo5paw5Y2H57qn44CR5aSa56eN6YCA6LSn6Kej5Yaz?=
+ =?utf-8?B?5pa55qGI77yM6L275p2+5L+d6Zqc5Y2W5a625p2D55uK77yB?=
+
+<html>
+<head>
+    <style>
+        body {
+        padding: 10px 20px 40px;
+        }
+        pre {
+        font-size: 0.9rem;
+        white-space: break-spaces;
+        }
+    </style>
+</head>
+<body>
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+        <tr ><td align=3D"center">
+=09=09=09<img src=3D"https://i3.cathay-ins.com.cn/prod/posts/1068b2f7e352ec=
+9f354cce0f8c09e099.png"/>
+        </td></tr>
+=09=09<tr ><td align=3D"center">&nbsp;</td></tr>
+        <tr><td align=3D"center">
+=09=09=09<pre>
+=E7=8E=B0=E5=9C=A8=E6=88=90=E4=B8=BA=E6=88=91=E4=BB=AC=E7=9A=84=E7=94=A8=E6=
+=88=B7=E6=9B=B4=E6=9C=89=E5=A4=9A=E7=A7=8D=E6=9D=83=E7=9B=8A=E5=8F=AF=E4=BA=
+=AB=EF=BC=8C=E7=82=B9=E5=87=BB=E9=93=BE=E6=8E=A5=E7=AB=8B=E5=8D=B3=E5=BC=80=
+=E9=80=9A=EF=BC=9A<a target=3D"_blank" href=3D"https://channel.cathay-ins.c=
+om.cn/wyt?adMark=3Ddxbemauto&platformUrl=3Djiranimall.com&email=3Dceo@jiran=
+imall.com&mailId=3DFAJdXZnu&owneruserid=3D1622519462750662656&ecdcrm=3DeyJH=
+TVYiOiIxMzM1NyIsInBsYXRmb3JtVXJsIjoiamlyYW5pbWFsbC5jb20iLCJtb2JpbGUiOiIwNzU=
+2NDQ0MTExIiwiY2F0ZWdvcmllcyI6IltcIi9BcHBhcmVsXCJdIiwiZW1haWwiOiJjZW9AamlyYW=
+5pbWFsbC5jb20iLCJwbGF0Zm9ybSI6ImN1c3RvbSIsIm5lZWROb3RpY2UiOjB9">=EF=BC=88=
+=E6=88=B3=E9=93=BE=E6=8E=A5=E9=A2=86=E5=8F=96=EF=BC=89</a>=EF=BC=88=E4=BB=
+=85=E6=94=AF=E6=8C=81=E4=B8=AD=E5=9B=BD=E5=95=86=E5=AE=B6=EF=BC=8COnly Chin=
+ese Enterprises=EF=BC=89
+=09=09=09</pre>
+        </td></tr>
+        <tr><td align=3D"center">
+=09=09=09<pre>
+=E4=B9=9F=E5=8F=AF=E6=89=AB=E6=8F=8F=E4=B8=8B=E6=96=B9=E4=BA=8C=E7=BB=B4=E7=
+=A0=81=E5=AE=9A=E5=88=B6=E6=82=A8=E7=9A=84=E4=B8=93=E5=B1=9E=E8=A7=A3=E5=86=
+=B3=E6=96=B9=E6=A1=88=EF=BC=9A
+=09=09=09</pre>
+        </td></tr>
+        <tr><td align=3D"center">
+            <img src=3D"https://i3.cathay-ins.com.cn/prod/posts/3bfe1b38aee=
+27888fee9fcc079445011.jpg"  alt=3D"=E6=88=91=E7=9A=84=E4=BA=8C=E7=BB=B4=E7=
+=A0=81" class=3D"footerImg"/>
+        </td></tr>
+=09=09<tr ><td align=3D"center">&nbsp;</td></tr>
+        <tr><td align=3D"center">
+=09=09=09<pre>
+=E5=A6=82=E6=82=A8=E4=B8=8D=E6=83=B3=E5=86=8D=E6=94=B6=E5=88=B0=E9=82=AE=E4=
+=BB=B6=EF=BC=8C=E8=AF=B7=E6=89=AB=E7=A0=81=E6=B7=BB=E5=8A=A0=E6=88=91=E7=9A=
+=84=E4=BC=81=E5=BE=AE=E9=80=80=E8=AE=A2
+=09=09=09</pre>
+        </td></tr>
+    </table>
+
+    <img src=3D"https://dianxiaobao.cathay-ins.com.cn/aas/api/v1/logHubForI=
+mg/ceo@jiranimall.com/FAJdXZnu/231115_store_leads_520.jpg"
+         border=3D"0" width=3D"1" height=3D"1" style=3D"display:none"/>
+<br/>
+<br/>
+</body>
+
+</html>
+

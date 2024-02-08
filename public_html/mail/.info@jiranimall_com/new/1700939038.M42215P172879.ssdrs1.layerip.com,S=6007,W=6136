@@ -1,0 +1,129 @@
+Return-Path: <contactcentre@kcbgroup.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id SNdmAR5FYmVPowIAvE7qNg
+	(envelope-from <contactcentre@kcbgroup.com>)
+	for <info@jiranimall.com>; Sat, 25 Nov 2023 19:03:58 +0000
+Return-path: <contactcentre@kcbgroup.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Sat, 25 Nov 2023 19:03:58 +0000
+Received: from mx6.kcbgroup.com ([196.216.223.23]:10400 helo=mx.kcbgroup.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <contactcentre@kcbgroup.com>)
+	id 1r6xwc-000lBJ-2F
+	for info@jiranimall.com;
+	Sat, 25 Nov 2023 19:03:57 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=simple/simple; d=kcbgroup.com; s=mx;
+	t=1700939035; bh=YjiWbR0tfr2a+bBTJnOO+uIKIT8=; l=2128; h=From;
+	b=WNzBa8hfoRng6B6FvWh3QfetjolztTrDAMs4bsMsqPgMZupSTvNaw6R33SBhO2wwF
+	 Ysbt3nuGnzeuH+5oF9jtkY+CDNb6BWll6Jq1UP/dhREh6QIPczROnu19Cod9Y1u7hc
+	 8CV6ZC6dTKYumUpkJP+uIezhzkKnaQAv4OLBPaZE=
+Received: from kedr-exch03.kcbad.com (unknown [172.17.70.92])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by Forcepoint Email with ESMTPS id B68B6236A917B0777B75
+	for <info@jiranimall.com>; Sat, 25 Nov 2023 22:03:09 +0300 (EAT)
+Received: from KEDR-EXCH01.kcbad.com (172.17.70.135) by kedr-exch03.kcbad.com
+ (172.17.70.92) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.1.2507.34; Sat, 25 Nov
+ 2023 22:03:09 +0300
+Received: from kedribapppd01.kcbad.com (172.17.76.195) by
+ KEDR-EXCH01.kcbad.com (172.17.70.135) with Microsoft SMTP Server id
+ 15.1.2507.23 via Frontend Transport; Sat, 25 Nov 2023 22:03:09 +0300
+From: <contactcentre@kcb.co.ke>
+To: <info@jiranimall.com>
+Message-ID: <1052655500.140927.1700938989543@kedribapppd01.kcbad.com>
+Subject: KCB Bank: To external entities
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_Part_140926_1440808786.1700938989543"
+Date: Sat, 25 Nov 2023 22:03:09 +0300
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear JiRANi MALL Ltd , We confirm that a transfer of KES 120,000.00
+    has been credited to 7*****0017 on 25/11/2023 Sender Name: JIRANI MALL LTD
+    Bank Reference: FT23330X6TPG Description: JiRANi 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: kcbgroup.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of
+                             words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+
+------=_Part_140926_1440808786.1700938989543
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<img align=3D"right" src=3D"cid:ID123456"><br>
+Dear JiRANi MALL Ltd , <br>
+<br>
+We confirm that a transfer of KES 120,000.00 has been credited to 7*****001=
+7 on 25/11/2023
+<br>
+<br>
+Sender Name: JIRANI MALL LTD <br>
+Bank Reference: FT23330X6TPG <br>
+Description: JiRANi <br>
+<br>
+<br>
+Kind Regards,<br>
+KCB Bank <br>
+<i><font face=3D"arial" size=3D"2">This is a computer generated message. Pl=
+ease do not reply to it. For further information, please call us on:
+</font></i><br>
+<i><font face=3D"arial" size=3D"2">Contact Centre: &#43;254 711 087 000 / &=
+#43;254 732 187 000</font></i><br>
+<i><font face=3D"arial" size=3D"2">WhatsApp: &#43;254 711 087 087</font></i=
+><br>
+<br>
+The contents of this electronic message and any attachments are confidentia=
+l and may be legally privileged and protected from discovery or disclosure.=
+ This message is intended only for the personal and confidential use of the=
+ intended addressee. If you have
+ received this message in error, you are not authorized to view, disseminat=
+e or copy this message or any part of it without our consent, and you are r=
+equested to return it to the sender immediately and delete all copies from =
+your system. To learn more about
+ how we process and protect personal data please refer to https://ke.kcbgro=
+up.com/data-privacy-statement/. KCB Group Plc and/or its subsidiaries canno=
+t guarantee that this message or any attachment is virus free, does not con=
+tain malicious code or is incompatible
+ with your electronic system and does not accept liability in respect of vi=
+ruses, malicious code or any related problems that you might experience. Un=
+less specifically stated, any views expressed may not necessarily be of KCB=
+ Group Plc and/or any of its subsidiaries
+ but that of the sender.
+</body>
+</html>
+
+------=_Part_140926_1440808786.1700938989543--

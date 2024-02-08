@@ -1,0 +1,153 @@
+Return-Path: <peterclark@webnotech.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id UBY9DB3xDmUjEDcAvE7qNg
+	(envelope-from <peterclark@webnotech.com>)
+	for <info@jiranimall.com>; Sat, 23 Sep 2023 14:07:25 +0000
+Return-path: <peterclark@webnotech.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Sat, 23 Sep 2023 14:07:25 +0000
+Received: from p3plsmtp27-04-2.prod.phx3.secureserver.net ([216.69.139.52]:44384 helo=p3plwbeout27-04.prod.phx3.secureserver.net)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <peterclark@webnotech.com>)
+	id 1qk3IF-00F9qn-2s
+	for info@jiranimall.com;
+	Sat, 23 Sep 2023 14:07:25 +0000
+X-MW-NODE: 
+X-CMAE-Analysis: v=2.4 cv=ALX9isxy c=1 sm=1 tr=0 ts=650ef0f0
+ a=OHLwoUGPVBjuFZboseswMQ==:117 a=OHLwoUGPVBjuFZboseswMQ==:17
+ a=Cy6ktwVql9AA:10 a=fxX-m95j0YCsvLBttygA:9 a=QEXdDO2ut3YA:10
+ a=hhfR97i0lbMA:10 a=6rpULcqQgXPRakkp:21 a=_W_S_7VecoQA:10
+ a=xTm6BByRCRGXnd1LMwVQ:22
+X-SECURESERVER-ACCT: peterclark@webnotech.com
+X-SID: k3GvqMFHuFloT
+Date: Sat, 23 Sep 2023 10:06:13 -0400 (EDT)
+From: Peter Clark <peterclark@webnotech.com>
+To: "mdelgado34@gmail.com" <mdelgado34@gmail.com>
+Message-ID: <192782491.144371.1695477973408@ap1.myprofessionalmail.com>
+Subject: Website development
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_144370_212689345.1695477973406"
+X-Priority: 3
+Importance: Normal
+X-Mailer: Open-Xchange Mailer v8.16.55
+X-Originating-IP: 122.161.51.53
+X-Originating-Client: open-xchange-appsuite
+X-CMAE-Envelope: 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
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I reach out to see if there is something you want to repair
+    or redesign on your site. I provide complete Built New site Re-design services
+    like:- such as Re-design Revamp, Transform Web, CMS Design, Creative Web
+   Design, E-Commerce, SEO, SMO, PPC, Mobile Apps, and Digital Marketing serv
+    [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+------=_Part_144370_212689345.1695477973406
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I reach out to see if there is something you want to repair or redesign on your site.
+
+I provide complete Built New site Re-design services like:- such as Re-design Revamp, Transform Web, CMS Design, Creative Web Design, E-Commerce, SEO, SMO, PPC, Mobile Apps, and Digital Marketing services etc.
+
+I made a very fantastic site. My costs are very low
+ 
+Let's connect to discuss further at +918810645658
+
+Thanks,
+
+Peter Clark
+------=_Part_144370_212689345.1695477973406
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div class="default-style">
+   <div>
+    Hi,
+   </div>
+   <br>
+   <div>
+    I reach out to see if there is something you want to repair or redesign on your site.
+   </div>
+   <br>
+   <div>
+    I provide complete Built New site Re-design services like:- such as Re-design Revamp, Transform Web, CMS Design, Creative Web Design, E-Commerce, SEO, SMO, PPC, Mobile Apps, and Digital Marketing services etc.
+   </div>
+   <br>
+   <div>
+    I made a very fantastic site. My costs are very low
+   </div>
+   <div class="default-style">
+    &nbsp;
+   </div>
+   <div class="default-style">
+    <strong>Let's connect to discuss further at +918810645658</strong>
+   </div>
+   <br>
+   <div>
+    Thanks,
+   </div>
+   <br>
+   <div>
+    Peter Clark
+   </div>
+  </div>
+ </body>
+</html>
+------=_Part_144370_212689345.1695477973406--

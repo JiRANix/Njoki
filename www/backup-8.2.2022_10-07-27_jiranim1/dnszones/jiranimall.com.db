@@ -1,0 +1,98 @@
+; cPanel first:102.0.18 (update_time):1654783815 Cpanel::ZoneFile::VERSION:1.3 hostname:dns4.supremepanel.com latest:102.0.18
+; Zone file for jiranimall.com
+$TTL 14400
+jiranimall.com.	86400	IN	SOA	ns311.kenyawebexperts.co.ke.	admin.kenyawebexperts.com.	(
+						2022060914 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+jiranimall.com.	86400	IN	NS	ns311.kenyawebexperts.co.ke.
+jiranimall.com.	86400	IN	NS	ns312.kenyawebexperts.co.ke.
+jiranimall.com.	14400	IN	A	198.23.59.221
+jiranimall.com.	14400	IN	MX	0	jiranimall.com.
+mail	14400	IN	CNAME	jiranimall.com.
+www	14400	IN	CNAME	jiranimall.com.
+ftp	14400	IN	A	198.23.59.221
+jiranimall.com.	14400	IN	TXT	"v=spf1 +a +mx +ip4:198.23.59.78 ~all"
+_autodiscover._tcp	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+_carddav._tcp	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_carddav._tcp	14400	IN	TXT	path=/
+cpanel	14400	IN	A	198.23.59.221
+cpcalendars	14400	IN	A	198.23.59.221
+autodiscover	14400	IN	A	198.23.59.221
+webdisk	14400	IN	A	198.23.59.221
+autoconfig	14400	IN	A	198.23.59.221
+_caldav._tcp	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_caldav._tcp	14400	IN	TXT	path=/
+webmail	14400	IN	A	198.23.59.221
+_carddavs._tcp	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_carddavs._tcp	14400	IN	TXT	path=/
+cpcontacts	14400	IN	A	198.23.59.221
+whm	14400	IN	A	198.23.59.221
+_caldavs._tcp	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_caldavs._tcp	14400	IN	TXT	path=/
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn6QlAAsshhDjZ+OqJ/4NKH+QyBBnvpN69r3bAhIFmmiq/jhTxAWK3XfzkHG8HcCQsUbO/53DVXL4q2hgbxHb4Z4dCrGaoZkLPtalPCRuLcMOtzRBnbpzbkS1IlfYIGew5ghXhE/yYoFe2Dtf7eQhCXmyL5ciM2myEXCve3CI4swHHw8FtQU9tvIR41LpaNY1N" WRb5QiPX8vh01ghnWxM2gIofhTsrYnOB7kfprZWgLESx/CW84rcF7PQh/5WZK0/ga69LWYR50lvSGpfUa0y2zVEjUmVnmbzdPx9J3zJPNuOJmoyWJFKxxIm5Jbm5yn+N2TiS/XbE3Kafh3FWwTghwIDAQAB\;
+kinyanjui	14400	IN	A	198.23.59.221
+www.kinyanjui	14400	IN	A	198.23.59.221
+default._domainkey.kinyanjui	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3s6QA1d7r4ZxHDvJiylJQ1X1RUwMm8h/RnSun5YQOQSDVcIccc5wkcsEidFc5AYBfvYTjpceVZZYAE8L3J0/KSiV5PA1Nh/d49YtgW10po3jV/fjmtW2+dX3bnKAQ+rXodwQG7yYUABTnl7yufkdIwMPYimXvKTORbN958N8NyJFDRNHeGk7c+8dywJgTK5CQ" fSJb20FaVGcuLpPqXASmzQjqXwHY+Qvlp6qX2d0QJpublH5zRz+kLHkplFSQVnCwPSF7Nm1KVtnkd6QGcS0o+KsL+XYUn9+YWVnFHCllFf1l6sX2hLuI2AqAx9b4dDQvySWnQI7bFn4fYr2wDhLtQIDAQAB\;
+kinyanjui	14400	IN	TXT	"v=spf1 +a +mx +ip4:198.23.59.78 ~all"
+autodiscover.kinyanjui	14400	IN	A	198.23.59.221
+webdisk.kinyanjui	14400	IN	A	198.23.59.221
+whm.kinyanjui	14400	IN	A	198.23.59.221
+_caldavs._tcp.kinyanjui	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_caldavs._tcp.kinyanjui	14400	IN	TXT	path=/
+cpcalendars.kinyanjui	14400	IN	A	198.23.59.221
+cpanel.kinyanjui	14400	IN	A	198.23.59.221
+_carddavs._tcp.kinyanjui	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_carddavs._tcp.kinyanjui	14400	IN	TXT	path=/
+_caldav._tcp.kinyanjui	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_caldav._tcp.kinyanjui	14400	IN	TXT	path=/
+cpcontacts.kinyanjui	14400	IN	A	198.23.59.221
+autoconfig.kinyanjui	14400	IN	A	198.23.59.221
+_carddav._tcp.kinyanjui	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_carddav._tcp.kinyanjui	14400	IN	TXT	path=/
+webmail.kinyanjui	14400	IN	A	198.23.59.221
+_autodiscover._tcp.kinyanjui	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+services	14400	IN	A	198.23.59.221
+www.services	14400	IN	A	198.23.59.221
+default._domainkey.services	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Dn6Xo4e/a6FQq6ehRbn7IlLYKF/XSr6JzS8K/hmukb1NspUIteqnq1OE97duxyYdR8j2rv++MHMwXkdyRUeiwQTlBy2KoEjran1XyDEqXpuI52eVhrKrLYblJMt1ONFHLWBVESGm7zUwSnCMfP+KzGtDH07iXgqjhT5F5oBXzfQHCOAn5PIoV6tPBHjquEEl" gtAHpfyUzEdL9frZomQ92BnqMElE3brh7u3imkrnB8amPu3LtyMbfj9FBnPCsfO8jNmoxdgNs/WiQ7NGrVFaV0i8/EGTuuC2YfG0yc+r61zcEw2oyI172ffAZsZzngcuGhTr7hEhYQTnd8QSsO8nQIDAQAB\;
+services	14400	IN	TXT	"v=spf1 +a +mx +ip4:198.23.59.78 ~all"
+_caldavs._tcp.services	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_caldavs._tcp.services	14400	IN	TXT	path=/
+_caldav._tcp.services	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_caldav._tcp.services	14400	IN	TXT	path=/
+cpcalendars.services	14400	IN	A	198.23.59.221
+whm.services	14400	IN	A	198.23.59.221
+cpcontacts.services	14400	IN	A	198.23.59.221
+_autodiscover._tcp.services	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+webdisk.services	14400	IN	A	198.23.59.221
+_carddavs._tcp.services	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_carddavs._tcp.services	14400	IN	TXT	path=/
+cpanel.services	14400	IN	A	198.23.59.221
+autoconfig.services	14400	IN	A	198.23.59.221
+autodiscover.services	14400	IN	A	198.23.59.221
+_carddav._tcp.services	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_carddav._tcp.services	14400	IN	TXT	path=/
+webmail.services	14400	IN	A	198.23.59.221
+tanks	14400	IN	A	198.23.59.221
+www.tanks	14400	IN	A	198.23.59.221
+default._domainkey.tanks	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Ft0+hSTVv1QOZlxZUD+Jn7OgeVzLQsRkQeQ/63ACg+hEe1sgjYqZIgU9TcfbEuKjWmh5QNKTVA8BGmm+/OtKed9vsyiCWXD6W8YhkfIePsL0XzSBKgMyjWTJnll4GEN6G3sylvhKL7IjjHij6c0hpVmIzMT/vyPlkr2NKmTxUAbyYcGkBMcroMD3OhHPAt5U" bSf3g/u/IbN7NHP7PgCfnfYPz9t2FtacpaVwAmk8+HaTeMioD40njUEF+qMHqou6TFHGBA7mPRl4xlS2uH+FwpjLP2XTKzXL5z0Z7Mqtl0h1yReyFIvjLKFNFVWuApbu+QLjKEzKfMPA0LmgUGxswIDAQAB\;
+tanks	14400	IN	TXT	"v=spf1 +a +mx +ip4:198.23.59.78 ~all"
+cpcalendars.tanks	14400	IN	A	198.23.59.221
+_carddav._tcp.tanks	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_carddav._tcp.tanks	14400	IN	TXT	path=/
+cpanel.tanks	14400	IN	A	198.23.59.221
+_caldavs._tcp.tanks	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_caldavs._tcp.tanks	14400	IN	TXT	path=/
+autoconfig.tanks	14400	IN	A	198.23.59.221
+webdisk.tanks	14400	IN	A	198.23.59.221
+cpcontacts.tanks	14400	IN	A	198.23.59.221
+_autodiscover._tcp.tanks	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+_carddavs._tcp.tanks	14400	IN	SRV	0	0	2080	altar34.supremepanel34.com.
+_carddavs._tcp.tanks	14400	IN	TXT	path=/
+_caldav._tcp.tanks	14400	IN	SRV	0	0	2079	altar34.supremepanel34.com.
+_caldav._tcp.tanks	14400	IN	TXT	path=/
+whm.tanks	14400	IN	A	198.23.59.221
+webmail.tanks	14400	IN	A	198.23.59.221
+autodiscover.tanks	14400	IN	A	198.23.59.221

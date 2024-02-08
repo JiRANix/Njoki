@@ -1,0 +1,9 @@
+[/home/jiranim1/public_html]
+htaccess_list = /home/jiranim1/public_html/resources/.htaccess,/home/jiranim1/public_html/vendor/phenx/php-font-lib/.htaccess,/home/jiranim1/public_html/.htaccess,/home/jiranim1/public_html/xxx/resources/.htaccess,/home/jiranim1/public_html/xxx/vendor/phenx/php-font-lib/.htaccess,/home/jiranim1/public_html/xxx/.htaccess,/home/jiranim1/public_html/xxx/updates/resources/.htaccess,/home/jiranim1/public_html/updates/resources/.htaccess
+
+[/home/jiranim1/jt.jiranimall.com]
+htaccess_list = /home/jiranim1/jt.jiranimall.com/.htaccess
+
+[/home/jiranim1/proj.jiranimall.com]
+htaccess_list = /home/jiranim1/proj.jiranimall.com/resources/.htaccess,/home/jiranim1/proj.jiranimall.com/temp/ClsGp0bEOK/addons/african_pg/.htaccess,/home/jiranim1/proj.jiranimall.com/vendor/phenx/php-font-lib/.htaccess,/home/jiranim1/proj.jiranimall.com/.htaccess,/home/jiranim1/proj.jiranimall.com/xxx/resources/.htaccess,/home/jiranim1/proj.jiranimall.com/xxx/vendor/phenx/php-font-lib/.htaccess,/home/jiranim1/proj.jiranimall.com/xxx/.htaccess,/home/jiranim1/proj.jiranimall.com/xxx/updates/resources/.htaccess,/home/jiranim1/proj.jiranimall.com/updates/resources/.htaccess
+

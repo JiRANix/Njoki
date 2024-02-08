@@ -1,0 +1,930 @@
+Return-Path: <ubuntusocialdevelopment@gmail.com>
+Delivered-To: procurement@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id YJuZAWIzpmXFWDMAvE7qNg
+	(envelope-from <ubuntusocialdevelopment@gmail.com>)
+	for <procurement@jiranimall.com>; Tue, 16 Jan 2024 07:42:26 +0000
+Return-path: <ubuntusocialdevelopment@gmail.com>
+Envelope-to: procurement@jiranimall.com
+Delivery-date: Tue, 16 Jan 2024 07:42:26 +0000
+Received: from mail-ed1-f73.google.com ([209.85.208.73]:59425)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <ubuntusocialdevelopment@gmail.com>)
+	id 1rPe5Y-00E8mK-1C
+	for procurement@jiranimall.com;
+	Tue, 16 Jan 2024 07:42:25 +0000
+Received: by mail-ed1-f73.google.com with SMTP id 4fb4d7f45d1cf-5589ce327e2so3272351a12.2
+        for <procurement@jiranimall.com>; Mon, 15 Jan 2024 23:42:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1705390903; x=1705995703; darn=jiranimall.com;
+        h=to:from:subject:date:message-id:sender:reply-to:mime-version:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=Fs1bnvWxm803oKx2/sx6C4595eSewG2o4TmbZA5CHbs=;
+        b=A4gSnXSd0mRyCc/r+bsFHevtfs0i7DXcCR0NEsX/20umhmDzkpgAszUV6qy3lCbdtW
+         oxwGIhl1wgWN+M+U4mq5Ilr4ePWzlscHHUAdzfoHdRjsoyGZ/79C7oAlIaHnHwlG/8r8
+         ncV1LKdx28YdcIaAirdHcQWRJwhRaMB3+tOD3R+NKISuyKZuGO2nd1z+7pvLiORvpGhm
+         cpSaJRESA3va/1xseX0Wh8KmHokBUht4nibl6S6hemfr4ABTrli8A9d5dUdPfep75ql6
+         J6MVzPC9fEZYg43iNCQHK7ANULfaTEae41BgP+rxQ8F5KYUFgSizySGtygq57A312c8J
+         BWfQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1705390903; x=1705995703; darn=jiranimall.com;
+        h=to:from:subject:date:message-id:sender:reply-to:mime-version:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=Fs1bnvWxm803oKx2/sx6C4595eSewG2o4TmbZA5CHbs=;
+        b=iHPxCWfFWo5RXx7azRMiyNscxDyCA3EETEMfahDc20MWFxkIvNXS3VyiR+LPL843bV
+         bcb0h+lxELJrz6i+flWxsuKEX+f9d28SSR+c5HBcv/MDB0TL8pz2pMXAPxFzeDJkd53y
+         EdWy9U+usJAVwpH47rJF4FCkdXDSE8ApqkjApPCHgAHMLEaemu5CuRqc7oO4R5DHYkct
+         HgEsKgzSfF2Z0/AJkmUXudOCzzWNeghLg1l8p5Fvfd19vvvd2vQCDTY49QFe85pPy5xD
+         z8tfzpYO7iEnp7KzkGEPB/vAwWhyBTh1zKteOyPUOS0yfLGOxItzC+/6ZLZIGvWbru5Y
+         32Fg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705390903; x=1705995703;
+        h=to:from:subject:date:message-id:sender:reply-to:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Fs1bnvWxm803oKx2/sx6C4595eSewG2o4TmbZA5CHbs=;
+        b=Tse/j1ANmK3sKu6VSvWBOiROIYe5iR8NZEOC9GW1uLnuZhSU9ewF4FXuw8eqrg3BID
+         LbjC8mre00ffYo0brVHjuIilW/WwfS5zgNhbhnTK7XPMnJbsrYaYyqGbFqvtRYLWpVr+
+         BHtZc0NwXHw5mSmzLlyobRcZ2giBb8JPHL/0L1Lcj/fNyYplD1eqtF8/ORV0ZnbTbY5v
+         sE4ZCE10RsB86okRoLjTrR3FThYVydmPtDISVO9gSVmA8oA3lWygcYbQCQxKqA+Dcn0o
+         jqm8K6f6sBEGfZU7ABiluaxOIwRa67Ir1WHg+9s7+PBVMh1mN8ICD6ri3hnQPhlJ/uni
+         FPsw==
+X-Gm-Message-State: AOJu0YwRiSWfpOd9HfEVkHgHSYM3eQD1fO0XUJmfdlrWLEJtVqCLMJE3
+	uHXsu4pf8ppQzqGT9EGuS+IT3M8Gf572mjm25jIDXlU=
+X-Google-Smtp-Source: AGHT+IE4kyZ1dumgG67fD1XNjS1ZJqvbqpuTEq9a1OB+1ozF4tR9f93J2mIbSyEEkzIwPU6pKqNaSw5S0SLy+x6wr/nm
+MIME-Version: 1.0
+X-Received: by 2002:a50:ed8e:0:b0:559:b955:c9bc with SMTP id
+ h14-20020a50ed8e000000b00559b955c9bcmr14223edr.75.1705390902834; Mon, 15 Jan
+ 2024 23:41:42 -0800 (PST)
+Reply-To: Ubuntu Development Solution <ubuntusocialdevelopment@gmail.com>
+Sender: Google Calendar <calendar-notification@google.com>
+Message-ID: <calendar-37c7b130-3973-4397-807b-f717870c70ca@google.com>
+Date: Tue, 16 Jan 2024 07:41:42 +0000
+Subject: Invitation: Meeting with Jirani Mall Team @ Tue Jan 16, 2024 10:30am
+ - 11:30am (GMT+3) (procurement@jiranimall.com)
+From: Ubuntu Development Solution <ubuntusocialdevelopment@gmail.com>
+To: procurement@jiranimall.com, amandandeda@ubuntudevelopment.co.ke, 
+	matthewnjoki@gmail.com
+Content-Type: multipart/mixed; boundary="000000000000f77b09060f0b42dd"
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Meeting with Jirani Mall Team Tuesday Jan 16, 2024 ⋅ 10:30am
+    – 11:30am East Africa Time Join with Google Meet https://meet.google.com/xxc-dhfp-tsv?hs=224
+    Organizer Ubuntu Development Solution ubuntusocialdevelopment@gmail.com 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [ubuntusocialdevelopment[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+X-Spam-Flag: NO
+
+--000000000000f77b09060f0b42dd
+Content-Type: multipart/alternative; boundary="000000000000f77b08060f0b42db"
+
+--000000000000f77b08060f0b42db
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+TWVldGluZyB3aXRoIEppcmFuaSBNYWxsIFRlYW0NClR1ZXNkYXkgSmFuIDE2LCAyMDI0IOKLhSAx
+MDozMGFtIOKAkyAxMTozMGFtDQpFYXN0IEFmcmljYSBUaW1lDQoNCkpvaW4gd2l0aCBHb29nbGUg
+TWVldA0KaHR0cHM6Ly9tZWV0Lmdvb2dsZS5jb20veHhjLWRoZnAtdHN2P2hzPTIyNA0KDQoNCg0K
+DQpPcmdhbml6ZXINClVidW50dSBEZXZlbG9wbWVudCBTb2x1dGlvbg0KdWJ1bnR1c29jaWFsZGV2
+ZWxvcG1lbnRAZ21haWwuY29tDQoNCkd1ZXN0cw0KVWJ1bnR1IERldmVsb3BtZW50IFNvbHV0aW9u
+IC0gb3JnYW5pemVyDQphbWFuZGFuZGVkYUB1YnVudHVkZXZlbG9wbWVudC5jby5rZQ0KbWF0dGhl
+d25qb2tpQGdtYWlsLmNvbQ0KcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20NClZpZXcgYWxsIGd1
+ZXN0IGluZm8gIA0KaHR0cHM6Ly9jYWxlbmRhci5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2Fj
+dGlvbj1WSUVXJmVpZD1OSFZ4Y3pSdFptVm9ObVpwWldFell6Um9Nbkk1Y1c1MGRURWdjSEp2WTNW
+eVpXMWxiblJBYW1seVlXNXBiV0ZzYkM1amIyMCZ0b2s9TXpNamRXSjFiblIxYzI5amFXRnNaR1Yy
+Wld4dmNHMWxiblJBWjIxaGFXd3VZMjl0T0RZMk1EUTRPR0kyTnpOaU9ESTFOR00wTm1Rd1lXUTVP
+REU0TmpjNVptRXpNR1prTURSaFpnJmN0ej1BZnJpY2ElMkZOYWlyb2JpJmhsPWVuJmVzPTANCg0K
+UmVwbHkgZm9yIHByb2N1cmVtZW50QGppcmFuaW1hbGwuY29tIGFuZCB2aWV3IG1vcmUgZGV0YWls
+cyAgDQpodHRwczovL2NhbGVuZGFyLmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/YWN0aW9uPVZJ
+RVcmZWlkPU5IVnhjelJ0Wm1Wb05tWnBaV0V6WXpSb01uSTVjVzUwZFRFZ2NISnZZM1Z5WlcxbGJu
+UkFhbWx5WVc1cGJXRnNiQzVqYjIwJnRvaz1Nek1qZFdKMWJuUjFjMjlqYVdGc1pHVjJaV3h2Y0cx
+bGJuUkFaMjFoYVd3dVkyOXRPRFkyTURRNE9HSTJOek5pT0RJMU5HTTBObVF3WVdRNU9ERTROamM1
+Wm1Fek1HWmtNRFJoWmcmY3R6PUFmcmljYSUyRk5haXJvYmkmaGw9ZW4mZXM9MA0KWW91ciBhdHRl
+bmRhbmNlIGlzIG9wdGlvbmFsLg0KDQp+fi8vfn4NCkludml0YXRpb24gZnJvbSBHb29nbGUgQ2Fs
+ZW5kYXI6IGh0dHBzOi8vY2FsZW5kYXIuZ29vZ2xlLmNvbS9jYWxlbmRhci8NCg0KWW91IGFyZSBy
+ZWNlaXZpbmcgdGhpcyBlbWFpbCBiZWNhdXNlIHlvdSBhcmUgYW4gYXR0ZW5kZWUgb24gdGhlIGV2
+ZW50LiBUbyAgDQpzdG9wIHJlY2VpdmluZyBmdXR1cmUgdXBkYXRlcyBmb3IgdGhpcyBldmVudCwg
+ZGVjbGluZSB0aGlzIGV2ZW50Lg0KDQpGb3J3YXJkaW5nIHRoaXMgaW52aXRhdGlvbiBjb3VsZCBh
+bGxvdyBhbnkgcmVjaXBpZW50IHRvIHNlbmQgYSByZXNwb25zZSB0byAgDQp0aGUgb3JnYW5pemVy
+LCBiZSBhZGRlZCB0byB0aGUgZ3Vlc3QgbGlzdCwgaW52aXRlIG90aGVycyByZWdhcmRsZXNzIG9m
+ICANCnRoZWlyIG93biBpbnZpdGF0aW9uIHN0YXR1cywgb3IgbW9kaWZ5IHlvdXIgUlNWUC4NCg0K
+TGVhcm4gbW9yZSBodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9jYWxlbmRhci9hbnN3ZXIvMzcx
+MzUjZm9yd2FyZGluZw0K
+--000000000000f77b08060f0b42db
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title></title><!--[if !mso]><meta http-equiv=3D"X-UA-Compatible"=
+ content=3D"IE=3Dedge"><![endif]--><meta http-equiv=3D"Content-Type" conten=
+t=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" content=3D"width=
+=3Ddevice-width,initial-scale=3D1"><meta name=3D"color-scheme" content=3D"l=
+ight dark"><meta name=3D"supported-color-schemes" content=3D"light dark">
+    <style>
+      body, html {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      #outlook a {
+        padding: 0;
+      }
+
+      .ReadMsgBody {
+        width: 100%;
+      }
+
+      .ExternalClass {
+        width: 100%;
+      }
+
+      .ExternalClass * {
+        line-height: 100%;
+      }
+
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+
+      p {
+        display: block;
+        margin: 13px 0;
+      }
+    </style>
+    <!--[if !mso]><!-->
+    <style>
+      @media only screen and (max-width:580px) {
+        @-ms-viewport {
+          width: 320px;
+        }
+
+        @viewport {
+          width: 320px;
+        }
+      }
+    </style>
+    <!--<![endif]-->
+    <!--[if mso]>
+          <xml>
+          <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+    <!--[if lte mso 11]>
+          <style>
+            .outlook-group-fix { width:100% !important; }
+          </style>
+    <![endif]-->
+
+    <!--[if !mso]><!-- -->
+  <style>body, html {font-family:Roboto,Helvetica,Arial,sans-serif;}@font-f=
+ace {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) forma=
+t('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) f=
+ormat('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) f=
+ormat('truetype');
+}
+@font-face {
+  font-family: 'Material Icons Extended';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/materialiconsextended/v149/kJEjBvgX7BgnkSr=
+UwT8UnLVc38YydejYY-oE_LvM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Google Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/googlematerialicons/v137/Gw6kwdfw6UnXLJCcm=
+afZyFRXb3BL9rvi0QZG3g.otf) format('opentype');
+}
+
+.google-material-icons {
+  font-family: 'Google Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+@font-face {
+  font-family: 'Google Material Icons Filled';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/googlematerialiconsfilled/v113/WWXFlimHYg6=
+HKI3TavMkbKdhBmDvgach8TVpeGsuueSZJH4.otf) format('opentype');
+}
+
+.google-material-icons-filled {
+  font-family: 'Google Material Icons Filled';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps=
+.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94Yt=
+zCwM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLV154t=
+zCwM.ttf) format('truetype');
+}
+</style><!--<![endif]-->
+      <style>
+        .body-container {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+      </style>
+ =20
+      <style>
+        u+.body .body-container,
+        body[data-outlook-cycle] .body-container,
+        #MessageViewBody .body-container {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      </style>
+ =20
+    <style>
+      @media only screen and (min-width:580px) {
+        .column-per-37 {
+          width: 37% !important;
+          max-width: 37%;
+        }
+
+        .column-per-63 {
+          width: 63% !important;
+          max-width: 63%;
+        }
+      }
+    </style>
+ =20
+    <style>
+      .appointment-buttons th {
+        display: block;
+        clear: both;
+        float: left;
+        margin-top: 12px;
+      }
+
+      .appointment-buttons th a {
+        float: left;
+      }
+
+      #MessageViewBody .appointment-buttons th {
+       margin-top: 24px;
+      }
+    </style>
+ =20
+    <style>
+      @media only screen and (max-width:580px) {
+        table.full-width-mobile {
+          width: 100% !important;
+        }
+
+        td.full-width-mobile {
+          width: auto !important;
+        }
+      }
+    </style>
+    <style>
+      .main-container-inner,
+      .info-bar-inner {
+        padding: 12px 16px !important;
+      }
+
+      .main-column-table-ltr {
+        padding-right: 0 !important;
+      }
+
+      .main-column-table-rtl {
+        padding-left: 0 !important;
+      }
+
+      @media only screen and (min-width:580px) {
+        .main-container-inner {
+          padding: 24px 32px !important;
+        }
+
+        .info-bar-inner {
+          padding: 12px 32px !important;
+        }
+
+        .main-column-table-ltr {
+          padding-right: 32px !important;
+        }
+
+        .main-column-table-rtl {
+          padding-left: 32px !important;
+        }
+
+        .appointment-buttons th {
+          display: table-cell;
+          clear: none;
+        }
+      }
+
+      .primary-text {
+        color: #3c4043 !important;
+      }
+
+      .secondary-text,
+      .phone-number a {
+        color: #70757a !important;
+      }
+
+      .accent-text {
+        color: #1a73e8 !important;
+      }
+
+      .accent-text-dark {
+        color: #185abc !important;
+      }
+
+      .grey-button-text,
+      .attachment-chip a {
+        color: #5f6368 !important;
+      }
+
+      .primary-button {
+        background-color: #1a73e8 !important;
+      }
+
+      .primary-button-text {
+        color: #fff !important;
+      }
+
+      .underline-on-hover:hover {
+        text-decoration: underline !important;
+      }
+
+      .grey-infobar-text {
+        color: #202124 !important;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .primary-text:not([class^=3D"x_"]) {
+          color: #e8eaed !important;
+        }
+
+        .secondary-text:not([class^=3D"x_"]),
+        .phone-number:not([class^=3D"x_"]) a {
+          color: #9aa0a6 !important;
+        }
+
+        .grey-button-text:not([class^=3D"x_"]),
+        .attachment-chip:not([class^=3D"x_"]) a {
+          color: #bdc1c6 !important;
+        }
+
+        .accent-text:not([class^=3D"x_"]),
+        .hairline-button-text:not([class^=3D"x_"]) {
+          color: #8ab4f8 !important;
+        }
+
+        .primary-button:not([class^=3D"x_"]) {
+          background-color: #8ab4f8 !important;
+        }
+
+        .primary-button-text:not([class^=3D"x_"]) {
+          color: #202124 !important;
+        }
+      }
+    </style>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .cse-banner:not([class^=3D"x_"]) {
+          background-color: #3c4043 !important; /* Google Grey 800 */
+        }
+
+        .encryption-icon:not([class^=3D"x_"]) {
+          /* WARNING: This causes the whole style tag to get stripped in Gm=
+ail. */
+          background-image: url('https://fonts.gstatic.com/s/i/googlemateri=
+aliconsfilled/encrypted/v3/gm_grey200-24dp/2x/gm_filled_encrypted_gm_grey20=
+0_24dp.png') !important;
+        }
+      }
+    </style>
+    <!--[if !mso]><!-->
+    <style>
+      .prevent-link a {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+    </style>
+    <!--<![endif]-->
+
+    <!--[if mso | IE]>
+      <style>
+        .main-container-inner {
+          padding: 24px 32px !important;
+        }
+
+        .info-bar-inner {
+          padding: 12px 32px !important;
+        }
+
+        .cse-banner .encryption-icon {
+          /* We use the IE workaround instead. */
+          background-image: none !important;
+        }
+
+        .cse-banner .encryption-icon .ms-fallback {
+          display: block !important;
+        }
+
+        /* NB: Some MS clients ignore dark-scheme styling and apply their o=
+wn, so there's nothing we can do to help there. */
+        @media (prefers-color-scheme: dark) {
+          .cse-banner:not([class^=3D"x_"]) .encryption-icon .ms-fallback {
+            display: none !important;
+          }
+
+          .cse-banner:not([class^=3D"x_"]) .encryption-icon .ms-fallback-da=
+rk {
+            display: block !important;
+          }
+        }
+      </style>
+    <![endif]-->
+  </head><body class=3D"body"><span itemscope itemtype=3D"http://schema.org=
+/InformAction"><span style=3D"display:none" itemprop=3D"about" itemscope it=
+emtype=3D"http://schema.org/Person"><meta itemprop=3D"description" content=
+=3D"Invitation from Ubuntu Development Solution"/></span><span itemprop=3D"=
+object" itemscope itemtype=3D"http://schema.org/Event"><meta itemprop=3D"ev=
+entStatus" content=3D"http://schema.org/EventScheduled"/><span itemprop=3D"=
+publisher" itemscope itemtype=3D"http://schema.org/Organization"><meta item=
+prop=3D"name" content=3D"Google Calendar"/></span><meta itemprop=3D"eventId=
+/googleCalendar" content=3D"4uqs4mfeh6fiea3c4h2r9qntu1"/><span style=3D"dis=
+play: none; font-size: 1px; color: #fff; line-height: 1px; height: 0; max-h=
+eight: 0; width: 0; max-width: 0; opacity: 0; overflow: hidden;" itemprop=
+=3D"name">Meeting with Jirani Mall Team</span><meta itemprop=3D"url" conten=
+t=3D"https://calendar.google.com/calendar/event?action=3DVIEW&amp;eid=3DNHV=
+xczRtZmVoNmZpZWEzYzRoMnI5cW50dTEgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;to=
+k=3DMzMjdWJ1bnR1c29jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1NGM=
+0NmQwYWQ5ODE4Njc5ZmEzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=3Den&amp;=
+es=3D0"/><span aria-hidden=3D"true"><time itemprop=3D"startDate" datetime=
+=3D"20240116T073000Z"></time><time itemprop=3D"endDate" datetime=3D"2024011=
+6T083000Z"></time></span><div style=3D"display: none; font-size: 1px; color=
+: #fff; line-height: 1px; height: 0; max-height: 0; width: 0; max-width: 0;=
+ opacity: 0; overflow: hidden;">Join with Google Meet =E2=80=93 You have be=
+en invited by Ubuntu Development Solution to attend an event named Meeting =
+with Jirani Mall Team on Tuesday Jan 16, 2024 =E2=8B=85 10:30am =E2=80=93 1=
+1:30am (East Africa Time).</div><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" align=3D"center" style=3D"width:100%;" c=
+lass=3D"body-container"><tbody><tr><td style=3D"" class=3D"" align=3D"left"=
+><!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation"><tr><td height=3D"16" style=3D"height:16px;"><![endif=
+]--><div style=3D"height:16px;" aria-hidden=3D"true"> &nbsp; </div><!--[if =
+mso | IE]></td></tr></table><![endif]--><table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" align=3D"center" style=3D"width:=
+100%;" class=3D""><tbody><tr><td style=3D"border: solid 1px #dadce0; border=
+-radius: 8px; direction: rtl; font-size: 0; padding: 24px 32px; text-align:=
+ left; vertical-align: top;" class=3D"main-container-inner"><!--[if mso | I=
+E]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion"><tr><![endif]--><!--[if mso | IE]><td class=3D"" style=3D"vertical-al=
+ign:top;width:37%;" ><![endif]--><div class=3D"column-per-37 outlook-group-=
+fix" style=3D"font-size: 13px; text-align: left; direction: ltr; display: i=
+nline-block; vertical-align: top; width: 100%;overflow: hidden; word-wrap: =
+break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top=
+;padding:0;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"><tr><td style=3D"font-size: 0; padding: 0;=
+ text-align: left; word-break: break-word;;padding-bottom:28px;"><a href=3D=
+"https://meet.google.com/xxc-dhfp-tsv?hs=3D224" class=3D"primary-button-tex=
+t" style=3D"display: inline-block;font-family: &#39;Google Sans&#39;, Robot=
+o, sans-serif;font-size: 14px; letter-spacing: 0.25px; line-height: 20px; m=
+so-line-height-rule: exactly; text-decoration: none; text-transform: none; =
+word-wrap: break-word; white-space: nowrap;color: #fff;font-weight: 700;whi=
+te-space: normal;" target=3D"_blank"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"display: inline-block"><tr=
+><td align=3D"center" role=3D"presentation" valign=3D"middle" style=3D"back=
+ground-color: #1a73e8; cursor: auto; padding: 10px 25px; border: none; bord=
+er-radius: 4px; margin: 0;" class=3D"primary-button"><!--[if mso]><a href=
+=3D"https://meet.google.com/xxc-dhfp-tsv?hs=3D224" class=3D"primary-button-=
+text" target=3D"_blank"><![endif]--><span class=3D"primary-button-text" sty=
+le=3D"font-family: &#39;Google Sans&#39;, Roboto, sans-serif;font-size: 14p=
+x; letter-spacing: 0.25px; line-height: 20px; mso-line-height-rule: exactly=
+; text-decoration: none; text-transform: none; word-wrap: break-word; white=
+-space: nowrap;color: #fff;font-weight: 700;white-space: normal;">Join with=
+ Google Meet</span><!--[if mso]></a><![endif]--></td></tr></table></a></td>=
+</tr><tr><td style=3D"font-size: 0; padding: 0; text-align: left; word-brea=
+k: break-word;;padding-bottom:24px;"><div style=3D"font-family: Roboto, san=
+s-serif;font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; =
+text-align: left;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"padding-bottom: 4px;"><tr><td><h2 class=3D"p=
+rimary-text" style=3D"font-size: 14px;color: #3c4043; text-decoration: none=
+;font-weight: 700;-webkit-font-smoothing: antialiased;margin: 0; padding: 0=
+;">Meeting link</h2></td></tr></table><!-- Use grey text for the Meet link-=
+-><div><a style=3D"display: inline-block;;color: #70757a; text-decoration: =
+none;" class=3D"secondary-text underline-on-hover" href=3D"https://meet.goo=
+gle.com/xxc-dhfp-tsv?hs=3D224">meet.google.com/xxc-dhfp-tsv</a></div></div>=
+</td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td><!=
+[endif]--><!--[if mso | IE]><td class=3D"" style=3D"vertical-align:top;widt=
+h:63%;padding-right:32px;" ><![endif]--><div class=3D"column-per-63 outlook=
+-group-fix" style=3D"font-size: 13px; text-align: left; direction: ltr; dis=
+play: inline-block; vertical-align: top; width: 100%;overflow: hidden; word=
+-wrap: break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" width=3D"100%" class=3D"main-column-table-ltr" style=
+=3D"padding-right: 32px; padding-left: 0;;table-layout: fixed;"><tbody><tr>=
+<td class=3D"main-column-td" style=3D"padding:0; vertical-align:top;"><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" wi=
+dth=3D"100%" style=3D"table-layout: fixed;"><tr><td style=3D"font-size: 0; =
+padding: 0; text-align: left; word-break: break-word;;padding-bottom:24px;"=
+><div style=3D"font-family: Roboto, sans-serif;font-style: normal; font-wei=
+ght: 400; font-size: 14px; line-height: 20px; letter-spacing: 0.2px;color: =
+#3c4043; text-decoration: none;" class=3D"primary-text" role=3D"presentatio=
+n"><span aria-hidden=3D"true"><time itemprop=3D"startDate" datetime=3D"2024=
+0116T073000Z"></time><time itemprop=3D"endDate" datetime=3D"20240116T083000=
+Z"></time></span><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"padding-bottom: 4px;"><tr><td><h2 class=3D"pri=
+mary-text" style=3D"font-size: 14px;color: #3c4043; text-decoration: none;f=
+ont-weight: 700;-webkit-font-smoothing: antialiased;margin: 0; padding: 0;"=
+>When</h2></td></tr></table><span>Tuesday Jan 16, 2024 =E2=8B=85 10:30am =
+=E2=80=93 11:30am (East Africa Time)</span></div></td></tr><tr><td style=3D=
+"font-size: 0; padding: 0; text-align: left; word-break: break-word;;paddin=
+g-bottom:24px;"><div style=3D"font-family: Roboto, sans-serif;font-style: n=
+ormal; font-weight: 400; font-size: 14px; line-height: 20px; letter-spacing=
+: 0.2px;color: #3c4043; text-decoration: none;" class=3D"primary-text" role=
+=3D"presentation"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"padding-bottom: 4px;"><tr><td><h2 class=3D"pr=
+imary-text" style=3D"font-size: 14px;color: #3c4043; text-decoration: none;=
+font-weight: 700;-webkit-font-smoothing: antialiased;margin: 0; padding: 0;=
+">Guests</h2></td></tr></table><div style=3D"padding-bottom: 4px; text-alig=
+n: left;;color: #3c4042;"><div><span itemprop=3D"attendee" itemscope itemty=
+pe=3D"http://schema.org/Person"><span itemprop=3D"name" class=3D"notranslat=
+e"><a class=3D"primary-text underline-on-hover" style=3D"display: inline-bl=
+ock;;color: #3c4043; text-decoration: none;" href=3D"mailto:ubuntusocialdev=
+elopment@gmail.com">Ubuntu Development Solution</a></span><meta itemprop=3D=
+"email" content=3D"ubuntusocialdevelopment@gmail.com"/></span><span itempro=
+p=3D"organizer" itemscope itemtype=3D"http://schema.org/Person"><meta itemp=
+rop=3D"name" content=3D"Ubuntu Development Solution"/><meta itemprop=3D"ema=
+il" content=3D"ubuntusocialdevelopment@gmail.com"/></span><span class=3D"se=
+condary-text" style=3D"color: #70757a; text-decoration: none;"> - organizer=
+</span></div><div><span itemprop=3D"attendee" itemscope itemtype=3D"http://=
+schema.org/Person"><span itemprop=3D"name" class=3D"notranslate"><a class=
+=3D"primary-text underline-on-hover" style=3D"display: inline-block;;color:=
+ #3c4043; text-decoration: none;" href=3D"mailto:amandandeda@ubuntudevelopm=
+ent.co.ke">amandandeda@ubuntudevelopment.co.ke</a></span><meta itemprop=3D"=
+email" content=3D"amandandeda@ubuntudevelopment.co.ke"/></span><span class=
+=3D"secondary-text" style=3D"color: #70757a; text-decoration: none;"></span=
+></div><div><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema=
+.org/Person"><span itemprop=3D"name" class=3D"notranslate"><a class=3D"prim=
+ary-text underline-on-hover" style=3D"display: inline-block;;color: #3c4043=
+; text-decoration: none;" href=3D"mailto:matthewnjoki@gmail.com">matthewnjo=
+ki@gmail.com</a></span><meta itemprop=3D"email" content=3D"matthewnjoki@gma=
+il.com"/></span><span class=3D"secondary-text" style=3D"color: #70757a; tex=
+t-decoration: none;"></span></div><div><span itemprop=3D"attendee" itemscop=
+e itemtype=3D"http://schema.org/Person"><span itemprop=3D"name" class=3D"no=
+translate"><a class=3D"primary-text underline-on-hover" style=3D"display: i=
+nline-block;;color: #3c4043; text-decoration: none;" href=3D"mailto:procure=
+ment@jiranimall.com">procurement@jiranimall.com</a></span><meta itemprop=3D=
+"email" content=3D"procurement@jiranimall.com"/></span><span class=3D"secon=
+dary-text" style=3D"color: #70757a; text-decoration: none;"></span></div></=
+div><a href=3D"https://calendar.google.com/calendar/event?action=3DVIEW&amp=
+;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI5cW50dTEgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5j=
+b20&amp;tok=3DMzMjdWJ1bnR1c29jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2N=
+zNiODI1NGM0NmQwYWQ5ODE4Njc5ZmEzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=
+=3Den&amp;es=3D0" style=3D"display: inline-block;;color: #1a73e8; text-deco=
+ration: none;font-weight: 700;" target=3D"_blank" class=3D"accent-text unde=
+rline-on-hover">View all guest info</a></div></td></tr><tr><td style=3D"fon=
+t-size: 0; padding: 0; text-align: left; word-break: break-word;;padding-bo=
+ttom:0px;"><div style=3D"color: #3c4043; text-decoration: none;;font-family=
+: Roboto, sans-serif;font-size: 14px; line-height: 20px; mso-line-height-ru=
+le: exactly; text-align: left;" class=3D"primary-text"><div><span style=3D"=
+font-weight: 700;-webkit-font-smoothing: antialiased;">Reply</span><span cl=
+ass=3D"secondary-text" style=3D"color: #70757a; text-decoration: none;"> fo=
+r <a class=3D"secondary-text underline-on-hover" style=3D"display: inline-b=
+lock;;color: #70757a; text-decoration: none;" href=3D"mailto:procurement@ji=
+ranimall.com">procurement@jiranimall.com</a></span></div></div></td></tr><t=
+r><td style=3D"font-size: 0; padding: 0; text-align: left; word-break: brea=
+k-word;;padding-bottom:16px;"><div style=3D"font-family: Roboto, sans-serif=
+;font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; text-al=
+ign: left;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"border-collapse: separate;"><tr><td style=3D"paddin=
+g-top: 8px; padding-left: 0; padding-right: 12px;"><!-- RSVP buttons --><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border: solid 1px #dadce0; border-radius: 16px; border-collapse: s=
+eparate;font-family: &#39;Google Sans&#39;, Roboto, sans-serif;;display: in=
+line-block;;margin-right: 12px; margin-left: 0;"><tr><td align=3D"center" v=
+ertical-align=3D"middle" role=3D"presentation"><span itemprop=3D"potentiala=
+ction" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=
+=3D"attendance" content=3D"http://schema.org/RsvpAttendance/Yes"/><span ite=
+mprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionHandler=
+"><link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET=
+"/><span style=3D"color: #5f6367;"><a href=3D"https://calendar.google.com/c=
+alendar/event?action=3DRESPOND&amp;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI5cW50dT=
+EgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;rst=3D1&amp;tok=3DMzMjdWJ1bnR1c29=
+jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1NGM0NmQwYWQ5ODE4Njc5Zm=
+EzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=3Den&amp;es=3D0" style=3D"fo=
+nt-weight: 400;font-family: &#39;Google Sans&#39;, Roboto, sans-serif;color=
+: #5f6368; font-size: 14px; line-height: 120%; mso-line-height-rule: exactl=
+y; margin: 0; text-decoration: none; text-transform: none;" class=3D"grey-b=
+utton-text" itemprop=3D"url" target=3D"_blank"><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation"><tr><td align=3D"center" =
+role=3D"presentation" valign=3D"middle" style=3D"padding: 6px 0; padding-le=
+ft: 16px; padding-right: 12px; white-space: nowrap;"><!--[if mso]><a href=
+=3D"https://calendar.google.com/calendar/event?action=3DRESPOND&amp;eid=3DN=
+HVxczRtZmVoNmZpZWEzYzRoMnI5cW50dTEgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;=
+rst=3D1&amp;tok=3DMzMjdWJ1bnR1c29jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4O=
+GI2NzNiODI1NGM0NmQwYWQ5ODE4Njc5ZmEzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&am=
+p;hl=3Den&amp;es=3D0" class=3D"grey-button-text" itemprop=3D"url" target=3D=
+"_blank"><![endif]--><span class=3D"grey-button-text" style=3D"font-weight:=
+ 400;font-family: &#39;Google Sans&#39;, Roboto, sans-serif;color: #5f6368;=
+ font-size: 14px; line-height: 120%; mso-line-height-rule: exactly; margin:=
+ 0; text-decoration: none; text-transform: none;">Yes</span><!--[if mso]></=
+a><![endif]--></td></tr></table></a></span></span></span></td><td align=3D"=
+center" vertical-align=3D"middle" role=3D"presentation" style=3D"border-lef=
+t: solid 1px #dadce0; border-right: solid 1px #dadce0;"><span itemprop=3D"p=
+otentialaction" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta i=
+temprop=3D"attendance" content=3D"http://schema.org/RsvpAttendance/No"/><sp=
+an itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionH=
+andler"><link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMeth=
+od/GET"/><span style=3D"color: #5f6367;"><a href=3D"https://calendar.google=
+.com/calendar/event?action=3DRESPOND&amp;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI5=
+cW50dTEgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;rst=3D2&amp;tok=3DMzMjdWJ1b=
+nR1c29jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1NGM0NmQwYWQ5ODE4=
+Njc5ZmEzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=3Den&amp;es=3D0" style=
+=3D"font-weight: 400;font-family: &#39;Google Sans&#39;, Roboto, sans-serif=
+;color: #5f6368; font-size: 14px; line-height: 120%; mso-line-height-rule: =
+exactly; margin: 0; text-decoration: none; text-transform: none;" class=3D"=
+grey-button-text" itemprop=3D"url" target=3D"_blank"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation"><tr><td align=3D"ce=
+nter" role=3D"presentation" valign=3D"middle" style=3D"padding: 6px 12px; w=
+hite-space: nowrap;"><!--[if mso]><a href=3D"https://calendar.google.com/ca=
+lendar/event?action=3DRESPOND&amp;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI5cW50dTE=
+gcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;rst=3D2&amp;tok=3DMzMjdWJ1bnR1c29j=
+aWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1NGM0NmQwYWQ5ODE4Njc5ZmE=
+zMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=3Den&amp;es=3D0" class=3D"gre=
+y-button-text" itemprop=3D"url" target=3D"_blank"><![endif]--><span class=
+=3D"grey-button-text" style=3D"font-weight: 400;font-family: &#39;Google Sa=
+ns&#39;, Roboto, sans-serif;color: #5f6368; font-size: 14px; line-height: 1=
+20%; mso-line-height-rule: exactly; margin: 0; text-decoration: none; text-=
+transform: none;">No</span><!--[if mso]></a><![endif]--></td></tr></table><=
+/a></span></span></span></td><td align=3D"center" vertical-align=3D"middle"=
+ role=3D"presentation"><span itemprop=3D"potentialaction" itemscope itemtyp=
+e=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendance" content=3D=
+"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=3D"handler" itemsc=
+ope itemtype=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"meth=
+od" href=3D"http://schema.org/HttpRequestMethod/GET"/><span style=3D"color:=
+ #5f6367;"><a href=3D"https://calendar.google.com/calendar/event?action=3DR=
+ESPOND&amp;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI5cW50dTEgcHJvY3VyZW1lbnRAamlyYW=
+5pbWFsbC5jb20&amp;rst=3D3&amp;tok=3DMzMjdWJ1bnR1c29jaWFsZGV2ZWxvcG1lbnRAZ21=
+haWwuY29tODY2MDQ4OGI2NzNiODI1NGM0NmQwYWQ5ODE4Njc5ZmEzMGZkMDRhZg&amp;ctz=3DA=
+frica%2FNairobi&amp;hl=3Den&amp;es=3D0" style=3D"font-weight: 400;font-fami=
+ly: &#39;Google Sans&#39;, Roboto, sans-serif;color: #5f6368; font-size: 14=
+px; line-height: 120%; mso-line-height-rule: exactly; margin: 0; text-decor=
+ation: none; text-transform: none;" class=3D"grey-button-text" itemprop=3D"=
+url" target=3D"_blank"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation"><tr><td align=3D"center" role=3D"presentation" va=
+lign=3D"middle" style=3D"padding: 6px 0; padding-left: 12px; padding-right:=
+ 16px; white-space: nowrap;"><!--[if mso]><a href=3D"https://calendar.googl=
+e.com/calendar/event?action=3DRESPOND&amp;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI=
+5cW50dTEgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;rst=3D3&amp;tok=3DMzMjdWJ1=
+bnR1c29jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1NGM0NmQwYWQ5ODE=
+4Njc5ZmEzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=3Den&amp;es=3D0" clas=
+s=3D"grey-button-text" itemprop=3D"url" target=3D"_blank"><![endif]--><span=
+ class=3D"grey-button-text" style=3D"font-weight: 400;font-family: &#39;Goo=
+gle Sans&#39;, Roboto, sans-serif;color: #5f6368; font-size: 14px; line-hei=
+ght: 120%; mso-line-height-rule: exactly; margin: 0; text-decoration: none;=
+ text-transform: none;">Maybe</span><!--[if mso]></a><![endif]--></td></tr>=
+</table></a></span></span></span></td></tr></table><!-- More options --><a =
+href=3D"https://calendar.google.com/calendar/event?action=3DVIEW&amp;eid=3D=
+NHVxczRtZmVoNmZpZWEzYzRoMnI5cW50dTEgcHJvY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp=
+;tok=3DMzMjdWJ1bnR1c29jaWFsZGV2ZWxvcG1lbnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1=
+NGM0NmQwYWQ5ODE4Njc5ZmEzMGZkMDRhZg&amp;ctz=3DAfrica%2FNairobi&amp;hl=3Den&a=
+mp;es=3D0" style=3D"display: inline-block;;font-weight: 400;font-family: &#=
+39;Google Sans&#39;, Roboto, sans-serif;color: #5f6368; font-size: 14px; li=
+ne-height: 120%; mso-line-height-rule: exactly; margin: 0; text-decoration:=
+ none; text-transform: none;" class=3D"grey-button-text" target=3D"_blank">=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"border: solid 1px #dadce0; border-radius: 16px; border-collapse=
+: separate;font-family: &#39;Google Sans&#39;, Roboto, sans-serif;"><tr><td=
+ align=3D"center" vertical-align=3D"middle" role=3D"presentation" style=3D"=
+padding: 6px 0; padding-left: 16px; padding-right: 12px; white-space: nowra=
+p;;color: #5f6367;"><!--[if mso]><a href=3D"https://calendar.google.com/cal=
+endar/event?action=3DVIEW&amp;eid=3DNHVxczRtZmVoNmZpZWEzYzRoMnI5cW50dTEgcHJ=
+vY3VyZW1lbnRAamlyYW5pbWFsbC5jb20&amp;tok=3DMzMjdWJ1bnR1c29jaWFsZGV2ZWxvcG1l=
+bnRAZ21haWwuY29tODY2MDQ4OGI2NzNiODI1NGM0NmQwYWQ5ODE4Njc5ZmEzMGZkMDRhZg&amp;=
+ctz=3DAfrica%2FNairobi&amp;hl=3Den&amp;es=3D0" class=3D"grey-button-text" t=
+arget=3D"_blank"><![endif]--><span class=3D"grey-button-text" style=3D"font=
+-weight: 400;font-family: &#39;Google Sans&#39;, Roboto, sans-serif;color: =
+#5f6368; font-size: 14px; line-height: 120%; mso-line-height-rule: exactly;=
+ margin: 0; text-decoration: none; text-transform: none;">More options</spa=
+n><!--[if mso]></a><![endif]--></td></tr></table></a></td></tr></table></di=
+v></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td>=
+<![endif]--><!--[if mso | IE]></tr></table><![endif]--></td></tr></tbody></=
+table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" align=3D"center" style=3D"width:100%;" class=3D""><tbody><tr><td s=
+tyle=3D"font-size: 0; padding: 0; text-align: left; word-break: break-word;=
+;padding:4px 12px;" class=3D"" align=3D"left"><div class=3D"secondary-text"=
+ style=3D"color: #70757a; text-decoration: none;font-family: Roboto, sans-s=
+erif;font-size: 12px; line-height: 16px; mso-line-height-rule: exactly; tex=
+t-align: left;"><p>Invitation from <a href=3D"https://calendar.google.com/c=
+alendar/" class=3D"accent-text underline-on-hover" style=3D"font-family: Ro=
+boto, sans-serif;font-size: 12px; line-height: 16px; mso-line-height-rule: =
+exactly;;color: #1a73e8; text-decoration: none;" target=3D"_blank">Google C=
+alendar</a></p><p>You are receiving this email because you are an attendee =
+on the event. To stop receiving future updates for this event, decline this=
+ event.</p><p>Forwarding this invitation could allow any recipient to send =
+a response to the organizer, be added to the guest list, invite others rega=
+rdless of their own invitation status, or modify your RSVP. <a class=3D"acc=
+ent-text underline-on-hover" style=3D"font-family: Roboto, sans-serif;font-=
+size: 12px; line-height: 16px; mso-line-height-rule: exactly;;color: #1a73e=
+8; text-decoration: none;" href=3D"https://support.google.com/calendar/answ=
+er/37135#forwarding">Learn more</a></p></div></td></tr></tbody></table></td=
+></tr></tbody></table></span></span></body></html>
+--000000000000f77b08060f0b42db
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Africa/Nairobi
+X-LIC-LOCATION:Africa/Nairobi
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:EAT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Africa/Nairobi:20240116T103000
+DTEND;TZID=Africa/Nairobi:20240116T113000
+DTSTAMP:20240116T074142Z
+ORGANIZER;CN=Ubuntu Development Solution:mailto:ubuntusocialdevelopment@gma
+ il.com
+UID:4uqs4mfeh6fiea3c4h2r9qntu1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=amandandeda@ubuntudevelopment.co.ke;X-NUM-GUESTS=0:mailto:amandande
+ da@ubuntudevelopment.co.ke
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=matthewnjoki@gmail.com;X-NUM-GUESTS=0:mailto:matthewnjoki@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=procurement@jiranimall.com;X-NUM-GUESTS=0:mailto:procurement@jirani
+ mall.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Ubuntu Development Solution;X-NUM-GUESTS=0:mailto:ubuntusocialdevelopme
+ nt@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/xxc-dhfp-tsv
+X-MICROSOFT-CDO-OWNERAPPTID:-53399755
+CREATED:20240116T073746Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/xx
+ c-dhfp-tsv\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240116T074141Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meeting with Jirani Mall Team
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
+--000000000000f77b08060f0b42db--
+--000000000000f77b09060f0b42dd
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VlRJTUVaT05FDQpUWklEOkFmcmljYS9OYWlyb2JpDQpYLUxJQy1MT0NBVElPTjpB
+ZnJpY2EvTmFpcm9iaQ0KQkVHSU46U1RBTkRBUkQNClRaT0ZGU0VURlJPTTorMDMwMA0KVFpPRkZT
+RVRUTzorMDMwMA0KVFpOQU1FOkVBVA0KRFRTVEFSVDoxOTcwMDEwMVQwMDAwMDANCkVORDpTVEFO
+REFSRA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpEVFNUQVJUO1RaSUQ9QWZyaWNhL05h
+aXJvYmk6MjAyNDAxMTZUMTAzMDAwDQpEVEVORDtUWklEPUFmcmljYS9OYWlyb2JpOjIwMjQwMTE2
+VDExMzAwMA0KRFRTVEFNUDoyMDI0MDExNlQwNzQxNDJaDQpPUkdBTklaRVI7Q049VWJ1bnR1IERl
+dmVsb3BtZW50IFNvbHV0aW9uOm1haWx0bzp1YnVudHVzb2NpYWxkZXZlbG9wbWVudEBnbWENCiBp
+bC5jb20NClVJRDo0dXFzNG1mZWg2ZmllYTNjNGgycjlxbnR1MUBnb29nbGUuY29tDQpBVFRFTkRF
+RTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1B
+Q1RJT047UlNWUD0NCiBUUlVFO0NOPWFtYW5kYW5kZWRhQHVidW50dWRldmVsb3BtZW50LmNvLmtl
+O1gtTlVNLUdVRVNUUz0wOm1haWx0bzphbWFuZGFuZGUNCiBkYUB1YnVudHVkZXZlbG9wbWVudC5j
+by5rZQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFS
+VFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1tYXR0aGV3bmpva2lAZ21haWwuY29t
+O1gtTlVNLUdVRVNUUz0wOm1haWx0bzptYXR0aGV3bmpva2lAZ21haWwuY29tDQpBVFRFTkRFRTtD
+VVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJ
+T047UlNWUD0NCiBUUlVFO0NOPXByb2N1cmVtZW50QGppcmFuaW1hbGwuY29tO1gtTlVNLUdVRVNU
+Uz0wOm1haWx0bzpwcm9jdXJlbWVudEBqaXJhbmkNCiBtYWxsLmNvbQ0KQVRURU5ERUU7Q1VUWVBF
+PUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9QUNDRVBURUQ7UlNWUD1U
+UlVFDQogO0NOPVVidW50dSBEZXZlbG9wbWVudCBTb2x1dGlvbjtYLU5VTS1HVUVTVFM9MDptYWls
+dG86dWJ1bnR1c29jaWFsZGV2ZWxvcG1lDQogbnRAZ21haWwuY29tDQpYLUdPT0dMRS1DT05GRVJF
+TkNFOmh0dHBzOi8vbWVldC5nb29nbGUuY29tL3h4Yy1kaGZwLXRzdg0KWC1NSUNST1NPRlQtQ0RP
+LU9XTkVSQVBQVElEOi01MzM5OTc1NQ0KQ1JFQVRFRDoyMDI0MDExNlQwNzM3NDZaDQpERVNDUklQ
+VElPTjotOjp+On46On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46
+fjp+On46fjp+On4NCiA6fjp+On46fjp+On46fjp+Ojp+On46Oi1cbkpvaW4gd2l0aCBHb29nbGUg
+TWVldDogaHR0cHM6Ly9tZWV0Lmdvb2dsZS5jb20veHgNCiBjLWRoZnAtdHN2XG5cbkxlYXJuIG1v
+cmUgYWJvdXQgTWVldCBhdDogaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vYS91c2Vycy8NCiBh
+bnN3ZXIvOTI4MjcyMFxuXG5QbGVhc2UgZG8gbm90IGVkaXQgdGhpcyBzZWN0aW9uLlxuLTo6fjp+
+Ojp+On46fjp+On46fjp+On4NCiA6fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46
+fjp+On46fjp+On46fjp+On46fjo6fjp+OjotDQpMQVNULU1PRElGSUVEOjIwMjQwMTE2VDA3NDE0
+MVoNCkxPQ0FUSU9OOg0KU0VRVUVOQ0U6MA0KU1RBVFVTOkNPTkZJUk1FRA0KU1VNTUFSWTpNZWV0
+aW5nIHdpdGggSmlyYW5pIE1hbGwgVGVhbQ0KVFJBTlNQOk9QQVFVRQ0KQkVHSU46VkFMQVJNDQpB
+Q1RJT046RElTUExBWQ0KREVTQ1JJUFRJT046VGhpcyBpcyBhbiBldmVudCByZW1pbmRlcg0KVFJJ
+R0dFUjotUDBEVDBIMzBNMFMNCkVORDpWQUxBUk0NCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVIN
+Cg==
+--000000000000f77b09060f0b42dd--

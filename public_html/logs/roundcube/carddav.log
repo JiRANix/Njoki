@@ -1,0 +1,6 @@
+[17-Jun-2022 09:25:35 +0000]: <0cca4ef3> [5 ERR] Database::get (SELECT "filename" FROM carddav_migrations) ERROR: [1] no such table: carddav_migrations 
+[17-Jun-2022 09:28:04 +0000]: <cb546182> [5 ERR] Database::get (SELECT "filename" FROM carddav_migrations) ERROR: [1] no such table: carddav_migrations 
+[06-Jul-2022 09:11:44 +0000]: <46a8be1a> [5 ERR] Database::get (SELECT "filename" FROM carddav_migrations) ERROR: [1] no such table: carddav_migrations 
+[06-Jul-2022 10:54:15 +0000]: <4781fe13> [5 ERR] Database::get (SELECT "filename" FROM carddav_migrations) ERROR: [1] no such table: carddav_migrations 
+[07-Jul-2022 09:56:59 +0000]: <8308b9c1> [5 ERR] Database::get (SELECT "filename" FROM carddav_migrations) ERROR: [1] no such table: carddav_migrations 
+[11-Jul-2022 19:46:59 +0000]: <3b387789> [5 ERR] Database::get (SELECT "filename" FROM carddav_migrations) ERROR: [1] no such table: carddav_migrations 

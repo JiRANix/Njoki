@@ -1,0 +1,343 @@
+Return-Path: <export@market.ewtppal.com>
+Delivered-To: ceo@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id AHgIJTVBtmVG9BAAvE7qNg
+	(envelope-from <export@market.ewtppal.com>)
+	for <ceo@jiranimall.com>; Sun, 28 Jan 2024 11:57:41 +0000
+Return-path: <export@market.ewtppal.com>
+Envelope-to: ceo@jiranimall.com
+Delivery-date: Sun, 28 Jan 2024 11:57:41 +0000
+Received: from out208-159.dm.aliyun.com ([140.205.208.159]:23346)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <export@market.ewtppal.com>)
+	id 1rU3n7-004k9z-0B
+	for ceo@jiranimall.com;
+	Sun, 28 Jan 2024 11:57:41 +0000
+X-AliDM-RcptTo: Y2VvQGppcmFuaW1hbGwuY29t
+Feedback-ID: default:export@market.ewtppal.com:batch:307413
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <http://dm-cn.aliyuncs.com/trace/v1/unsubscribe?lang=en-us&sign=abdf241054068b22586a19875cae66af&token=eyJjYW1wYWlnbl90aW1lIjoxNzA2NDQzMDA4LCJlZG1faWQiOjMwNzQxMywiZW52aWQiOiI2MDAwMDAwNjE1NDY2MzgzNTEiLCJtYWlsX2Zyb20iOiJleHBvcnRAbWFya2V0LmV3dHBwYWwuY29tIiwibWFpbF90byI6ImNlb0BqaXJhbmltYWxsLmNvbSJ9&version=1.0>
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=market.ewtppal.com; s=aliyun-cn-hangzhou;
+	t=1706443009; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=yJ4JTrQ/bZhZY8WJUPbRAhBSi/yeAe5LbMSk/DgHK9A=;
+	b=WIGuN7jAem5/0wXFWbiH7Pus9t1Z9MYV3JLHrkP83zrot9MF6NtS3JnDVi7aaV7o9pJytIoZdj1qpj3kLuH+LRpmYPmQ07gJSLpuCQQd1uxLColUjUdBYmRa3Lq3maRftaug8FnpNVckd+6k8Qtswywp1zqRYcbRaa8C/1d2xjA=
+X-EnvId: 600000061546638351
+Received: from msgdactuatorserv-6b49d6cbc4-lfmnq(mailfrom:export@market.ewtppal.com fp:SMTPD_-VHcC03gmk9)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Sun, 28 Jan 2024 19:56:48 +0800
+Date: Sun, 28 Jan 2024 19:56:48 +0800 (CST)
+From: XTransfer <export@market.ewtppal.com>
+Reply-To: tao.yan@xtransfer.cn
+To: ceo@jiranimall.com
+Message-ID: XTMMID:ALI_CLOUD:28990100552000024012812528381,28990100539004024012821355731,XTransfer
+Subject: Re:Global Trade Payments Simplified with an Affordable, Rapid, and
+ Protected Multi-currency Offshore Account
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=3.2
+X-Spam-Score: 32
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Efficient Global Trade Collections and Payments with XTransfer:
+    Speed, Security, and Cost-effectiveness, backed by renowned banks like JPMorgan
+    Chase, DBS Bank, and Deutsche Bank. Open a Free Account 
+ Content analysis details:   (3.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: xtrfr.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+  2.0 HK_SCAM                No description available.
+X-Spam-Flag: NO
+
+<html><head>
+=09=09<meta charset=3D"UTF-8" />
+=09=09<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+=09=09<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1.0" />
+=09=09<title></title>
+=09</head>
+
+=09<body>
+=09=09<table
+=09=09=09role=3D"presentation"
+=09=09=09cellpadding=3D"0"
+=09=09=09cellspacing=3D"0"
+=09=09=09border=3D"0"
+=09=09=09style=3D"
+=09=09=09=09border-spacing: 0;
+=09=09=09=09border-collapse: collapse;
+=09=09=09=09mso-line-height-rule: exactly;
+=09=09=09=09mso-margin-bottom-alt: 0;
+=09=09=09=09mso-margin-top-alt: 0;
+=09=09=09=09mso-table-lspace: 0pt;
+=09=09=09=09mso-table-rspace: 0pt;
+=09=09=09=09padding: 0;
+=09=09=09=09width: 100%;
+=09=09=09=09min-width: 600px;
+=09=09=09=09background-color: #fff;
+=09=09=09=09direction: ltr;
+=09=09=09=09font-synthesis: none;
+=09=09=09"
+=09=09>
+=09=09=09<tbody>
+=09=09=09=09<tr>
+=09=09=09=09=09<td >
+=09=09=09=09=09=09<table
+=09=09=09=09=09=09=09class=3D"edm-content"
+=09=09=09=09=09=09=09role=3D"presentation"
+=09=09=09=09=09=09=09cellpadding=3D"0"
+=09=09=09=09=09=09=09cellspacing=3D"0"
+=09=09=09=09=09=09=09border=3D"0"
+=09=09=09=09=09=09=09style=3D"
+=09=09=09=09=09=09=09=09border-spacing: 0;
+=09=09=09=09=09=09=09=09border-collapse: collapse;
+=09=09=09=09=09=09=09=09mso-line-height-rule: exactly;
+=09=09=09=09=09=09=09=09mso-margin-bottom-alt: 0;
+=09=09=09=09=09=09=09=09mso-margin-top-alt: 0;
+=09=09=09=09=09=09=09=09mso-table-lspace: 0pt;
+=09=09=09=09=09=09=09=09mso-table-rspace: 0pt;
+=09=09=09=09=09=09=09=09padding: 0;
+=09=09=09=09=09=09=09=09width: 600px;
+=09=09=09=09=09=09=09=09height: 100%;
+=09=09=09=09=09=09=09=09background-color: #fff;
+=09=09=09=09=09=09=09=09direction: ltr;
+=09=09=09=09=09=09=09=09font-synthesis: none;
+=09=09=09=09=09=09=09"
+=09=09=09=09=09=09>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr style=3D"font-family: Arial; padding: 0; word-b=
+reak: break-word">
+=09=09=09=09=09=09=09=09=09<td
+=09=09=09=09=09=09=09=09=09=09valign=3D"top"
+=09=09=09=09=09=09=09=09=09=09style=3D"border-collapse: collapse; font-fami=
+ly: Arial; word-break: break-word"
+=09=09=09=09=09=09=09=09=09>
+=09=09=09=09=09=09=09=09=09=09<div id=3D'TEMPLATE_REPLACEMENT_STRING_ID'><d=
+iv>
+<p>&nbsp;</p>
+<div id=3D"m_7582900374301740177section_1702543311427" class=3D"m_758290037=
+4301740177hse-section" style=3D"color: #23496d; font-family: Arial, sans-se=
+rif; font-size: 15px; background-color: #eaf0f6; padding-left: 10px; paddin=
+g-right: 10px; padding-top: 20px;">
+<div class=3D"m_7582900374301740177hse-column-container" style=3D"max-width=
+: 600px; width: 600px !important; min-width: 280px; margin-left: auto; marg=
+in-right: auto; border-collapse: collapse; border-spacing: 0px; background-=
+color: #ffffff;">
+<div id=3D"m_7582900374301740177column_1702543311427_0" class=3D"m_75829003=
+74301740177hse-column m_7582900374301740177hse-size-12" style=3D"display: t=
+able-cell; vertical-align: top; max-width: 600px !important; width: 600px !=
+important;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module_17025433113981" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;">
+<table id=3D"ntes_editor_table_10022" style=3D"border-collapse: collapse; b=
+order-spacing: 0px;" role=3D"presentation" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"m_7582900374301740177hs_padded" style=3D"margin: 0px; border-c=
+ollapse: collapse; color: #23496d; word-break: break-word; padding: 10px 20=
+px; font-size: 0px;" align=3D"left" valign=3D"top"><img src=3D"https://cdn-=
+cn2.xtransfer.cn//XTransfer/2024-01-28/0f654996-f4dc-459c-a114-ca88db357605=
+.png" width=3D"141" height=3D"53" alt=3D""></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"m_7582900374301740177section-1" class=3D"m_7582900374301740177hs=
+e-section" style=3D"color: #23496d; font-family: Arial, sans-serif; font-si=
+ze: 15px; background-color: #eaf0f6; padding-left: 10px; padding-right: 10p=
+x;">
+<div class=3D"m_7582900374301740177hse-column-container" style=3D"max-width=
+: 600px; width: 600px !important; min-width: 280px; margin-left: auto; marg=
+in-right: auto; border-collapse: collapse; border-spacing: 0px; background-=
+color: #ffffff; padding-bottom: 2px; padding-top: 6px;">
+<div id=3D"m_7582900374301740177column-1-0" class=3D"m_7582900374301740177h=
+se-column m_7582900374301740177hse-size-12" style=3D"display: table-cell; v=
+ertical-align: top; max-width: 600px !important; width: 600px !important;">
+<table id=3D"ntes_editor_table_10023" style=3D"border-collapse: collapse; b=
+order-spacing: 0px; height: 83.25px; width: 100%;" role=3D"presentation" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr style=3D"height: 83.25px;">
+<td class=3D"m_7582900374301740177hs_padded" style=3D"margin: 0px; border-c=
+ollapse: collapse; font-size: 15px; color: rgb(35, 73, 109); word-break: br=
+eak-word; padding: 10px 20px; height: 83.25px; width: 100%;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module-1-0-0" style=3D"color=
+: inherit; font-size: inherit; line-height: inherit;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module-1-0-0_" style=3D"colo=
+r: inherit; font-size: inherit; line-height: inherit;">
+<p style=3D"margin: 0px; line-height: 26.25px; font-weight: bold;"><strong>=
+Efficient Global Trade Collections and Payments with XTransfer:<span style=
+=3D"color: rgb(224, 62, 45);"> Speed, Security, and Cost-effectiveness</spa=
+n>, backed by renowned banks like <span style=3D"color: rgb(224, 62, 45);">=
+JPMorgan Chase, DBS Bank, and Deutsche Bank.</span></strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"m_7582900374301740177section_1702543403248" class=3D"m_758290037=
+4301740177hse-section" style=3D"color: #23496d; font-family: Arial, sans-se=
+rif; font-size: 15px; background-color: #eaf0f6; padding-left: 10px; paddin=
+g-right: 10px;">
+<div class=3D"m_7582900374301740177hse-column-container" style=3D"max-width=
+: 600px; width: 600px !important; min-width: 280px; margin-left: auto; marg=
+in-right: auto; border-collapse: collapse; border-spacing: 0px; background-=
+color: #ffffff;">
+<div id=3D"m_7582900374301740177column_1702543403248_0" class=3D"m_75829003=
+74301740177hse-column m_7582900374301740177hse-size-12" style=3D"display: t=
+able-cell; vertical-align: top; max-width: 600px !important; width: 600px !=
+important;">
+<table id=3D"ntes_editor_table_10024" style=3D"border-collapse: collapse; b=
+order-spacing: 0px;" role=3D"presentation" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"m_7582900374301740177hs_padded" style=3D"margin: 0px; border-c=
+ollapse: collapse; font-size: 15px; color: #23496d; word-break: break-word;=
+ padding: 10px 20px;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module_17025434385474" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;">
+<table id=3D"ntes_editor_table_10025" style=3D"border-spacing: 0px; border-=
+collapse: collapse;" role=3D"presentation" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; border-collapse: collapse; font-size: 15px; color=
+: #23496d; word-break: break-word; border-radius: 8px; background-color: #f=
+f9902;" align=3D"center" valign=3D"middle" bgcolor=3D"#FF9902"><a style=3D"=
+color: #00a4bd; text-decoration-line: none; font-size: 16px; margin: 0px; p=
+adding: 12px 18px; display: block;" href=3D"https://xtrfr.com/t/1/m3OK82?p=
+=3D1kpU6Ruf5-6Nok43dU_1kpU72q8p-6Nokfvs0" target=3D"_blank" rel=3D"noopener=
+" data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://d4KHMP04.n=
+a1.hubspotlinksfree.com/Ctc/OT%2B113/d4KHMP04/VWZTl03PSLxXW98vMrR7wTTd6W37H=
+_hZ57yv2KN8kT_Bj3m2ndW69sMD-6lZ3l4W3z-BZW3qm4KSW4bly_C6Nn_4rW1XLjmh57Tb_PW2=
+3ZRSk1yhnlsW8SwBRX12vtCCW76P3Qh5T4k6jW5TM1FC63qb3pW1KQxR98qsb-FW4WCcHK5K3kr=
+7W5zw4rC3qJWTzVv56FK87lF37MN-_1vX69f0W8nqWKw4D06BKW5rfzsk3rTqwNW7-Fy_K6pTFh=
+NW75Qf8Q5SYJnRW83X3gj8Kdj45W8MLJWr43s52WVyBSqB51L_WJW3sF-vD6HmqKTf4sc-dC04&=
+amp;source=3Dgmail&amp;ust=3D1703755372197000&amp;usg=3DAOvVaw2NTvX7MDX1t4u=
+dyCsj31iv"><strong style=3D"color: #ffffff;">Open a Free Account</strong></=
+a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table id=3D"ntes_editor_table_10027" style=3D"border-collapse: collapse; b=
+order-spacing: 0px;" role=3D"presentation" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"m_7582900374301740177hs_padded" style=3D"margin: 0px; border-c=
+ollapse: collapse; font-size: 15px; color: #23496d; word-break: break-word;=
+ padding: 10px 20px;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module_17036667092471" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"m_7582900374301740177section_1702543481249" class=3D"m_758290037=
+4301740177hse-section" style=3D"color: #23496d; font-family: Arial, sans-se=
+rif; font-size: 15px; background-color: #eaf0f6; padding-left: 10px; paddin=
+g-right: 10px;">
+<div class=3D"m_7582900374301740177hse-column-container" style=3D"max-width=
+: 600px; width: 600px !important; min-width: 280px; margin-left: auto; marg=
+in-right: auto; border-collapse: collapse; border-spacing: 0px; background-=
+color: #ffffff;">
+<div id=3D"m_7582900374301740177column_1702543481249_0" class=3D"m_75829003=
+74301740177hse-column m_7582900374301740177hse-size-12" style=3D"display: t=
+able-cell; vertical-align: top; max-width: 600px !important; width: 600px !=
+important;">
+<table id=3D"ntes_editor_table_10029" style=3D"border-collapse: collapse; b=
+order-spacing: 0px; height: 668px; width: 97.1667%;" role=3D"presentation" =
+width=3D"1095" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"m_7582900374301740177hs_padded" style=3D"margin: 0px; border-c=
+ollapse: collapse; font-size: 15px; color: #23496d; word-break: break-word;=
+ padding: 10px 20px; width: 100%;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module_17025434854826" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;">
+<div id=3D"m_7582900374301740177hs_cos_wrapper_module_17025434854826_" styl=
+e=3D"color: inherit; font-size: inherit; line-height: inherit;">
+<p style=3D"margin: 0px; line-height: 26.25px; font-weight: bold;"><img src=
+=3D"https://cdn-cn2.xtransfer.cn//XTransfer/2024-01-28/95165f4f-10a1-404a-9=
+50c-312c2b927674.jpg" width=3D"545" height=3D"304" alt=3D""></p>
+<p style=3D"margin: 0px; line-height: 26.25px;">&nbsp;</p>
+<p style=3D"margin: 0px; line-height: 26.25px;">Sincerely,</p>
+<p style=3D"margin: 0px; line-height: 26.25px;">XTransfer</p>
+<p style=3D"margin: 0px; line-height: 26.25px;">&nbsp;</p>
+<p style=3D"margin: 0px; line-height: 26.25px; font-weight: bold;">About&nb=
+sp;us</p>
+<p style=3D"margin: 0px; line-height: 26.25px;">XTransfer has emerged as th=
+e foremost platform in the global B2B trade sector. With a customer base ex=
+ceeding 400,000 small and medium-sized enterprises worldwide, it has become=
+ a trusted partner for businesses.</p>
+<p style=3D"margin: 0px; line-height: 26.25px;">Through strategic collabora=
+tions with renowned multinational banks and financial institutions, XTransf=
+er has established a fully compliant reporting channel. This enables the pr=
+ovision of secure, streamlined, unrestricted, and round-the-clock instant p=
+ayment services to suppliers within the global SME community.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div></div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</tbody>
+=09=09</table>
+=09</body>
+  </html><img height=3D"1" src=3D"https://xtrfr.com/t/1/m3Pzh8?p=3D1kpU6Ruf=
+5-6Nok43dU_1kpU72q8p-6Nokfvs0" width=3D"1"><a href=3D"https://www.xtransfer=
+.cn/unsubscribe?p=3D1kpU6Ruf5-6Nok43dU_1kpU72q8p-6Nokfvs0" target=3D"_blank=
+" style=3D"text-decoration:none; color:#FAAC58;"rel=3D"noopener">Click to u=
+nsubscribe</a>

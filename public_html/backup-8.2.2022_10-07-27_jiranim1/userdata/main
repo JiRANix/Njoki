@@ -1,0 +1,10 @@
+--- 
+addon_domains: {}
+
+main_domain: jiranimall.com
+parked_domains: []
+
+sub_domains: 
+  - kinyanjui.jiranimall.com
+  - services.jiranimall.com
+  - tanks.jiranimall.com

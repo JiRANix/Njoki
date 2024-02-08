@@ -1,0 +1,105 @@
+Return-Path: <jiranimall.com@gmail.com>
+Delivered-To: jsk@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id yK+UEUkHKGOXfzcAvE7qNg
+	(envelope-from <jiranimall.com@gmail.com>)
+	for <jsk@jiranimall.com>; Mon, 19 Sep 2022 06:08:09 +0000
+Return-path: <jiranimall.com@gmail.com>
+Envelope-to: jsk@jiranimall.com
+Delivery-date: Mon, 19 Sep 2022 06:08:09 +0000
+Received: from mail-lj1-f182.google.com ([209.85.208.182]:36529)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <jiranimall.com@gmail.com>)
+	id 1oa9wx-00FHFU-5o
+	for jsk@jiranimall.com;
+	Mon, 19 Sep 2022 06:08:09 +0000
+Received: by mail-lj1-f182.google.com with SMTP id z20so32643478ljq.3
+        for <jsk@jiranimall.com>; Sun, 18 Sep 2022 23:07:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date;
+        bh=7kcT7AaXnBx4vmqxvooGYiAYqh36qs4a9Kfa4e0qW9s=;
+        b=StjW/67D1n0lmi57ZchDZK/zb89jWwun0YfUH5X2BjgZ5i8BHAUNgzM/fu/ww2qQaf
+         3fwIHNIOwhCGvLu42lvpVHQ3bluDFxdrNrpKeZ7mMRpaSQ5S9Bd6zjObDycKojA4glp7
+         cQv5xVA7ANbGFUmkJ7roZomh4fXFhFBpdErbdmUm5fC7s04OTP0VK9a0gHrdLtBdcsd/
+         EOV9tKOGFBm1sdaAdkqUswrtcWkviQSZKyLn0HLlr7Ksl0AJX27EyOviY4D9g52JpPW1
+         qJAMEiX8lun59Zu3qTcApekml7CHwLppcmm1D/28JbtWzCjIK76SlvoGJtx17Jz8UWkx
+         4uLQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date;
+        bh=7kcT7AaXnBx4vmqxvooGYiAYqh36qs4a9Kfa4e0qW9s=;
+        b=W239Alma0XM0OEAoV2f2+5nMzPRaTVpT3rn/UdI2DcMhI2wrrTLKgUg+WKNTP7WbX8
+         g18ahw0bUMnJljDe2NdjLPnNv595Gbl1achpabfz8LeaDi0+IheX5SHbOQcVwQUCnZx7
+         /TyiOWNO60gH5WdW7ZyrngZ+QWCSi1tU0PUJvkXW3urdpHh1lu5vxTiGoQQKuSv5YuY0
+         UmNNbRtI4hdL2OUyizEN9qTX9NCOQl3FhuXXo79iWM+k/vMpS7R5qNGEnzfO0/EZxiJ4
+         ORHjjnb0W/B26TrdAsAqv0jtGpurgN3rI4bKQTZOoU79dJACPLk2aaFl8JVi1hfFw2zG
+         NIBg==
+X-Gm-Message-State: ACrzQf3gUCRADHgZc1za+NxA+at6wh7+Agst/1iRuTEE21FluJFF+4eY
+	0ud7mViE36F7+MxaaBYms8GiLBXa7oT4bgh32ljGiZSk
+X-Google-Smtp-Source: AMsMyM583nbDEC1eVskHAKba72+5cgu2x1hUrQNQw3iuqPPgS/BomhRWciZ9RTJ8YhcbgMKW+2jBgnz7t/GRoGcIvb8=
+X-Received: by 2002:a05:651c:194e:b0:26c:4f8f:8723 with SMTP id
+ bs14-20020a05651c194e00b0026c4f8f8723mr1005775ljb.140.1663567646483; Sun, 18
+ Sep 2022 23:07:26 -0700 (PDT)
+MIME-Version: 1.0
+References: <BD4FAE64-2EB2-4F8F-96D1-0A127534CD9E@jiranimall.com>
+In-Reply-To: <BD4FAE64-2EB2-4F8F-96D1-0A127534CD9E@jiranimall.com>
+From: JiRANi MALL <jiranimall.com@gmail.com>
+Date: Mon, 19 Sep 2022 09:07:13 +0300
+Message-ID: <CAPD2z-BpYL_13g9Yr0io058msgMOcgkJkh=xLkUHJnWNDQ3yKw@mail.gmail.com>
+Subject: Re: Check this out
+To: JiRANi Safety Kit <jsk@jiranimall.com>
+Content-Type: multipart/alternative; boundary="000000000000a0e9ad05e901863a"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Sure On Mon, 19 Sept 2022, 09:06 JiRANi Safety Kit, wrote:
+    > Hello, don't give up > 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [jiranimall.com[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--000000000000a0e9ad05e901863a
+Content-Type: text/plain; charset="UTF-8"
+
+Sure
+
+On Mon, 19 Sept 2022, 09:06 JiRANi Safety Kit, <jsk@jiranimall.com> wrote:
+
+> Hello, don't give up
+>
+
+--000000000000a0e9ad05e901863a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Sure=C2=A0</div><br><div class=3D"gmail_quote"><div dir=
+=3D"ltr" class=3D"gmail_attr">On Mon, 19 Sept 2022, 09:06 JiRANi Safety Kit=
+, &lt;<a href=3D"mailto:jsk@jiranimall.com">jsk@jiranimall.com</a>&gt; wrot=
+e:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bo=
+rder-left:1px #ccc solid;padding-left:1ex"><u></u><div>Hello, don&#39;t giv=
+e up </div></blockquote></div>
+
+--000000000000a0e9ad05e901863a--

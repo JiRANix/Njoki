@@ -1,0 +1,418 @@
+Return-Path: <manuelaaw4cst@hotmail.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id WIFUBAI412Q0DAMAvE7qNg
+	(envelope-from <manuelaaw4cst@hotmail.com>)
+	for <info@jiranimall.com>; Sat, 12 Aug 2023 07:42:58 +0000
+Return-path: <manuelaaw4cst@hotmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Sat, 12 Aug 2023 07:42:58 +0000
+Received: from mail-mw2nam12olkn2092.outbound.protection.outlook.com ([40.92.23.92]:10720 helo=NAM12-MW2-obe.outbound.protection.outlook.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <manuelaaw4cst@hotmail.com>)
+	id 1qUjH9-000qba-12
+	for info@jiranimall.com;
+	Sat, 12 Aug 2023 07:42:58 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=g161WOUnFBqrv8cBvBC1A7qV4q09F5MX0CaRyQ72h+P6yDg9k/aKjqB2BCegiGLwZLfHCfYM+6QqJbZ1LxbG3wTkMMDeRdrNd9AZS+xFkUAu7Vs02ndpDlc5O/3wKlWdxM84eVJFNyVCTzc3t63bU1dWfw3829zRQuNw+oWzTTsv4XKRBtwGZNvCIVnRidznobEarfHHcXPUY0mbPZIqvUM2brWMMA00lcuBdFRVbY6KGPBpcVdYU+mmlXfeuKCCFqvMOABlZFCavmJSjRfIJiPgZbY73dXXXv4IBSRbqmMB7GA9GMghwS1pbRr859NbP/oeo/ItlUYn4d58QqVCKA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=E42HrzagAC0vIKADU0sBvz2/zqKsVQALrvLbvfeQt2E=;
+ b=ZB7AZOi2gNsfLQy+fwuEFCf3Q7gzuBjRbBxTZZWU8rOiCOpzJbRVD4J6rQr4rQzHriwqqCvAnTIqyJ5LDVNFqOMT9UdWdkisnXXxfECf5F5BKDYUHEad1JesQ1dwvNgoMY5tv52WwoGLHOUqKx26f/eNa38la+kYcjSXaEAUSawv+BWvS3X+NZwse8HP5u6KdzsKk6YHGPqoBnX5nuHPfNoh6NnX5b/buqLvI/KcXiQjLPqYMuXIcYybXQcxUXQ9e+uCDmaXfLIH6dyMx/EQofURFJX93bs/n7IHWgTnzfAxlY6L71lg4iHJ6rrK7O8gaEbRYAwI1zS0QK1/qk0liw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=E42HrzagAC0vIKADU0sBvz2/zqKsVQALrvLbvfeQt2E=;
+ b=sDvjqGD2onjG+Z8w0ZpScOatOveolgs7L6bwIetXQdEkORc5JMm7Fg6xJjPpuMkJlfev3Yrd0iXrwNk3lhS/OH1DNv+ZeUrYPszdLJPp7X9JdINgAn6xqZsn213UjurzoSWMnlOTj/WYfbAje53eepTiGO8bBCbEjjRDGDklBMTzYFLy0xNolADpub98zulVuFOm0vjdAl+W9FXbX12ymGpLmwg7gfOWagGc2Yu3pLEFx6J/iiOiLVQZ/v8mTSEDq5pFOiUK4YEfbnGW7BubKiMpSgtfhiOuCjXdNDOYqJfoZgO9VEX9JTQT7L1td/PApJWz+GrkK8SPS8BDpvjbhQ==
+Received: from MW5PR20MB4404.namprd20.prod.outlook.com (2603:10b6:303:199::20)
+ by SN7PR20MB6109.namprd20.prod.outlook.com (2603:10b6:806:32d::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6652.30; Sat, 12 Aug
+ 2023 07:42:00 +0000
+Received: from MW5PR20MB4404.namprd20.prod.outlook.com
+ ([fe80::5f06:bca6:9a0f:ac62]) by MW5PR20MB4404.namprd20.prod.outlook.com
+ ([fe80::5f06:bca6:9a0f:ac62%6]) with mapi id 15.20.6652.029; Sat, 12 Aug 2023
+ 07:42:00 +0000
+From: Manuela Starowitz <manuelaaw4cst@hotmail.com>
+Subject: Apps Proposal ?
+Thread-Topic: Apps Proposal ?
+Thread-Index: AQHZzPB4nt4khJ2PBUK3axkQkA1VjA==
+Date: Sat, 12 Aug 2023 07:42:00 +0000
+Message-ID:
+ <MW5PR20MB440459B26ED7C60D9C1E0E17F611A@MW5PR20MB4404.namprd20.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn: [PCvIgEWaFvMs0TkZ75TXum0UfzDsfQll]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MW5PR20MB4404:EE_|SN7PR20MB6109:EE_
+x-ms-office365-filtering-correlation-id: 9e358b8e-5c08-465b-c5ba-08db9b079d15
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ gXPqeKbujkMnDOKTx33yJTyUNdwxggpsXmc10PFtgH4RrA5QeC8fE2nnJVHflSlRhYV3gxwkHRDeAGX4xujAXss4gk99d+YP/wTXxlXcXM68ClGu4U/rDX9roE6uX3EFTmKd2nUEWQPOw4xns18G+l9r2m0iRjykoiDw/0TZd4GEF0tNnadNDgeGM8r9o7euuNU6fTOAf1S5XvSsQkqecW/xbvP+A9Y2L92xgcdfYlF5KJGDlhf/3pMEdDgPHnc3C/yfFOsei26avpUx9rnB/2BszUQ/HClKRQN011g929fCnV0pbqNsV4A1KOEQfq96CrFEO1mntEjvXzTKNcqkmV/zqjJk86eq7RpIO58Hqc9NvfMUjT6NQmuevXyKV5vylmrU8/xmk/TpyEbYjLQ9nZw06iCaPncgdc/Z9QGIO+tbtP04Ofz0q9PayTn003TOXQzK5LICXm0m/rH75z+gDjM8X16bl70SeoVhB160icE/XkvT2t5ypByYNtJQiy3q7Tt8DVoDxJ24TknWjGdNi7sNbnRz2cGTkfjJWoKWclGx7ii6B7aSlSjp3nks/PU5
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?iF6/zfmVLFICLCjdvs7K9A6Etx/vYty8p67T1ACs2PHDshTclxhsUtqe6N?=
+ =?iso-8859-1?Q?RYod2EHq6zHp/nq+oYt7PrbLVDEk7LIha1DG2YajysB23FWd8FP5TUzJaB?=
+ =?iso-8859-1?Q?V9/xA87tVz5tftMn0cNc64ktRmYMwwm+woXBPJmvTqo6XKKGcTRQ690Ec6?=
+ =?iso-8859-1?Q?Ca6thyTZCfukxkR0YiT6rRTHq13mrcsDdrMKxhuW/Be1INM24KKPiZSNML?=
+ =?iso-8859-1?Q?5bf+quhWvJm7ZrURgPKUj6foy6PAsQkK7GnRGKlNOslrKvY9thrHTQMPfw?=
+ =?iso-8859-1?Q?U7EpXg7l9axVr/33SRcHpuL1sepLbo/ozYjLWL85GRMcFai8Oer4pmd3CR?=
+ =?iso-8859-1?Q?P0MOJdXeAFW500vKahX/L1O10eLUCPLMcvrg1lVREO87QeL/0A9I/DCaqA?=
+ =?iso-8859-1?Q?HN54OfL5R8OTXK1WBFW4mzs36nSqn93MVAw7t/s6FT0ryzmiGSWqPl6YHa?=
+ =?iso-8859-1?Q?tckDwuYjgygOjwVGQ/qruIGs7AlhZep7mjt57TgFv1KXPwVZ7Ku3SVPYG0?=
+ =?iso-8859-1?Q?qWnsjmZCPfd/+SVCqQZkHviA0eKxip5zFgKQ2kn/VDrJy5aue1S5G8jQXF?=
+ =?iso-8859-1?Q?HM935oSXUOby5BMZZtcc1zoEPlQlBGa0tlEpxAaOsOcKglw6BUvaMuvfQm?=
+ =?iso-8859-1?Q?2nk7Yk6Ol2KzafXzkk8KeRF2dc1gqvFfWwN9Et6kOZ0cqrOrk5ymkkmwRM?=
+ =?iso-8859-1?Q?IxABmsRu3PZGjkPoO9rg/EhvSwIpa44IQEDNq58rHR0uQ3ImWPAxp/KGk2?=
+ =?iso-8859-1?Q?kuWlqYfS6/eGJUHBCLw44oiEO8xEQDob0oLgFsKV0oGsZhk/bIv87BCpaZ?=
+ =?iso-8859-1?Q?FTPe7w3eIJDOkXzY5+mITIjSDm/SOxek8cl1pM0pQWLNnlFtKR4rgbG/3R?=
+ =?iso-8859-1?Q?HL/+TqiabTjLisL5delpzJO4g9yVEVsnIjYdLWLkKtqvkNoulZn4WFo12o?=
+ =?iso-8859-1?Q?B4e+mi3EPfmRrqmtmFx2jwr0wSAFv9ON0nSsGPczV0BrD2FvQu8fBve/kl?=
+ =?iso-8859-1?Q?Ow382HI1kHwz34aww1NAd8QDswptdP9w3P3oSZZWE64wFC8aifJLsujYLj?=
+ =?iso-8859-1?Q?PLPiGToj2vBKUysM6lV/i4mXlANhxNFaVFnWIc3KdwhEYFdi4SxkQ8REjn?=
+ =?iso-8859-1?Q?raM+l08E5XUMDeMv1EkJR/DgZf5yuRxD37NEAsXpQfxJUqst2Z/3W4OqYD?=
+ =?iso-8859-1?Q?AoWOLShJfp6VdDwbdGQAYv2Anin4hvhCMsajifRDeegQtaH9o5J6iFtAKg?=
+ =?iso-8859-1?Q?PAlWwl/VF1Eh+soWFzog=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_MW5PR20MB440459B26ED7C60D9C1E0E17F611AMW5PR20MB4404namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-9803a.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MW5PR20MB4404.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9e358b8e-5c08-465b-c5ba-08db9b079d15
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Aug 2023 07:42:00.5402
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN7PR20MB6109
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi There Hope everything is awesome with you! My name is Manuela,
+    and I am a Professional IOS & Android Apps developer with 7+ years' experience
+    based in India. Do you need a great App adjusted or built from scratch? 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.2 MISSING_HEADERS        Missing To: header
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [manuelaaw4cst[at]hotmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_000_MW5PR20MB440459B26ED7C60D9C1E0E17F611AMW5PR20MB4404namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi There
+
+
+
+Hope everything is awesome with you!
+
+
+
+My name is Manuela, and I am a Professional IOS & Android Apps developer wi=
+th 7+ years' experience based in India. Do you need a great App adjusted or=
+ built from scratch?
+
+
+
+We develop any kind of mobile apps-:
+
+
+
+1.    Food Ordering & Delivery Mobile Apps.
+
+2.    Fitness Mobile Apps.
+
+3.    Taxi Booking Mobile Apps.
+
+4.    Educational Mobile Apps.
+
+5.    Shopping Mobile Apps.
+
+6.    Pharmacy & Healthcare Mobile Apps.
+
+7.    Fashion & Lifestyle Mobile Apps.
+
+8.    Auto & Vehicles Apps.
+
+9.    Beauty & Vehicles Apps.
+
+10.  Dating Apps.
+
+
+
+If you are interested, Please share me your requirements, it would be great=
+ if you can share me your contact number Whatsapp/Skype.
+
+
+
+Thanks, Regards,
+
+Manuela
+
+
+--_000_MW5PR20MB440459B26ED7C60D9C1E0E17F611AMW5PR20MB4404namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProo=
+f">
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">Hi There&nbsp;</span><span style=3D"font-size: 11=
+pt; font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"C=
+ontentPasted0">&nbsp;</span><span style=3D"font-family: Calibri, &quot;sans=
+-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nb=
+sp;</span><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p=
+ class=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-size: 11pt; font=
+-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPa=
+sted0">&nbsp;</span><span style=3D"font-family: Calibri, &quot;sans-serif&q=
+uot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</spa=
+n><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=
+=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">Hope everything is awesome with you!&nbsp;</span>=
+<span style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-serif&quot=
+;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span style=3D"font=
+-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPa=
+sted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;" class=
+=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p></span>=
+</p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-size: 11pt; font=
+-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPa=
+sted0">&nbsp;</span><span style=3D"font-family: Calibri, &quot;sans-serif&q=
+uot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</spa=
+n><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=
+=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">My name is
+<span style=3D"background: white;"><span style=3D"background-color: rgb(255=
+, 255, 255);" class=3D"ContentPasted0"><span style=3D"font-family: Calibri,=
+ sans-serif; display: inline !important; background-color: rgb(255, 255, 25=
+5);">Manuela</span></span></span>, and I
+ am a Professional IOS &amp; Android Apps developer with 7+ years' experien=
+ce based in India. Do you need a great App adjusted or built from scratch?&=
+nbsp;</span><span style=3D"font-size: 11pt; font-family: Calibri, &quot;san=
+s-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span s=
+tyle=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=
+=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: bl=
+ack;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</=
+o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-size: 11pt; font=
+-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPa=
+sted0">&nbsp;</span><span style=3D"font-family: Calibri, &quot;sans-serif&q=
+uot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</spa=
+n><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=
+=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<b><span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: blac=
+k;" class=3D"ContentPasted0">We develop any kind of mobile apps-:&nbsp;</sp=
+an></b><span style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-ser=
+if&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span style=
+=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"C=
+ontentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;"=
+ class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p><=
+/span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-size: 11pt; font=
+-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPa=
+sted0">&nbsp;</span><span style=3D"font-family: Calibri, &quot;sans-serif&q=
+uot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</spa=
+n><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=
+=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">1.&nbsp;&nbsp;&nbsp; Food Ordering &amp; Delivery=
+ Mobile Apps.&nbsp;</span><span style=3D"font-size: 11pt; font-family: Cali=
+bri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;=
+</span><span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: =
+black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=
+=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPast=
+ed0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">2.&nbsp;&nbsp;&nbsp; Fitness Mobile Apps.&nbsp;</=
+span><span style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-serif=
+&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span style=3D=
+"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"Cont=
+entPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;" cl=
+ass=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p></sp=
+an></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">3.&nbsp;&nbsp;&nbsp; Taxi Booking Mobile Apps.&nb=
+sp;</span><span style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-=
+serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span sty=
+le=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D=
+"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black=
+;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p=
+></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">4.&nbsp;&nbsp;&nbsp; Educational Mobile Apps.&nbs=
+p;</span><span style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-s=
+erif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span styl=
+e=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"=
+ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;=
+" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p>=
+</span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">5.&nbsp;&nbsp;&nbsp; Shopping Mobile Apps.&nbsp;<=
+/span><span style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-seri=
+f&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span style=
+=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"C=
+ontentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;"=
+ class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p><=
+/span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">6.&nbsp;&nbsp;&nbsp; Pharmacy &amp; Healthcare Mo=
+bile Apps.&nbsp;</span><span style=3D"font-size: 11pt; font-family: Calibri=
+, &quot;sans-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</s=
+pan><span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: bla=
+ck;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D=
+"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0=
+">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">7.&nbsp;&nbsp;&nbsp; Fashion &amp; Lifestyle Mobi=
+le Apps.&nbsp;</span><span style=3D"font-size: 11pt; font-family: Calibri, =
+&quot;sans-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</spa=
+n><span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black=
+;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"c=
+olor: black;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">=
+&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">8.&nbsp;&nbsp;&nbsp; Auto &amp; Vehicles Apps.&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span><spa=
+n style=3D"font-size: 11pt; font-family: Calibri, &quot;sans-serif&quot;; c=
+olor: black;" class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-fam=
+ily: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPasted=
+0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;" class=3D"Co=
+ntentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">9.&nbsp;&nbsp;&nbsp; Beauty &amp; Vehicles Apps.&=
+nbsp;</span><span style=3D"font-size: 11pt; font-family: Calibri, &quot;san=
+s-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;</span><span s=
+tyle=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;" class=
+=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color: bl=
+ack;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</=
+o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">10.&nbsp; Dating Apps.&nbsp;</span><span style=3D=
+"font-size: 11pt; font-family: Calibri, &quot;sans-serif&quot;; color: blac=
+k;" class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-family: Calib=
+ri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;&=
+nbsp;&nbsp;&nbsp;</span><span style=3D"color: black;" class=3D"ContentPaste=
+d0">&nbsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">&nbsp;</span><span style=3D"font-size: 11pt; font=
+-family: Calibri, &quot;sans-serif&quot;; color: black;" class=3D"ContentPa=
+sted0">&nbsp;</span><span style=3D"font-family: Calibri, &quot;sans-serif&q=
+uot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</spa=
+n><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p class=
+=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">If you are interested, Please share me your requi=
+rements, it would be great if you can share me your contact number Whatsapp=
+/Skype.&nbsp;</span><span style=3D"font-size: 11pt; font-family: Calibri, &=
+quot;sans-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;=
+</span><span style=3D"color: black;" class=3D"ContentPasted0">&nbsp;<o:p cl=
+ass=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"col=
+or: black;" class=3D"ContentPasted0">&nbsp;<o:p class=3D"ContentPasted0">&n=
+bsp;</o:p></span></p>
+<p style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; fo=
+nt-size: 12pt; margin: 0in 0in 0.0001pt;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; color: black;"=
+ class=3D"ContentPasted0">Thanks, Regards,&nbsp;</span><span style=3D"font-=
+size: 11pt; font-family: Calibri, &quot;sans-serif&quot;; color: black;" cl=
+ass=3D"ContentPasted0">&nbsp;</span><span style=3D"font-family: Calibri, &q=
+uot;sans-serif&quot;; color: black;" class=3D"ContentPasted0">&nbsp;&nbsp;&=
+nbsp;&nbsp;</span><span style=3D"color: black;" class=3D"ContentPasted0">&n=
+bsp;<o:p class=3D"ContentPasted0">&nbsp;</o:p></span></p>
+<p style=3D"font-size: 12pt; margin: 0in 0in 0.0001pt;"><font face=3D"Calib=
+ri, sans-serif">Manuela</font></p>
+<br>
+</div>
+</body>
+</html>
+
+--_000_MW5PR20MB440459B26ED7C60D9C1E0E17F611AMW5PR20MB4404namp_--

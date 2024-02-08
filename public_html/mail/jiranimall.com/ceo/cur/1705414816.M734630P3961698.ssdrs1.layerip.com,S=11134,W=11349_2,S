@@ -1,0 +1,215 @@
+Return-Path: <amandandeda@ubuntudevelopment.co.ke>
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id uGbaKaCQpmViczwAvE7qNg
+	(envelope-from <amandandeda@ubuntudevelopment.co.ke>); Tue, 16 Jan 2024 14:20:16 +0000
+Return-path: <amandandeda@ubuntudevelopment.co.ke>
+Envelope-to: procurement@jiranimall.com,
+ ceo@jiranimall.com
+Delivery-date: Tue, 16 Jan 2024 14:20:16 +0000
+Received: from 144-168-45-235.hostplo.com ([144.168.45.235]:60122)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <amandandeda@ubuntudevelopment.co.ke>)
+	id 1rPkIS-00GcCw-1i;
+	Tue, 16 Jan 2024 14:20:16 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=ubuntudevelopment.co.ke; s=default; h=Content-Type:Message-ID:Subject:Cc:To
+	:From:Date:MIME-Version:Sender:Reply-To:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=aiM69Ykop85PpwMxB8LUsadvRo2wWyXGZG4S5Pg2TVg=; b=QqTG31nsdYHGxtbDyfJgeS2+WM
+	EqHQrCCdD8LhZ3YeohrcqTWsH02ViNy7Kh38tp94vifESz0KnMMKWEiVyJaVwjWAEvD+qgASSvGR4
+	xsRFogqS6UNtZpg00QtkGQ/Y/AjkZIR1kf5ojrN31hb0XxqkRQs6y4+tGW2cm5t+WXyObDGjYEkg4
+	ojVhF+A9xNFNfXmgSRHExHgSD3vPqHsf/JP4pU8GWxxukipdM0GyPWk/vJ6s21A8+GcAQRdPPONQ2
+	qzE84LSv+x1hgJ9Sa+HwMIh40A1IZWJxIAlMzVFBZHwKOLpDdajpr8L2ibjj2ypFfJwwKCpGDhvkO
+	yMZ/CVdA==;
+Received: from [::1] (port=49208 helo=node.hostplo.com)
+	by node.hostplo.com with esmtpa (Exim 4.96.2)
+	(envelope-from <amandandeda@ubuntudevelopment.co.ke>)
+	id 1rPkHQ-00GH3v-0Z;
+	Tue, 16 Jan 2024 17:19:03 +0300
+MIME-Version: 1.0
+Date: Tue, 16 Jan 2024 17:19:02 +0300
+From: Ubuntu Development Solution Limited
+ <amandandeda@ubuntudevelopment.co.ke>
+To: matthewnjoki@gmail.com, ceo@jiranimall.com, procurement@jiranimall.com
+Cc: Nafula <nafula@ubuntudevelopment.co.ke>
+Subject: Expression of Interest: Digital Entrepreneurship Training and
+ Mentorship Program
+User-Agent: Roundcube Webmail/1.6.0
+Message-ID: <afcea7857418d3d602d8f1bc864410b0@ubuntudevelopment.co.ke>
+X-Sender: amandandeda@ubuntudevelopment.co.ke
+Content-Type: multipart/alternative;
+ boundary="=_cc16dc0e613216b4427764f5e0539092"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - node.hostplo.com
+X-AntiAbuse: Original Domain - jiranimall.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - ubuntudevelopment.co.ke
+X-Get-Message-Sender-Via: node.hostplo.com: authenticated_id: amandandeda@ubuntudevelopment.co.ke
+X-Authenticated-Sender: node.hostplo.com: amandandeda@ubuntudevelopment.co.ke
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=2.8
+X-Spam-Score: 28
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear JiRANi MALL Procurement Team, I hope this email finds
+    you well. We are writing to express our keen interest in collaborating with
+    JiRANi MALL to deliver a comprehensive training and mentorship program on
+    Digital Entrepreneurship, [...] 
+ Content analysis details:   (2.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 TVD_RCVD_IP            Message was received from an IP address
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ubuntudevelopment.co.ke]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  2.6 RDNS_DYNAMIC           Delivered to internal network by host with
+                             dynamic-looking rDNS
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--=_cc16dc0e613216b4427764f5e0539092
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+
+
+Dear JiRANi MALL Procurement Team,
+
+I hope this email finds you well. We are writing to express our keen 
+interest in collaborating with JiRANi MALL to deliver a comprehensive 
+training and mentorship program on Digital Entrepreneurship, pursuant to 
+your advertisement referenced "_003-invitation to tender-Training and 
+Mentorship_", and dated 6th January 2023.
+
+Our company, UBUNTU DEVELOPMENT SOLUTIONS LIMITED, among other 
+functions, specializes in the development of tailored programs to 
+empower individuals with the skills and knowledge necessary to thrive in 
+the digital landscape. With a proven track record in designing impactful 
+curricula and providing mentorship, we are confident in our ability to 
+contribute to the growth, success, and empowerment of the project's 
+beneficiaries.
+
+Our Company's Deliverables:
+
+  	* Customized Curriculum: Our team of experienced professionals will 
+work closely with JiRANi MALL to create a curriculum that aligns with 
+the specific needs and goals of your organization. The content will be 
+based on the learners' level of experience and expertise. The focus will 
+be on practical skills and real-world applications to ensure 
+participants are well-equipped for the challenges of the digital 
+marketplace.
+  	* Comprehensive Training Manual: We will provide a detailed training 
+manual that serves as a valuable resource for participants during and 
+after the program. This manual will encompass a step-by-step guidance, 
+the latest industry trends, interactive elements, best practices, and 
+hands-on exercises to reinforce learning. Our training programs are 
+designed to foster an inclusive environment where individuals from 
+various backgrounds can thrive. We are dedicated to promoting equal 
+opportunities and embracing the unique perspectives each participant 
+brings to the table.
+  	* Participant Recruitment: Our extensive network and outreach 
+capabilities will be leveraged to identify and recruit participants who 
+are not only eager to learn, but also align with JiRANi MALL's values 
+and mission. We are committed to ensuring a diverse and inclusive cohort 
+to enrich the overall learning experience.
+
+We believe that by partnering with JiRANi MALL, we can make a 
+significant impact on the social development landscape of Kenya through 
+promoting inclusive and sustainable economic growth, and creating 
+employment and decent work for the youth. We would be delighted to 
+further discuss how our program can be tailored to meet your specific 
+objectives.
+
+Please let us know a convenient time for a meeting, and we can explore 
+the possibilities of this exciting collaboration.
+
+Kind Regards,
+
+-- 
+
+_" Your Pan- African Management and Social Development Solution "_
+
+Amanda Ndeda - Associate Consultant, Legal & Administrative
+
+Phone: +254 701694100
+
+Website: www.ubuntudevelopment.co.ke
+--=_cc16dc0e613216b4427764f5e0539092
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8" /></head><body style=3D'font-size: 10pt; font-family: Verdana,Gen=
+eva,sans-serif'>
+<p>Dear JiRANi MALL Procurement Team,</p>
+<p>I hope this email finds you well. We are writing to express our keen int=
+erest in collaborating with JiRANi MALL to deliver a comprehensive training=
+ and mentorship program on Digital Entrepreneurship, pursuant to your adver=
+tisement referenced &ldquo;<em>003-invitation to tender-Training and Mentor=
+ship</em>&rdquo;, and dated 6th January 2023.</p>
+<p>Our company, UBUNTU DEVELOPMENT SOLUTIONS LIMITED, among other functions=
+, specializes in the development of tailored programs to empower individual=
+s with the skills and knowledge necessary to thrive in the digital landscap=
+e. With a proven track record in designing impactful curricula and providin=
+g mentorship, we are confident in our ability to contribute to the growth, =
+success, and empowerment of the project's beneficiaries.</p>
+<p>Our Company&rsquo;s Deliverables:</p>
+<ol>
+<li><strong>Customized Curriculum:</strong> Our team of experienced profess=
+ionals will work closely with JiRANi MALL to create a curriculum that align=
+s with the specific needs and goals of your organization. The content will =
+be based on the learners&rsquo; level of experience and expertise. The focu=
+s will be on practical skills and real-world applications to ensure partici=
+pants are well-equipped for the challenges of the digital marketplace.</li>
+<li><strong>Comprehensive Training Manual:</strong> We will provide a detai=
+led training manual that serves as a valuable resource for participants dur=
+ing and after the program. This manual will encompass a step-by-step guidan=
+ce, the latest industry trends, interactive elements, best practices, and h=
+ands-on exercises to reinforce learning. Our training programs are designed=
+ to foster an inclusive environment where individuals from various backgrou=
+nds can thrive. We are dedicated to promoting equal opportunities and embra=
+cing the unique perspectives each participant brings to the table.</li>
+<li><strong>Participant Recruitment:</strong> Our extensive network and out=
+reach capabilities will be leveraged to identify and recruit participants w=
+ho are not only eager to learn, but also align with JiRANi MALL's values an=
+d mission. We are committed to ensuring a diverse and inclusive cohort to e=
+nrich the overall learning experience.</li>
+</ol>
+<p>We believe that by partnering with JiRANi MALL, we can make a significan=
+t impact on the social development landscape of Kenya through promoting inc=
+lusive and sustainable economic growth, and creating employment and decent =
+work for the youth. We would be delighted to further discuss how our progra=
+m can be tailored to meet your specific objectives.</p>
+<p>Please let us know a convenient time for a meeting, and we can explore t=
+he possibilities of this exciting collaboration.</p>
+<p>Kind Regards,</p>
+<div id=3D"signature">-- <br />
+<p><img class=3D"transparent" src=3D"http://www.ubuntudevelopment.co.ke/log=
+oo.png" alt=3D"http://www.ubuntudevelopment.co.ke/logoo.png" /></p>
+<p><strong><em>" Your Pan- African Management and Social Development Soluti=
+on "</em></strong></p>
+<p>Amanda Ndeda - Associate Consultant, Legal &amp; Administrative</p>
+<p>Phone: +254 701694100</p>
+<p>Website: www.ubuntudevelopment.co.ke</p>
+</div>
+</body></html>
+
+--=_cc16dc0e613216b4427764f5e0539092--

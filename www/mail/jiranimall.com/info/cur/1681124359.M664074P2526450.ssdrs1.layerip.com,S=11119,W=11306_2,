@@ -1,0 +1,187 @@
+Return-Path: <Julianna.Smith008@hotmail.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id EEuNJgfsM2TyjCYAvE7qNg
+	(envelope-from <Julianna.Smith008@hotmail.com>)
+	for <info@jiranimall.com>; Mon, 10 Apr 2023 10:59:19 +0000
+Return-path: <Julianna.Smith008@hotmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 10 Apr 2023 10:59:19 +0000
+Received: from mail-psaapc01olkn2028.outbound.protection.outlook.com ([40.92.52.28]:32353 helo=APC01-PSA-obe.outbound.protection.outlook.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <Julianna.Smith008@hotmail.com>)
+	id 1plpF3-00AbLw-1j
+	for info@jiranimall.com;
+	Mon, 10 Apr 2023 10:59:19 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=LxcNx11cac3B5ymWYM3rihy0GVpd/b/GHCrlL47C+45+MG9wnuyYYgY4I7r4W4BKcv7w/pk0ganAew/tL+NTJsfgWaXYvQ7tJPAnN8qAZNn+zKAmVM5r6L2NizP8kG650iT8zpUfU7E49eZ3f83HmWvYyyVtoaZMiHd1T6wEkYC+ZvpuaUhDbGA5YBNMIgryzxzWNZsBKfx7yc5lqh0Ue74YLNlVrBikQ0j+yXe+8hsiXSL3iloDhairDtNjVHrs+tFxSGFEID/jyopSZnlulBlDjdsMTv6dcr4+1GDdx5tWrRMsEEaBTlI7hc1uboB4rt2PC9UaccQdJXsw5444Fw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=1ZT+h8m7AJdmmpMDcLZD6DFDM3a0gkcyxz7uXXH92CA=;
+ b=ferNaog+0KegI8sH5GeO6TX19dedQTo/6ykazTiNQAhWSNCsj/y8mXpM7eyVG8CLkf++8KwdaLdA1bddGyNN1RUp9pyp9J/KF8X3M7jz3oqO2BKcXBmh7RiQjmJVZnJh253INOo0T5R12Ewy8upJbixz1Vhfa2YIO6hQsNys4I0VZKDmIakpKSY+S7IIRwCD9NzhdOSm05/ATeDYvbbmWUUWIzYNH+uPxRLFQuRdIAmQA8araLzpgh3iv5olfgJvLulOUtpTETvdI/l3lYIPOQFAExVXUE2O2cD+0aPqTlMzWfcJDoFPb/T4KBhi7vh8GZnQUBQtrcJfUw4XiwGiWQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=1ZT+h8m7AJdmmpMDcLZD6DFDM3a0gkcyxz7uXXH92CA=;
+ b=fpw2AYWDEFSlMd5U4UL2/9Si4eHR910ZsGSPjyF/wKq5cP1aMexuJvAre6nodSkgXdML9LnA0tptRALde5HlnKoMcwgHZsb2vnWsctEAPveqB5IdZ3aikP8+mDsX7xvdQufTFogx74Yrxb2UDEN7sqKekU0VQ7MsEPP6eWPIWjkdk0GzX1FXYO7m+/X0BYziKbSs3yEJFQWftc3e3qOaAUjn8p7HippLpwLQXp1xCdQllUEbbicwbMHGSiGR0Ld+DQ6M5JNxXnkBGY8Fhg6EJRn7PJEcQ0jzOzNADq7JYmYdFAse6p/LJGodQqLR+aank/vmiijY/KAXo2AnFwvRxw==
+Received: from PS2PR01MB2519.apcprd01.prod.exchangelabs.com
+ (2603:1096:300:34::15) by PSBPR01MB3717.apcprd01.prod.exchangelabs.com
+ (2603:1096:301:b::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6298.25; Mon, 10 Apr
+ 2023 10:57:25 +0000
+Received: from PS2PR01MB2519.apcprd01.prod.exchangelabs.com
+ ([fe80::cd37:b844:ee42:f051]) by PS2PR01MB2519.apcprd01.prod.exchangelabs.com
+ ([fe80::cd37:b844:ee42:f051%6]) with mapi id 15.20.6298.021; Mon, 10 Apr 2023
+ 10:57:25 +0000
+From: Julianna Smith <Julianna.Smith008@hotmail.com>
+Subject: Re: Increased Revenue
+Thread-Topic: Increased Revenue
+Thread-Index: AQHZa5sdS/dftTjWP0GgYUdgGM5okg==
+Date: Mon, 10 Apr 2023 10:57:24 +0000
+Message-ID:
+ <PS2PR01MB251938EDDF4000B425A9BEFFA8959@PS2PR01MB2519.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn:
+ [98XyTclD7unT0J64C01mzXWiq7PyGMlOB2ISZ/sURkEclgD+znsQXbEbgoqMPNwY1AFwgRx2rzY=]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PS2PR01MB2519:EE_|PSBPR01MB3717:EE_
+x-ms-office365-filtering-correlation-id: 98913bb7-81fa-43d9-805c-08db39b25e25
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ kXU5S7D++oGTMK12zc9VC2rbI0zCGr2nColHFkFJhSFJXsS9IJhpRu15jLJwfB7JB0NGKhwgCpCqGZHyVXwBigJoWf8NL0/TaxaWk/Ka/pNbpayL3L5a0tHJYiSJRiL/Oeaxg8SIeQIpF5/ou3OV7oZ0rlCSXyNyEy+hMep4RTJovqRqe1cfG5zUE3yPUtNur5Aw1/bK6W6Np97XkHkfeB3YP6vWHovFOGRb9KVwTyW9lfqGkr48s6lFCYXTWSWEADcHOxodTUI/Hp5IiEp9ZiuiskVxqaPwM91Yiar6JhA3UMinI6GoFra4x0zKWUbAQ05Si1UKtsZ6nn2CSpYEAGsyk+0xVhdxMdkOUmVLoNWfy5h0Y16ucn4DIxz8vE9ne3/StMNyzzicq+GRtK/Ta8uLDqRNJOrj7pNOJMGkCLnfvJ0woaGnT/Uonj4ILwTRCdLkaNDWjqQOnMNl93TFi3V3YYfGqTAe55WQNKtCbsGSCY6zSOqjN4CBGSYm1idSMAkv3XVXrTsPVPeQ2QrBx7JvJ1ifegY79EZDdYIk2wn4U0SvdLpbVkzMk5ehDHsAk3Zz6K+6w8PD7yXlJj6YAz3aDP6jSNb0sWX+hINf1cEqYyi1KfdPI2a0yroBl7fu
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?o7CfLriUjIlDvuGCmmsdvipAcwGtc+BCsOTw1YjVxgBqCu3RXlI5u9X220?=
+ =?iso-8859-1?Q?GljhFiizuZlnLrRCbWrhDSX28PBEIOsjrDeFTRv1IX4rp8yTxKoKkZUEZ9?=
+ =?iso-8859-1?Q?f/nz0IeGHcVufFGysGia2K/ldCwwnsA+fUCl1emycKCgcYoGNIafLPZzPG?=
+ =?iso-8859-1?Q?DC8YqTungp/30B73Cx05P1kDsKuRlhzf9gTyddG7KPUhcOPWN5CezPN3s1?=
+ =?iso-8859-1?Q?CW35U2WdGYVKvLa9qrI2SrCqVtEIFvwRGqfvnfrCGSoZq9rGZIJSN6IPrz?=
+ =?iso-8859-1?Q?5DrqVFAjZ82/DRPJCRqKCyATxWZS94lPSbj/8IoueHLnpsJlzLaw5hsltB?=
+ =?iso-8859-1?Q?q4ILr5F62Np0Dk5HB9wxlQF1WMEEtnpU6rhP5KEYYwBpv87Bw3I9NRYM00?=
+ =?iso-8859-1?Q?leQt+VPXKFT8Yd+2uUpdqzY5imt8QG3GWgnD18I/vxCiAHHU4/yNCb61sy?=
+ =?iso-8859-1?Q?tPBIvbn1xwjjgh9fWjJZmlZcEHcxwPnopyFZqzhAIT9T28PGrSiL6PPmPR?=
+ =?iso-8859-1?Q?Epoar15q0A/S0tFdDyQ+jrUOit1NhTtz4KCabkJUqKSFBNdXLIjsgAtrN9?=
+ =?iso-8859-1?Q?IpVtJpmdTn/KxGLNB9S9OnY7QrQDvCX5XUsBY7KewalNCh/x2o12KIyPYK?=
+ =?iso-8859-1?Q?qaTybYwlTh/rvjpnBJEILmgH6i7jVcKYvdOKi0yEtmjJxy133zpiVgbLDE?=
+ =?iso-8859-1?Q?FJ+lIaGIrZA3ds97zJJjnBag/QO+TF5m/uYPP7irX70nDy0TmMS8z4Tk3x?=
+ =?iso-8859-1?Q?yzefSy/9obHu+Iw/PSlciIBG270dYbgPVpH88Tb95SgwiGobwdkdJvK37p?=
+ =?iso-8859-1?Q?70wMxp74ba29dVeEg+94WD9g/ovyWrPPvY8dSwiK/5WRcL+oFZZD3E/QEL?=
+ =?iso-8859-1?Q?2whMzr3MPOZcSUVr2UuWtWbuPaSF+Xk0YddnfYd6uxBS5yaKEvwgShTYyX?=
+ =?iso-8859-1?Q?MO/FPj0Yfekgo0zqpNyMmem8HhOREE2Dl5Q3lVyTRc/JWdA94lxXYJd1QH?=
+ =?iso-8859-1?Q?XWBAaHEzR/hvxsqtI5PXc4jDazs/DO+EB/TLMvJaOpemTpdvfv8HuN8Tvt?=
+ =?iso-8859-1?Q?UHOi5BuBcKiEmQLz/CGsPmzemgxHMvJl1cGq9Ls3PTWrTzYPwD4kQIJ4iM?=
+ =?iso-8859-1?Q?31eosMPlbCt4tolY76oTePxzYbkh8nNqWD3qFEcmMs6b0aVIQqjcBUBSTh?=
+ =?iso-8859-1?Q?bfWnRtU4lI33rV1cN9wfvHNz1QQBK3JQ2DtfOrHe7wWxCKlNXWp40TAdQB?=
+ =?iso-8859-1?Q?TiQmd5FmFIwocuv0owNaXt+xMEWNA/FIcJIU/tWXRpMeLMYg8avbM83dPg?=
+ =?iso-8859-1?Q?zwAnTF3hV7knRc+GAOBshpsmN60TqeN4hkjZUJR+y6gCv20=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PS2PR01MB251938EDDF4000B425A9BEFFA8959PS2PR01MB2519apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-d8e84.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PS2PR01MB2519.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 98913bb7-81fa-43d9-805c-08db39b25e25
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Apr 2023 10:57:24.8935
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PSBPR01MB3717
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I just wanted to check in and see if there was anything
+    I could do to make your website better or if you were pleased with it as
+   it is now. Have you been contemplating any improvements or even [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [julianna.smith008[at]hotmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [julianna.smith008[at]hotmail.com]
+  1.2 MISSING_HEADERS        Missing To: header
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_000_PS2PR01MB251938EDDF4000B425A9BEFFA8959PS2PR01MB2519apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hello, I just wanted to check in and see if there was anything I could do t=
+o make your website better or if you were pleased with it as it is now.
+Have you been contemplating any improvements or even a redesign or reconstr=
+uction? As an extremely skilled web designer, I have produced some very inc=
+redible websites. I offer very competitive prices.
+
+Share your thoughts with me.
+
+Thanks,
+Julianna Smith
+
+For the sake of learning a little bit more about you and your needs, I was =
+wondering if you'd be open to a brief conversation.
+
+--_000_PS2PR01MB251938EDDF4000B425A9BEFFA8959PS2PR01MB2519apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+Hello, I just wanted to check in and see if there was anything I could do t=
+o make your website better or if you were pleased with it as it is now.
+<div class=3D"ContentPasted0">Have you been contemplating any improvements =
+or even a redesign or reconstruction? As an extremely skilled web designer,=
+ I have produced some very incredible websites. I offer very competitive pr=
+ices.</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Share your thoughts with me.</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0 elementToProof">Thanks,</div>
+<div class=3D"ContentPasted0 elementToProof">Julianna Smith</div>
+<div><br class=3D"ContentPasted0">
+</div>
+For the sake of learning a little bit more about you and your needs, I was =
+wondering if you'd be open to a brief conversation.<br>
+</div>
+</body>
+</html>
+
+--_000_PS2PR01MB251938EDDF4000B425A9BEFFA8959PS2PR01MB2519apcp_--

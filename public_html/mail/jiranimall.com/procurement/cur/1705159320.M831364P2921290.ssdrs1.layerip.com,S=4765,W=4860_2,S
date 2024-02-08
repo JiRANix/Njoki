@@ -1,0 +1,95 @@
+Return-Path: <kmwritingpro@gmail.com>
+Delivered-To: procurement@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id 4BVqMZiqomVKkywAvE7qNg
+	(envelope-from <kmwritingpro@gmail.com>)
+	for <procurement@jiranimall.com>; Sat, 13 Jan 2024 15:22:00 +0000
+Return-path: <kmwritingpro@gmail.com>
+Envelope-to: procurement@jiranimall.com
+Delivery-date: Sat, 13 Jan 2024 15:22:00 +0000
+Received: from mail-lf1-f48.google.com ([209.85.167.48]:61901)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <kmwritingpro@gmail.com>)
+	id 1rOfpk-00CHIu-0I
+	for procurement@jiranimall.com;
+	Sat, 13 Jan 2024 15:22:00 +0000
+Received: by mail-lf1-f48.google.com with SMTP id 2adb3069b0e04-50eabd1c701so8957512e87.3
+        for <procurement@jiranimall.com>; Sat, 13 Jan 2024 07:21:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1705159278; x=1705764078; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=QPOtHIzzWGl1PFsnPjBt1aCnZTWFXq6K7M7HvV5MrYs=;
+        b=lGbiMvZCdvt2SoAQt1gy7XF8gMRia4LDRJI1WO3GKSYqdWDYlsKEaisSLj+hr3EIHf
+         ViMYdqhNwhGHsPum0CSuLDTUCmQF28F0Q/vuYjsdwOSI/tzxUotUuNqVS82/yjW4+//B
+         rMRb2FI5+/7f4v1k7C8SbmAU8/hApitoeA3V8Dsy46bxubEa1PnJjIe3t3DByTN9MDvP
+         5BKP0G/PGBn0LJIPcxpQhU/4+HePGXLcTLoVla61/TwO/QfvxlrezN7UowGgrJgXXFxk
+         uLjO5gTT4+3eppx4/eF+W9jhbEBOl8OaIIZYL52UtB2PqKEhAVTCZeNuWn5KspAllpxy
+         0w4Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705159278; x=1705764078;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=QPOtHIzzWGl1PFsnPjBt1aCnZTWFXq6K7M7HvV5MrYs=;
+        b=S7/m0qLEolRbdILtw4f6V17K6Jd93p6wxppwdN7Yn0mGDmsNuo58Dy86W428uS5/Wv
+         Y4uaKQpdYgefmqtYvSqjUyS+CLqDFPXjFnu0fChZy0GNq57xKUeHH5IExiNy/iKl3+5i
+         xz5LsGdkJ7R6anvoyfnbDp4D3uudbDGJbqHpYWCWzJPwGuQh7KZDhvJZRLMprq9G1SFg
+         Er+YIc0buXIps5oOqv+TQjf3tS9geQba2D5ArauGZGPepg4OJ5w3m2nZPwcemD4JuZwP
+         PNnV60pRuCmQVxUf33vhHLigwREmGwsAjPeWG4uFmvZsCdMp8sA7W1jEhQS6gYryclnv
+         e3jg==
+X-Gm-Message-State: AOJu0YxKYGAi2Hl8J/ckNF7EpoXrxoWPPxeEGBTMfrCZ736WdTpSkI16
+	pdRt4XqYxJosG+ZSJE48WX8YwqXqzWS9euUakRC0dsz8
+X-Google-Smtp-Source: AGHT+IEtOSuulqJl1HNamEvYRawJ9T2yLGx/a9D+9fWoaVse54w8Xzp/3aMKZ3vC90xQNUvpLOLI3azi9XHghEhl1RE=
+X-Received: by 2002:a05:6512:2305:b0:50e:db50:3b84 with SMTP id
+ o5-20020a056512230500b0050edb503b84mr1812887lfu.100.1705159277693; Sat, 13
+ Jan 2024 07:21:17 -0800 (PST)
+MIME-Version: 1.0
+From: Writing Pro <kmwritingpro@gmail.com>
+Date: Sat, 13 Jan 2024 18:21:06 +0300
+Message-ID: <CACHQ=f1drjjjsV3kHCYjp1vf2=bvRJSyUEsofMKC_DZuLLfckQ@mail.gmail.com>
+Subject: Test
+To: procurement@jiranimall.com
+Content-Type: multipart/alternative; boundary="0000000000000851cc060ed555b5"
+X-Spam-Status: No, score=3.3
+X-Spam-Score: 33
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Test Test 
+ Content analysis details:   (3.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [kmwritingpro[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.5 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+--0000000000000851cc060ed555b5
+Content-Type: text/plain; charset="UTF-8"
+
+Test
+
+--0000000000000851cc060ed555b5
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">Test</div>
+
+--0000000000000851cc060ed555b5--

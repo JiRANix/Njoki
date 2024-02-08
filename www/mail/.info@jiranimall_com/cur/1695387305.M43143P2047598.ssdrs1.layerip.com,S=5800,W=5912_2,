@@ -1,0 +1,112 @@
+Return-Path: <postman@livemailservice.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id iG3rAKmODWVuPh8AvE7qNg
+	(envelope-from <postman@livemailservice.com>)
+	for <info@jiranimall.com>; Fri, 22 Sep 2023 12:55:05 +0000
+Return-path: <postman@livemailservice.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Fri, 22 Sep 2023 12:55:05 +0000
+Received: from tsmtp-8.livemailservice.com ([162.215.231.100]:44413 helo=tsmtp-7.livemailservice.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <postman@livemailservice.com>)
+	id 1qjfgd-008f4q-3D
+	for info@jiranimall.com;
+	Fri, 22 Sep 2023 12:55:04 +0000
+Received: from tmail.livemailservice.com (tmail.livemailservice.com [162.215.231.88])
+	by tsmtp-1.livemailservice.com (Postfix) with ESMTP id D37E8345B7C
+	for <info@jiranimall.com>; Fri, 22 Sep 2023 12:54:18 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=livemailservice.com;
+	s=LVMAIL; t=1695387258;
+	bh=+cSTa0WAQ0D/k/h3MsERCb/2FM78+gy9qfLTJTLNzWo=;
+	h=Date:From:To:Subject;
+	b=oUyg/Nq1hkxNMKsC4Y1DQFlP2aew4TqCgRhgYkGJfObwr1Kb8ILjxpmCNaoe2iXIa
+	 OiQ40/GSahzSPdjip5q/FtdjkQk9KPHpcZeB7TWZKwwOp7gfRWI2qvElA++JCnvy7c
+	 F86wKdm9oQ9w56j2XPEVTcBMzMZ5S0e3TeXeTiQ0=
+Date: Fri, 22 Sep 2023 12:54:18 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=livemailservice.com;
+	s=LVMAIL; t=1695387258;
+	bh=+cSTa0WAQ0D/k/h3MsERCb/2FM78+gy9qfLTJTLNzWo=;
+	h=Date:From:To:Subject:From;
+	b=WEkkaLxXYaUXjSPxv713W37dpesUjlHVM3jeetyLa5KyvM9PbnAY2kk0rUtVItNdp
+	 UUrIg1z3Q9zft8nGWUebHg2NPmGLGq0mTaE5mtX5r50IiDatCbBEr4ghFYG+E43Rlp
+	 Rni4f023pztik7p9SgdLhlNP++Q2FnnsUj7yprQo=
+From: Do Not Reply <do_not_reply@myorderbox.com>
+To: info@jiranimall.com
+Subject: Change of Registrant request for jiraniacademy.com - Completed
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Change of Registrant request for jiraniacademy.com - Completed
+    Dear Registrant, The registrant information for jiraniacademy.com has been
+    updated successfully per the change request given below: 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: livemailservice.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+<html>
+<head>
+    <meta http-equiv='Content-Language' content='en-us'> <meta http-equiv='Content-Type' content='text/html; charset=windows-1252'> 
+    <title>Change of Registrant request for jiraniacademy.com - Completed</title>
+</head>
+<body>
+  <p><font face="Verdana" size="2"> Dear Registrant,</font></p>
+  <p><font face="Verdana" size="2"> The registrant information for jiraniacademy.com has been updated successfully per the change request given below: </font></p>
+
+  <p><font face='Verdana' size='2'> <b>Change Request:</b></p>
+  <p><font face='Verdana' size='2'>
+    <b>Current/New Registrant-</b> <br>
+    <b>Name:</b> JiRANi MALL Ltd <br>
+    <b>Company:</b> JiRANi MaLL Ltd <br>
+    <b>Email:</b> matthewnjoki@gmail.com <br>
+  </p>
+  <p><font face='Verdana' size='2'>
+    <b>Previous/Old Registrant-</b> <br>
+    <b>Name:</b> JiRANi MALL Ltd <br>
+    <b>Company:</b> JiRANi MaLL Ltd <br>
+    <b>Email:</b> info@jiranimall.com <br>
+  </p>
+
+  <p><font face='Verdana' size='2'>
+    The new registrant listed above is now the current owner (Registered Name Holder) of this domain.
+  </font></p>
+  
+  <p><font face='Verdana' size='2'>
+    Please note that the domain has now entered a 60 day transfer lock. During this period, the domain cannot be transferred to another Registrar.
+  </font></p>
+  
+
+  
+<br>
+<br>
+<p><font face='Verdana' size='2'>If there are any questions regarding the Change of Registrant process, please contact our Support Team.</p></font>
+<p><b>Support</b><br>For any support with respect to your relationship with us you can always contact us directly using the following Information.<br><br><i>Technical Support</i>:<br>Email Address: <a href="mailto:info@kenyawebexperts.co.ke">info@kenyawebexperts.co.ke</a><br><br><i>Sales Contact</i>:<br>Email Address: <a href="mailto:info@kenyawebexperts.co.ke">info@kenyawebexperts.co.ke</a><br>Tel No.: +254.722209414<br><br><i>Billing Contact</i>:<br>Email Address: <a href="mailto:info@kenyawebexperts.co.ke">info@kenyawebexperts.co.ke</a><br>Tel No.: +254.722209414<br> </p>
+</body>
+</html>

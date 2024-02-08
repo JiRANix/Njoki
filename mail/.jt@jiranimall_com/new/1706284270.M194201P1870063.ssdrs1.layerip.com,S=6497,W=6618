@@ -1,0 +1,121 @@
+Return-Path: <karenlinkedin49@gmail.com>
+Delivered-To: jt@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id uGlhCe7Us2XviBwAvE7qNg
+	(envelope-from <karenlinkedin49@gmail.com>)
+	for <jt@jiranimall.com>; Fri, 26 Jan 2024 15:51:10 +0000
+Return-path: <karenlinkedin49@gmail.com>
+Envelope-to: jt@jiranimall.com
+Delivery-date: Fri, 26 Jan 2024 15:51:10 +0000
+Received: from mail-lj1-f194.google.com ([209.85.208.194]:44237)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <karenlinkedin49@gmail.com>)
+	id 1rTOU3-007slP-2v
+	for jt@jiranimall.com;
+	Fri, 26 Jan 2024 15:51:10 +0000
+Received: by mail-lj1-f194.google.com with SMTP id 38308e7fff4ca-2cf2a381b86so10394141fa.0
+        for <jt@jiranimall.com>; Fri, 26 Jan 2024 07:50:48 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1706284227; x=1706889027; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=7pvT0Oq8k7vUc8Lx4F806wR6by6DyqL6w3BzNHdUksM=;
+        b=burFh43dhgcWLBjl7CA23Q4z2O0Fn9I9NAVxzfBPowNdGNEhSZm2WcUdTJ3kQ4sNAJ
+         oDbdBPU65Hw9G+SIAzK5f2yPw7pqBtnmmvGj/6ZRjaQ6swFrk7cQJl4p6uVLNe0I6T4o
+         6SV3xmB45zM/7hz+cSE6THdUteqeJy/CTbfnMh4CS4B9cTytXx6Pq1jh10vAXEg5/D9o
+         Av9rzuJqea/bgVF7gJIxjER5owaSX1PhL+FkGIuk/r7xiOnZFTbkb9iKcM5wKGS4+A4I
+         MtFUPPqFNljWUSsqPGe7ItJLdagXwWJkKBc0pmodrVt1JHPZBF08WV5WuRjvaTrR7b2i
+         3bzg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706284227; x=1706889027;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=7pvT0Oq8k7vUc8Lx4F806wR6by6DyqL6w3BzNHdUksM=;
+        b=tyYE88zk7NvMpQFw70J77d+nCCmzat8cmk4bHU1KqyaYV3B8HbmlswgaF9H/qeDutj
+         dctR+fqH9jzKtq09x+Ihb4MX1X7FncMfXmU7Z48icyLKBddQEXcukhI/gFBpNxdzOX4c
+         XcbB4puP6w+fZfkeN5kvK8HE4ThIguDTaChijqH/aOXWScN+qc6wmk8k4bHTsOWwoGEr
+         MeELWhXxckTTFks0qQ+oVotFu0yK29UHhjyJ7Sl7DAIgvuBDRnrGlaRKugO5IugHMbka
+         TItUAZHejE6gSeYu191TaLFoV6Bv09goZtNiVj731HwyE2araQxqRAHJyoANW4nRcfZJ
+         96ng==
+X-Gm-Message-State: AOJu0YyOiSlzvia37nOWpsExFo5KmCbAg9zRaDB0Tu5ximsbjWkSTV2r
+	HVr3FcBzA9Rxgxy1+rTSdXvl41vdPeW3u5N/YCnmtD0bf8dakaRtmKR3VtPAyeHBrbTfrBH2Woy
+	7j/YXQBKXdIidfZQ1SH7RIOblMyU=
+X-Google-Smtp-Source: AGHT+IFsjwo1Uuq09EeKPVXyXhVwuTwZjL19+JuXgDO6GfwvQrZVDBWSrv7iWXJvjxZGLhexf4kY7Iat+mVYXgfRpPg=
+X-Received: by 2002:a2e:8054:0:b0:2cf:3ce:f13b with SMTP id
+ p20-20020a2e8054000000b002cf03cef13bmr916140ljg.84.1706284226925; Fri, 26 Jan
+ 2024 07:50:26 -0800 (PST)
+MIME-Version: 1.0
+From: Pro-Immigration Staffing USA <usacareer.pro@gmail.com>
+Date: Fri, 26 Jan 2024 03:50:20 -1200
+Message-ID: <CADnaDk+O96bWE-GG7LMLh-6RNyRB+38g6iGgGfY6cpNMBLC-pw@mail.gmail.com>
+Subject: WE ARE INTERESTED IN YOUR EXPERIENCE AND SERVICES.
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="0000000000003b58f0060fdb41d5"
+Bcc: jt@jiranimall.com
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Our company is interested in your experience and services,
+    as shown on your social media profile, from where I got your email address.
+    We thought you might be interested in the proposal we have [...] 
+ Content analysis details:   (0.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [karenlinkedin49[at]gmail.com]
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [karenlinkedin49[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--0000000000003b58f0060fdb41d5
+Content-Type: text/plain; charset="UTF-8"
+
+Hello, Our company is interested in your experience and services, as shown
+on your social media profile, from where I got your email address. We
+thought you might be interested in the proposal we have for you. I
+anticipate your prompt response to this email so I can unveil the details.
+We intend to establish a lasting collaboration with you, and your swift
+response is highly required.
+
+
+*Sincerely,Ashley Rhodes,Freelancer / Consultant / Recruiter.*
+*Pro-immigration group of companies*
+
+--0000000000003b58f0060fdb41d5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smart=
+mail=3D"gmail_signature"><div dir=3D"ltr"><div style=3D"color:rgb(34,34,34)=
+"><font face=3D"verdana, sans-serif"><font color=3D"#a64d79">Hello, Our com=
+pany is interested in your experience and services, as shown on your social=
+ media profile, from where I got your email address. We thought you might b=
+e interested in the proposal we have for you. I anticipate your prompt resp=
+onse to this email so I can unveil the details. We intend to establish a la=
+sting collaboration with you, and your swift response is highly required.<b=
+r></font><b>Sincerely,<br>Ashley Rhodes,<br>Freelancer / Consultant / Recru=
+iter.</b><br></font></div><div style=3D"color:rgb(34,34,34)"><font face=3D"=
+verdana, sans-serif"><b>Pro-immigration group of companies</b></font></div>=
+</div></div></div></div>
+
+--0000000000003b58f0060fdb41d5--

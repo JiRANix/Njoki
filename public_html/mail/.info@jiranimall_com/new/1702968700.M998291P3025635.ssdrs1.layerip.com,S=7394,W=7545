@@ -1,0 +1,151 @@
+Return-Path: <harisingh65664@gmail.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id +KiDOnw9gWXjKi4AvE7qNg
+	(envelope-from <harisingh65664@gmail.com>)
+	for <info@jiranimall.com>; Tue, 19 Dec 2023 06:51:40 +0000
+Return-path: <harisingh65664@gmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Tue, 19 Dec 2023 06:51:40 +0000
+Received: from mail-ej1-f48.google.com ([209.85.218.48]:51275)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <harisingh65664@gmail.com>)
+	id 1rFTx7-00Cjkp-01
+	for info@jiranimall.com;
+	Tue, 19 Dec 2023 06:51:40 +0000
+Received: by mail-ej1-f48.google.com with SMTP id a640c23a62f3a-a235500d0e1so247996366b.2
+        for <info@jiranimall.com>; Mon, 18 Dec 2023 22:51:19 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1702968658; x=1703573458; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=z4lHw2MphyIzm6bF8vDDdZOurPltVMeTVGEJ1qFsWcU=;
+        b=YgvTJCtEMXddSGi/bUEpXPUca6aHz+93PutrhLXAd3ISsQTVDs/44W+4XMMPaxTz0O
+         zTI4STnSpdCgkG+kwkzbVoj4ZW4PwLQqXgtb6TYaZp2GpbxErHpDznhMhu7ybIYpyn1k
+         YD1RbhlC4p21Hef7wnwvV/YfPInI97hNcCw3IQZmx9tB7OcZl+tEgTKRKnZaeQX+MFMT
+         EANfFSPnhmPwc2HOO0Dnoa3gO7hwfDtXy3NU9OB7EV8cCxp3m2VXIivRI8VRQf3Q+7M/
+         ifLudn6XezgJN6XJRUdNLc41opl1dbwdzT1qDDvwb9bmYJ8Omd9LkZW+A6xGwROYRZxr
+         hOdg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702968658; x=1703573458;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=z4lHw2MphyIzm6bF8vDDdZOurPltVMeTVGEJ1qFsWcU=;
+        b=DY68tG9MddfjjDJvucIQekxwz0EInRBjv26WlFejB+TNYtd6EpONe9DWPdcOc8Zlf9
+         X2G0hXmex3Wue5bTqXfz2DOyJ7N8JRnywyWBpvXNK56OkXATSZnVivMKQfP2+LuoyqWJ
+         18gwW5MZU3RuzFM+JIu5qTfVGsWhkM3X4Y3GYBW9SRm8gPeGRfVOJR1YjXPXp6IBKhgI
+         jrfyYw1qtx3LBydYYHYi6I2emLdl+DpZbt1oqqJ11Mf9rX7/Jr5KxXik2aqpX9l4SeJ4
+         s397Z0qUuSb4jARVcJeIASlBmE+02ivKksY77aQRWA7Vy3xi1SWFvyEVdOGwjZra//ah
+         wd0A==
+X-Gm-Message-State: AOJu0YzXNK3NwGvvH5UdIIx/atJIVP6NzmIoU34frRi2k15wEJSS5ar0
+	cWichRooXL6Mn599K8Em42EfW1MfjUAnQWa1wwx5mcuf
+X-Google-Smtp-Source: AGHT+IFzjee1O/wCDxs1T1W3iNKjpr03ix2Bdaam8u8LFuwChafay8obSwFgHoa7rG7jd4zPyprVUDH/FbjRPLiutxI=
+X-Received: by 2002:a17:906:a85a:b0:a23:5974:3cb2 with SMTP id
+ dx26-20020a170906a85a00b00a2359743cb2mr1511736ejb.116.1702968658392; Mon, 18
+ Dec 2023 22:50:58 -0800 (PST)
+Received: from 1008170693301 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 19 Dec 2023 06:50:57 +0000
+MIME-Version: 1.0
+From: Hari <harisingh65664@gmail.com>
+Date: Tue, 19 Dec 2023 06:50:57 +0000
+Message-ID: <CAJJd_AG8poEMXaxnky9+0CiyZghNQ+=5mVUfPXFb1HQj+iQSnw@mail.gmail.com>
+Subject: info@jiranimall.com
+To: info@jiranimall.com
+Content-Type: multipart/alternative; boundary="000000000000f27d49060cd749bd"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I found your detail on *Google.com* and I have looked
+   at your website and realize your website is great design but your website
+   ranking not good all search engine Google. Do you want more targeted visitors
+    on your website? 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [harisingh65664[at]gmail.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [harisingh65664[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000f27d49060cd749bd
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+I found your detail on *Google.com* and I have looked at your website and
+realize your website is great design but your website ranking not good all
+search engine Google.
+
+Do you want more targeted visitors on your website?
+
+We can place your website on Google's 1st page.
+
+*May I send you quote? If interested.*
+
+Regards,
+*Hari*
+
+--000000000000f27d49060cd749bd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:13.5pt;line-=
+height:115%;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#10253f=
+;background:white">Hi,<br>
+<br>
+I found your detail on</span><b><span lang=3D"EN-GB" style=3D"font-size:13.=
+5pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;c=
+olor:#10253f;background:white">=C2=A0</span></b><b><span lang=3D"EN-GB" sty=
+le=3D"font-size:13.5pt;line-height:115%;font-family:&quot;Cambria&quot;,&qu=
+ot;serif&quot;;color:#10253f;background:white">Google.com</span></b><span l=
+ang=3D"EN-GB" style=3D"font-size:13.5pt;line-height:115%;font-family:&quot;=
+Cambria&quot;,&quot;serif&quot;;color:#10253f;background:white">=C2=A0and I=
+ have looked at
+your website and realize your website is great design but your website rank=
+ing
+not good all search engine Google.<br>
+<br>
+Do you want more targeted visitors on your website?<br>
+<br>
+We can place your website on Google&#39;s 1st page.<br>
+<br>
+</span><b style=3D"mso-bidi-font-weight:normal"><span lang=3D"EN-GB" style=
+=3D"font-size:13.5pt;line-height:115%;font-family:&quot;Cambria&quot;,&quot=
+;serif&quot;;background:yellow">May I send you quote? If interested.</span>=
+</b><span lang=3D"EN-GB" style=3D"font-size:13.5pt;line-height:115%;font-fa=
+mily:&quot;Cambria&quot;,&quot;serif&quot;;color:#244061;background:white">=
+<br>
+<br>
+</span><span lang=3D"EN-GB" style=3D"font-size:13.5pt;line-height:115%;font=
+-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#10253f;background:whit=
+e">Regards,</span><span lang=3D"EN-US" style=3D"font-family:&quot;Arial&quo=
+t;,&quot;sans-serif&quot;;color:#10253f"><br>
+</span><b><span lang=3D"EN-GB" style=3D"font-size:13.5pt;line-height:115%;f=
+ont-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#10253f;background:w=
+hite">Hari</span></b><span lang=3D"EN-US" style=3D"font-family:&quot;Bookma=
+n Old Style&quot;,&quot;serif&quot;;color:#222222;background:white"></span>=
+</p><br>
+
+
+--000000000000f27d49060cd749bd--

@@ -1,0 +1,257 @@
+Return-Path: <info@kenyawebexperts.co.ke>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id cD8nKYLvDGV3tBMAvE7qNg
+	(envelope-from <info@kenyawebexperts.co.ke>)
+	for <info@jiranimall.com>; Fri, 22 Sep 2023 01:36:02 +0000
+Return-path: <info@kenyawebexperts.co.ke>
+Envelope-to: info@jiranimall.com
+Delivery-date: Fri, 22 Sep 2023 01:36:02 +0000
+Received: from dal015.relay.arandomserver.com ([198.252.100.80]:50543)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <info@kenyawebexperts.co.ke>)
+	id 1qjV5U-005Q2p-1Z
+	for info@jiranimall.com;
+	Fri, 22 Sep 2023 01:36:02 +0000
+Received: from dal-sd203.hawkhost.com ([198.252.105.13])
+	by se001.arandomserver.com with esmtps (TLSv1.2:AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <info@kenyawebexperts.co.ke>)
+	id 1qjV4d-0004Df-I8; Thu, 21 Sep 2023 20:35:17 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=kenyawebexperts.co.ke; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Subject:Reply-To:Cc:From:To:Date:Sender:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=fyr6UAu99CAhfikJ9Mq4xZqKemge8CEGe5ipMI+HSLc=; b=d554QcU9vtCXe3/WXlIiXVKPS6
+	wQhlsI11aZwUy4UTOYej2AZnAc1ad9kSrH66HqsETP6845L0U9Fja5unnasG5VC+8B1HVKduD9bX5
+	GpMXyToRxWGR1ioBSzsuoHd/OwpHw9h4OmWviSR4QZgJnKTb17e1nTelW/i0A2yEIL6QIS2dZqqpU
+	ppIcjEMLFGmAjJ+MU2BlGB+uP1sF8jfheARl4M39/rLyzYE25MQ+wEtmNy19K4GIWZtEWOeGPJcgZ
+	QoIFn4Yl7A87brWAeHN1B6GcWs3wDYIYkA/IWAwG2JlZC+3D15fztlNlFYImws5rTA1GsPgvTTDat
+	LCp6LOrA==;
+Received: from prosper.kenyawebexperts.co.ke ([162.214.68.210]:33828)
+	by dal-sd203.hawkhost.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <info@kenyawebexperts.co.ke>)
+	id 1qjV4d-0095ZJ-2X;
+	Thu, 21 Sep 2023 20:35:15 -0500
+Date: Fri, 22 Sep 2023 01:35:13 +0000
+To: "JiRANi MALL Ltd (JiRANi MaLL Ltd)" <info@jiranimall.com>
+From: Kenya Website Experts Ltd <info@kenyawebexperts.co.ke>
+Cc: matthewnjoki@gmail.com
+Reply-To: Kenya Website Experts Ltd <info@kenyawebexperts.co.ke>
+Subject: URGENT ACTION REQUIRED -  jiraniacademy.com is pending email verification
+Message-ID: <aBgIKMfqFzytUz6Ix9yepoHVctqPwKrN4JMwqMpmE@prosper.kenyawebexperts.co.ke>
+X-Mailer: Kenya Website Experts Ltd
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_aBgIKMfqFzytUz6Ix9yepoHVctqPwKrN4JMwqMpmE"
+Content-Transfer-Encoding: 8bit
+X-Get-Message-Sender-Via: dal-sd203.hawkhost.com: authenticated_id: info@kenyawebexperts.co.ke
+X-Authenticated-Sender: dal-sd203.hawkhost.com: info@kenyawebexperts.co.ke
+X-Originating-IP: 198.252.105.13
+X-SpamExperts-Domain: dal-sd203.hawkhost.com
+X-SpamExperts-Username: 198.252.105.13
+Authentication-Results: arandomserver.com; auth=pass smtp.auth=198.252.105.13@dal-sd203.hawkhost.com
+X-SpamExperts-Outgoing-Class: unsure
+X-SpamExperts-Outgoing-Evidence: Combined (0.35)
+X-Recommended-Action: accept
+X-Filter-ID: Pt3MvcO5N4iKaDQ5O6lkdGlMVN6RH8bjRMzItlySaT/w4nuyU2D1daN3OwUJ6L//PUtbdvnXkggZ
+ 3YnVId/Y5jcf0yeVQAvfjHznO7+bT5xu4Hag3AK8hHZwaHgva6mIzZxrSybQmRyIsXpsx7Zi2Taf
+ 4aH+UHKOaHd8HrYrF+AM3ApbxRpgnQJfq3j1nVPGdZShIpARSxHyPIWt9koY/HiaS8Y2jxxNQPzs
+ mflfncQFBnCAC9CoW+AhcJNxZXPqwFl4W9sip0rsitCJmgCwO0aKjJHU18hyQ9KpiOC2ctCnf0eF
+ bImqzkbMffWZV1Of3zELnx/y7UeFfJNGrjEAGwxZkpv1BZXvPM8i3cUV6vQcnj95DBfxzNqou21w
+ ZgZ/EcpL0mLpbSEWvtYz7WRBt4V7pJMu250QbHsol0ejZ4BSnIMUE6nUhN3MZT+u7LLmcZ9mt5Ou
+ sKh0EZHR651H9F7g1VtUQFT/xO/1GMvU/K5gIhC9q1qqQztZ7oATt2KHJnDooz4I70tMgA+Wbm4t
+ IWAFOUVebmMcNDN/NuEAG67j2b+Re0cxkt6FXLY4mW3aPd0rEuGjFyZoidhtHm+WoQBvlQCW+hMc
+ cJLx6gLiXwsTfetFYTg/5t9JhLKFbgjHFsCJuVlVkChAavMv6VkLdtjlDHh8k6TTdHl8m1/8O/+B
+ J3GMOLWW0/7Cm295vYiNpRkyxMWmymD4NPWFM5kqiEFd7dGiKIr/E1Apjuifk0YAghWDyoVvbkXL
+ qJY+wuL//UglsleWEXSND8q4RHjR8F6r18mmafBcjSRB2+9HmMEZIYIVMGNThK1AVbUmBQ5VAGyZ
+ HboyEI52u+iOVcBEEnO39+JQ6QnlVAJdXgYeQPGuz4i105d9NkcmGUBROA1aQFaSOyxrJmG8voC3
+ a4MxJYKpWC9ZFRPjpqouOoXRdZgPQXo7yt+ra9Zc/5eVHNZb3PIrWHVJH7sA6/0j81qQ/50XJ29G
+ gyQHpaJlxNjdXSV+pvlHhV6a5QjptwQBGybQ3238xnN+8A6fcLSrtEg0/CBtbsfkfxClWwWQ44Tc
+ o6aa+anfMih24Ekqksg8DPSITgdH0ECPFSAkW0usxjYJpEMk5OCiU5H+OjvhLrb+TJI4WdBEuKPf
+ 1qOcy/dX29mOcdlEQ8d1lvC1CuVlQ6k8+vY4ocfmWv3Fe9Iziczdq+A=
+X-Report-Abuse-To: spam@se001.arandomserver.com
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear JiRANi MALL Ltd (JiRANi MaLL Ltd), The contact email
+    address for your domain, jiraniacademy.com, is pending verification. An email
+    was sent to info@jiranimall.com with the subject "IMPORTANT! Verify your
+   contact information for jiraniacademy.com", if the link within this email
+   is not clicked on by 05/10/2023, your domain [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: jiraniacademy.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_aBgIKMfqFzytUz6Ix9yepoHVctqPwKrN4JMwqMpmE
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Dear JiRANi MALL Ltd (JiRANi MaLL Ltd),
+
+The contact email address for your domain, jiraniacademy.com, is pending verification. 
+
+An email was sent to info@jiranimall.com with the subject "IMPORTANT! Verify your contact information for jiraniacademy.com", if the link within this email is not clicked on by 05/10/2023, your domain will be suspended. 
+
+If this email address is incorrect, please login to our customer portal at https://kenyawebexperts.co.ke and update your domain contact email address.
+
+Thank you,
+
+Best Regards,
+
+Kenya Website Experts Ltd
+Accredited & Licensed in;
+Kenya . Rwanda . Nigeria . South Africa
++254 722 209 414 | +250 785 062 904
++ 27 110 835 462 | +1 469 638 3248
+International Hse, 4th Floor, Nairobi, KE.
+Email: info@kenyawebexperts.co.ke
+Website: www.kenyawebexperts.co.ke
+
+--b1_aBgIKMfqFzytUz6Ix9yepoHVctqPwKrN4JMwqMpmE
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html xmlns=3D"http://www.=
+w3.org/1999/xhtml">=0A    <head>=0A        <meta http-equiv=3D"Content-Type=
+" content=3D"text/html; charset=3Dutf-8" />=0A        <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width, initial-scale=3D1, maximum-scale=3D1, u=
+ser-scalable=3Dno">=0A        <style type=3D"text/css">=0A            .Exte=
+rnalClass,.ExternalClass div,.ExternalClass font,.ExternalClass p,.External=
+Class span,.ExternalClass td,h1,img{line-height:100%}h1,h2{display:block;fo=
+nt-family:Helvetica;font-style:normal;font-weight:700}#outlook a{padding:0}=
+.ExternalClass,.ReadMsgBody{width:100%}a,blockquote,body,li,p,table,td{-web=
+kit-text-size-adjust:100%;-ms-text-size-adjust:100%}table,td{mso-table-lspa=
+ce:0;mso-table-rspace:0}img{-ms-interpolation-mode:bicubic;border:0;height:=
+auto;outline:0;text-decoration:none}table{border-collapse:collapse!importan=
+t}#bodyCell,#bodyTable,body{height:100%!important;margin:0;padding:0;width:=
+100%!important}#bodyCell{padding:20px;}#templateContainer{width:600px;borde=
+r:1px solid #ddd;background-color:#fff}#bodyTable,body{background-color:#FA=
+FAFA}h1{color:#202020!important;font-size:26px;letter-spacing:normal;text-a=
+lign:left;margin:0 0 10px}h2{color:#404040!important;font-size:20px;line-he=
+ight:100%;letter-spacing:normal;text-align:left;margin:0 0 10px}h3,h4{displ=
+ay:block;font-style:italic;font-weight:400;letter-spacing:normal;text-align=
+:left;margin:0 0 10px;font-family:Helvetica;line-height:100%}h3{color:#6060=
+60!important;font-size:16px}h4{color:grey!important;font-size:14px}.headerC=
+ontent{background-color:#f8f8f8;border-bottom:1px solid #ddd;color:#505050;=
+font-family:Helvetica;font-size:20px;font-weight:700;line-height:100%;text-=
+align:left;vertical-align:middle;padding:0}.bodyContent,.footerContent{font=
+-family:Helvetica;line-height:150%;text-align:left;}.footerContent{text-ali=
+gn:center}.bodyContent pre{padding:15px;background-color:#444;color:#f8f8f8=
+;border:0}.bodyContent pre code{white-space:pre;word-break:normal;word-wrap=
+:normal}.bodyContent table{margin:10px 0;background-color:#fff;border:1px s=
+olid #ddd}.bodyContent table th{padding:4px 10px;background-color:#f8f8f8;b=
+order:1px solid #ddd;font-weight:700;text-align:center}.bodyContent table t=
+d{padding:3px 8px;border:1px solid #ddd}.table-responsive{border:0}.bodyCon=
+tent a{word-break:break-all}.headerContent a .yshortcuts,.headerContent a:l=
+ink,.headerContent a:visited{color:#1f5d8c;font-weight:400;text-decoration:=
+underline}#headerImage{height:auto;max-width:600px;padding:20px}#templateBo=
+dy{background-color:#fff}.bodyContent{color:#505050;font-size:14px;padding:=
+20px}.bodyContent a .yshortcuts,.bodyContent a:link,.bodyContent a:visited{=
+color:#1f5d8c;font-weight:400;text-decoration:underline}.bodyContent a:hove=
+r{text-decoration:none}.bodyContent img{display:inline;height:auto;max-widt=
+h:560px}.footerContent{color:grey;font-size:12px;padding:20px}.footerConten=
+t a .yshortcuts,.footerContent a span,.footerContent a:link,.footerContent =
+a:visited{color:#606060;font-weight:400;text-decoration:underline}@media on=
+ly screen and (max-width:640px){h1,h2,h3,h4{line-height:100%!important}#tem=
+plateContainer{max-width:600px!important;width:100%!important}#templateCont=
+ainer,body{width:100%!important}a,blockquote,body,li,p,table,td{-webkit-tex=
+t-size-adjust:none!important}body{min-width:100%!important}#bodyCell{paddin=
+g:10px!important}h1{font-size:24px!important}h2{font-size:20px!important}h3=
+{font-size:18px!important}h4{font-size:16px!important}#templatePreheader{di=
+splay:none!important}.headerContent{font-size:20px!important;line-height:12=
+5%!important}.footerContent{font-size:14px!important;line-height:115%!impor=
+tant}.footerContent a{display:block!important}.hide-mobile{display:none;}}=
+=0A        </style>=0A    </head>=0A    <body leftmargin=3D"0" marginwidth=
+=3D"0" topmargin=3D"0" marginheight=3D"0" offset=3D"0">=0A        <center>=
+=0A            <table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">=0A           =
+     <tr>=0A                    <td align=3D"center" valign=3D"top" id=3D"b=
+odyCell">=0A                        <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" id=3D"templateContainer">=0A                            <t=
+r>=0A                                <td align=3D"center" valign=3D"top">=
+=0A                                    <table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%" id=3D"templateHeader">=0A               =
+                         <tr>=0A                                           =
+ <td valign=3D"top" class=3D"headerContent">=0A                            =
+                    <a href=3D"https://kenyawebexperts.co.ke">=0A          =
+                                          <img src=3D"https://kenyawebexper=
+ts.co.ke/images/logo.png" style=3D"max-width:600px;padding:20px" id=3D"head=
+erImage" alt=3D"Kenya Website Experts Ltd" />=0A                           =
+                 </td>=0A                                        </tr>=0A  =
+                                  </table>=0A                              =
+  </td>=0A                            </tr>=0A                            <=
+tr>=0A                                <td align=3D"center" valign=3D"top">=
+=0A                                    <table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%" id=3D"templateBody">=0A                 =
+                       <tr>=0A                                            <=
+td valign=3D"top" class=3D"bodyContent">=0A<!-- message header end --><span=
+>Dear=C2=A0JiRANi MALL Ltd (JiRANi MaLL Ltd),<br /><br />The contact email =
+address for your domain, jiraniacademy.com, is pending verification. <br />=
+<br />An email was sent to info@jiranimall.com with the subject "IMPORTANT!=
+ Verify your contact information for jiraniacademy.com", if the link within=
+ this email is not clicked on by 05/10/2023, your domain will be suspended.=
+ <br /><br />If this email address is incorrect, please login to our custom=
+er portal at=C2=A0<span>https://kenyawebexperts.co.ke and update your domai=
+n contact email address.<br /><br /></span>Thank you,<br /><br />Best Regar=
+ds,<br />
+<br />
+Kenya Website Experts Ltd<br />
+Accredited & Licensed in;<br />
+Kenya . Rwanda . Nigeria . South Africa<br />
++254 722 209 414=C2=A0| +250 785 062 904<br />
++ 27 110 835 462 | +1 469 638 3248<br />
+International Hse, 4th Floor, Nairobi, KE.<br />
+Email: info@kenyawebexperts.co.ke<br />
+Website: www.kenyawebexperts.co.ke<br /></span><!-- message footer start --=
+>=0A</td>=0A                                        </tr>=0A               =
+                     </table>=0A                                </td>=0A   =
+                         </tr>=0A                            <tr>=0A       =
+                         <td align=3D"center" valign=3D"top">=0A           =
+                         <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" id=3D"templateFooter">=0A                            =
+            <tr>=0A                                            <td valign=
+=3D"top" class=3D"footerContent">=0A                                       =
+          <a href=3D"https://kenyawebexperts.co.ke">visit our website</a>=
+=0A                                                <span class=3D"hide-mobi=
+le"> | </span>=0A                                                <a href=3D=
+"https://kenyawebexperts.co.ke/">log in to your account</a>=0A             =
+                                   <span class=3D"hide-mobile"> | </span>=
+=0A                                                <a href=3D"https://kenya=
+webexperts.co.ke/submitticket.php">get support</a> <br />=0A               =
+                                 Copyright  Kenya Website Experts Ltd, All =
+rights reserved.=0A                                            </td>=0A    =
+                                    </tr>=0A                               =
+     </table>=0A                                </td>=0A                   =
+         </tr>=0A                        </table>=0A                    </t=
+d>=0A                </tr>=0A            </table>=0A        </center>=0A   =
+ <img src=3D"https://kenyawebexperts.co.ke/index.php?m=3Dlretp&img=3Dlretp_=
+gn_82f5b9a8d32db7d7ab888ab223247594"></body>=0A</html>
+
+--b1_aBgIKMfqFzytUz6Ix9yepoHVctqPwKrN4JMwqMpmE--
+

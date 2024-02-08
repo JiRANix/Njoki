@@ -1,0 +1,12 @@
+[/home/jiranim1/public_html]
+htaccess_list = /home/jiranim1/public_html/jiranim1_jm/resources/.htaccess,/home/jiranim1/public_html/.htaccess
+
+[/home/jiranim1/kinyanjui.jiranimall.com]
+htaccess_list = 
+
+[/home/jiranim1/SERVICES.jiranimall.com]
+htaccess_list = 
+
+[/home/jiranim1/tanks.jiranimall.com]
+htaccess_list = 
+

@@ -1,0 +1,854 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home/jiranim1/tmp/awstats/awstats.jt.jiranimall.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2672                
+POS_VISITOR 17730               
+POS_DAY 18142               
+POS_DOMAIN 3200                
+POS_LOGIN 3447                
+POS_ROBOT 3602                
+POS_WORMS 3734                
+POS_EMAILSENDER 3865                
+POS_EMAILRECEIVER 4008                
+POS_SESSION 18336               
+POS_SIDER 18482               
+POS_FILETYPES 4143                
+POS_DOWNLOADS 4224                
+POS_OS 4272                
+POS_BROWSER 4359                
+POS_SCREENSIZE 4458                
+POS_UNKNOWNREFERER 4532                
+POS_UNKNOWNREFERERBROWSER 5005                
+POS_ORIGIN 5372                
+POS_SEREFERRALS 5502                
+POS_PAGEREFS 5646                
+POS_SEARCHWORDS 5794                
+POS_KEYWORDS 5946                
+POS_MISC 2336                
+POS_ERRORS 6005                
+POS_CLUSTER 3303                
+POS_SIDER_404 6115                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230104173221 1 0 9171693806956
+FirstTime 0
+LastTime 20221229145911
+LastUpdate 20230105121735 1 0 0 0 0
+TotalVisits 9                   
+TotalUnique 9                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 9                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 257
+1 0 0 0 0 0 0
+2 1 1 623 0 0 0
+3 0 0 0 1 1 257
+4 0 0 0 0 0 0
+5 1 1 623 0 0 0
+6 1 1 15414 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 2 2 1246 2 2 514
+10 0 0 0 3 3 257
+11 0 0 0 1 1 257
+12 0 0 0 0 0 0
+13 0 0 0 18 18 257
+14 1 1 623 1 1 257
+15 0 0 0 76 616 6580
+16 0 0 0 0 0 0
+17 0 0 0 1 1 257
+18 1 1 623 6 6 1542
+19 0 0 0 9 9 2056
+20 0 0 0 0 0 0
+21 1 1 15413 0 0 0
+22 0 0 0 0 0 0
+23 1 1 623 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+ca 6 6 3738
+be 2 2 30827
+us 1 1 623
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 9 35188 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+Unknown 8 8
+win10 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome108.0.5359.124 1 1
+mozilla 2 2
+Unknown 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221224213457
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221217094525
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221217094525
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 9
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 49 11051
+404 605 0
+508 5 1440
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 604
+/error.txt 1 -
+/project/.env 1 -
+/fb/ft.txt 1 -
+/brz.txt 1 -
+/rzltcc.txt 1 -
+/logs/bankcomplete.txt 1 -
+/sms1.txt 1 -
+/soli.txt 1 -
+/amfirst.txt 1 -
+/verzoek-id.txt 1 -
+/Spox/Chase_Result/total_login_view.txt 1 -
+/yo.txt 1 -
+/Gerrot2.txt 1 -
+/bekrigocrexd.txt 1 -
+/SunTrustInfo.txt 1 -
+/163.txt 1 -
+/SUre.txt 1 -
+/data/logs/AntiBomb_Vititor.txt 1 -
+/gmail_full_details.txt 1 -
+/logs/o2-logs.txt 1 -
+/infos.txt 1 -
+/hi.txt 1 -
+/zaz.txt 1 -
+/ALLResults.txt 1 -
+/1.php 1 -
+/togang.txt 1 -
+/my_result002.txt 1 -
+/rslt/hwadwa.txt 1 -
+/none.txt 1 -
+/email_login_details.txt 1 -
+/bankcomplete.txt 1 -
+/logs/verizonfulls.txt 1 -
+/mntinfo.txt 1 -
+/logs/RoyalMailUk.txt 1 -
+/JAD.txt 1 -
+/assets/logs/td.txt 1 -
+/chase/admin.php 1 -
+/1ST.txt 1 -
+/instagramlarburda.php 1 -
+/core/.env 1 -
+/mahdex.txt 1 -
+/xxx.txt 1 -
+/COVID-fullz.txt 1 -
+/wp-admin/.env 1 -
+/best.txt 1 -
+/logs/log_visitor.txt 1 -
+/2pnt.txt 1 -
+/XX1.txt 1 -
+/DeniedEmails.txt 1 -
+/rfc2109.txt 1 -
+/mtb.txt 1 -
+/result/total_cc.txt 1 -
+/TTTTXXXXX.txt 1 -
+/suhot.txt 1 -
+/Oreoo_Rzlt_text.txt 1 -
+/zehir4.txt 1 -
+/zalandos.txt 1 -
+/Bot-Detected.txt 1 -
+/CC-sp.txt 1 -
+/chase/home/adminpanel.php 1 -
+/ips.txt 1 -
+/Alaska.txt 1 -
+/dhlcc.txt 1 -
+/resultlist.txt 1 -
+/dox.txt 1 -
+/backupresultsxxxxxxxxxxxxxxxxxxxxxxxxx.txt 1 -
+/cvv.txt 1 -
+/PR1M3.txt 1 -
+/vis.txt 1 -
+/gmail-log.txt 1 -
+/tmobile22.txt 1 -
+/fullInfo.txt 1 -
+/rcn.txt 1 -
+/Office-login.txt 1 -
+/billing.txt 1 -
+/wellsfargo.txt 1 -
+/HijaIyh_App/stats/empass.txt 1 -
+/assets/logs/tsb.txt 1 -
+/quanly.txt 1 -
+/PayPals.txt 1 -
+/key.txt 1 -
+/assets/logs/gg.txt 1 -
+/personal.txt 1 -
+/Emai1.txt 1 -
+/2ip.txt 1 -
+/Hacked.txt 1 -
+/assets/logs/llo.txt 1 -
+/AntiBomb_Vititor.txt 1 -
+/horizon/user.txt 1 -
+/SMS%202.html 1 -
+/DeniedIPS.txt 1 -
+/Zak.txt 1 -
+/vst.txt 1 -
+/boss.txt 1 -
+/broken.txt 1 -
+/ya.txt 1 -
+/lloyds.txt 1 -
+/logs.txt 1 -
+/--sakithayy123321--.txt 1 -
+/Card.txt 1 -
+/abc.txt 1 -
+/royal_Fullz_Ahs9357dsdsdsdssdsdsds610974893.txt 1 -
+/america.txt 1 -
+/xTx1.txt 1 -
+/tisL0g_askj590781032.txt 1 -
+/php/read.php 1 -
+/usernames.txt 1 -
+/record.txt 1 -
+/uses.txt 1 -
+/met.txt 1 -
+/A1R.txt 1 -
+/SMS%201.html 1 -
+/datalog/results.log 1 -
+/logins.txt 1 -
+/tpl.txt 1 -
+/logs/COVID-fullz.txt 1 -
+/endsars.txt 1 -
+/logs/metro.txt 1 -
+/activemail.txt 1 -
+/ee_login_info.txt 1 -
+/account/flacko1.txt 1 -
+/login/ssn.txt 1 -
+/user.txt 1 -
+/AMINES.txt 1 -
+/ARDUINO_DAS_VISIT.txt 1 -
+/yDgregtwteXgfJj56HtyETYty56T.txt 1 -
+/Spox/Chase_Result/total_email_access_view.txt 1 -
+/click.txt 1 -
+/assets/logs/nat.txt 1 -
+/2020.txt 1 -
+/stored.php 1 -
+/blog/.env 1 -
+/myresults.txt 1 -
+/gmail_login_details.txt 1 -
+/assets/logs/amazon.txt 1 -
+/Audience.txt 1 -
+/output.log 1 -
+/sms2.txt 1 -
+/logz/RoyalMail_logs.txt 1 -
+/ccs.txt 1 -
+/email_full_details.txt 1 -
+/tempfile.txt 1 -
+/uservip8.txt 1 -
+/SMS%203.html 1 -
+/app/dox.txt 1 -
+/barclays.txt 1 -
+/Email.txt 1 -
+/HMRC-banks.txt 1 -
+/ID.html 1 -
+/zooka.txt 1 -
+/Flow.txt 1 -
+/login.txt 1 -
+/uzzzers.txt 1 -
+/llo.txt 1 -
+/Toolbox_login/zazz.txt 1 -
+/Dudiix.txt 1 -
+/westeriunios.txt 1 -
+/sms.txt 1 -
+/login/All.txt 1 -
+/HMRC.txt 1 -
+/hrv1.txt 1 -
+/x_login.txt 1 -
+/private/logs.txt 1 -
+/edd.txt 1 -
+/vpn/private/logs.txt 1 -
+/no1.txt 1 -
+/doubleCredit.txt 1 -
+/Login2021/result.txt 1 -
+/office365_details.txt 1 -
+/alone.txt 1 -
+/wp-config.txt 1 -
+/ICD.html 1 -
+/logs/bankofscoland.txt 1 -
+/result_chase.html 1 -
+/shop/.env 1 -
+/noni.txt 1 -
+/san.txt 1 -
+/kon.txt 1 -
+/loqsqsf33333333.txt 1 -
+/yh.txt 1 -
+/CVtyhjy12.txt 1 -
+/logos28.txt 1 -
+/U1.txt 1 -
+/YAHOO.txt 1 -
+/entries.txt 1 -
+/bot_res.txt 1 -
+/ss.txt 1 -
+/vuu.txt 1 -
+/turbotax.txt 1 -
+/logs/COVID-banks.txt 1 -
+/Log3.txt 1 -
+/Wells_result/access2.txt 1 -
+/nfo-login.txt 1 -
+/COVID-banks.txt 1 -
+/hmRc_L0g_au9578927890522.txt 1 -
+/zehir.txt 1 -
+/rough.txt 1 -
+/Maerskswx11.txt 1 -
+/vuxx.txt 1 -
+/logsfullinfossss.txt 1 -
+/loser.txt 1 -
+/cool.txt 1 -
+/sites.txt 1 -
+/sberbank.txt 1 -
+/Spox/Chase_Result/access.txt 1 -
+/post.txt 1 -
+/aAa.txt 1 -
+/yome.txt 1 -
+/bi3.txt 1 -
+/PCFINANCIALResultz.txt 1 -
+/Xfn.txt 1 -
+/cly.txt 1 -
+/KeyloggerData.txt 1 -
+/login_2_.txt 1 -
+/phone.txt 1 -
+/logs/COVID-emails.txt 1 -
+/flacko.txt 1 -
+/darkx/access/bots.txt 1 -
+/assets/logs/banks.txt 1 -
+/v.txt 1 -
+/userz.txt 1 -
+/data/logs/x.csv 1 -
+/ip.txt 1 -
+/35yhrgesccd.txt 1 -
+/MyLogzmail_view.txt 1 -
+/dla7.txt 1 -
+/cardstwo.html 1 -
+/Xeno.txt 1 -
+/xserver.txt 1 -
+/ATBresults.txt 1 -
+/send_billing.php 1 -
+/NETFLIX_LOGIN 1 -
+/new/.env 1 -
+/temfile2.txt 1 -
+/metoll.txt 1 -
+/EE.txt 1 -
+/walog.txt 1 -
+/rzlt1.php 1 -
+/JoCk.txt 1 -
+/result/total_login.txt 1 -
+/files/logs.txt 1 -
+/logs/results.txt 1 -
+/ccfront.txt 1 -
+/tsb3.txt 1 -
+/offc_l0gin_ajr592847921863.txt 1 -
+/mesaje.txt 1 -
+/Result_Panel.php 1 -
+/results.html 1 -
+/XoZoK.txt 1 -
+/assets/logs/bins.txt 1 -
+/alog00.txt 1 -
+/.zip 1 -
+/login-sg.txt 1 -
+/laravel/.env 1 -
+/tt.txt 1 -
+/script/script.txt 1 -
+/scotiabank.txt 1 -
+/lek.txt 1 -
+/coo.txt 1 -
+/uu.txt 1 -
+/wellscc.txt 1 -
+/assets/logs/dvla.txt 1 -
+/3ip.txt 1 -
+/up.txt 1 -
+/schwab_full_info_confirmed.txt 1 -
+/config/res.txt 1 -
+/al3ashira.txt 1 -
+/visitor_logs.txt 1 -
+/logs/COVID.txt 1 -
+/crm/.env 1 -
+/boa-result.txt 1 -
+/AntiBomb_RZT.txt 1 -
+/rezult.txt 1 -
+/secsion.txt 1 -
+/s4dkf5dfgh23t32t434dvdds.html 1 -
+/srv1log.txt 1 -
+/wf.txt 1 -
+/sent.txt 1 -
+/U2.txt 1 -
+/VISITORS.txt 1 -
+/script.txt 1 -
+/FULLZ.html 1 -
+/mariqka.txt 1 -
+/cards.html 1 -
+/O2_logins_withinfoandpersonal.txt 1 -
+/mailaccess.txt 1 -
+/credit_verify.txt 1 -
+/logincheck.txt 1 -
+/papel.txt 1 -
+/verizonfulls.txt 1 -
+/Spox/Chase_Result/total_billing_view.txt 1 -
+/logs/A.txt 1 -
+/reals.txt 1 -
+/xx.txt 1 -
+/ail4347g.txt 1 -
+/id.txt 1 -
+/logs/lloyds.txt 1 -
+/SykRit_RzLt.txt 1 -
+/NBCresults.txt 1 -
+/account.txt 1 -
+/yahooPass.txt 1 -
+/tsb.txt 1 -
+/loqsqsf111111111.txt 1 -
+/RZLT.htm 1 -
+/banks/CIBCresults.txt 1 -
+/test/.env 1 -
+/VUUU.txt 1 -
+/visit.txt 1 -
+/wells.txt 1 -
+/yandex.txt 1 -
+/o2-fullz.txt 1 -
+/Save-Logs.txt 1 -
+/fox.txt 1 -
+/MANULIFEresults.txt 1 -
+/secure/ADMIN-XV3/ID.html 1 -
+/inputinfo.txt 1 -
+/A0L.txt 1 -
+/louising.txt 1 -
+/total_cc.txt 1 -
+/logos.php 1 -
+/z.txt 1 -
+/NETFLIX_LOGIN_CCV 1 -
+/details.txt 1 -
+/banks/DESJARDINSresults.txt 1 -
+/t.gooe.txt 1 -
+/accounts.txt 1 -
+/td.txt 1 -
+/logs/ee_personal_info.txt 1 -
+/ThreeLogins.txt 1 -
+/logins1.txt 1 -
+/accepted.txt 1 -
+/rusynihat95666.txt 1 -
+/xnl.txt 1 -
+/Wells_result/logins2.txt 1 -
+/banks.txt 1 -
+/Rzlt.txt 1 -
+/data-.txt 1 -
+/Binlist.txt 1 -
+/Question.txt 1 -
+/rbs.txt 1 -
+/rekeningnummer.txt 1 -
+/bk1.txt 1 -
+/msqxcodyx.txt 1 -
+/ccv.txt 1 -
+/info/registry.txt 1 -
+/CLB.txt 1 -
+/list.txt 1 -
+/assets/logs/results.txt 1 -
+/REZLT/BILLING.txt 1 -
+/system/checkLogin.txt 1 -
+/chase/adminpanel.php 1 -
+/ee_personal_info.txt 1 -
+/rbcinfo.txt 1 -
+/results.txt 1 -
+/nat1.txt 1 -
+/emailaccess.txt 1 -
+/billings.html 1 -
+/api.txt 1 -
+/MyLogz2_view.txt 1 -
+/g274tf9huecf.txt 1 -
+/assets/logs/fullz.txt 1 -
+/app/.env 1 -
+/XXXaxmexXXX00SREZUxxxsassssssilkklllllxSDSSSVSSS.txt 1 -
+/dongo1002.txt 1 -
+/webmail.txt 1 -
+/westgirl.txt 1 -
+/Trex.txt 1 -
+/Fullz.txt 1 -
+/Vues.txt 1 -
+/visitor.txt 1 -
+/da.txt 1 -
+/strike23.txt 1 -
+/rezlt.txt 1 -
+/NED1.txt 1 -
+/VXT.txt 1 -
+/result.txt 1 -
+/JN8.txt 1 -
+/ssn.txt 1 -
+/production/.env 1 -
+/rezlt.html 1 -
+/resu.txt 1 -
+/halifax.txt 1 -
+/COVID-emails.txt 1 -
+/Visits.txt 1 -
+/rezo.txt 1 -
+/dongol001.txt 1 -
+/log_visitor.txt 1 -
+/penfed.txt 1 -
+/cgi-login/r.txt 1 -
+/chase/rezlt.txt 1 -
+/chz.txt 1 -
+/JaaY2.txt 1 -
+/virus.txt 1 -
+/19837437_notfound.html 1 http://jt.jiranimall.com
+/heoxinh.txt 1 -
+/A7BIL.txt 1 -
+/visitor_logged_in.txt 1 -
+/loginData.txt 1 -
+/TANGERINEresults.txt 1 -
+/jokamer.txt 1 -
+/visitors.txt 1 -
+/All.txt 1 -
+/dvla.txt 1 -
+/2000.txt 1 -
+/questons.txt 1 -
+/local/.env 1 -
+/online/logs/cap.txt 1 -
+/logs/fullz.txt 1 -
+/mlafta.txt 1 -
+/accepted_visitors.txt 1 -
+/teks/magic.txt 1 -
+/R01.txt 1 -
+/ARDUINO_DAS_RZLT.txt 1 -
+/doubleEmailAccess.txt 1 -
+/tkx.html 1 -
+/vbv.txt 1 -
+/INFO.txt 1 -
+/src/.env 1 -
+/home/admin.php 1 -
+/botlogs.txt 1 -
+/admin/.env 1 -
+/step1.txt 1 -
+/REZLT/FULLZ.txt 1 -
+/NETFLIX.txt 1 -
+/formdata.txt 1 -
+/kasha.txt 1 -
+/logger/base/base.txt 1 -
+/userdata.txt 1 -
+/access2.txt 1 -
+/Spox/Chase_Result/total_cc_view.txt 1 -
+/TDResultz.txt 1 -
+/total_click.txt 1 -
+/xzour.txt 1 -
+/app.txt 1 -
+/webconfig.txt 1 -
+/vk.txt 1 -
+/HMRC-fullz.txt 1 -
+/emailList.txt 1 -
+/gas.txt 1 -
+/cmonox.txt 1 -
+/zatt.txt 1 -
+/Corroes_sms.txt 1 -
+/total_bin.txt 1 -
+/rfc7231.txt 1 -
+/api/.env 1 -
+/assets/logs/rbs.txt 1 -
+/phantomkey.txt 1 -
+/ehtgdfh4w3.txt 1 -
+/home/rezlt.txt 1 -
+/w.txt 1 -
+/doubleLogins.txt 1 -
+/total_login_view.txt 1 -
+/total_vbv.txt 1 -
+/flacko1.txt 1 -
+/Log2.txt 1 -
+/hitlar.txt 1 -
+/login/info.txt 1 -
+/beschrijving.txt 1 -
+/assets/logs/part2_banks.txt 1 -
+/now.txt 1 -
+/YOUR-CONFIG.php 1 -
+/tsb1.txt 1 -
+/9al.txt 1 -
+/xREPORT/groupe.txt 1 -
+/info.txt 1 -
+/assets/logs/hsb.txt 1 -
+/ipz.txt 1 -
+/groupe.txt 1 -
+/chase/home/admin.php 1 -
+/htcaccess.txt 1 -
+/LAURENTIANresults.txt 1 -
+/denied_visitors.txt 1 -
+/amex_rez.txt 1 -
+/flacko2.txt 1 -
+/windstream.txt 1 -
+/zatt2.txt 1 -
+/UsedEmails.txt 1 -
+/santander.txt 1 -
+/rnhblock_bot.txt 1 -
+/results.log 1 -
+/logs/cap.txt 1 -
+/block_bot.txt 1 -
+/naam.txt 1 -
+/chase/1.php 1 -
+/ssn.html 1 -
+/2_02.txt 1 -
+/tata.txt 1 -
+/x.txt 1 -
+/result/total_bank.txt 1 -
+/scotia.txt 1 -
+/rfc2045.txt 1 -
+/westernunion.txt 1 -
+/anti/captured.txt 1 -
+/sol.txt 1 -
+/a/KMC.txt 1 -
+/dloff.txt 1 -
+/veyselnew.txt 1 -
+/XXX.txt 1 -
+/rzlts/Login%20details.txt 1 -
+/Fvck.txt 1 -
+/your_mail.txt 1 -
+/CC.txt 1 -
+/fullz_vbv.txt 1 -
+/HMRC-emails.txt 1 -
+/CC+Billing.txt 1 -
+/imd.html 1 -
+/logs/total_bin.txt 1 -
+/file_log.txt 1 -
+/logs/res.txt 1 -
+/mnx.html 1 -
+/rezlts.txt 1 -
+/cnt.txt 1 -
+/cok.txt 1 -
+/putulica.txt 1 -
+/Kvng.txt 1 -
+/MyLogzmail.txt 1 -
+/bedrag.txt 1 -
+/part2_banks.txt 1 -
+/1.txt 1 -
+/system/stored.php 1 -
+/detected_bots.txt 1 -
+/CR3D1TS.txt 1 -
+/x.csv 1 -
+/CC-V.txt 1 -
+/banks1.txt 1 -
+/bekirmail.txt 1 -
+/ardaboom.txt 1 -
+/sgh.txt 1 -
+/logs/o2-fullz.txt 1 -
+/SHAN-TAN.txt 1 -
+/result/total_email.txt 1 -
+/resultat.txt 1 -
+/service.txt 1 -
+/logs/ee_login_info.txt 1 -
+/xNlogz/xnl.txt 1 -
+/metro.txt 1 -
+/assets/logs/apple.txt 1 -
+/yaya.txt 1 -
+/ms.txt 1 -
+/gg.txt 1 -
+/wellsus.txt 1 -
+/emailstwo.html 1 -
+/iklan2.php 1 -
+/result/total_vbv.txt 1 -
+/send/billing.txt 1 -
+/ip.ip 1 -
+/s2.txt 1 -
+/bin_list.txt 1 -
+/test.txt 1 -
+/save.txt 1 -
+/spam.txt 1 -
+/Smaganist.txt 1 -
+/lnv1.txt 1 -
+/16Shop-AMZ-V19.zip 1 -
+/ZK.txt 1 -
+/pt.htm 1 -
+/Amir_vbv.txt 1 -
+/log_N2wja5lYYT.txt 1 -
+/views.txt 1 -
+/VANCITYResults.txt 1 -
+/userPass.txt 1 -
+/SCOTIAresults.txt 1 -
+/total_upload.txt 1 -
+/A.txt 1 -
+/XD.txt 1 -
+/banks/BMOresults.txt 1 -
+/ttt.txt 1 -
+/.env 1 -
+/scamlist.txt 1 -
+/Wells_result/billing.txt 1 -
+/stored.txt 1 -
+/rezulta.php 1 -
+/bot-_-.txt 1 -
+/emails.txt 1 -
+/CIBCresults.txt 1 -
+/total_bank.txt 1 -
+/hunt3.html 1 -
+/126.txt 1 -
+/bin.log 1 -
+/schwab_full_info.txt 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 2 www.google.com
+/rz/emails.html 1 -
+/teks/list.txt 1 -
+/l...s.txt 1 -
+/fb/listuser.txt 1 -
+/RoyalMail_logs.txt 1 -
+/BMOresults.txt 1 -
+/u53r.txt 1 -
+/tsb2.txt 1 -
+/security.txt 1 -
+/Addy.txt 1 -
+/access/login.txt 1 -
+/.rst.htm11 1 -
+/Log1.txt 1 -
+/rslt/logatt.txt 1 -
+/rslt/sms.txt 1 -
+/office.txt 1 -
+/result/total_upload.txt 1 -
+/users.txt 1 -
+/dev/.env 1 -
+/sanoo.txt 1 -
+/visa.txt 1 -
+/rework.txt 1 -
+/DatAcc.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 9
+96.9.249.45 1 1 623 20221229145911
+198.235.24.58 1 1 623 20221217094525
+198.235.24.140 1 1 623 20221207052029
+205.210.31.19 1 1 623 20221217020204
+198.235.24.136 1 1 623 20221209181928
+205.210.31.149 1 1 623 20221210094225
+87.236.176.63 1 1 15413 20221224213457
+87.236.176.165 1 1 15414 20221212062526
+198.235.24.149 1 1 623 20221212233754
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20221207 1 1 623 1
+20221209 1 1 623 1
+20221210 1 1 623 1
+20221212 2 2 16037 2
+20221217 2 2 1246 2
+20221224 1 1 15413 1
+20221229 1 1 623 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 9 35188 9 9
+END_SIDER

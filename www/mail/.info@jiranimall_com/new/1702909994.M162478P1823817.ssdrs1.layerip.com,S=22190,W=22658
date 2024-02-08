@@ -1,0 +1,468 @@
+Return-Path: <export@notification.myswiftcodes.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id UFOzCCpYgGVJ1BsAvE7qNg
+	(envelope-from <export@notification.myswiftcodes.com>)
+	for <info@jiranimall.com>; Mon, 18 Dec 2023 14:33:14 +0000
+Return-path: <export@notification.myswiftcodes.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 18 Dec 2023 14:33:14 +0000
+Received: from mail142.zr4.journeyemail.com ([118.192.64.52]:45528)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <export@notification.myswiftcodes.com>)
+	id 1rFEg6-007lUv-1X
+	for info@jiranimall.com;
+	Mon, 18 Dec 2023 14:33:14 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; 
+	d=notification.myswiftcodes.com; s=easeye2007; t=1702905520; 
+	bh=8zk41qg6TCoKlfcY5o++Iqip7oU=; 
+	h=Date:From:Reply-To:To:Subject:Feedback-ID; 
+	b=I5w0tYPRRbsNBAYt/1VnaX06YZN+eufrS9METJj7hQIHlc7W0BdnJgV85nSFYVrIb 
+	 u0BueDCoBmINncegUbB+tngGw1BrhcdzdmB+FOy8E5Km/PTnbZqTxXlNdcHVXpp4g0 
+	 bP411OtiTswUXgu9ECwDcqIYdSpA/C9EgPcdNETA=
+Date: Mon, 18 Dec 2023 21:18:39 +0800 (CST)
+From: XTransfer <export@notification.myswiftcodes.com>
+Reply-To: tao.yan@xtransfer.cn
+To: info@jiranimall.com
+Subject: How to convert local currency into international currencies and
+ open a free multi-currency account?
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Easeye-ExpirationDate: 2023-12-20 21:18:40
+X-EASEYEUID: N152-GI2TKNRX-GIZTCMRRHAZDCMJYGM4TONZVG43TCNI-JY-FACCE305
+List-Unsubscribe:
+ <mailto:unsub-N152-GI2TKNRX-GIZTCMRRHAZDCMJYGM4TONZVG43TCNI-JY-FACCE305@unsub.email-deliver.com?subject=unsubscribe>
+Feedback-ID: 5:20231218:25567:export@notifica
+Message-Id: <20231218131840.3464F9E0D7A@mail142.zr4.journeyemail.com>
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Now, XTransfer makes your cross-border trade safer and more
+    convenient! Seamlessly and efficiently converting your domestic currency
+   into universally accepted currencies XTransfer holds a Money Service Operator
+    (MSO) license and cooperates with domestic banks to establish a compliant
+    declaration channel for coverting your domestic currency into international
+    currencie [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 T_SPF_TEMPERROR        SPF: test of record failed (temperror)
+  0.1 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.2 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+<html>
+ <head> 
+  <meta charset=3D"UTF-8" /> 
+  <meta http-equiv=3D"X-UA-Co=
+mpatible" content=3D"IE=3Dedge" /> 
+  <meta name=3D"viewport" content=3D"wi=
+dth=3Ddevice-width, initial-scale=3D1=2E0" /> 
+  <title></title> 
+ </head> =
+
+ <body>
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%"> 
+   <tbody> 
+    <tr> 
+     <td align=3D"center" height=3D"44" styl=
+e=3D"border-bottom:1px solid #f1f1f1;"> 
+      <table align=3D"right" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"160"> 
+       <tbody> =
+
+        <tr> 
+         <td> <a href=3D"http://linktrace=2Eeaseyedelivery=
+=2Ecom/EventInterface/mailUnSubscribe/mailSpam=2Easpx?EASEYEOPTOUTID=3DN152=
+-GI2TKNRX-GIZTCMRRHAZDCMJYGM4TONZVG43TCNI-JY-FACCE305&amp;lang=3D1&amp;s=3D=
+V3-3444AE92894594857525489618E9F2C7A3532804" target=3D"_blank"><img border=
+=3D"0" height=3D"44" src=3D"https://service=2Ecampaigndelivery=2Ecn/templat=
+e/images/Images/ReportSpam_1=2Ejpg" /></a></td> 
+         <td> <a href=3D"h=
+ttp://linktrace=2Eeaseyedelivery=2Ecom/EventInterface/mailUnSubscribe/mailU=
+nSubscribe=2Easpx?EASEYEOPTOUTID=3DN152-GI2TKNRX-GIZTCMRRHAZDCMJYGM4TONZVG4=
+3TCNI-JY-FACCE305&amp;lang=3D1&amp;s=3DV3-3444AE92894594857525489618E9F2C7A=
+3532804" target=3D"_blank"><img border=3D"0" height=3D"44" src=3D"https://s=
+ervice=2Ecampaigndelivery=2Ecn/template/images/Images/Unsubscribe_1=2Ejpg" =
+/></a></td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+    </tr=
+> 
+   </tbody> 
+  </table> 
+  <p></p> 
+  <table role=3D"presentation" cellp=
+adding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"
+				border-spacing: 0;
+				border-collapse: collapse;
+				mso-line-height-rule: exactly;
+				mso-margin-bottom-alt: 0;
+				mso-margin-top-alt: 0;
+				mso-table-lspace: 0pt;
+				mso-table-rspace: 0pt;
+				padding: 0;
+				width: 100%;
+				min-width: 600px;
+				background-color: #fff;
+				direction: ltr;
+				font-synthesis: none;
+			"> 
+   <tbody> 
+    <tr> 
+     <td> 
+      <table class=3D"edm-content"=
+ role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"
+								border-spacing: 0;
+								border-collapse: collapse;
+								mso-line-height-rule: exactly;
+								mso-margin-bottom-alt: 0;
+								mso-margin-top-alt: 0;
+								mso-table-lspace: 0pt;
+								mso-table-rspace: 0pt;
+								padding: 0;
+								width: 600px;
+								height: 100%;
+								background-color: #fff;
+								direction: ltr;
+								font-synthesis: none;
+							"> 
+       <tbody> 
+        <tr style=3D"font-family: Arial; paddin=
+g: 0; word-break: break-word"> 
+         <td valign=3D"top" style=3D"border=
+-collapse: collapse; font-family: Arial; word-break: break-word"> 
+        =
+  <div id=3D"TEMPLATE_REPLACEMENT_STRING_ID">
+           <div id=3D"m_21947=
+80793811808872section_1702543311427" class=3D"m_2194780793811808872hse-sect=
+ion" style=3D"line-height: 1=2E5; font-style: normal; font-variant-ligature=
+s: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: nor=
+mal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none;=
+ widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space:=
+ normal; text-decoration-thickness: initial; text-decoration-style: initial=
+; text-decoration-color: initial; color: rgb(35, 73, 109); font-family: Ari=
+al, sans-serif; font-size: 15px; background-color: rgb(234, 240, 246); padd=
+ing-left: 10px; padding-right: 10px; padding-top: 20px;"> 
+            <div=
+ class=3D"m_2194780793811808872hse-column-container" style=3D"line-height: =
+1=2E5; max-width: 600px; min-width: 280px; margin-left: auto; margin-right:=
+ auto; border-collapse: collapse; border-spacing: 0px; background-color: rg=
+b(255, 255, 255); width: 600px !important;"> 
+             <div id=3D"m_219=
+4780793811808872column_1702543311427_0" class=3D"m_2194780793811808872hse-c=
+olumn m_2194780793811808872hse-size-12" style=3D"line-height: 1=2E5; displa=
+y: table-cell; vertical-align: top; max-width: 600px !important; width: 600=
+px !important;"> 
+              <div id=3D"m_2194780793811808872hs_cos_wrap=
+per_module_17025433113981" style=3D"line-height: inherit; color: inherit; f=
+ont-size: inherit;"> 
+               <table style=3D"border-collapse: colla=
+pse; border-spacing: 0px !important;" role=3D"presentation" width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"0"> 
+                <tbody> 
+            =
+     <tr> 
+                  <td class=3D"m_2194780793811808872hs_padded" s=
+tyle=3D"color: rgb(35, 73, 109); margin: 0px; border-collapse: collapse; fo=
+nt-family: Arial, sans-serif; word-break: break-word; text-align: left; pad=
+ding: 10px 20px; font-size: 0px;" align=3D"left" valign=3D"top"><img src=3D=
+"https://ci3=2Egoogleusercontent=2Ecom/meips/ADKq_NZk_zq9D8osO-xmx34DQ7fF2J=
+ddakh-_nGO5FG41GzfIoQBwgmfoGiN33E0VKykUGECz1Va6cwuitGKJ-s_LPkgJmZjubADNt6E2=
+JXHcVK4yCF9pAQTKxWHH6laEMTkdK4k3EwvyN7O3eKZM9PlTmO0AoaqCTjwRci57Yz8ka-8KBT8=
+uNS_q8QD-ZdgnqL7QAR3HCucmMuToN0hwaP0ekN-Sm4Bz9Zc42MP-glzyvUsFkzWPcQKlgzWwg4=
+9Q8CCiEGD9dhrcgvlLZhD4wJWlWhr67QhK6EXrVA=3Ds0-d-e1-ft#https://hs-40103034=
+=2Ef=2Ehubspotfree=2Enet/hub/40103034/hubfs/%E7%94%BB%E6%9D%BF%201%20%E5%89=
+%AF%E6%9C%AC%204@2x=2Epng?width=3D210&amp;upscale=3Dtrue&amp;name=3D%E7%94%=
+BB%E6%9D%BF%201%20%E5%89%AF%E6%9C%AC%204@2x=2Epng" class=3D"CToWUd" width=
+=3D"105" alt=3D"" data-bit=3D"iit" /></td> 
+                 </tr> 
+       =
+         </tbody> 
+               </table> 
+              </div> 
+         =
+    </div> 
+            </div> 
+           </div> 
+           <div id=3D"m_=
+2194780793811808872section-1" class=3D"m_2194780793811808872hse-section" st=
+yle=3D"line-height: 1=2E5; font-style: normal; font-variant-ligatures: norm=
+al; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; or=
+phans: 2; text-align: start; text-indent: 0px; text-transform: none; widows=
+: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal=
+; text-decoration-thickness: initial; text-decoration-style: initial; text-=
+decoration-color: initial; color: rgb(35, 73, 109); font-family: Arial, san=
+s-serif; font-size: 15px; background-color: rgb(234, 240, 246); padding-lef=
+t: 10px; padding-right: 10px;"> 
+            <div class=3D"m_21947807938118=
+08872hse-column-container" style=3D"line-height: 1=2E5; max-width: 600px; m=
+in-width: 280px; margin-left: auto; margin-right: auto; border-collapse: co=
+llapse; border-spacing: 0px; background-color: rgb(255, 255, 255); padding-=
+bottom: 2px; padding-top: 6px; width: 600px !important;"> 
+             <di=
+v id=3D"m_2194780793811808872column-1-0" class=3D"m_2194780793811808872hse-=
+column m_2194780793811808872hse-size-12" style=3D"line-height: 1=2E5; displ=
+ay: table-cell; vertical-align: top; max-width: 600px !important; width: 60=
+0px !important;"> 
+              <table style=3D"border-collapse: collapse;=
+ border-spacing: 0px !important;" role=3D"presentation" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0"> 
+               <tbody> 
+                <=
+tr> 
+                 <td class=3D"m_2194780793811808872hs_padded" style=3D=
+"color: rgb(35, 73, 109); margin: 0px; border-collapse: collapse; font-fami=
+ly: Arial, sans-serif; font-size: 15px; word-break: break-word; padding: 10=
+px 20px;"> 
+                  <div id=3D"m_2194780793811808872hs_cos_wrappe=
+r_module-1-0-0" style=3D"line-height: inherit; color: inherit; font-size: i=
+nherit;"> 
+                   <div id=3D"m_2194780793811808872hs_cos_wrappe=
+r_module-1-0-0_" style=3D"line-height: inherit; color: inherit; font-size: =
+inherit;"> 
+                    <p style=3D"line-height: 26=2E25px; margin:=
+ 0px;">Now, XTransfer makes your&nbsp;<wbr />cross-border trade safer and&n=
+bsp;<wbr />more convenient!</p> 
+                    <p style=3D"line-heigh=
+t: 26=2E25px; margin: 0px;">&nbsp;</p> 
+                    <p style=3D"lin=
+e-height: 26=2E25px; margin: 0px; font-weight: bold;">Seamlessly and effici=
+ently&nbsp;<wbr />converting your domestic&nbsp;<wbr />currency into univer=
+sally&nbsp;<wbr />accepted currencies</p> 
+                    <p style=3D"=
+line-height: 26=2E25px; margin: 0px;">XTransfer holds a Money Service Opera=
+tor (MSO) license and cooperates with domestic banks to establish a complia=
+nt declaration channel for coverting your domestic currency into internatio=
+nal currencies, enabling you to make compliant and swift payments to suppli=
+ers worldwide=2E</p> 
+                   </div> 
+                  </div> <=
+/td> 
+                </tr> 
+               </tbody> 
+              </table=
+> 
+             </div> 
+            </div> 
+           </div> 
+           <=
+div id=3D"m_2194780793811808872section_1702543403248" class=3D"m_2194780793=
+811808872hse-section" style=3D"line-height: 1=2E5; font-style: normal; font=
+-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; le=
+tter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text=
+-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px; white-space: normal; text-decoration-thickness: initial; text-decorati=
+on-style: initial; text-decoration-color: initial; color: rgb(35, 73, 109);=
+ font-family: Arial, sans-serif; font-size: 15px; background-color: rgb(234=
+, 240, 246); padding-left: 10px; padding-right: 10px;"> 
+            <div c=
+lass=3D"m_2194780793811808872hse-column-container" style=3D"line-height: 1=
+=2E5; max-width: 600px; min-width: 280px; margin-left: auto; margin-right: =
+auto; border-collapse: collapse; border-spacing: 0px; background-color: rgb=
+(255, 255, 255); width: 600px !important;"> 
+             <div id=3D"m_2194=
+780793811808872column_1702543403248_0" class=3D"m_2194780793811808872hse-co=
+lumn m_2194780793811808872hse-size-12" style=3D"line-height: 1=2E5; display=
+: table-cell; vertical-align: top; max-width: 600px !important; width: 600p=
+x !important;"> 
+              <p style=3D"line-height: 26=2E25px; margin: =
+0px; text-align: center;" align=3D"center"><span style=3D"font-weight: bold=
+;">Contact Our Customer Service:</span></p> 
+              <p style=3D"line=
+-height: 26=2E25px; margin: 0px; text-align: center;" align=3D"center">What=
+sapp Link=EF=BC=9AClick&nbsp;<a style=3D"color: rgb(0, 164, 189);" href=3D"=
+https://xtrfr=2Ecom/t/1/m3CJQf?p=3D1kpU7hSWb-6FadZThM_1kpU72q8p-6Fad8wxD" t=
+arget=3D"_blank" rel=3D"noopener" data-saferedirecturl=3D"https://www=2Egoo=
+gle=2Ecom/url?q=3Dhttps://d4KHMP04=2Ena1=2Ehubspotlinksfree=2Ecom/Ctc/OT%2B=
+113/d4KHMP04/VWM8Y04FTrzhW4ZvCCB63sSkwQ1571BQsN5wYXR23m2ndW69sMD-6lZ3nPW5Sn=
+4Ql1XSbXQW2Dr6393wBdr_W57Zy5S6pjZFjW8gjnsh5z20KFN6vKvFQhC9LlW9k8Ddb8WYChpVD=
+qd3w4xT7V1W4Cvvnf4N7LhSW2THGT42t2WnLW7zyqcd3NVgPPW5_1Q4F6cg7jsN6HrbkMZHcc3W=
+4Frs8w51SDr8W177JS87Xt8V5W3wXtWQ4mvv13VlZ-KP23yw6CW4FrvPj2QfhmqW5_-YhF1SySy=
+0W8WjMhL8Sw4vwN6KXQhMCtdbhf3dPryq04&amp;source=3Dgmail&amp;ust=3D1702630856=
+629000&amp;usg=3DAOvVaw184QJo-9MvHxV_IrtcqoEB">HERE</a></p> 
+              =
+<p style=3D"line-height: 26=2E25px; margin: 0px; text-align: center;" align=
+=3D"center">Whatsapp number=EF=BC=9A8615618321591</p> 
+              <table=
+ style=3D"border-collapse: collapse; border-spacing: 0px !important;" role=
+=3D"presentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"> 
+    =
+           <tbody> 
+                <tr> 
+                 <td class=3D"m_2=
+194780793811808872hs_padded" style=3D"color: rgb(35, 73, 109); margin: 0px;=
+ border-collapse: collapse; font-family: Arial, sans-serif; font-size: 15px=
+; word-break: break-word; padding: 10px 20px;"> 
+                  <div id=
+=3D"m_2194780793811808872hs_cos_wrapper_module_17025434032183" style=3D"lin=
+e-height: inherit; color: inherit; font-size: inherit;"> 
+                 =
+  <div id=3D"m_2194780793811808872hs_cos_wrapper_module_17025434032183_" st=
+yle=3D"line-height: inherit; color: inherit; font-size: inherit;"> 
+       =
+             <p style=3D"line-height: 26=2E25px; margin: 0px; font-weight: =
+bold;">7*24 instant transfer,&nbsp;<wbr />account-to-account payment is&nbs=
+p;<wbr />easy and convenient=2E</p> 
+                    <p style=3D"line-h=
+eight: 26=2E25px; margin: 0px;">As an XTransfer user, account-<wbr />to-acc=
+ount payments are made&nbsp;<wbr />instantly 7*24=2E Cross-border&nbsp;<wbr=
+ />remittances are as smooth as&nbsp;<wbr />local ones, with the supplier&n=
+bsp;<wbr />being able to declare receipt&nbsp;<wbr />of payment in one seco=
+nd,&nbsp;<wbr />making transactions unimpeded=2E</p> 
+                    <=
+table style=3D"border-spacing: 0px !important;" role=3D"presentation" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"> 
+            =
+         <tbody> 
+                      <tr> 
+                       <td st=
+yle=3D"color: rgb(35, 73, 109); margin: 0px; border-collapse: collapse; fon=
+t-size: 15px; word-break: break-word; border-radius: 8px; background-color:=
+ rgb(255, 153, 2);" align=3D"center" valign=3D"middle" bgcolor=3D"#FF9902">=
+<a style=3D"color: rgb(0, 164, 189); text-decoration-line: none; font-size:=
+ 16px; margin: 0px; padding: 12px 18px; display: block;" href=3D"https://xt=
+rfr=2Ecom/t/1/m3D0Th?p=3D1kpU7hSWb-6FadZThM_1kpU72q8p-6Fad8wxD" target=3D"_=
+blank" rel=3D"noopener" data-saferedirecturl=3D"https://www=2Egoogle=2Ecom/=
+url?q=3Dhttps://d4KHMP04=2Ena1=2Ehubspotlinksfree=2Ecom/Ctc/OT%2B113/d4KHMP=
+04/VWM8Y04FTrzhW4ZvCCB63sSkwQ1571BQsN5wYXR23m2ndW69sMD-6lZ3kqW3btPPg8q7Ks2W=
+6ZsR8175bpNMW98ts4W3YNTXnW2cWkZ091D3vgW8RppzD5HWpPXW9kDnl12cYsr_VjT1m347wtj=
+CW38ngX52wC-NfW16Fh8L21mXZ1W3D7Mrt2JtxdlW97B0764NMWC2W2NlvV95rD-rSW7JvshT4-=
+fRjyVdqJZP5lxrGtW6JY0x517k68nW32J10v6HFYGNW2DK7xV1n5gdHW6JdMHt7YT6xBV6N41c7=
+fl9TBW5Fz59082r-Xff3sLDCn04&amp;source=3Dgmail&amp;ust=3D1702630856629000&a=
+mp;usg=3DAOvVaw0A7EnuNHpBLaCEQF4DG3QA"><strong style=3D"color: rgb(255, 255=
+, 255);">Get Start</strong></a></td> 
+                      </tr> 
+        =
+             </tbody> 
+                    </table> 
+                   </d=
+iv> 
+                  </div> </td> 
+                </tr> 
+               =
+</tbody> 
+              </table> 
+             </div> 
+            </div> 
+=
+           </div> 
+           <div id=3D"m_2194780793811808872section_17025=
+43481249" class=3D"m_2194780793811808872hse-section" style=3D"line-height: =
+1=2E5; font-style: normal; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align=
+: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0=
+px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-th=
+ickness: initial; text-decoration-style: initial; text-decoration-color: in=
+itial; color: rgb(35, 73, 109); font-family: Arial, sans-serif; font-size: =
+15px; background-color: rgb(234, 240, 246); padding-left: 10px; padding-rig=
+ht: 10px;"> 
+            <div class=3D"m_2194780793811808872hse-column-cont=
+ainer" style=3D"line-height: 1=2E5; max-width: 600px; min-width: 280px; mar=
+gin-left: auto; margin-right: auto; border-collapse: collapse; border-spaci=
+ng: 0px; background-color: rgb(255, 255, 255); width: 600px !important;"> 
+=
+             <div id=3D"m_2194780793811808872column_1702543481249_0" class=
+=3D"m_2194780793811808872hse-column m_2194780793811808872hse-size-12" style=
+=3D"line-height: 1=2E5; display: table-cell; vertical-align: top; max-width=
+: 600px !important; width: 600px !important;"> 
+              <div style=3D=
+"line-height: 1=2E5; text-align: center;">
+               &nbsp;
+          =
+    </div> 
+              <table style=3D"border-collapse: collapse; border=
+-spacing: 0px !important;" role=3D"presentation" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0"> 
+               <tbody> 
+                <tr> 
+  =
+               <td class=3D"m_2194780793811808872hs_padded" style=3D"color:=
+ rgb(35, 73, 109); margin: 0px; border-collapse: collapse; font-family: Ari=
+al, sans-serif; font-size: 15px; word-break: break-word; padding: 10px 20px=
+;"> 
+                  <div id=3D"m_2194780793811808872hs_cos_wrapper_modul=
+e_17025434854826" style=3D"line-height: inherit; color: inherit; font-size:=
+ inherit;"> 
+                   <div id=3D"m_2194780793811808872hs_cos_wrap=
+per_module_17025434854826_" style=3D"line-height: inherit; color: inherit; =
+font-size: inherit;"> 
+                    <p style=3D"line-height: 26=2E25=
+px; margin: 0px; font-weight: bold;">Zero transaction fees and preferential=
+ exchange rates save on exchange costs</p> 
+                    <p style=3D=
+"line-height: 26=2E25px; margin: 0px;">Account-to-account payments are free=
+ of transaction fees, and exchange is made at more favorable market rates, =
+saving on exchange costs with no hidden fees=2E</p> 
+                    <p=
+ style=3D"line-height: 26=2E25px; margin: 0px;">&nbsp;</p> 
+               =
+     <p style=3D"line-height: 26=2E25px; margin: 0px;">Sincerely,</p> 
+    =
+                <p style=3D"line-height: 26=2E25px; margin: 0px;">XTransfer=
+</p> 
+                    <p style=3D"line-height: 26=2E25px; margin: 0px;"=
+>&nbsp;</p> 
+                    <p style=3D"line-height: 26=2E25px; margin=
+: 0px; font-weight: bold;">About us</p> 
+                    <p style=3D"li=
+ne-height: 26=2E25px; margin: 0px;">XTransfer was established in 2017 and i=
+s the leading platform in Global B2B trade industry=2E It now serves over 4=
+00,000 small and medium-sized enterpises all over the world=2E</p> 
+       =
+             <p style=3D"line-height: 26=2E25px; margin: 0px;">By partnerin=
+g with well-known multinational banks and financial institutions, XTransfer=
+ has built a compliant reporting channel to provide Global SMEs with safe, =
+efficient, unlimited, and 7*24 instant payment services for suppliers=2E</p=
+> 
+                   </div> 
+                  </div> </td> 
+             =
+   </tr> 
+               </tbody> 
+              </table> 
+             </d=
+iv> 
+            </div> 
+           </div>
+          </div> </td> 
+        =
+</tr> 
+       </tbody> 
+      </table> </td> 
+    </tr> 
+   </tbody> 
+  </t=
+able>  
+  <img height=3D"1" src=3D"https://xtrfr=2Ecom/t/1/m3DyZl?p=3D1kpU7=
+hSWb-6FadZThM_1kpU72q8p-6Fad8wxD" width=3D"1" />
+  <a href=3D"https://www=
+=2Extransfer=2Ecn/unsubscribe?p=3D1kpU7hSWb-6FadZThM_1kpU72q8p-6Fad8wxD" ta=
+rget=3D"_blank" style=3D"text-decoration:none; color:#FAAC58;" rel=3D"noope=
+ner">Click to unsubscribe</a> 
+  <img id=3D"1702905520087_Easeye_isOpen" sr=
+c=3D"http://linktrace=2Eeaseyedelivery=2Ecom/MailLink/LogoImageHandler=2Ejp=
+g?EASEYEUID=3DN152-GI2TKNRX-GIZTCMRRHAZDCMJYGM4TONZVG43TCNI-JY-FACCE305&amp=
+;" height=3D"1" width=3D"1" style=3D"float:left;" />
+ </body>
+</html>

@@ -1,0 +1,570 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/jiranim1/tmp/awstats/ssl/awstats.proj.jiranimall.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2678                
+POS_VISITOR 9159                
+POS_DAY 10931               
+POS_DOMAIN 3467                
+POS_LOGIN 3905                
+POS_ROBOT 4060                
+POS_WORMS 4309                
+POS_EMAILSENDER 4440                
+POS_EMAILRECEIVER 4583                
+POS_SESSION 11339               
+POS_SIDER 11535               
+POS_FILETYPES 4718                
+POS_DOWNLOADS 4994                
+POS_OS 5042                
+POS_BROWSER 5228                
+POS_SCREENSIZE 5938                
+POS_UNKNOWNREFERER 6012                
+POS_UNKNOWNREFERERBROWSER 6171                
+POS_ORIGIN 6325                
+POS_SEREFERRALS 6466                
+POS_PAGEREFS 6628                
+POS_SEARCHWORDS 6810                
+POS_KEYWORDS 6962                
+POS_MISC 2342                
+POS_ERRORS 7021                
+POS_CLUSTER 3761                
+POS_SIDER_404 7169                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240106105300 1 0 9214574931564
+FirstTime 0
+LastTime 20231228203042
+LastUpdate 20240106120225 1 0 0 0 0
+TotalVisits 59                  
+TotalUnique 42                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 61 108 13800790 7 7 1065144
+2 3 3 309151 1 1 285431
+3 2 2 18532 0 0 0
+4 10 54 7252378 0 0 0
+5 13 109 17497950 2 2 286591
+6 322 503 33561876 16 18 1886134
+7 461 778 60511427 40 45 3418144
+8 672 1154 115979097 117 118 693122
+9 577 807 50519718 35 37 571551
+10 257 620 71410096 50 50 1641847
+11 36 70 9944775 6 6 63468
+12 376 525 33041405 18 18 8164
+13 812 1099 65030636 54 58 316954
+14 961 1076 25225490 10 11 4384
+15 993 1198 50743391 37 37 78078
+16 691 1018 66942965 26 26 133126
+17 286 416 26052139 9 9 238138
+18 266 599 56108240 14 22 836950
+19 50 140 20057106 0 0 0
+20 5 8 673680 1 2 121272
+21 7 22 1690426 0 1 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+id 6456 9132 579857925
+ke 125 246 28059973
+za 112 233 23914510
+ao 50 216 24066766
+us 29 118 17000686
+pl 26 108 17781283
+lr 25 39 4542322
+gb 25 201 30862760
+jp 5 5 1341
+in 2 2 894
+ro 2 5 281020
+il 2 2 894
+au 1 1 447
+ca 1 1 447
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 2 575538 20231210091224 0
+survey 2 572577 20231208060020 0
+Go\-http\-client/ 1 285431 20231201020931 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+Unknown 6719 204157846 0 0
+html 83 11186463 0 0
+css 917 232086250 0 0
+jpg 910 73141113 0 0
+woff2 56 2088048 0 0
+svg 10 133644 0 0
+js 923 103909018 0 0
+png 469 93257475 0 0
+woff 3 239583 0 0
+webp 219 6171828 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+ios_iphone 18 9
+win10 9836 6647
+win7 1 1
+Unknown 41 41
+linux 347 147
+android 8 2
+android10 54 10
+macosx15 3 3
+win8.1 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+firefox100.0 1 1
+chrome86.0.4240.111 1 1
+edge12 1 1
+chrome117.0.0.0 2 2
+chrome120.0.0.0 1362 619
+chrome59.0.3071.104 1 1
+iphone 12 3
+safari16.6 2 2
+chrome85.0.4183.102 1 1
+safari17.1.1 1 1
+Unknown 41 41
+opera65.0.3467.48 1 1
+chrome111.0.5563.65 1 1
+firefox120.0 8463 6111
+chrome74.0.3729.131 1 1
+safari 1 1
+chrome118.0.0.0 2 2
+chrome99.0.3809.100 11 9
+chrome113.0.0.0 4 4
+chrome114.0.0.0 1 1
+chrome109.0.5414.46 1 1
+chrome115.0.5777.205 4 1
+chrome120.0.6099.71 106 11
+chrome120.0.6099.109 89 11
+chrome119.0.0.0 2 2
+chrome70.0.3538.67 92 12
+android 4 1
+safari17.1.2 2 2
+chrome78.0.3904.97 1 1
+opera64.0.3417.92 2 2
+chrome87.0.4280.88 92 12
+chrome116.0.0.0 4 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Dart/3.2_(dart:io) 20231218062657
+python-requests/2.28.2 20231227135013
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Dart/3.2_(dart:io) 20231218062657
+python-requests/2.28.2 20231227135013
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 105 105
+From1 0 0
+From2 1 1
+From3 3 3
+From4 6752 10200
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_ie 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://cpanel.jiranimall.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 36 4145179
+206 4 883743
+500 17 4835445
+302 369 159935
+419 24 190650
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 27
+/public/uploads/all/RNfkvEKhnl5TF4xo9kk4FhcaYsL47PJqX7kDEEUs.webp 1 https://proj.jiranimall.com/
+/public/assets/fonts/la-solid-900.woff2 1 https://proj.jiranimall.com/public/assets/css/vendors.css
+/admin/wish_report 1 https://proj.jiranimall.com/admin/blog
+/admin/uploaded-files 1 https://proj.jiranimall.com/admin/wish_report
+/category/Demo-category-1 5 https://proj.jiranimall.com/category/Demo-category-1
+/public/uploads/all/Mm7WwSV6b4OscE2qCYWd7KeGSkfRAspdhfiCL2v4.webp 1 https://proj.jiranimall.com/
+/admin/blog/create 1 https://proj.jiranimall.com/admin/blog
+/public/assets/fonts/la-solid-900.ttf 1 https://proj.jiranimall.com/public/assets/css/vendors.css
+/user 1 -
+/public/assets/fonts/la-solid-900.woff 1 https://proj.jiranimall.com/public/assets/css/vendors.css
+/login/admin 1 -
+/admin/images/right-list.gif 1 https://proj.jiranimall.com/admin/products/create
+/admin/customers 1 https://proj.jiranimall.com/admin/sellers
+/default.php 2 -
+/admin 2 https://proj.jiranimall.com/admin/addons
+/public/uploads/all/fxPU4HkSOWkoqoNwNH17F9nClVgDFmHVH9pyqhoh.webp 1 https://proj.jiranimall.com/
+/admin/sellers 1 https://proj.jiranimall.com/admin/uploaded-files
+/admin/blog 1 https://proj.jiranimall.com/admin/blog/create
+/admin/products/admin/images/right-list.gif 2 https://proj.jiranimall.com/admin/products/admin/19/edit
+/public/assets/js/uppy.min.js.map 2 -
+/public/assets/js/aiz-core.js 1 https://proj.jiranimall.com/
+/admin/brands/destroy/2 1 https://proj.jiranimall.com/admin/brands
+/public/assets/js/vendors.js 1 https://proj.jiranimall.com/
+/public/assets/css/slick.min.css.map 2 -
+/admin/blogs 1 https://proj.jiranimall.com/admin/blog
+/api/v2/products 1 -
+/checkout 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+102.217.157.225 6111 8463 497209538 20231218100225
+102.219.209.106 337 659 81967646 20231218075533
+196.250.208.46 112 233 23914510 20231222181304
+197.156.137.191 65 139 14547758 20231219175435
+154.159.244.236 50 216 24066766 20231217191000
+154.122.103.46 31 60 7536431 20231220014422
+154.123.50.125 29 47 5975784 20231220013011
+188.147.8.91 26 108 17781283 20231227123836
+196.223.160.222 25 39 4542322 20231218114422
+35.224.154.44 13 93 14710472 20231207100026
+146.70.201.212 11 106 16944234 20231208053139
+146.70.201.151 10 88 13636612 20231219181627
+102.166.64.10 6 6 58041 20231220044451
+44.205.29.107 2 2 580656 20231215055724
+54.209.165.177 2 2 576096 20231212013407
+49.97.103.156 2 2 447 20231227143213
+102.167.114.98 2 4 622700 20231219185130
+49.98.64.198 2 2 447 20231227150052
+212.143.94.254 2 2 894 20231227134807
+139.99.170.109 1 1 447 20231227140507
+106.161.65.206 1 1 447 20231227140456
+89.44.201.106 1 4 280573 20231216210440
+173.239.211.216 1 1 447 20231227134809
+31.94.60.172 1 4 280573 20231216210441
+206.204.12.187 1 1 288167 20231208021254
+162.222.195.80 1 1 447 20231227135212
+34.229.93.16 1 1 447 20231228203042
+23.82.137.77 1 4 280573 20231216210441
+128.90.61.31 1 4 280573 20231216210441
+104.193.135.15 1 1 447 20231227140504
+198.46.251.50 1 1 447 20231227135111
+38.95.13.132 1 1 447 20231227140455
+198.7.56.243 1 4 280573 20231216210441
+51.75.141.254 1 1 447 20231227135212
+173.239.211.213 1 1 447 20231227135013
+103.176.152.30 1 1 447 20231227140458
+38.132.118.74 1 1 447 20231227134634
+103.27.227.194 1 1 447 20231227140456
+37.120.149.56 1 1 447 20231227135212
+103.195.4.182 1 1 447 20231227140312
+193.36.118.231 1 1 447 20231227135212
+193.19.204.83 1 1 447 20231227135214
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20231207 13 93 14710472 1
+20231208 12 107 17232401 2
+20231211 25 107 18068357 3
+20231212 1 1 288575 1
+20231214 1 1 292013 1
+20231215 1 1 288643 1
+20231216 1520 2257 175768758 8
+20231217 4922 6893 409464089 7
+20231218 195 471 46152990 6
+20231219 77 231 28807070 3
+20231220 67 120 15287172 4
+20231222 2 2 894 1
+20231227 24 24 9387 20
+20231228 1 1 447 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 8
+30s-2mn 2
+0s-30s 41
+30mn-1h 2
+15mn-30mn 2
+5mn-15mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 185
+/aiz-uploader/get_file_by_ids 2293 2448436 0 0
+/admin/products/sku_combination 990 2096264 0 0
+/aiz-uploader/get-uploaded-files 892 16836242 0 0
+/aiz-uploader 604 2135744 0 0
+/aiz-uploader/upload 282 42842 0 0
+/admin/products/admin 154 32303366 0 0
+/admin/products/create 144 33380323 1 1
+/category/nav-element-list 111 17607 0 2
+/admin/products/sku_combination_edit 100 126926 0 0
+/admin/products/add-more-choice-option 96 53496 0 0
+/ 83 11186463 46 34
+/_debugbar/open 69 1536777 0 5
+/admin/brands 49 7469018 0 0
+/home/section/todays-deal 38 140850 0 0
+/home/section/home-categories 38 523528 0 3
+/home/section/featured 38 1747472 0 0
+/home/section/newest-products 38 1753026 0 1
+/home/section/best-selling 38 2838917 0 1
+/admin/products/all 37 8210098 0 0
+/home/section/auction_products 34 69530 0 0
+/admin/categories 32 5225227 0 0
+/public/assets/css/font/summernote.woff2 28 172368 0 1
+/admin/attributes 24 3774033 0 0
+/admin/currency/update_status 24 24 0 0
+/admin/products/featured 22 22 0 0
+/product/variant-price 17 1556 0 0
+/step4 1 19658 0 0
+/step5 1 19950 0 0
+/admin/products/todays_deal 2 2 0 0
+/admin/delivery-boys/create 1 144004 0 0
+/admin/attributes/3 4 572074 0 0
+/api/v2/currencies 2 94 0 0
+/category/Demo-category-2 1 204304 0 0
+/api/v2/business-settings 2 94 0 0
+/admin/general-setting 1 117591 0 0
+/public/assets/fonts/la-brands-400.woff2 7 593404 0 0
+/admin/wish_report 1 145335 0 0
+/admin/delivery-boy-configuration 1 335831 0 1
+/admin/pos/products 2 1132 0 0
+/admin/products/admin/104/edit 2 552318 0 0
+/admin/products/admin/106/edit 2 552236 0 0
+/admin/activation 4 1017616 0 0
+/admin/products/admin/15/edit 2 534855 0 0
+/admin/products/admin/21/edit 2 540697 0 0
+/step1 1 22139 0 0
+/users/registration 2 71583 0 0
+/admin/categories/edit/16 4 591076 0 0
+/product/dell-inspiron-14-7472display-14-inch-processor-8th-generation-intel-core-i7-ssd-512-gb8-gb-ram-ddr4-2400-mhz-speed-laptop 1 197714 0 0
+/_debugbar/assets/javascript 10 3669660 0 0
+/admin/categories/edit/19 1 147826 0 0
+/admin/otp-configuration 3 432126 0 0
+/admin/attributes/2 3 426847 0 0
+/admin/categories/edit/17 4 591231 0 0
+/refresh-csrf 16 640 5 2
+/admin/products/admin/18/edit 2 538033 0 0
+/compare 2 305026 0 0
+/api/v2/categories/featured 4 188 0 0
+/privacy-policy 2 305388 0 0
+/admin/blog-category 1 139429 0 0
+/product/hp-elitebook-revolve-810-g3-laptop-tablet-touch-screen 1 194849 0 0
+/admin/website/select-homepage 1 142458 0 0
+/admin/products/admin/19/edit 4 1084810 0 0
+/admin/staffs 9 1292831 0 0
+/admin/website/custom-pages/edit/home 8 1436864 0 0
+/admin/otp-configuration/update/activation 3 3 0 0
+/admin/products/admin/5/edit 4 1061220 0 0
+/admin/customers 2 295002 0 0
+/admin/products/admin/4/edit 2 532811 0 0
+/admin/products/admin/63/edit 2 554597 0 0
+/return-policy 3 423412 0 0
+/api/v2/products/featured 4 188 0 0
+/reviews 1 139870 0 0
+/admin/brands/edit/13 2 282909 0 0
+/checkout 3 831207 1 1
+/admin/categories/featured 14 14 0 0
+/african/configuration 1 140330 0 0
+/verification 1 9245 0 0
+/public/assets/fonts/la-solid-900.woff2 15 1257776 3 2
+/admin/flash_deals 1 141186 0 0
+/admin/currency 5 794313 0 0
+/admin/file_system 1 152970 0 0
+/admin/categories/edit/7 2 294916 0 0
+/shops/create 1 13281 0 0
+/admin/roles/create 14 4617144 0 0
+/admin/products/admin/3/edit 3 802982 0 0
+/compare/addToCompare 3 2991 0 0
+/public/assets/fonts/la-regular-400.woff 1 15489 0 0
+/product/jumbo-tank-5000-litres-double-layer-best-grade 1 384691 0 0
+/admin/attributes/4 3 426872 0 0
+/admin/categories/edit/4 2 294548 0 0
+/admin/colors 1 158972 0 1
+/admin/pos 1 368735 0 0
+/admin/products/admin/85/edit 1 266647 0 0
+/recharge 1 52433 0 0
+/admin/attributes/7 12 1736468 0 0
+/step2 1 20407 0 0
+/category/Demo-category-1 1 204314 0 0
+/admin/blog/create 9 1296846 0 0
+/admin/profile 2 675211 0 0
+/product/all-star-lift-platform-leather-converse-3 1 196050 0 0
+/api/v2/products/search 4 188 0 0
+/admin/products/admin/17/edit 2 534439 0 0
+/admin/products/published 16 16 0 0
+/public/assets/fonts/la-solid-900.woff 1 125421 0 0
+/admin/addons 18 2913156 0 0
+/admin 21 4326741 0 1
+/admin/roles/edit/2 1 350345 0 0
+/api/v2/sliders 4 188 0 0
+/admin/roles 16 2311027 0 0
+/admin/product-bulk-upload/index 1 140008 0 0
+/admin/products/admin/20/edit 5 1334937 0 0
+/public/assets/fonts/la-brands-400.woff 1 98673 0 0
+/api/v2/flash-deals 5 235 0 0
+/categories 1 136793 0 0
+/category/computers-printers-technology--software-pspmz 2 579295 0 0
+/admin/uploaded-files/create 1 137969 0 0
+/product/survilliance-hard-drive-1-telabyte-1tb 1 324026 0 0
+/admin/addons/create 14 1699904 0 0
+/admin/uploaded-files 2 502971 0 0
+/admin/products/admin/2/edit 2 533057 0 0
+/admin/categories/edit/12 1 147826 0 0
+/admin/products/admin/86/edit 1 298534 0 0
+/admin/products/admin/102/edit 2 552167 0 0
+/_debugbar/assets/stylesheets 10 2426590 0 0
+/api/v2/banners-one 4 188 0 0
+/admin/attributes/8 3 426862 0 0
+/admin/products/admin/1/edit 5 1312102 0 0
+/dashboard 4 1061382 0 1
+/admin/otp-credentials-configuration 1 164224 0 0
+/admin/products/seller/physical 1 147317 0 0
+/category/professional-services-osekt 4 1192186 0 0
+/admin/attributes/11 10 1473734 0 0
+/admin/attributes/10 19 2925058 0 0
+/admin/products/admin/8/edit 2 520975 0 0
+/api/v2/products 4 188 0 0
+/admin/smtp-settings 3 347876 0 0
+/product/dera-diva-100-cotton-dera-classic-free-size-elegant-dera-to-sow-curves 1 200194 0 0
+/step3 1 18633 0 0
+/admin/products/admin/14/edit 2 540453 0 0
+/todays-deal 2 258560 0 0
+/admin/attributes/9 4 572054 0 0
+/admin/get_shipping_address 2 5350 0 0
+/auction-products 2 362874 0 0
+/cart/addtocart 1 23142 0 0
+/admin/social-login 1 146606 0 0
+/admin/products/admin/99/edit 2 552229 0 0
+/admin/products/admin/41/edit 2 518765 0 0
+/admin/blog 12 1738333 0 0
+/public/assets/fonts/la-regular-400.woff2 6 64500 0 0
+/product/fashion-bralettes-cotton-sexy-wireless-strappy-back-strapless-bralettes 1 201651 0 0
+/users/login 6 457792 1 2
+/admin/product-queries 1 138884 0 0
+/home 2 272082 0 0
+/admin/categories/edit/18 1 147803 0 0
+/admin/products/admin/37/edit 4 1055612 0 0
+/admin/website/appearance 2 354954 0 0
+/api/v2/products/todays-deal 5 235 0 0
+/admin/business-settings/update/activation 11 11 0 0
+/system_settings 1 21304 0 0
+/deliveryboy/login 1 11367 0 0
+/admin/products/admin/94/edit 2 552217 0 0
+/admin/products/admin/96/edit 2 552217 0 0
+/support-policy 2 305418 0 0
+/admin/categories/create 17 2469258 0 0
+/api/v2/addon-list 2 94 0 0
+/admin/products/seller/digital 1 142720 0 0
+/api/v2/categories 1 47 0 0
+/admin/products/admin/65/edit 3 834255 0 0
+/admin/staffs/create 8 1129057 0 0
+/admin/sellers 1 152422 0 0
+/admin/currency/currency_edit 1 1987 0 0
+/admin/delivery-boys 1 332870 0 0
+/admin/products/admin/54/edit 1 266653 0 0
+/admin/attributes/1 4 572040 0 0
+/admin/payment-method 1 405812 0 0
+/cart 1 257949 0 0
+/admin/products/admin/93/edit 1 276577 0 0
+/api/v2/banners-two 4 188 0 0
+/login 15 411065 2 0
+/terms 2 305282 0 0
+/admin/products/admin/67/edit 3 802577 0 0
+/admin/products/admin/6/edit 2 539089 0 0
+/admin/attributes/edit/3 1 140283 0 0
+/category/Cloths--Shoes-Fashion-v3leA 2 756478 0 0
+/admin/edit-attribute-value/6 2 277281 0 0
+END_SIDER

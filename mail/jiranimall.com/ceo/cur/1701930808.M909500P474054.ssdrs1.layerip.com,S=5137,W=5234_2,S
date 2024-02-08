@@ -1,0 +1,97 @@
+Return-Path: <export@mkt.ewtppal.com>
+Delivered-To: ceo@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id AM5wNDhncWXGOwcAvE7qNg
+	(envelope-from <export@mkt.ewtppal.com>)
+	for <ceo@jiranimall.com>; Thu, 07 Dec 2023 06:33:28 +0000
+Return-path: <export@mkt.ewtppal.com>
+Envelope-to: ceo@jiranimall.com
+Delivery-date: Thu, 07 Dec 2023 06:33:28 +0000
+Received: from out208-131.dm.aliyun.com ([140.205.208.131]:44083)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <export@mkt.ewtppal.com>)
+	id 1rB7wt-0020Ek-0P
+	for ceo@jiranimall.com;
+	Thu, 07 Dec 2023 06:33:28 +0000
+X-AliDM-RcptTo: Y2VvQGppcmFuaW1hbGwuY29t
+Feedback-ID: default:export@mkt.ewtppal.com:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=mkt.ewtppal.com; s=aliyun-cn-hangzhou;
+	t=1701930761; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=53GNSfR3uETPL+Wu3w3D1rL69zx0CG/wPX+lCndZPk8=;
+	b=RMrk4DpOPNInodi3Mp/ywx5jBhqo4ZDqFZpHnup9KKs1GnIVCl8VGfA+MO0QgVWHjjQ10TC0XTX6G85yhkyqXV3jApetmmVNxIDJ4eItFpJkOpLTsGIK6ESmepQ5nTLaHlxhUKn+msWgjWOXPfIfnXf++NdZm1XHw1loh4R/Efc=
+X-EnvId: 600000052781927462
+Received: from msgdactuatorserv-7bb9f7b4fd-tmftb(mailfrom:export@mkt.ewtppal.com fp:SMTPD_-VHcBtvG2kX)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Thu, 07 Dec 2023 14:32:37 +0800
+Date: Thu, 7 Dec 2023 14:32:37 +0800 (CST)
+From: Cathy <export@mkt.ewtppal.com>
+Reply-To: sales@cjinan.com
+To: ceo@jiranimall.com
+Message-ID: XTMMID:ALI_CLOUD:28990100552000023120710440319,28990100539004223120788254321,XTransfer
+Subject: Upgrade Your Business Security with Our IP Cameras
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=2.2
+X-Spam-Score: 22
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Email Content Hi there, I hope this message finds you well!
+    I'm Cathy, the Marketing Director from Shenzhen Chijinan Digital Co., Ltd.,
+    and I'm reaching out to share something exceptional with you. 
+ Content analysis details:   (2.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: xtransfer.cn]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Content</title>
+</head>
+<body>
+<p>Hi there,</p>
+
+<p>I hope this message finds you well! I'm Cathy, the Marketing Director from Shenzhen Chijinan Digital Co., Ltd., and I'm reaching out to share something exceptional with you.</p>
+
+<p>Our latest <strong>IP camera</strong> is more than just a product; it's a testament to innovation and quality. Tailor-made for reliability and user-friendly experiences, this camera boasts advanced features that set it apart in the surveillance industry.</p>
+
+<p>With crystal clear imaging, swift connectivity, and robust security, our cameras provide peace of mind for our clients. We're confident that our <strong>IP camera</strong> can meet, if not exceed, your expectations!</p>
+
+<p>If you're interested in upgrading your security solutions, please don't hesitate to contact me at sales@cjinan.com. Let's work together towards safer tomorrows.</p>
+
+<p>Warm regards,</p>
+<p>Cathy<br>
+Marketing Director<br>
+Shenzhen Chijinan Digital Co., Ltd.</p>
+</body>
+</html><img height="1" src="https://xtrfr.com/t/1/m3TdDV?p=1kpU6S2l9-6A67jHPt_1kpU72q8p-6AtyHWAm" width="1"><a href="https://www.xtransfer.cn/unsubscribe?p=1kpU6S2l9-6A67jHPt_1kpU72q8p-6AtyHWAm" target="_blank" style="text-decoration:none; color:#FAAC58;"rel="noopener">Click to unsubscribe</a>

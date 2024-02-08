@@ -1,0 +1,487 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202302 will be lost/reset.
+# Last config file used to build this data file was /home/jiranim1/tmp/awstats/awstats.jiranimall.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 13002               
+POS_DAY 14254               
+POS_DOMAIN 3409                
+POS_LOGIN 3816                
+POS_ROBOT 3971                
+POS_WORMS 4139                
+POS_EMAILSENDER 4270                
+POS_EMAILRECEIVER 4413                
+POS_SESSION 14793               
+POS_SIDER 14989               
+POS_FILETYPES 4548                
+POS_DOWNLOADS 4708                
+POS_OS 4756                
+POS_BROWSER 4914                
+POS_SCREENSIZE 5509                
+POS_UNKNOWNREFERER 5583                
+POS_UNKNOWNREFERERBROWSER 6054                
+POS_ORIGIN 6316                
+POS_SEREFERRALS 6452                
+POS_PAGEREFS 6596                
+POS_SEARCHWORDS 6744                
+POS_KEYWORDS 6896                
+POS_MISC 2353                
+POS_ERRORS 6955                
+POS_CLUSTER 3672                
+POS_SIDER_404 7103                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230301051436 33 4647 12241071443641
+FirstTime 20230201000507
+LastTime 20230228221146
+LastUpdate 20230301121425 33 0 32 0 0
+TotalVisits 96                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 9 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 46236 36 38 8795
+1 3 3 46344 25 35 8330
+2 9 9 138931 21 26 27223
+3 4 4 61867 32 40 9673
+4 3 3 46236 25 28 6430
+5 1 1 15412 30 37 8388
+6 55 55 847768 23 27 51925
+7 18 18 93418 29 29 6382
+8 7 7 107994 34 39 23046
+9 3 3 46240 14 17 4060
+10 1 1 15412 22 24 4712
+11 4 4 61650 45 54 10633
+12 3 3 46237 17 18 4627
+13 6 6 92581 19 20 35011
+14 7 7 108213 71 84 19535
+15 14 14 216525 17 24 19227
+16 46 46 709664 61 143 31000
+17 9 9 138819 22 29 6232
+18 6 6 92475 115 123 76527
+19 3 3 46236 23 33 7668
+20 2 2 30824 20 28 6962
+21 5 5 61648 23 28 6949
+22 5 5 77275 14 15 3661
+23 5 5 77179 15 16 3781
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+jp 79 79 1217602
+ru 59 59 909309
+us 35 35 510523
+gb 20 20 170226
+ua 11 11 170183
+au 5 5 77175
+ch 4 4 46560
+bz 3 3 46239
+jo 1 1 15519
+be 1 1 15413
+zz 1 1 87
+de 1 1 15414
+in 1 1 15413
+eg 1 1 15521
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+Googlebot/ 1 15412 20230205134531 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 16 247792 0 0
+env 30 462392 0 0
+Unknown 74 956386 0 0
+html 23 341012 0 0
+xml 79 1217602 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+Unknown 63 63
+androidnougat 2 2
+macosx14 1 1
+win8.1 21 21
+linux 3 3
+win10 117 117
+win7 15 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+chrome83.0.4103.24 2 2
+chrome81.0.4044.129 1 1
+chrome83.0.4103.0 3 3
+chrome70.0.3538.77 1 1
+firefox68.0 3 3
+chrome80.0.3987.149 52 52
+chrome41.0.2227.0 1 1
+chrome83.0.4103.34 5 5
+opera69.0.3686.7 2 2
+chrome83.0.4096.0 2 2
+chrome74.0.3729.157 1 1
+chrome83.0.4089.0 1 1
+Unknown 59 59
+chrome74.0.3729.169 2 2
+chrome83.0.4102.0 3 3
+chrome79.0 27 27
+chrome83.0.4103.61 27 27
+chrome83.0.4086.0 3 3
+chrome83.0.4103.44 4 4
+chrome91.0.4472.114 11 11
+chrome60.0.3112.107 2 2
+mozilla 4 4
+chrome83.0.4103.14 1 1
+chrome83.0.4093.3 1 1
+chrome83.0.4099.2 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+wp_is_mobile 20230207183218
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230216185612
+python-requests/2.28.1 20230210095034
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230212075834
+Cpanel-HTTP-Client/1.0 20230212075354
+python-requests/2.21.0 20230226155405
+python-requests/2.28.2 20230228171850
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Cpanel-HTTP-Client/1.0 20230212075354
+python-requests/2.21.0 20230226155405
+python-requests/2.28.2 20230228171850
+wp_is_mobile 20230207183218
+python-requests/2.28.1 20230210095034
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 159 159
+From1 5 5
+From2 0 0
+From3 0 0
+From4 58 58
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+301 809 193864
+503 44 55112
+404 81 0
+401 4 61650
+508 4 1152
+406 3 46239
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 81
+/.well-known/pki-validation/A792674C3438815517ABA06E79C5660C.txt 1 -
+/.well-known/pki-validation/4581C1CA8F419CC41F9FA87C9FD031AB.txt 1 -
+/.well-known/pki-validation/F1E0820F67DB9CB447585039E6AC9D47.txt 1 -
+/.well-known/pki-validation/C3E747D01A330D5D35E0A2C8EA552508.txt 1 -
+/.well-known/pki-validation/D2B8A98FFFAD818BD638B5378EFEF98B.txt 1 -
+/.well-known/pki-validation/CFBC817C308C7157BB8C6A2225B3727F.txt 1 -
+/.well-known/pki-validation/33C07168DBC1E0F23A74D39E26F8EDF0.txt 1 -
+/.well-known/pki-validation/6D28F99CEC985A63AFC6523E8B763393.txt 1 -
+/.well-known/pki-validation/0D7F34BCBADD1F69D652B853656BCAC4.txt 1 -
+/.well-known/pki-validation/87875DE9257E2ACBCED052FDDC963C93.txt 1 -
+/.well-known/pki-validation/614B48DA6337BA25D716AC12751974C6.txt 1 -
+/.well-known/pki-validation/05256AED0BD4163B4E852ACAE8E1FE1C.txt 1 -
+/.well-known/pki-validation/C36AE21CCB13E4F85CDEB15B87810526.txt 1 -
+/.well-known/pki-validation/4F709A011F692B531639ABA23BF414B7.txt 1 -
+/.well-known/pki-validation/33256C277CD039B6B26FB416FDDC8A40.txt 1 -
+/.well-known/pki-validation/97D979F8A16F97C5FA0B722D2576A401.txt 1 -
+/.well-known/pki-validation/A316A34D2C0C2FFB5C99ED2A10D3253C.txt 1 -
+/.well-known/pki-validation/FEAFA9435A67DA27BC4A5326A66F61A3.txt 1 -
+/.well-known/pki-validation/4FB7E11200CE6C8EB08270194EF36578.txt 1 -
+/.well-known/pki-validation/90825BF48E31CE9BB902AE87343A2AFF.txt 1 -
+/.well-known/pki-validation/070596A0FC02061E5A7F9FAEAD7931CF.txt 1 -
+/.well-known/pki-validation/29157FE64A9203293824CA250F9654BE.txt 1 -
+/.well-known/pki-validation/81EF34833C48E675F75E8147FD70E8C3.txt 1 -
+/.well-known/pki-validation/197539C2F67C25713A772AF2BE8B364D.txt 1 -
+/.well-known/pki-validation/7B5E0BD45C8E7FE8A10A0ECEC65AB24B.txt 1 -
+/.well-known/pki-validation/91FAE28BD2ED90CF3E466FC4DB5AEC32.txt 1 -
+/.well-known/pki-validation/B3C33C342288EF753A763F87D12075B7.txt 1 -
+/.well-known/pki-validation/17574E829061DE76A286A9237925A043.txt 1 -
+/.well-known/pki-validation/708F6F65D376A8F2581306E67C60B7FD.txt 1 -
+/.well-known/pki-validation/703D52D732A3900A45150746C19B24AF.txt 1 -
+/.well-known/pki-validation/6D065DE1E0911932924306A2BC72B20B.txt 1 -
+/.well-known/pki-validation/1D9EF95185046D6F0FB12D633612B19F.txt 1 -
+/.well-known/pki-validation/DDA502ABD7F76BFF6162784A17902776.txt 1 -
+/.well-known/pki-validation/39B63A339675E441F5086411300B29B6.txt 1 -
+/.well-known/pki-validation/E5197C1F648625ABD9A1063DE9622FC4.txt 1 -
+/.well-known/pki-validation/8585191B89C90B612FC019E10CEE87B4.txt 1 -
+/.well-known/pki-validation/243E2809BE964F3A8688A37334D25C20.txt 1 -
+/.well-known/pki-validation/90CEB3B5EC697C9F3CA7E165C3B42129.txt 1 -
+/.well-known/pki-validation/279CD899B81514512276DF571F27DD57.txt 1 -
+/.well-known/pki-validation/F9E4AF78B21F4A0940DFBB405261EC48.txt 1 -
+/.well-known/pki-validation/32A6296DA7BB89E7DB78CCDC33256B4A.txt 1 -
+/.well-known/pki-validation/98542C3D1443CC8516D154189CD559E3.txt 1 -
+/.well-known/pki-validation/0A2E256B4D94EC0810D5190A11641286.txt 1 -
+/.well-known/pki-validation/9C7FF16907F0DF59A39F46F6958E88E3.txt 1 -
+/.well-known/pki-validation/AA9327E22D52FB2F40DB2E58B2C13459.txt 1 -
+/.well-known/pki-validation/E94290A0B5AA76184F771A88DB0A3E3F.txt 1 -
+/.well-known/pki-validation/458701FCEEF4D5833764D70D14D31A1A.txt 1 -
+/.well-known/pki-validation/C6D73CF2132AE41DF06AEAD63219DE48.txt 1 -
+/.well-known/pki-validation/3D520C594FCB445790A99AE9CD8F54CD.txt 1 -
+/.well-known/pki-validation/26A3440C513D60245B0D6FDB48774339.txt 1 -
+/.well-known/pki-validation/924F26E3CC5B9D42AE18F3D870105DE0.txt 1 -
+/.well-known/pki-validation/3D2AD9B5549457869B6A156EB356259B.txt 1 -
+/.well-known/pki-validation/F31BF9BE2DF6D9E0794D0F0B6A48420B.txt 1 -
+/.well-known/pki-validation/651F6D5372AED398A39075D68928A94B.txt 1 -
+/.well-known/pki-validation/DE0CCE17F218F2E3AA2B7288FFDEF43A.txt 1 -
+/.well-known/pki-validation/E0B42C4CF34F39742C9AFD1D3BF1163F.txt 1 -
+/.well-known/pki-validation/FDD58BAE029D4E144308E4F443F14BA6.txt 1 -
+/.well-known/pki-validation/06ECE61087EE7BE56DBE5E57D32C482E.txt 1 -
+/.well-known/pki-validation/1CAF79A0539BA5D6586C54312D7165A3.txt 1 -
+/.well-known/pki-validation/07B5CAF77F0AEF262F77B9927318FF6B.txt 1 -
+/.well-known/pki-validation/F03D55C907072F48AB2AFC5148F3A93F.txt 1 -
+/.well-known/pki-validation/E11DEA16DCBE5728F0BD8166C7857D1D.txt 1 -
+/.well-known/pki-validation/27C728AE5EA623405F11EC0F7EBFD775.txt 1 -
+/.well-known/pki-validation/522B3E376B911CC2784A7029B451DC33.txt 1 -
+/.well-known/pki-validation/1C191FDEAA5B145E23603A983A9828A1.txt 1 -
+/.well-known/pki-validation/9CCCE1DBDD62E0E859B1BA717DEB7574.txt 1 -
+/.well-known/pki-validation/F2CEEE358E8CA7713943053E6D36E4E2.txt 1 -
+/.well-known/pki-validation/4FAD683AB403B4389F2BBCBE7D693514.txt 1 -
+/.well-known/pki-validation/01DA9E8A5F26A31A05257A63155B6549.txt 1 -
+/.well-known/pki-validation/713171E701E0030D5CC14549AC3BB6CF.txt 1 -
+/.well-known/pki-validation/967B67AEB034343509ADE3845B6E95AA.txt 1 -
+/.well-known/pki-validation/91FFC00E20DE546BC26FE9414523A114.txt 1 -
+/.well-known/pki-validation/C84034292EEB94EA24266721B0A491CA.txt 1 -
+/.well-known/pki-validation/C33B2B93DE76A3769E7D32EC96652F36.txt 1 -
+/.well-known/pki-validation/0CBB49E26BE64A559D12FF2CB0DFCE22.txt 1 -
+/.well-known/pki-validation/1A411FE0F2D973003E71219C94202719.txt 1 -
+/.well-known/pki-validation/B5FFAE838335346D05E57FE172532E2D.txt 1 -
+/.well-known/pki-validation/4C42EE5435172A330BD1C2948C91AD0F.txt 1 -
+/.well-known/pki-validation/07DB32512CDDBDD75FEB642668A9DDB1.txt 1 -
+/.well-known/pki-validation/C1ADB04102FB47A9643958B7EC2BCF1A.txt 1 -
+/.well-known/pki-validation/85C78FB9B2443FF55B9AF6F204CA5C5F.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+37.139.53.82 58 58 893896 20230212005840
+43.153.82.95 52 52 801424 20230222061419
+43.130.134.187 27 27 416178 20230226163236
+20.124.198.11 13 13 201118 20230228171850
+89.238.154.82 11 11 169650 20230223170703
+37.139.179.19 9 9 139252 20230226064332
+37.61.232.138 9 9 576 20230212075354
+3.72.76.216 4 4 61965 20230218182833
+152.89.196.13 4 4 46560 20230216023746
+205.185.127.165 4 4 61767 20230225233114
+202.191.103.26 3 3 46349 20230210095034
+20.235.74.137 3 3 46346 20230211162300
+179.60.147.72 3 3 46239 20230207183218
+18.130.225.227 2 2 31042 20230211033611
+139.59.246.76 2 2 30826 20230226170202
+172.176.196.48 2 2 30935 20230225140554
+91.244.13.58 2 2 30931 20230228221146
+137.184.194.199 2 2 30937 20230223020127
+92.62.121.70 1 1 15519 20230207155427
+109.237.98.53 1 1 15413 20230215080932
+167.71.217.34 1 1 15413 20230227032456
+20.172.144.200 1 1 15414 20230226023330
+18.188.52.84 1 1 87 20230212075834
+192.109.205.35 1 1 15414 20230202110342
+23.178.112.102 1 1 87 20230212075834
+103.220.212.6 1 1 15413 20230202122105
+156.202.184.81 1 1 15521 20230226155405
+34.212.139.87 1 1 87 20230212075834
+87.236.176.62 1 1 15413 20230216185612
+18.140.67.87 1 1 15412 20230205070318
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20230201 6 6 92472 6
+20230202 6 6 92475 6
+20230203 6 6 92472 6
+20230204 6 6 92581 6
+20230205 5 5 77060 5
+20230206 5 5 77060 5
+20230207 11 11 154230 9
+20230208 5 5 77060 5
+20230209 6 6 92472 6
+20230210 8 8 123300 7
+20230211 9 9 139036 6
+20230212 15 15 47182 6
+20230215 2 2 30933 2
+20230216 8 8 123940 5
+20230218 1 1 15411 1
+20230221 2 2 30933 1
+20230222 52 52 801424 1
+20230223 15 15 231520 3
+20230225 6 6 92702 2
+20230226 32 32 493459 5
+20230227 1 1 15413 1
+20230228 15 15 232049 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+2mn-5mn 2
+30mn-1h 2
+0s-30s 87
+15mn-30mn 1
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 61
+/product/gaming-keyboard 58 893896 58 58
+/.env 30 462392 10 13
+/ 23 341012 10 7
+/wp-comments-post.php 6 93119 1 6
+/wp-sitemap-posts-post-1.xml 5 77064 5 0
+/shop/jirani-technologies-7/website/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/wp1/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/news/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/web/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/site/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/wp-includes/wlwmanifest.xml 3 46238 2 0
+/.well-known/acme-challenge/9KiOGHXBhcsH2Cv1adffKtixLLEiYlt0l8VMd_5x0Jw 3 261 3 3
+/shop/jirani-technologies-7/wp2/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/wordpress/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/test/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/cms/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7/blog/wp-includes/wlwmanifest.xml 3 46238 0 0
+/shop/jirani-technologies-7 3 46238 0 0
+/shop/jirani-technologies-7/wp/wp-includes/wlwmanifest.xml 3 46238 0 0
+//wp2/wp-includes/wlwmanifest.xml 2 30826 0 0
+//test/wp-includes/wlwmanifest.xml 2 30826 0 0
+//site/wp-includes/wlwmanifest.xml 2 30826 0 0
+//website/wp-includes/wlwmanifest.xml 2 30826 0 0
+//wp/wp-includes/wlwmanifest.xml 2 30826 0 0
+//blog/wp-includes/wlwmanifest.xml 2 30826 0 0
+/.well-known/acme-challenge/FQVPOWWIIHQ_NZ6OHGQJD1BWC3G4G3JF 1 64 0 0
+/.well-known/acme-challenge/EMG7-C8O31PPHNY7T8PVBHBFACADDPFT 1 64 0 0
+/wp-plain.php 1 15522 1 0
+/.well-known/acme-challenge/GRKV0SSRP104STJXYC7XQTPG3CRSKBMN 1 64 0 1
+/.git/config 1 15415 0 1
+/shop/jirani-technologies-7/2019/wp-includes/wlwmanifest.xml 1 15412 0 0
+//web/wp-includes/wlwmanifest.xml 2 30826 0 0
+/about.php 1 15520 1 1
+/shop/jirani-technologies-7/media/wp-includes/wlwmanifest.xml 2 30824 0 0
+//wordpress/wp-includes/wlwmanifest.xml 2 30826 0 0
+/nhzyafmw.php 1 15415 0 1
+/ups.php 1 15413 0 1
+/.well-known/acme-challenge/70YE5I2FZEDCSXQDVARKJTILBHHLCWWV 1 64 0 0
+/shop/jirani-technologies-7/shop/wp-includes/wlwmanifest.xml 2 30824 0 0
+/wp-includes/system-reboot.php 1 15520 1 1
+//shop/wp-includes/wlwmanifest.xml 1 15412 0 0
+/.well-known/acme-challenge/OMOTV92Y4KYTEQHGWXLUJUJWQBG_CQ3V 1 64 1 0
+/shop/jirani-technologies-7/2018/wp-includes/wlwmanifest.xml 2 30824 0 0
+//wp-includes/wlwmanifest.xml 1 15412 0 0
+//2018/wp-includes/wlwmanifest.xml 1 15412 0 0
+/wp-content/wp-editor_taksonomy.php 1 15520 1 1
+//news/wp-includes/wlwmanifest.xml 2 30826 0 0
+//wp1/wp-includes/wlwmanifest.xml 2 30826 0 0
+//2019/wp-includes/wlwmanifest.xml 1 15412 0 0
+/shop/jirani-technologies-7/sito/wp-includes/wlwmanifest.xml 2 30826 0 2
+/.well-known/acme-challenge/2SA_NMFL2YZ22S74JU8O4W-3FHIU446H 1 64 0 0
+/radio.php 1 15413 1 0
+//cms/wp-includes/wlwmanifest.xml 2 30826 0 0
+/.well-known/acme-challenge/R17K3PR3144WFSL0A9K78OJU5M4O_Q1R 1 64 0 0
+//sito/wp-includes/wlwmanifest.xml 2 30826 0 0
+/.well-known/acme-challenge/SFEN3RLEZL857MN-4FF73H5MD1A0JUC4 1 64 0 0
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 15522 0 0
+//media/wp-includes/wlwmanifest.xml 1 15412 0 0
+/sqlbuddy/login.php 1 15415 1 0
+/.well-known/acme-challenge/7PC_9-5VFQ2T_DCTMZ6MUSL4FN0UV9MM 1 64 0 0
+/index.php 1 15413 0 0
+END_SIDER

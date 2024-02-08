@@ -1,0 +1,29 @@
+Return-Path: <procurement@jiranimall.com>
+Delivered-To: projectmanager@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id qNjWGwZdomU8oiYAvE7qNg
+	(envelope-from <procurement@jiranimall.com>)
+	for <projectmanager@jiranimall.com>; Sat, 13 Jan 2024 09:51:02 +0000
+Return-path: <procurement@jiranimall.com>
+Envelope-to: projectmanager@jiranimall.com
+Delivery-date: Sat, 13 Jan 2024 09:51:02 +0000
+Received: from [::1] (port=48980 helo=ssdrs1.layerip.com)
+	by ssdrs1.layerip.com with esmtpa (Exim 4.96.2)
+	(envelope-from <procurement@jiranimall.com>)
+	id 1rOafS-00Acf4-2Y
+	for projectmanager@jiranimall.com;
+	Sat, 13 Jan 2024 09:51:02 +0000
+MIME-Version: 1.0
+Date: Sat, 13 Jan 2024 09:51:02 +0000
+From: procurement@jiranimall.com
+To: projectmanager@jiranimall.com
+Subject: projectmanager@jiranimall.com
+User-Agent: Roundcube Webmail/1.6.0
+Message-ID: <519dc8ac1e02825c29835587f499a85a@jiranimall.com>
+X-Sender: procurement@jiranimall.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+
+projectmanager@jiranimall.com

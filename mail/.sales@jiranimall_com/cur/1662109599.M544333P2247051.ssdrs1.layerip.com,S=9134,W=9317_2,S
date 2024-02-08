@@ -1,0 +1,183 @@
+Return-Path: <matthewnjoki@gmail.com>
+Delivered-To: sales@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id mLXnH5/HEWOLSSIAvE7qNg
+	(envelope-from <matthewnjoki@gmail.com>)
+	for <sales@jiranimall.com>; Fri, 02 Sep 2022 09:06:39 +0000
+Return-path: <matthewnjoki@gmail.com>
+Envelope-to: sales@jiranimall.com
+Delivery-date: Fri, 02 Sep 2022 09:06:39 +0000
+Received: from mail-yb1-f173.google.com ([209.85.219.173]:36695)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <matthewnjoki@gmail.com>)
+	id 1oU2dO-009R0g-6G
+	for sales@jiranimall.com;
+	Fri, 02 Sep 2022 09:06:39 +0000
+Received: by mail-yb1-f173.google.com with SMTP id p204so2262607yba.3
+        for <sales@jiranimall.com>; Fri, 02 Sep 2022 02:06:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date;
+        bh=Tm9SH7OQaQs85gYptyPz/sq+ypZI13X/InbykOzXJSg=;
+        b=lH6ryxNn8uygy2HQaMjM46hoXDWEESYgLWmIg8EZ5cJ7lT9M3O0JbHXC8S0fkW3XN1
+         uaMIV1K29trL1xhB3g1at2T03UZ7DFC35hQLTGIZbEkVIrX+0mE4eqrsAzi8XyHAaJo+
+         jsFQeBaX7uqtDxviwlLDlcZoDlGKM/mbkPV9PnCZEsuX+Bt5KqCYH6jcYmdUIN3hTHDO
+         fy8vluoMyBkJF9xZvclgsVo6de5k0fFCo66T8gllyQNOZZpbuyXdELb9OIoAYuUmF5V9
+         Vi/zsr8U1Z+zrh88WdhkAPH/H0cl+NQ7sgxalNvjaSbjw32coHpxnmMLQyiBUP4MgEBW
+         m4wA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date;
+        bh=Tm9SH7OQaQs85gYptyPz/sq+ypZI13X/InbykOzXJSg=;
+        b=toKCckzVna4laI7htPYAMJWUEY1S5ufAPvqBI5XSueomTs3J4MBXlWE8GdMM3/EqVd
+         BGmPaSmxTm+N1cnedVP5R5anoufn/gebOiYwsdK5nsgiHo6wodzouVVEPp3BlF4pF4vd
+         Mvhf3r5AiyXk0geRB4yqem88TqzTLTBpjErUc9ImY1VucyFa5ys3dWvSNX86wQdRvt4U
+         bXIRgDvmVyRRD9BDkw/iGFa71EvX3u2CLySrJgfFEZpsiYN9iPrAA1/DLUNAoxd0hW0E
+         XinNdcYZwT5Af3h3jaJi6ifFmCyrs+OqrFx/q2QGhTUkRW1iKzPGFtp8GR/YI4dRccH8
+         Gexw==
+X-Gm-Message-State: ACgBeo2epsrijtf51o7QL10G9afEpci9lK/tgB9j5cuR94iI/oJjVWe9
+	rOaeYI7MU7XAxhzVjNfNayWbGA0cSUU/eDlBcCL6bW39otc=
+X-Google-Smtp-Source: AA6agR6ZZtYQGRQD16lCaAAEWUa/X5YdwLWKuhansHCCLydavY4UnkLkFtWcAnuWaTu2Wi/tgXHhN4UW18+vsfKVE3g=
+X-Received: by 2002:a5b:7c8:0:b0:696:1c99:b5cb with SMTP id
+ t8-20020a5b07c8000000b006961c99b5cbmr22884744ybq.439.1662109556212; Fri, 02
+ Sep 2022 02:05:56 -0700 (PDT)
+MIME-Version: 1.0
+References: <37CC3F87-5ABA-4317-BC3C-C426F232A3EE@jiranimall.com>
+ <CAFgm4hevjjkC_jGQvB95F_2BRTstDCp=sGqzDSHFaZPVPL6oQQ@mail.gmail.com> <CAFgm4he3TozrWBV0MkFt=0unVtWL+xxU-vag29G7e-NfApQ_CQ@mail.gmail.com>
+In-Reply-To: <CAFgm4he3TozrWBV0MkFt=0unVtWL+xxU-vag29G7e-NfApQ_CQ@mail.gmail.com>
+From: Matthew Njoki <matthewnjoki@gmail.com>
+Date: Fri, 2 Sep 2022 12:05:38 +0300
+Message-ID: <CAFgm4heCXnkr01dAkZjKSEgECyFr4nGR9eXzCk42yX019XESuw@mail.gmail.com>
+Subject: Re: TEST 1
+To: "Sales@jiranimall.com" <sales@jiranimall.com>
+Content-Type: multipart/alternative; boundary="000000000000ad084405e7ae092f"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  XXXXXX On Sat, Aug 27, 2022 at 10:43 PM Matthew Njoki wrote:
+    > Just confirmed > > On Sat, Aug 27, 2022 at 10:37 PM Matthew Njoki > wrote:
+    > >> Got it! >> >> On Sat, Aug 27, 2022 at 10:36 PM Sales@jiranimall.com
+   < >> wrote: >> >>> Respond to this email to co [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [matthewnjoki[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000ad084405e7ae092f
+Content-Type: text/plain; charset="UTF-8"
+
+XXXXXX
+
+On Sat, Aug 27, 2022 at 10:43 PM Matthew Njoki <matthewnjoki@gmail.com>
+wrote:
+
+> Just confirmed
+>
+> On Sat, Aug 27, 2022 at 10:37 PM Matthew Njoki <matthewnjoki@gmail.com>
+> wrote:
+>
+>> Got it!
+>>
+>> On Sat, Aug 27, 2022 at 10:36 PM Sales@jiranimall.com <
+>> sales@jiranimall.com> wrote:
+>>
+>>> Respond to this email to confirm the receipt
+>>>
+>>
+>>
+>> --
+>>
+>> ____________________________________________________________________________________________
+>> Best regards,
+>> Matthew Njoki
+>> 0728814975 / 0202 444 111
+>>
+>
+>
+> --
+>
+> ____________________________________________________________________________________________
+> Best regards,
+> Matthew Njoki
+> 0728814975 / 0202 444 111
+>
+
+
+-- 
+____________________________________________________________________________________________
+Best regards,
+Matthew Njoki
+0728814975 / 0202 444 111
+
+--000000000000ad084405e7ae092f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif">XXXXXX</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cl=
+ass=3D"gmail_attr">On Sat, Aug 27, 2022 at 10:43 PM Matthew Njoki &lt;<a hr=
+ef=3D"mailto:matthewnjoki@gmail.com">matthewnjoki@gmail.com</a>&gt; wrote:<=
+br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8e=
+x;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr"=
+><div class=3D"gmail_default" style=3D"font-family:georgia,serif">Just conf=
+irmed</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"g=
+mail_attr">On Sat, Aug 27, 2022 at 10:37 PM Matthew Njoki &lt;<a href=3D"ma=
+ilto:matthewnjoki@gmail.com" target=3D"_blank">matthewnjoki@gmail.com</a>&g=
+t; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0p=
+x 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div d=
+ir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,serif"=
+>Got it!=C2=A0<br></div></div><br><div class=3D"gmail_quote"><div dir=3D"lt=
+r" class=3D"gmail_attr">On Sat, Aug 27, 2022 at 10:36 PM <a href=3D"mailto:=
+Sales@jiranimall.com" target=3D"_blank">Sales@jiranimall.com</a> &lt;<a hre=
+f=3D"mailto:sales@jiranimall.com" target=3D"_blank">sales@jiranimall.com</a=
+>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px=
+ 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><u>=
+</u><div>Respond to this email to confirm the receipt </div></blockquote></=
+div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"><div dir=3D"lt=
+r"><div><div dir=3D"ltr"><div><font color=3D"#0000ff" face=3D"arial black, =
+sans-serif">_______________________________________________________________=
+_____________________________</font></div><font color=3D"#0000ff" face=3D"g=
+eorgia, serif">Best regards,</font><div><font color=3D"#0000ff" face=3D"geo=
+rgia, serif">Matthew Njoki</font></div><div><font color=3D"#0000ff" face=3D=
+"georgia, serif">0728814975 / 0202 444 111</font></div></div></div></div></=
+div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+><div dir=3D"ltr"><div><div dir=3D"ltr"><div><font color=3D"#0000ff" face=
+=3D"arial black, sans-serif">______________________________________________=
+______________________________________________</font></div><font color=3D"#=
+0000ff" face=3D"georgia, serif">Best regards,</font><div><font color=3D"#00=
+00ff" face=3D"georgia, serif">Matthew Njoki</font></div><div><font color=3D=
+"#0000ff" face=3D"georgia, serif">0728814975 / 0202 444 111</font></div></d=
+iv></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><fon=
+t color=3D"#0000ff" face=3D"arial black, sans-serif">______________________=
+______________________________________________________________________</fon=
+t></div><font color=3D"#0000ff" face=3D"georgia, serif">Best regards,</font=
+><div><font color=3D"#0000ff" face=3D"georgia, serif">Matthew Njoki</font><=
+/div><div><font color=3D"#0000ff" face=3D"georgia, serif">0728814975 / 0202=
+ 444 111</font></div></div></div></div></div>
+
+--000000000000ad084405e7ae092f--

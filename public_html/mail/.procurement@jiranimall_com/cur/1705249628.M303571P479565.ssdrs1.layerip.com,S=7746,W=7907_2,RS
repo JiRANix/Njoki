@@ -1,0 +1,161 @@
+Return-Path: <jiranimall.com@gmail.com>
+Delivered-To: procurement@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id MNuDEVwLpGVNUQcAvE7qNg
+	(envelope-from <jiranimall.com@gmail.com>)
+	for <procurement@jiranimall.com>; Sun, 14 Jan 2024 16:27:08 +0000
+Return-path: <jiranimall.com@gmail.com>
+Envelope-to: procurement@jiranimall.com
+Delivery-date: Sun, 14 Jan 2024 16:27:08 +0000
+Received: from mail-ed1-f45.google.com ([209.85.208.45]:56453)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <jiranimall.com@gmail.com>)
+	id 1rP3KF-0024e2-2B
+	for procurement@jiranimall.com;
+	Sun, 14 Jan 2024 16:27:08 +0000
+Received: by mail-ed1-f45.google.com with SMTP id 4fb4d7f45d1cf-5592d1bc4fbso419412a12.0
+        for <procurement@jiranimall.com>; Sun, 14 Jan 2024 08:26:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1705249586; x=1705854386; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=wz4HCmIIj9xAkcEJ9ZiagqmPTJCRLDhiAecymtVzLvk=;
+        b=VjH7405wNtQtY1vIQyHqkQNkSYK0Wdc1CV6kSvuUd2WXT3PlUvvGZyULRyXhPOcroc
+         +vXz6SjNXiKz4xSkSxY2/l1s/UMiOJZgkPLuWqz3OmxnmwDSGGPD8AlIV+NLGyBHVBxW
+         UjMEYIFzNUV09Hw41/FQvRN2d+Lq+7NUkUow5qopRmwvwUO7+Y5wKspX+ktkn8Q6cgv7
+         WpjaWgHIBDsTVhxGtyR/5dYuN/UWBIGCTJUY/5QekFVn/wkWOtHTnysVYioggjpcsys5
+         WJz14G5ASXcMhAzCQRI807GHCrWWgMjsx2BWtRJFqKCgTqpmVudukpdmFJhqwfDsim8q
+         5kXA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705249586; x=1705854386;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=wz4HCmIIj9xAkcEJ9ZiagqmPTJCRLDhiAecymtVzLvk=;
+        b=hbdx4tb2ch6hYAzOhB0AYk6mTV6f5Q4c6EhcXKD1htEAOaozVBhV4rn/aWqKp+ajiO
+         qMqZi/0dPGM0pfCrFZz8XMP+MRAlyhvH5EOJU022Sp9JIo/zQclj0INgPyCcavG+h1Ts
+         SEtJn+yOGrLy2Yv5D4YCfNbD07efHHXM3sZ3SiOw/Cs9UKT19H0/NG/xB/93AhJ53jMY
+         zmAcdLCYW0Ab/tcv9RtZnBHTLcSy1RAdGgBcxzbzNCMAUOlPcywWcZ3akX/4gqulHnDD
+         DPwB+vLdNx3z84UFX4eoGmAdPHWsYhsoZt1SCvU/SWxsYRV9n/8hwAnnxRlFcceS+AfB
+         Jw/g==
+X-Gm-Message-State: AOJu0YxS/pMu1dflmomIrOFVwZaq4KncdJ4fCiZGttVO79mM8BmDV8xB
+	R6tgDY7aTGyChWtJFG93+XP/z44JjHuW4Wu+mXu+baVT
+X-Google-Smtp-Source: AGHT+IFokiYQP9MiwNoE1Q45ADch4xvd9f2CPh7fIzCmCP6STFa9LZeRCmvL307UlPgLvZSZ8Bl8ke8TYNC0Ha4Xdd8=
+X-Received: by 2002:a17:906:af58:b0:a2b:8cc6:e8c with SMTP id
+ ly24-20020a170906af5800b00a2b8cc60e8cmr1988748ejb.113.1705249585640; Sun, 14
+ Jan 2024 08:26:25 -0800 (PST)
+MIME-Version: 1.0
+References: <8c7a5965f589040696b6854befa0684d@digiask.co.ke>
+In-Reply-To: <8c7a5965f589040696b6854befa0684d@digiask.co.ke>
+From: JiRANi MALL <jiranimall.com@gmail.com>
+Date: Sun, 14 Jan 2024 19:26:12 +0300
+Message-ID: <CAPD2z-AV=NHJ2xK+3Cod27VTZGFtU1YEbOCLaLfUJC+P9+nk4A@mail.gmail.com>
+Subject: Fwd: Digital marketing Training tender
+To: procurement@jiranimall.com
+Content-Type: multipart/alternative; boundary="000000000000ce376b060eea5b8a"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Forwarded message --------- From: Date: Sun, 14 Jan 2024,
+    19:23 Subject: Digital marketing Training tender To: Dear Jirani Mall, I
+   hope this email finds you well. I am Andrew Shonko from from DigiAsk, and
+   we are interested in tendering for the digital marketing training program
+   as per your recent request for proposals. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [jiranimall.com[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000ce376b060eea5b8a
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ---------
+From: <shonko@digiask.co.ke>
+Date: Sun, 14 Jan 2024, 19:23
+Subject: Digital marketing Training tender
+To: <jiranimall.com@gmail.com>
+
+
+Dear Jirani Mall,
+
+I hope this email finds you well. I am Andrew Shonko from from DigiAsk,
+and we are interested in tendering for the digital marketing training
+program as per your recent request for proposals.
+
+Our company specializes in delivering high-quality digital marketing
+training programs with a proven track record. We offer a comprehensive
+curriculum covering social media marketing, SEO, content marketing,
+email marketing, analytics, and paid advertising.
+
+We would appreciate the opportunity to discuss your specific
+requirements and customize our proposal accordingly. If possible, we
+would like to schedule a meeting or call to address any questions and
+gain a deeper understanding of your organization's objectives.
+
+Thank you for considering DigiAsk. We look forward to the possibility of
+collaborating with Jirani Mall and contributing to your team's success.
+
+Best regards,
+
+Andrew Shonko
+CEO- DigiAsk
++254 716 74512
+
+--000000000000ce376b060eea5b8a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">---------- Forwarded message ---------<br>From: <span dir=
+=3D"auto">&lt;<a href=3D"mailto:shonko@digiask.co.ke">shonko@digiask.co.ke<=
+/a>&gt;</span><br>Date: Sun, 14 Jan 2024, 19:23<br>Subject: Digital marketi=
+ng Training tender<br>To:  &lt;<a href=3D"mailto:jiranimall.com@gmail.com">=
+jiranimall.com@gmail.com</a>&gt;<br></div><br><br>Dear Jirani Mall,<br>
+<br>
+I hope this email finds you well. I am Andrew Shonko from from DigiAsk, <br=
+>
+and we are interested in tendering for the digital marketing training <br>
+program as per your recent request for proposals.<br>
+<br>
+Our company specializes in delivering high-quality digital marketing <br>
+training programs with a proven track record. We offer a comprehensive <br>
+curriculum covering social media marketing, SEO, content marketing, <br>
+email marketing, analytics, and paid advertising.<br>
+<br>
+We would appreciate the opportunity to discuss your specific <br>
+requirements and customize our proposal accordingly. If possible, we <br>
+would like to schedule a meeting or call to address any questions and <br>
+gain a deeper understanding of your organization&#39;s objectives.<br>
+<br>
+Thank you for considering DigiAsk. We look forward to the possibility of <b=
+r>
+collaborating with Jirani Mall and contributing to your team&#39;s success.=
+<br>
+<br>
+Best regards,<br>
+<br>
+Andrew Shonko<br>
+CEO- DigiAsk<br>
++254 716 74512<br>
+</div>
+
+--000000000000ce376b060eea5b8a--

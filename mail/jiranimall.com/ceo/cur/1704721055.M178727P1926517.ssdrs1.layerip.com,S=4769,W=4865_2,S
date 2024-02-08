@@ -1,0 +1,96 @@
+Return-Path: <kyla9944@gmail.com>
+Delivered-To: ceo@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id cO8dCp/6m2V1ZR0AvE7qNg
+	(envelope-from <kyla9944@gmail.com>)
+	for <ceo@jiranimall.com>; Mon, 08 Jan 2024 13:37:35 +0000
+Return-path: <kyla9944@gmail.com>
+Envelope-to: ceo@jiranimall.com
+Delivery-date: Mon, 08 Jan 2024 13:37:35 +0000
+Received: from mail-qt1-f169.google.com ([209.85.160.169]:47186)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <kyla9944@gmail.com>)
+	id 1rMpos-0085Uz-20
+	for ceo@jiranimall.com;
+	Mon, 08 Jan 2024 13:37:35 +0000
+Received: by mail-qt1-f169.google.com with SMTP id d75a77b69052e-4298e27c773so10555461cf.2
+        for <ceo@jiranimall.com>; Mon, 08 Jan 2024 05:37:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1704721011; x=1705325811; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=tDpFPhgrELD6n1cMfHyNETMvdIzZQbQDVtSEr5Xx9WM=;
+        b=cEEtkrJFQ9/uFRoooritCYUHnpcWflAKzTEhQ7ck6wdyDKKDok8YX/tUhm0bC9cqsP
+         Yqe3L+TshVPCl3dbn7YP0UHQubg1BL6/ktV1l+hWzpqwmU7Wb2RUNkMrJjvDLNKWbWYx
+         VI7ksyUCXCpKI2TGZKGB4YmNmM55FamPfQZXARAmaZU0VYsBZ4IuK+8ChQGbzWniW9lM
+         UW1rbJArTdSqfcjz7fb41k3EskGvq2ebKMpWcKmaWIUWyUHreq0rtrxIlbqRHjgDbiNo
+         1BKtr7L1s6u1mMtFwQbtgJfMvEWbfnHJpzjy8qeI2nVdCwFR7WZFkOpb/mGbo6CBLhYG
+         jwUQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704721011; x=1705325811;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=tDpFPhgrELD6n1cMfHyNETMvdIzZQbQDVtSEr5Xx9WM=;
+        b=P58jzVxOeJwYhva3iKjcUlEnYhQMUsWiO6Ngcwkt2szgkwItDABmfzsuyGu+B0NQLC
+         MySlwjlVJo/S3D6hvwZElTCWT99qXd7hcyCdbqjdTNhCITOsuZCsddSrClN9jLbJ58hR
+         sFrOJt7WOPbw8OrvCg/6dNhJqxFTDZCZo8hAdNA7ekDeiGr7mW8Msnq6Jyj5gQx9pzSB
+         y4ct3yntfuQ0E4Ir+Ts8WqcPGLb19jENFnBl+DoWFmiyAI7keEAXllh0XUB625USUOnb
+         fwROgCYTAZPCzDzBKCZRfLEhlOTm44SAVEwZHcsgI3MmNMrR2XqeZgPdGQ4m8GsIu4am
+         qigg==
+X-Gm-Message-State: AOJu0YxKnBpszxZuDVIdulV4TqSfNWQHPH/nSGfPsF5fm/wLPl9U8quX
+	0VmSycHGZEJwGviS8PJtvRrBgTbFwkndMngyzm49O5IF
+X-Google-Smtp-Source: AGHT+IF8gWpkIMkS3qUd3VodkwzUe+8FZd5LGQaVgicFOH9oYE/6djXUAbDobm4uUfOHgWdYDSMm4y5vAXZywFJNQoM=
+X-Received: by 2002:ac8:5c48:0:b0:429:9d7c:ff14 with SMTP id
+ j8-20020ac85c48000000b004299d7cff14mr341529qtj.43.1704721011308; Mon, 08 Jan
+ 2024 05:36:51 -0800 (PST)
+MIME-Version: 1.0
+From: Kyla 9944 <kyla9944@gmail.com>
+Date: Mon, 8 Jan 2024 16:36:40 +0300
+Message-ID: <CALOsA9_QZHtfw=AAMWpXpdLyfi-8b8OHRysi7QkZv4RJ-Kf80Q@mail.gmail.com>
+Subject: Courage
+To: ceo@jiranimall.com
+Content-Type: multipart/alternative; boundary="00000000000051fc19060e6f4a6e"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get the job done Get the job done 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [kyla9944[at]gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [kyla9944[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000051fc19060e6f4a6e
+Content-Type: text/plain; charset="UTF-8"
+
+Get the job done
+
+--00000000000051fc19060e6f4a6e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Get the job done=C2=A0</div>
+
+--00000000000051fc19060e6f4a6e--

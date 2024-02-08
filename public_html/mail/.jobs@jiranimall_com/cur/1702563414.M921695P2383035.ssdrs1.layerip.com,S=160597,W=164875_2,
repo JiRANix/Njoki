@@ -1,0 +1,4278 @@
+Return-Path: <m-7coh7bjs9re91vuhes2sx9ug6h713sc5fmwc4za6g1vga2kkcu399urwx9o@bounce.linkedin.com>
+Delivered-To: jobs@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id UO2pNlYOe2W7XCQAvE7qNg
+	(envelope-from <m-7coh7bjs9re91vuhes2sx9ug6h713sc5fmwc4za6g1vga2kkcu399urwx9o@bounce.linkedin.com>)
+	for <jobs@jiranimall.com>; Thu, 14 Dec 2023 14:16:54 +0000
+Return-path: <m-7coh7bjs9re91vuhes2sx9ug6h713sc5fmwc4za6g1vga2kkcu399urwx9o@bounce.linkedin.com>
+Envelope-to: jobs@jiranimall.com
+Delivery-date: Thu, 14 Dec 2023 14:16:54 +0000
+Received: from maile-cf.linkedin.com ([108.174.6.198]:56495)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <m-7coh7bjs9re91vuhes2sx9ug6h713sc5fmwc4za6g1vga2kkcu399urwx9o@bounce.linkedin.com>)
+	id 1rDmWC-00A0Kf-2V
+	for jobs@jiranimall.com;
+	Thu, 14 Dec 2023 14:16:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1702563369;
+	bh=8OI4bLuY6cwwY5iYrqhaG7gMw2mkx1Ik1E6qx7+jy4w=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=CnUPu5WJ827Bjs/7ZdenRZoiQjhbCT9ZK3T2EzBvBVrij0Su9SyUecbBp37BRftGw
+	 LvYl2E5wtaZj8IXjECmTkTg2SQIpzH1hAg9hdy34tHvviRlBLTrts+Q7wV43bBm5Yw
+	 nh0DMrApZLf8dlEl2c8IuUcKdIFtVnfrrqQ+/t174+eeJSdYyMxum9pJM/sWZRKJsi
+	 Kx79z7pDh3RQIlUSjYhu3hZ45txWQAH4DbwHZtz63aUeWbQUMekK1fCzdhFZAnmG/i
+	 dsP0SJjju1XyGueYX3b7QKDKaEUusa3A3S98F6SJYJWUp4Uh1/Ai7bXRbhfCcblw4n
+	 xBDAL+0s5Nvsg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1702563369;
+	bh=8OI4bLuY6cwwY5iYrqhaG7gMw2mkx1Ik1E6qx7+jy4w=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=oIj9OXCEkzkE38RHdPxiJg8OUO8B3F/zU6d7hjJvrtmuwcz2esno4nWdYnYEALV0L
+	 ZnSwe74wgIsvPu1/AeZfRIwP0sVXl3G22hEf5MSEtW0fKuxPtOCU2Ec4tqZKshhAAn
+	 YwhiGL9tagoJdYrD+XcrWq8aC1Grisc52MBSxGGdH9pS9IZ7kNfCdBOiUh0fc4ykXg
+	 vWnwSKhzxJGSlxB6y1+m0hylSazpZK4fxuwsZA1Dj+ga5YbRVXPdumleEFujx9n82B
+	 ff0kkFV5Yk2uFWvPijTeffTf/E0KLG60NMk8Y/6sYmgfQdTZIiwtO2c1xB8Xhzbxll
+	 kQeJl20uAAYQg==
+From: LinkedIn <jobs-listings@linkedin.com>
+Message-ID: <675416457.3786575.1702563369131@lva1-app78610.prod.linkedin.com>
+Subject: New application: Graphic Design Specialist from Lenox Brian
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3786573_1894196508.1702563369127"
+To:  <jobs@jiranimall.com>
+Date: Thu, 14 Dec 2023 14:16:09 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_online_jobs_new_applicant
+X-LinkedIn-fbl: m2-aszq1ea8s4sb1osqln1jpobrd4ivmjndw20zx5jbaqrlkeqlh6ajq57krn9cq5i02aw9vfrcm8vv8njaqd2xuvvuf3gdilcs4t42lu
+X-LinkedIn-Id: 3rysoq-lq5a9pkz-sl
+List-Unsubscribe: <https://www.linkedin.com/comm/psettings/email-unsubscribe?lipi=urn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&midToken=AQFmrFVhGEd36Q&midSig=0iiYs8BGrU-X01&trk=eml-email_online_jobs_new_applicant-unsub-0-unsub&trkEmail=eml-email_online_jobs_new_applicant-unsub-0-unsub-null-3rysoq~lq5a9pkz~sl-null-null&eid=3rysoq-lq5a9pkz-sl&loid=AQFSWfvyCom1fgAAAYxor00OYrfhOcARHk_EvogmNHFRA85wn537j3zO-spatIhlozBOnT7vdvX2Sy8JW4YWBvw4rPkz9ss0fU6szlcMy2jByw>
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Your job has a new applicant Lenox Brian Graphic Designer
+   | Computer Programming, Web Design Nairobi, Nairobi County, Kenya View application:
+    https://www.linkedin.com/hiring/jobs/3784539269/applicants/22059762213/detail/?lipi=urn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&midToken=AQ
+    [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+ -0.0 DKIMWL_WL_HIGH         DKIMwl.org - High trust sender
+X-Spam-Flag: NO
+
+------=_Part_3786573_1894196508.1702563369127
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Your job has a new applicant
+Lenox Brian
+Graphic Designer | Computer Programming, Web Design
+Nairobi, Nairobi County, Kenya
+
+View application:
+      https://www.linkedin.com/hiring/jobs/3784539269/applicants/2205976221=
+3/detail/?lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3B=
+kqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-=
+X01&ek=3Demail_online_jobs_new_applicant&e=3D3rysoq-lq5a9pkz-sl&eid=3D3ryso=
+q-lq5a9pkz-sl&m=3Dview-applicant-text&ts=3Dview-applicant-text&li=3D0&t=3Dp=
+lh =20
+
+Current experience
+Graphic Designer at Microsoft middot Jan 2023 - Present
+
+Past experience
+Information Technology Technical Support at TUFFSTEEL LIMITED middot Jan 20=
+22 - Jan 2023
+Graphic Designer at Nautillus Creations middot Jan 2020 - Jan 2022
+Graphic Designer at vj Philix Brands middot Jan 2017 - Jan 2022
+View all experience (4)
+      https://www.linkedin.com/hiring/jobs/3784539269/applicants/2205976221=
+3/detail/?lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3B=
+kqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-=
+X01&ek=3Demail_online_jobs_new_applicant&e=3D3rysoq-lq5a9pkz-sl&eid=3D3ryso=
+q-lq5a9pkz-sl&m=3Dview-applicants-text&ts=3Dview-applicants-text&li=3D0&t=
+=3Dplh =20
+
+Looking for more qualified applicants?
+Get 3x more qualified applicants when you promote
+      https://www.linkedin.com/job-posting/form/budget?jobId=3D3784539269&l=
+ipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2=
+jDjbfv2y1Sg%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-X01&ek=3Dem=
+ail_online_jobs_new_applicant&e=3D3rysoq-lq5a9pkz-sl&eid=3D3rysoq-lq5a9pkz-=
+sl&m=3Dpromote-job-text&ts=3Dpromote-job-text&li=3D0&t=3Dplh =20
+Education
+
+Coast Institute of Technology
+Information Communication Technology,Information  Communication Technology =
+Jan 2019 - Jan 2021
+Education
+
+Coast Institute of Technology
+Information Communication Technology,Information  Communication Technology =
+Jan 2019 - Jan 2021
+
+Download resume:
+      https://www.linkedin.com/talent/api/talentResumes?applicationId=3D220=
+59762213&tokenId=3D6341621321&checkSum=3DAQGw-_gBpzQvCTpu-eQDDEAJkYG7FMN4iw=
+0&lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4=
+Tk2jDjbfv2y1Sg%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-X01&ek=
+=3Demail_online_jobs_new_applicant&e=3D3rysoq-lq5a9pkz-sl&eid=3D3rysoq-lq5a=
+9pkz-sl&m=3Ddownload-resume-text&ts=3Ddownload-resume-text&li=3D0&t=3Dplh =
+=20
+
+Screening qualifications
+3 out of 3 preferred qualifications met
+     =20
+Answer passed=09How many years of work experience do you have with Working =
+Experience?=095=09     =20
+Answer passed=09Have you completed the following level of education: Bachel=
+or's Degree?=09Yes=09     =20
+Answer passed=09How many years of work experience do you have with Canva?=
+=092=09 =20
+View all screening qualifications (3)
+         =20
+     =20
+
+----------------
+
+This email was intended for jobs@jiranimall.com
+Learn why we included this:
+      https://www.linkedin.com/help/linkedin/answer/4788?lang=3Den&lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2=
+y1Sg%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-X01&trk=3Deml-emai=
+l_online_jobs_new_applicant-SecurityHelp-0-textfooterglimmer&trkEmail=3Deml=
+-email_online_jobs_new_applicant-SecurityHelp-0-textfooterglimmer-null-3rys=
+oq~lq5a9pkz~sl-null-null&eid=3D3rysoq-lq5a9pkz-sl
+You are receiving Job Applicant emails.
+
+         =20
+           =20
+         =20
+       =20
+Unsubscribe:
+      https://www.linkedin.com/comm/psettings/email-unsubscribe?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1S=
+g%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-X01&trk=3Deml-email_o=
+nline_jobs_new_applicant-unsubscribe-0-textfooterglimmer&trkEmail=3Deml-ema=
+il_online_jobs_new_applicant-unsubscribe-0-textfooterglimmer-null-3rysoq~lq=
+5a9pkz~sl-null-null&eid=3D3rysoq-lq5a9pkz-sl&loid=3DAQFSWfvyCom1fgAAAYxor00=
+OYrfhOcARHk_EvogmNHFRA85wn537j3zO-spatIhlozBOnT7vdvX2Sy8JW4YWBvw4rPkz9ss0fU=
+6szlcMy2jByw
+Help:
+      https://www.linkedin.com/help/linkedin/answer/67?lang=3Den&lipi=3Durn=
+%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1=
+Sg%3D%3D&midToken=3DAQFmrFVhGEd36Q&midSig=3D0iiYs8BGrU-X01&trk=3Deml-email_=
+online_jobs_new_applicant-help-0-textfooterglimmer&trkEmail=3Deml-email_onl=
+ine_jobs_new_applicant-help-0-textfooterglimmer-null-3rysoq~lq5a9pkz~sl-nul=
+l-null&eid=3D3rysoq-lq5a9pkz-sl
+
+=C2=A9 2023 LinkedIn Corporation, 1zwnj000 West Maude Avenue, Sunnyvale, CA=
+ 94085.LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn=
+.
+------=_Part_3786573_1894196508.1702563369127
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"en" xml:lang=3D"en"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+          @media (max-width: 512px) { .mercado-container { width: 100% !imp=
+ortant; } }
+        </style> <style>
+          .full-width-button, .full-width-button table { display: none; } @=
+media (max-width: 320px) { .inline-button,
+          .inline-button table { display: none !important; } .full-width-bu=
+tton, .full-width-button table { display:
+          table !important; } }
+        </style> <style>body {font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+          'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid San=
+s', 'Apple Color Emoji', 'Segoe UI Emoji',
+          'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </style>=
+<![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <st=
+yle>
+@media (min-width: 576px) {
+  .\!container {
+    max-width: 576px !important;
+  }
+
+  .container {
+    max-width: 576px;
+  }
+}
+@media (min-width: 768px) {
+  .\!container {
+    max-width: 768px !important;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 992px) {
+  .\!container {
+    max-width: 992px !important;
+  }
+
+  .container {
+    max-width: 992px;
+  }
+}
+@media (min-width: 1128px) {
+  .\!container {
+    max-width: 1128px !important;
+  }
+
+  .container {
+    max-width: 1128px;
+  }
+}
+@media (min-width: 1200px) {
+  .\!container {
+    max-width: 1200px !important;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1440px) {
+  .\!container {
+    max-width: 1440px !important;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 1680px) {
+  .\!container {
+    max-width: 1680px !important;
+  }
+
+  .container {
+    max-width: 1680px;
+  }
+}
+@media (min-width: 1920px) {
+  .\!container {
+    max-width: 1920px !important;
+  }
+
+  .container {
+    max-width: 1920px;
+  }
+}
+@media (min-width: 992px) {
+  .base-detail-page__header .nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1128px;
+  }
+}
+@media (max-width: 767px) {
+  .embedded-social-share .modal__outlet {
+    flex-direction: row;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+@media (max-width: 767px) {
+  .nav .search-bar {
+    order: 4;
+  }
+}
+@media (max-width: 767px) {
+  .nav .sign-in-card {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .nav--minified-mobile .nav__cta-container > *:not(.nav__link-person) {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav .search-bar--minified-mobile {
+    margin-bottom: 0px;
+    height: 100%;
+    flex-grow: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    order: initial;
+    width: initial;
+  }
+
+  .nav .search-bar--minified-mobile .search-bar__placeholder {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .tw-link-column-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .tw-link-column-item {
+    margin-bottom: 8px;
+  }
+
+  .tw-linkster .tw-link-column-item {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .member-nav-menu .collapsible-dropdown__button {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .member-nav-menu .collapsible-dropdown__list {
+    right: 0px;
+    max-height: calc(100vh - 52px);
+    overflow-y: auto;
+  }
+}
+@media (max-width: 767px) {
+  .recent-searches.recent-searches--show {
+    position: fixed;
+    top: 168px;
+    left: 0px;
+    width: 100vw;
+    min-width: 100vw;
+    border-width: 0;
+  }
+}
+@media (max-width: 767px) {
+  .search-bar .dismissable-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.75);
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', =
+Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Canta=
+rell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .search-bar .dismissable-input:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    border-width: 1px;
+  }
+
+  .search-bar .dismissable-input:active {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    border-width: 1px;
+  }
+
+  .search-bar .dismissable-input:disabled {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .search-bar .dismissable-input:disabled:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .search-bar .dismissable-input:disabled:focus {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .search-bar .dismissable-input:disabled:active {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .base-search-bar .input-error .search-bar .dismissable-input.typeahead-in=
+put {
+    border-style: solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .base-search-bar .input-error .search-bar .dismissable-input.typeahead-in=
+put:active {
+    border-style: solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .base-search-bar .input-error .search-bar .dismissable-input.typeahead-in=
+put:focus-within {
+    border-style: solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .input-error .search-bar .dismissable-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #cf0007;
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', =
+Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Canta=
+rell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .input-error .search-bar .dismissable-input:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: #8a0005;
+    box-shadow: 0 0 0 1px #8a0005;
+    cursor: pointer;
+    border-width: 1px;
+  }
+
+  .input-error .search-bar .dismissable-input:active {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: #8a0005;
+    cursor: pointer;
+    border-width: 1px;
+  }
+
+  .input-error .search-bar .dismissable-input:disabled {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .input-error .search-bar .dismissable-input:disabled:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .input-error .search-bar .dismissable-input:disabled:focus {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .input-error .search-bar .dismissable-input:disabled:active {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+    border-width: 1px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .search-bar .dismissable-input {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .search-bar .dismissable-input:hover {
+    border-right-color: rgba(0, 0, 0, 0.08);
+  }
+}
+@media (min-width: 992px) {
+  .search-bar .dismissable-input {
+    width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+  }
+
+  .search-bar .dismissable-input:hover {
+    border-right-color: rgba(0, 0, 0, 0.08);
+  }
+}
+@media (max-width: 767px) {
+  .search-bar:not(.isExpanded) .base-search-bar__form {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  @media (max-width: 767px) {
+    .search-bar.isExpanded .search-bar__placeholder {
+      display: none;
+    }
+
+    .search-bar.isExpanded .base-search-bar__form {
+      display: flex;
+    }
+
+    position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 1000;
+        margin-bottom: 0px;
+        height: 100%;
+        background-color: #ffffff;
+    .search-bar.isExpanded .switcher-tabs__cancel-btn,
+.search-bar.isExpanded .switcher-tabs {
+      display: inherit;
+    }
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .stuck .search-bar {
+    transition: height 0.4s, margin-bottom 0.4s ease-in-out;
+    margin-bottom: 0px;
+    height: 0px;
+  }
+
+  .stuck .search-bar--minified-mobile .search-bar__placeholder {
+    max-height: initial;
+    pointer-events: initial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (min-width: 767px) {
+  .switcher-tabs .switcher-tabs__button:after {
+    border-bottom: none;
+  }
+}
+@media (max-width: 767px) {
+  .tabs__list {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .typeahead-input__dropdown.typeahead-input__dropdown--show {
+    position: fixed;
+    top: 158px;
+    left: 0px;
+    width: 100vw;
+    min-width: 100vw;
+  }
+}
+@media (max-width: 767px) {
+  .base-search-bar .dismissable-input {
+    max-height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .base-main-card__media ~ .base-main-card__info {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .mx-main-feed-card-no-gutter {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mx-main-feed-card-no-gutter {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media (max-width: 767px) {
+  .px-main-feed-card-no-gutter {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .px-main-feed-card-no-gutter {
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .filter .collapsible-dropdown__list {
+    max-height: 400px;
+  }
+}
+@media (forced-colors: active) {
+  .filter-button--selected {
+    border-width: 4px;
+  }
+}
+@media (max-width: 767px) {
+  .base-card .duration {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .social-action-bar__button {
+    flex-direction: row;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+@media (max-width: 767px) {
+  .social-action-bar__icon--svg {
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+  }
+
+  .social-action-bar__button-text {
+    padding-left: 4px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:btn-sm {
+    height: min-content;
+    min-height: 32px;
+    border-radius: 24px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .babybear\:btn-sm,
+.babybear\:btn-sm:visited,
+.babybear\:btn-sm:focus {
+    cursor: pointer;
+    text-decoration-line: none;
+  }
+
+  .babybear\:btn-sm:hover,
+.babybear\:btn-sm:visited:hover {
+    text-decoration-line: none;
+  }
+
+  .babybear\:btn-sm:disabled {
+    cursor: not-allowed;
+  }
+
+  .babybear\:container-lined {
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:container-lined {
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+  }
+
+  .mamabear\:container-raised {
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .mamabear\:tab-vertical.tab-sm,
+.mamabear\:tab-vertical .tab-md,
+.mamabear\:tab-vertical .tab-lg {
+    justify-content: flex-start;
+  }
+
+  .mamabear\:tab-vertical.tab-selected:after {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    content: undefined;
+    border-left: 4px solid rgba(0, 0, 0, 0.9);
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .mamabear\:tab-vertical.tab-selected:after {
+      content: "";
+    }
+
+    @media (min-width: 992px) {
+      .papabear\:container-lined {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+      }
+
+      .papabear\:container-raised {
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .papabear\:tab-vertical.tab-sm,
+.papabear\:tab-vertical .tab-md,
+.papabear\:tab-vertical .tab-lg {
+        justify-content: flex-start;
+      }
+
+      .papabear\:tab-vertical.tab-selected:after {
+        position: absolute;
+        left: 0px;
+        height: 100%;
+        content: undefined;
+        border-left: 4px solid rgba(0, 0, 0, 0.9);
+      }
+
+      @media (min-width: 992px) {
+        .papabear\:tab-vertical.tab-selected:after {
+          content: "";
+        }
+
+        padding-left: 16px;
+
+.placeholder\:text-color-text-secondary::placeholder {
+          color: rgba(0, 0, 0, 0.6);
+        }
+
+        .before\:pointer-events-none::before {
+          content: undefined;
+          pointer-events: none;
+        }
+
+        .before\:pointer-events-none::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:absolute::before {
+          content: undefined;
+          position: absolute;
+        }
+
+        .before\:absolute::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:bottom-auto::before {
+          content: undefined;
+          bottom: auto;
+        }
+
+        .before\:bottom-auto::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:left-0::before {
+          content: undefined;
+          left: 0px;
+        }
+
+        .before\:left-0::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:left-\[calc\(50\%-1px\)\]::before {
+          content: undefined;
+          left: calc(50% - 1px);
+        }
+
+        .before\:left-\[calc\(50\%-1px\)\]::before:content-\[\'\'\]::before=
+ {
+          content: '';
+        }
+
+        .before\:top-0::before {
+          content: undefined;
+          top: 0px;
+        }
+
+        .before\:top-0::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:top-\[calc\(50\%-1px\)\]::before {
+          content: undefined;
+          top: calc(50% - 1px);
+        }
+
+        .before\:top-\[calc\(50\%-1px\)\]::before:content-\[\'\'\]::before =
+{
+          content: '';
+        }
+
+        .before\:z-4::before {
+          content: undefined;
+          z-index: 400;
+        }
+
+        .before\:z-4::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:\!mx-\[0\]::before {
+          content: undefined;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+
+        .before\:\!mx-\[0\]::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:h-8::before {
+          content: undefined;
+          height: 64px;
+        }
+
+        .before\:h-8::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:w-full::before {
+          content: undefined;
+          width: 100%;
+        }
+
+        .before\:w-full::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:rounded-full::before {
+          content: undefined;
+          border-radius: 9999px;
+        }
+
+        .before\:rounded-full::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:border-1::before {
+          content: undefined;
+          border-width: 1px;
+        }
+
+        .before\:border-1::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:border-solid::before {
+          content: undefined;
+          border-style: solid;
+        }
+
+        .before\:border-solid::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:border-color-icon-on-dark::before {
+          content: undefined;
+          border-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .before\:border-color-icon-on-dark::before:content-\[\'\'\]::before=
+ {
+          content: '';
+        }
+
+        .before\:border-white-a90::before {
+          content: undefined;
+          border-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .before\:border-white-a90::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:text-color-text-low-emphasis::before {
+          content: undefined;
+          color: rgba(0, 0, 0, 0.6);
+        }
+
+        .before\:text-color-text-low-emphasis::before:content-\[\'\'\]::bef=
+ore {
+          content: '';
+        }
+
+        .before\:content-\[\'\'\]::before {
+          content: undefined;
+        }
+
+        .before\:content-\[\'\'\]::before:content-\[\'\'\]::before {
+          content: '';
+        }
+
+        .before\:middot::before {
+          content: "\00b7";
+          margin: 0 4px;
+        }
+
+        .after\:pointer-events-none::after {
+          content: undefined;
+          pointer-events: none;
+        }
+
+        .after\:pointer-events-none::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:pointer-events-none::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:pointer-events-none::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:pointer-events-none::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:absolute::after {
+          content: undefined;
+          position: absolute;
+        }
+
+        .after\:absolute::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:absolute::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:absolute::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:absolute::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:bottom-0::after {
+          content: undefined;
+          bottom: 0px;
+        }
+
+        .after\:bottom-0::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:bottom-0::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:bottom-0::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:bottom-0::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:left-0::after {
+          content: undefined;
+          left: 0px;
+        }
+
+        .after\:left-0::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:left-0::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:left-0::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:left-0::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:right-0::after {
+          content: undefined;
+          right: 0px;
+        }
+
+        .after\:right-0::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:right-0::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:right-0::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:right-0::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:top-0::after {
+          content: undefined;
+          top: 0px;
+        }
+
+        .after\:top-0::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:top-0::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:top-0::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:top-0::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:ml-0::after {
+          content: undefined;
+          margin-left: 0px;
+        }
+
+        .after\:ml-0::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:ml-0::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:ml-0::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:ml-0::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:ml-0\.5::after {
+          content: undefined;
+          margin-left: 4px;
+        }
+
+        .after\:ml-0\.5::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:ml-0\.5::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:ml-0\.5::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:ml-0\.5::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:ml-\[74px\]::after {
+          content: undefined;
+          margin-left: 74px;
+        }
+
+        .after\:ml-\[74px\]::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:ml-\[74px\]::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:ml-\[74px\]::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:ml-\[74px\]::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:block::after {
+          content: undefined;
+          display: block;
+        }
+
+        .after\:block::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:block::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:block::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:block::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:\!h-\[37px\]::after {
+          content: undefined;
+          height: 37px !important;
+        }
+
+        .after\:\!h-\[37px\]::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:\!h-\[37px\]::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:\!h-\[37px\]::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:h-full::after {
+          content: undefined;
+          height: 100%;
+        }
+
+        .after\:h-full::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:h-full::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:h-full::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:h-full::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:w-full::after {
+          content: undefined;
+          width: 100%;
+        }
+
+        .after\:w-full::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:w-full::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:w-full::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:w-full::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:rounded-full::after {
+          content: undefined;
+          border-radius: 9999px;
+        }
+
+        .after\:rounded-full::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:rounded-full::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:rounded-full::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:rounded-full::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:border-1::after {
+          content: undefined;
+          border-width: 1px;
+        }
+
+        .after\:border-1::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:border-1::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:border-1::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:border-1::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:border-solid::after {
+          content: undefined;
+          border-style: solid;
+        }
+
+        .after\:border-solid::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:border-solid::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:border-solid::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:border-solid::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:border-color-divider::after {
+          content: undefined;
+          border-color: rgba(0, 0, 0, 0.08);
+        }
+
+        .after\:border-color-divider::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:border-color-divider::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:border-color-divider::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:border-color-divider::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:bg-gradient-to-b::after {
+          content: undefined;
+          background-image: undefined;
+        }
+
+        .after\:bg-gradient-to-b::after:from-color-transparent::after {
+          background-image: undefined;
+        }
+
+        .after\:bg-gradient-to-b::after:from-color-transparent::after {
+          background-image: undefined;
+        }
+
+        .after\:bg-gradient-to-b::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:bg-gradient-to-b::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:bg-gradient-to-b::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:bg-gradient-to-b::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:from-color-transparent::after {
+          content: undefined;
+        }
+
+        .after\:from-color-transparent::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:from-color-transparent::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:from-color-transparent::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:from-color-transparent::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:to-color-background-scrim::after {
+          content: undefined;
+        }
+
+        .after\:to-color-background-scrim::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:to-color-background-scrim::after:content-\[\'\/\'\]::after =
+{
+          content: "";
+        }
+
+        .after\:to-color-background-scrim::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:to-color-background-scrim::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:text-color-text-low-emphasis::after {
+          content: undefined;
+          color: rgba(0, 0, 0, 0.6);
+        }
+
+        .after\:text-color-text-low-emphasis::after:up-down-divider::after =
+{
+          content: "";
+        }
+
+        .after\:text-color-text-low-emphasis::after:content-\[\'\/\'\]::aft=
+er {
+          content: "";
+        }
+
+        .after\:text-color-text-low-emphasis::after:content-\[\'\'\]::after=
+ {
+          content: "";
+        }
+
+        .after\:text-color-text-low-emphasis::after:content-\[\"\"\]::after=
+ {
+          content: "";
+        }
+
+        .after\:no-underline::after {
+          content: undefined;
+          text-decoration-line: none;
+        }
+
+        .after\:no-underline::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:no-underline::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:no-underline::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:no-underline::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+          content: undefined;
+          box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+        }
+
+        .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after:up-down-=
+divider::after {
+          content: "";
+        }
+
+        .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after:content-=
+\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after:content-=
+\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after:content-=
+\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\"\"\]::after {
+          content: undefined;
+        }
+
+        .after\:content-\[\"\"\]::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:content-\[\"\"\]::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\"\"\]::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\"\"\]::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\'\]::after {
+          content: undefined;
+        }
+
+        .after\:content-\[\'\'\]::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\'\]::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\'\]::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\'\]::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\/\'\]::after {
+          content: undefined;
+        }
+
+        .after\:content-\[\'\/\'\]::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\/\'\]::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\/\'\]::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:content-\[\'\/\'\]::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .after\:up-down-divider::after {
+          display: flex;
+          height: 100%;
+          width: 1px;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.3);
+          text-align: center;
+          content: undefined;
+        }
+
+        .after\:up-down-divider::after:up-down-divider::after {
+          content: "";
+        }
+
+        .after\:up-down-divider::after:content-\[\'\/\'\]::after {
+          content: "";
+        }
+
+        .after\:up-down-divider::after:content-\[\'\'\]::after {
+          content: "";
+        }
+
+        .after\:up-down-divider::after:content-\[\"\"\]::after {
+          content: "";
+        }
+
+        .first\:ml-0:first-child {
+          margin-left: 0px;
+        }
+
+        .last\:mb-0:last-child {
+          margin-bottom: 0px;
+        }
+
+        .last\:mr-0:last-child {
+          margin-right: 0px;
+        }
+
+        .last\:flex:last-child {
+          display: flex;
+        }
+
+        .last\:after\:hidden:last-child::after {
+          content: undefined;
+          display: none;
+        }
+
+        .first-of-type\:ml-0:first-of-type {
+          margin-left: 0px;
+        }
+
+        .first-of-type\:border-none:first-of-type {
+          border-style: none;
+        }
+
+        .visited\:text-color-label:visited {
+          color: rgba(0, 0, 0, 0.75);
+        }
+
+        .visited\:text-color-text:visited {
+          color: rgba(0, 0, 0, 0.9);
+        }
+
+        .visited\:text-color-text-low-emphasis:visited {
+          color: rgba(0, 0, 0, 0.6);
+        }
+
+        .visited\:text-color-text-secondary:visited {
+          color: rgba(0, 0, 0, 0.6);
+        }
+
+        .visited\:no-underline:visited {
+          text-decoration-line: none;
+        }
+
+        .hover\:cursor-pointer:hover {
+          cursor: pointer;
+        }
+
+        .hover\:border-1:hover {
+          border-width: 1px;
+        }
+
+        .hover\:border-y-2:hover {
+          border-top-width: 2px;
+          border-bottom-width: 2px;
+        }
+
+        .hover\:border-solid:hover {
+          border-style: solid;
+        }
+
+        .hover\:border-color-container-primary:hover {
+          border-color: #0a66c2;
+        }
+
+        .hover\:border-color-link:hover {
+          border-color: #0a66c2;
+        }
+
+        .hover\:bg-blue-70:hover {
+          background-color: #0a66c2;
+        }
+
+        .hover\:bg-color-action:hover {
+          background-color: #0a66c2;
+        }
+
+        .hover\:bg-color-background-container-tint:hover {
+          background-color: #f5f7f9;
+        }
+
+        .hover\:bg-color-surface-new-hover:hover {
+          background-color: rgba(112, 181, 249, 0.2);
+        }
+
+        .hover\:bg-color-surface-tint:hover {
+          background-color: #f5f7f9;
+        }
+
+        .hover\:bg-white:hover {
+          background-color: #ffffff;
+        }
+
+        .hover\:bg-white-a04:hover {
+          background-color: rgba(255, 255, 255, 0.04);
+        }
+
+        .hover\:\!text-color-text:hover {
+          color: rgba(0, 0, 0, 0.9) !important;
+        }
+
+        .hover\:text-color-link-hover:hover {
+          color: #004182;
+        }
+
+        .hover\:text-color-text:hover {
+          color: rgba(0, 0, 0, 0.9);
+        }
+
+        .hover\:text-color-text-on-dark:hover {
+          color: rgba(255, 255, 255, 0.9);
+        }
+
+        .hover\:text-white:hover {
+          color: #ffffff;
+        }
+
+        .hover\:underline:hover {
+          text-decoration-line: underline;
+        }
+
+        .hover\:no-underline:hover {
+          text-decoration-line: none;
+        }
+
+        .hover\:shadow-\[0_4px_12px\]:hover {
+          box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+        }
+
+        .hover\:show-play-button:hover.base-card .play-button {
+          z-index: 1;
+          opacity: 1;
+        }
+
+        .hover\:visited\:text-color-label:visited:hover {
+          color: rgba(0, 0, 0, 0.75);
+        }
+
+        .visited\:hover\:text-color-text:hover:visited {
+          color: rgba(0, 0, 0, 0.9);
+        }
+
+        .focus\:top-0:focus {
+          top: 0px;
+        }
+
+        .focus\:bg-color-action:focus {
+          background-color: #0a66c2;
+        }
+
+        .focus\:bg-color-background-container-tint:focus {
+          background-color: #f5f7f9;
+        }
+
+        .focus\:text-color-text-on-dark:focus {
+          color: rgba(255, 255, 255, 0.9);
+        }
+
+        .focus\:underline:focus {
+          text-decoration-line: underline;
+        }
+
+        .focus\:no-underline:focus {
+          text-decoration-line: none;
+        }
+
+        .focus\:opacity-100:focus {
+          opacity: 1;
+        }
+
+        .focus\:outline-none:focus {
+          outline: 2px solid transparent;
+          outline-offset: 2px;
+        }
+
+        .focus\:outline:focus {
+          outline-style: solid;
+        }
+
+        .focus\:outline-dotted:focus {
+          outline-style: dotted;
+        }
+
+        .focus\:outline-0:focus {
+          outline-width: 0px;
+        }
+
+        .focus\:outline-1:focus {
+          outline-width: 1px;
+        }
+
+        .focus\:outline-2:focus {
+          outline-width: 2px;
+        }
+
+        .focus\:outline-color-action:focus {
+          outline-color: #0a66c2;
+        }
+
+        .focus\:show-play-button:focus.base-card .play-button {
+          z-index: 1;
+          opacity: 1;
+        }
+
+        .hover\:focus\:text-color-label:focus:hover {
+          color: rgba(0, 0, 0, 0.75);
+        }
+
+        .active\:bg-color-background-container-tint:active {
+          background-color: #f5f7f9;
+        }
+
+        .active\:no-underline:active {
+          text-decoration-line: none;
+        }
+
+        .disabled\:invisible:disabled {
+          visibility: hidden;
+        }
+
+        .disabled\:hidden:disabled {
+          display: none;
+        }
+
+        .disabled\:text-color-text-disabled:disabled {
+          color: rgba(0, 0, 0, 0.3);
+        }
+
+        .group:hover .group-hover\:visible {
+          visibility: visible;
+        }
+
+        .group:hover .group-hover\:-translate-y-25\% {
+          transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) =
+scaleY(1);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150 {
+          transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) =
+scaleY(1);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:hover .group-hover\:cursor-pointer {
+          cursor: pointer;
+        }
+
+        .group:hover .group-hover\:\!text-color-text-solid-active {
+          color: #1f1f1f !important;
+        }
+
+        .group:hover .group-hover\:opacity-100 {
+          opacity: 1;
+        }
+
+        .group:focus .group-focus\:visible {
+          visibility: visible;
+        }
+
+        .group:focus .group-focus\:-translate-y-25\% {
+          transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) =
+scaleY(1);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:-translate-y-25\%:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150 {
+          transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) =
+scaleY(1);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:scale-150 {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:scale-150:-translate-y-25\% {
+          transform: translate(0, -25%) rotate(0) skewX(0) skewY(0) scaleX(=
+1.5) scaleY(1.5);
+        }
+
+        .group:focus .group-focus\:opacity-100 {
+          opacity: 1;
+        }
+
+        .peer:checked ~ .peer-checked\:text-color-container-checked {
+          color: #057642;
+        }
+
+        .link\:no-underline:link {
+          text-decoration-line: none;
+        }
+
+        :is([dir=3D"rtl"] .rtl\:ml-2) {
+          margin-left: 16px;
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]) {
+          transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) =
+scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:translate-x-\[7px\]):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100) {
+          transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) =
+scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):-scale-x-100) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        :is([dir=3D"rtl"] .rtl\:-scale-x-100):translate-x-\[7px\]) {
+          transform: translate(7px, 0) rotate(0) skewX(0) skewY(0) scaleX(-=
+1) scaleY(1);
+        }
+
+        @media (min-width: 992px) {
+          .md\:overflow-x-hidden {
+            overflow-x: hidden;
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:invisible {
+              visibility: hidden;
+            }
+
+            .babybear\:static {
+              position: static;
+            }
+
+            .babybear\:\!-top-0 {
+              top: -0px !important;
+            }
+
+            .babybear\:\!-top-0\.5 {
+              top: -4px !important;
+            }
+
+            .babybear\:-top-1 {
+              top: -8px;
+            }
+
+            .babybear\:bottom-0 {
+              bottom: 0px;
+            }
+
+            .babybear\:bottom-\[120\%\] {
+              bottom: 120%;
+            }
+
+            .babybear\:left-3 {
+              left: 24px;
+            }
+
+            .babybear\:right-4 {
+              right: 32px;
+            }
+
+            .babybear\:top-0 {
+              top: 0px;
+            }
+
+            .babybear\:top-0\.5 {
+              top: 4px;
+            }
+
+            .babybear\:z-0 {
+              z-index: 0;
+            }
+
+            .babybear\:m-0 {
+              margin: 0px;
+            }
+
+            .babybear\:m-auto {
+              margin: auto;
+            }
+
+            .babybear\:mx-0 {
+              margin-left: 0px;
+              margin-right: 0px;
+            }
+
+            .babybear\:mx-mobile-container-padding {
+              margin-left: 16px;
+              margin-right: 16px;
+            }
+
+            .babybear\:my-2 {
+              margin-top: 16px;
+              margin-bottom: 16px;
+            }
+
+            .babybear\:mb-0 {
+              margin-bottom: 0px;
+            }
+
+            .babybear\:mb-0\.5 {
+              margin-bottom: 4px;
+            }
+
+            .babybear\:mb-1 {
+              margin-bottom: 8px;
+            }
+
+            .babybear\:mb-1\.5 {
+              margin-bottom: 12px;
+            }
+
+            .babybear\:ml-0 {
+              margin-left: 0px;
+            }
+
+            .babybear\:ml-1 {
+              margin-left: 8px;
+            }
+
+            .babybear\:ml-\[-9999px\] {
+              margin-left: -9999px;
+            }
+
+            .babybear\:mr-0 {
+              margin-right: 0px;
+            }
+
+            .babybear\:mt-0 {
+              margin-top: 0px;
+            }
+
+            .babybear\:mt-0\.5 {
+              margin-top: 4px;
+            }
+
+            .babybear\:mt-2 {
+              margin-top: 16px;
+            }
+
+            .babybear\:mt-\[6px\] {
+              margin-top: 6px;
+            }
+
+            .babybear\:flex {
+              display: flex;
+            }
+
+            .babybear\:hidden {
+              display: none;
+            }
+
+            .babybear\:h-4 {
+              height: 32px;
+            }
+
+            .babybear\:h-6 {
+              height: 48px;
+            }
+
+            .babybear\:h-\[180px\] {
+              height: 180px;
+            }
+
+            .babybear\:h-\[1px\] {
+              height: 1px;
+            }
+
+            .babybear\:h-\[27px\] {
+              height: 27px;
+            }
+
+            .babybear\:h-\[360px\] {
+              height: 360px;
+            }
+
+            .babybear\:h-\[48px\] {
+              height: 48px;
+            }
+
+            .babybear\:h-\[72px\] {
+              height: 72px;
+            }
+
+            .babybear\:h-auto {
+              height: auto;
+            }
+
+            .babybear\:max-h-4 {
+              max-height: 32px;
+            }
+
+            .babybear\:max-h-\[225px\] {
+              max-height: 225px;
+            }
+
+            .babybear\:max-h-\[250px\] {
+              max-height: 250px;
+            }
+
+            .babybear\:max-h-\[400px\] {
+              max-height: 400px;
+            }
+
+            .babybear\:min-h-\[134px\] {
+              min-height: 134px;
+            }
+
+            .babybear\:w-11\/12 {
+              width: 91.666667%;
+            }
+
+            .babybear\:w-6 {
+              width: 48px;
+            }
+
+            .babybear\:w-\[100vw\] {
+              width: 100vw;
+            }
+
+            .babybear\:w-\[1px\] {
+              width: 1px;
+            }
+
+            .babybear\:w-\[27px\] {
+              width: 27px;
+            }
+
+            .babybear\:w-\[360px\] {
+              width: 360px;
+            }
+
+            .babybear\:w-\[calc\(100\%-68px\)\] {
+              width: calc(100% - 68px);
+            }
+
+            .babybear\:w-full {
+              width: 100%;
+            }
+
+            .babybear\:min-w-full {
+              min-width: 100%;
+            }
+
+            .babybear\:max-w-\[32px\] {
+              max-width: 32px;
+            }
+
+            .babybear\:max-w-\[790px\] {
+              max-width: 790px;
+            }
+
+            .babybear\:flex-1 {
+              flex: 1 1 0%;
+            }
+
+            .babybear\:flex-auto {
+              flex: 1 1 auto;
+            }
+
+            .babybear\:flex-none {
+              flex: none;
+            }
+
+            .babybear\:basis-0 {
+              flex-basis: 0px;
+            }
+
+            .babybear\:basis-1\/2 {
+              flex-basis: 50%;
+            }
+
+            .babybear\:-translate-x-50\% {
+              transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX=
+(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media (max-width: 767px) {
+                                .babybear\:-translate-x-50\% {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:-translate-x-50\% {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:-translate-x-50\% {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:-translate-x-50\% {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:-translate-x-50\% {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media transform: translate(0, 0) r=
+otate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          @media (max-width=
+: 767px) {
+                                                            .babybear\:rota=
+te-90 {
+                                                              transform: tr=
+anslate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                            }
+
+                                                            @media (max-wid=
+th: 767px) {
+                                                              .babybear\:ro=
+tate-90 {
+                                                                transform: =
+translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                              }
+
+                                                              @media (max-w=
+idth: 767px) {
+                                                                .babybear\:=
+rotate-90 {
+                                                                  transform=
+: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                                }
+
+                                                                @media (max=
+-width: 767px) {
+                                                                  .babybear=
+\:rotate-90 {
+                                                                    transfo=
+rm: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                                  }
+
+                                                                  @media (m=
+ax-width: 767px) {
+                                                                    .babybe=
+ar\:rotate-90 {
+                                                                      trans=
+form: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1=
+);
+                                                                    }
+
+                                                                    flex-di=
+rection: row;
+    .babybear\:flex-col {
+                                                                      flex-=
+direction: column;
+                                                                    }
+
+                                                                    .babybe=
+ar\:flex-wrap {
+                                                                      flex-=
+wrap: wrap;
+                                                                    }
+
+                                                                    .babybe=
+ar\:items-start {
+                                                                      align=
+-items: flex-start;
+                                                                    }
+
+                                                                    .babybe=
+ar\:items-center {
+                                                                      align=
+-items: center;
+                                                                    }
+
+                                                                    .babybe=
+ar\:justify-start {
+                                                                      justi=
+fy-content: flex-start;
+                                                                    }
+
+                                                                    .babybe=
+ar\:justify-end {
+                                                                      justi=
+fy-content: flex-end;
+                                                                    }
+
+                                                                    .babybe=
+ar\:justify-center {
+                                                                      justi=
+fy-content: center;
+                                                                    }
+
+                                                                    .babybe=
+ar\:justify-around {
+                                                                      justi=
+fy-content: space-around;
+                                                                    }
+
+                                                                    .babybe=
+ar\:self-start {
+                                                                      align=
+-self: flex-start;
+                                                                    }
+
+                                                                    .babybe=
+ar\:self-center {
+                                                                      align=
+-self: center;
+                                                                    }
+
+                                                                    .babybe=
+ar\:overflow-y-auto {
+                                                                      overf=
+low-y: auto;
+                                                                    }
+
+                                                                    .babybe=
+ar\:rounded-\[0px\] {
+                                                                      borde=
+r-radius: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:border-b-1 {
+                                                                      borde=
+r-bottom-width: 1px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:border-solid {
+                                                                      borde=
+r-style: solid;
+                                                                    }
+
+                                                                    .babybe=
+ar\:border-color-border-low-emphasis {
+                                                                      borde=
+r-color: rgba(0, 0, 0, 0.3);
+                                                                    }
+
+                                                                    .babybe=
+ar\:bg-color-brand {
+                                                                      backg=
+round-color: #0a66c2;
+                                                                    }
+
+                                                                    .babybe=
+ar\:bg-color-transparent {
+                                                                      backg=
+round-color: rgba(0, 0, 0, 0);
+                                                                    }
+
+                                                                    .babybe=
+ar\:p-0 {
+                                                                      paddi=
+ng: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:p-2 {
+                                                                      paddi=
+ng: 16px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:px-0 {
+                                                                      paddi=
+ng-left: 0px;
+                                                                      paddi=
+ng-right: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:px-2 {
+                                                                      paddi=
+ng-left: 16px;
+                                                                      paddi=
+ng-right: 16px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:px-mobile-container-padding {
+                                                                      paddi=
+ng-left: 16px;
+                                                                      paddi=
+ng-right: 16px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:py-1 {
+                                                                      paddi=
+ng-top: 8px;
+                                                                      paddi=
+ng-bottom: 8px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:py-1\.5 {
+                                                                      paddi=
+ng-top: 12px;
+                                                                      paddi=
+ng-bottom: 12px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:py-3 {
+                                                                      paddi=
+ng-top: 24px;
+                                                                      paddi=
+ng-bottom: 24px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pb-0 {
+                                                                      paddi=
+ng-bottom: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pb-2 {
+                                                                      paddi=
+ng-bottom: 16px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pl-0 {
+                                                                      paddi=
+ng-left: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pl-0\.5 {
+                                                                      paddi=
+ng-left: 4px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pr-0 {
+                                                                      paddi=
+ng-right: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pr-0\.5 {
+                                                                      paddi=
+ng-right: 4px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pt-0 {
+                                                                      paddi=
+ng-top: 0px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:pt-0\.5 {
+                                                                      paddi=
+ng-top: 4px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:text-sm {
+                                                                      font-=
+size: 14px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:text-xs {
+                                                                      font-=
+size: 12px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:font-bold {
+                                                                      font-=
+weight: 600;
+                                                                    }
+
+                                                                    .babybe=
+ar\:leading-\[150px\] {
+                                                                      line-=
+height: 150px;
+                                                                    }
+
+                                                                    .babybe=
+ar\:last\:border-b-0:last-child {
+                                                                      borde=
+r-bottom-width: 0;
+                                                                    }
+
+                                                                    @media =
+(max-width: 991px) {
+                                                                      .baby=
+mamabear\:px-mobile-container-padding {
+                                                                        pad=
+ding-left: 16px;
+                                                                        pad=
+ding-right: 16px;
+                                                                      }
+
+                                                                      @medi=
+a (min-width: 768px) and (max-width: 991px) {
+                                                                        .ma=
+mabear\:absolute {
+                                                                          p=
+osition: absolute;
+                                                                        }
+
+                                                                        .ma=
+mabear\:-top-0 {
+                                                                          t=
+op: -0px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:-top-0\.5 {
+                                                                          t=
+op: -4px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:-top-1 {
+                                                                          t=
+op: -8px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:right-4 {
+                                                                          r=
+ight: 32px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:top-\[58px\] {
+                                                                          t=
+op: 58px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:flex {
+                                                                          d=
+isplay: flex;
+                                                                        }
+
+                                                                        .ma=
+mabear\:hidden {
+                                                                          d=
+isplay: none;
+                                                                        }
+
+                                                                        .ma=
+mabear\:\!h-4 {
+                                                                          h=
+eight: 32px !important;
+                                                                        }
+
+                                                                        .ma=
+mabear\:h-\[100\%\] {
+                                                                          h=
+eight: 100%;
+                                                                        }
+
+                                                                        .ma=
+mabear\:\!min-h-\[32px\] {
+                                                                          m=
+in-height: 32px !important;
+                                                                        }
+
+                                                                        .ma=
+mabear\:w-\[744px\] {
+                                                                          w=
+idth: 744px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:w-\[calc\(100\%-97px\)\] {
+                                                                          w=
+idth: calc(100% - 97px);
+                                                                        }
+
+                                                                        .ma=
+mabear\:w-full {
+                                                                          w=
+idth: 100%;
+                                                                        }
+
+                                                                        .ma=
+mabear\:min-w-0 {
+                                                                          m=
+in-width: 0px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:max-w-\[790px\] {
+                                                                          m=
+ax-width: 790px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:flex-row {
+                                                                          f=
+lex-direction: row;
+                                                                        }
+
+                                                                        .ma=
+mabear\:flex-col {
+                                                                          f=
+lex-direction: column;
+                                                                        }
+
+                                                                        .ma=
+mabear\:flex-wrap {
+                                                                          f=
+lex-wrap: wrap;
+                                                                        }
+
+                                                                        .ma=
+mabear\:items-start {
+                                                                          a=
+lign-items: flex-start;
+                                                                        }
+
+                                                                        .ma=
+mabear\:items-center {
+                                                                          a=
+lign-items: center;
+                                                                        }
+
+                                                                        .ma=
+mabear\:justify-start {
+                                                                          j=
+ustify-content: flex-start;
+                                                                        }
+
+                                                                        .ma=
+mabear\:gap-y-1 {
+                                                                          r=
+ow-gap: 8px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:self-center {
+                                                                          a=
+lign-self: center;
+                                                                        }
+
+                                                                        .ma=
+mabear\:rounded-tr-none {
+                                                                          b=
+order-top-right-radius: 0px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:px-2 {
+                                                                          p=
+adding-left: 16px;
+                                                                          p=
+adding-right: 16px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:px-3 {
+                                                                          p=
+adding-left: 24px;
+                                                                          p=
+adding-right: 24px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:px-mobile-container-padding {
+                                                                          p=
+adding-left: 16px;
+                                                                          p=
+adding-right: 16px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:py-3 {
+                                                                          p=
+adding-top: 24px;
+                                                                          p=
+adding-bottom: 24px;
+                                                                        }
+
+                                                                        .ma=
+mabear\:pt-desktop-content-top-margin {
+                                                                          p=
+adding-top: 16px;
+                                                                        }
+
+                                                                        @me=
+dia (min-width: 768px) {
+                                                                          .=
+papamamabear\:pt-desktop-content-top-margin {
+                                                                           =
+ padding-top: 16px;
+                                                                          }
+
+                                                                          @=
+media (min-width: 992px) {
+                                                                           =
+ .papabear\:absolute {
+                                                                           =
+   position: absolute;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:-top-1 {
+                                                                           =
+   top: -8px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:top-\[58px\] {
+                                                                           =
+   top: 58px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:\!mx-2 {
+                                                                           =
+   margin-left: 16px !important;
+                                                                           =
+   margin-right: 16px !important;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:mx-auto {
+                                                                           =
+   margin-left: auto;
+                                                                           =
+   margin-right: auto;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:mb-\[18px\] {
+                                                                           =
+   margin-bottom: 18px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:ml-column-gutter {
+                                                                           =
+   margin-left: 24px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:mr-2 {
+                                                                           =
+   margin-right: 16px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:mt-0 {
+                                                                           =
+   margin-top: 0px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:mt-0\.5 {
+                                                                           =
+   margin-top: 4px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:mt-\[-100px\] {
+                                                                           =
+   margin-top: -100px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:inline-block {
+                                                                           =
+   display: inline-block;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:flex {
+                                                                           =
+   display: flex;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:hidden {
+                                                                           =
+   display: none;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:\!h-4 {
+                                                                           =
+   height: 32px !important;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:h-6 {
+                                                                           =
+   height: 48px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:h-\[100\%\] {
+                                                                           =
+   height: 100%;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:h-\[34px\] {
+                                                                           =
+   height: 34px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:\!min-h-\[32px\] {
+                                                                           =
+   min-height: 32px !important;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:min-h-\[96px\] {
+                                                                           =
+   min-height: 96px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-\[1128px\] {
+                                                                           =
+   width: 1128px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-\[135px\] {
+                                                                           =
+   width: 135px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-\[400px\] {
+                                                                           =
+   width: 400px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-\[calc\(100\%-97px\)\] {
+                                                                           =
+   width: calc(100% - 97px);
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-auto {
+                                                                           =
+   width: auto;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-content-max-w {
+                                                                           =
+   width: 1128px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-core-rail-width {
+                                                                           =
+   width: 784px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:w-right-rail-width {
+                                                                           =
+   width: calc(1128px - 24px - 784px);
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:min-w-0 {
+                                                                           =
+   min-width: 0px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:max-w-\[550px\] {
+                                                                           =
+   max-width: 550px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:flex-col {
+                                                                           =
+   flex-direction: column;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:flex-nowrap {
+                                                                           =
+   flex-wrap: nowrap;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:items-start {
+                                                                           =
+   align-items: flex-start;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:justify-start {
+                                                                           =
+   justify-content: flex-start;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:justify-center {
+                                                                           =
+   justify-content: center;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:self-start {
+                                                                           =
+   align-self: flex-start;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:rounded-tr-none {
+                                                                           =
+   border-top-right-radius: 0px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:border-4 {
+                                                                           =
+   border-width: 4px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:p-0 {
+                                                                           =
+   padding: 0px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:p-details-container-padding {
+                                                                           =
+   padding: 24px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:py-2 {
+                                                                           =
+   padding-top: 16px;
+                                                                           =
+   padding-bottom: 16px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:pt-desktop-content-top-margin {
+                                                                           =
+   padding-top: 16px;
+                                                                           =
+ }
+
+                                                                           =
+ .papabear\:text-xl {
+                                                                           =
+   font-size: 24px;
+                                                                           =
+ }
+
+                                                                          }
+
+                                                                        }
+
+                                                                      }
+
+                                                                    }
+
+                                                                  }
+
+                                                                }
+
+                                                              }
+
+                                                            }
+
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true">New application: Graphic Design Specialist from =
+Lenox Brian</div> <div class=3D"h-0 opacity-0 text-transparent invisible ov=
+erflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-=
+height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;"> =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 </div> <table role=3D"presentation" valign=3D"top" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" align=3D"center" class=
+=3D"mercado-container w-[512px] max-w-[512px] mx-auto my-0 p-0 bg-color-bac=
+kground-container" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: aut=
+o; margin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; m=
+ax-width: 512px; background-color: #ffffff; padding: 0px;"> <tbody> <tr> <t=
+d class=3D"text-center p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+: 24px; text-align: center;"> <table role=3D"presentation" valign=3D"top" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"min=
+-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%;"> <tbody>=
+ <tr> <td align=3D"left" valign=3D"middle" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3A=
+page%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D=
+&amp;midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&amp;trk=3Deml-em=
+ail_online_jobs_new_applicant-header-0-home_glimmer&amp;trkEmail=3Deml-emai=
+l_online_jobs_new_applicant-header-0-home_glimmer-null-3rysoq~lq5a9pkz~sl-n=
+ull-null&amp;eid=3D3rysoq-lq5a9pkz-sl" target=3D"_blank" class=3D"w-[84px]"=
+ style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-deco=
+ration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; w=
+idth: 84px;"> <img alt=3D"LinkedIn" src=3D"https://static.licdn.com/aero-v1=
+/sc/h/9ehe6n39fa07dc5edzv0rla4e" class=3D"h-[21px] w-[84px]" style=3D"outli=
+ne: none; text-decoration: none; -ms-interpolation-mode: bicubic; height: 2=
+1px; width: 84px;" width=3D"84" height=3D"21"> </a> </td> <td valign=3D"mid=
+dle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <span class=3D"no-underline text-system-gra=
+y-90" style=3D"color: #282828; text-decoration-line: none;">jobs@jiranimall=
+.com</span> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </t=
+d> </tr> <tr> <td class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding-left: 0px; padding-right: 0px; padding-bottom: 24px;"> <div> <ta=
+ble role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tb=
+ody> <tr> <td class=3D"px-3" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddin=
+g-left: 24px; padding-right: 24px;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-=
+test-id=3D"entity-banner-module" align=3D"left" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <tbody> <tr data-test-id=3D"entity-banner-header"> <td class=
+=3D" pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <=
+h1 class=3D"text-xl" style=3D"margin: 0; font-weight: 500; font-size: 24px;=
+"> Your job has a new applicant </h1> </td> </tr> <tr> <td class=3D"text-sy=
+stem-gray-90 pb-2 " data-test-id=3D"entity-banner-subtext" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; padding-bottom: 16px; color: #282828;"> Graphic Des=
+ign Specialist at JiRANi MALL Ltd &middot; Nairobi County, Kenya </td> </tr=
+> </tbody> </table> </td> </tr> <tr> <td class=3D"px-3 py-2 bg-color-backgr=
+ound-container-tint" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-col=
+or: #f5f7f9; padding-left: 24px; padding-right: 24px; padding-top: 16px; pa=
+dding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <tbody> <tr> <td class=3D"align-middle w-0 pr-1" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; width: 0px; padding-right: 8px; vertical-align: middle=
+;" width=3D"0"> <img class=3D"inline-block relative bg-color-entity-ghost-b=
+ackground clip-path-circle-50 rounded-full w-8 h-8" src=3D"https://media.li=
+cdn.com/dms/image/D4E03AQEZr1YVlXDO4w/profile-displayphoto-shrink_400_400/0=
+/1644673133418?e=3D2147483647&amp;v=3Dbeta&amp;t=3DqHZrVjmUw9SZCf73UrMNA_bf=
+qmaRgKp-fmNYux747-0" alt=3D"Lenox Brian profile picture" style=3D"outline: =
+none; text-decoration: none; -ms-interpolation-mode: bicubic; position: rel=
+ative; display: inline-block; height: 64px; width: 64px; border-radius: 999=
+9px; background-color: #eae6df; clip-path: circle(50%);" width=3D"64" heigh=
+t=3D"64"> </td> <td class=3D"align-middle" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; vertical-align: middle;"> <table role=3D"presentation" valign=3D"to=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <span class=3D"text-md font-bold" style=3D"font-size: 16p=
+x; font-weight: 600;"> Lenox Brian </span> <span class=3D"font-regular text=
+-color-text pl-0.25" style=3D"padding-left: 2px; font-weight: 400; color: r=
+gba(0, 0, 0, 0.9);"> &middot 3rd </span> </td> </tr> <tr> <td class=3D"text=
+-sm font-regular pt-0.25" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-t=
+op: 2px; font-size: 14px; font-weight: 400;"> Graphic Designer | Computer P=
+rogramming, Web Design </td> </tr> <tr> <td class=3D"text-xs font-regular t=
+ext-cool-gray-70 pt-0.25" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-t=
+op: 2px; font-size: 12px; font-weight: 400; color: #56687a;"> Nairobi, Nair=
+obi County, Kenya </td> </tr> </tbody> </table> </td> </tr> </tbody> </tabl=
+e> </td> </tr> <tr> <td class=3D"pt-1.5 pb-0.5" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding-bottom: 4px; padding-top: 12px;"> <table role=3D"prese=
+ntation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" data-test-id=3D"email-button" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/hiring/jobs/=
+3784539269/applicants/22059762213/detail/?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;midToken=
+=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&amp;ek=3Demail_online_jobs_ne=
+w_applicant&amp;e=3D3rysoq-lq5a9pkz-sl&amp;eid=3D3rysoq-lq5a9pkz-sl&amp;m=
+=3Dnull&amp;ts=3Dnull&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" aria-label=
+=3D"View application" class=3D"align-top" style=3D"color: #0a66c2; cursor: =
+pointer; display: inline-block; text-decoration: none; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; vertical-align: top;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"auto" class=3D"border-separate" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm =
+btn-primary border-color-brand button-link leading-regular !min-h-[auto] !s=
+hadow-none border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; h=
+eight: min-content; border-radius: 24px; padding-top: 7px; padding-bottom: =
+7px; padding-left: 16px; padding-right: 16px; text-align: center; font-size=
+: 14px; font-weight: 600; cursor: pointer; text-decoration-line: none; back=
+ground-color: #0a66c2; color: #ffffff; border-width: 1px; border-style: sol=
+id; border-color: #0a66c2; line-height: 1.25; min-height: auto !important; =
+box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https:=
+//www.linkedin.com/hiring/jobs/3784539269/applicants/22059762213/detail/?li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2j=
+Djbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&=
+amp;ek=3Demail_online_jobs_new_applicant&amp;e=3D3rysoq-lq5a9pkz-sl&amp;eid=
+=3D3rysoq-lq5a9pkz-sl&amp;m=3Dnull&amp;ts=3Dnull&amp;li=3D0&amp;t=3Dplh" ta=
+rget=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" style=3D"color: #0a66c=
+2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <span class=3D"no-unde=
+rline text-white" style=3D"color: #ffffff; text-decoration-line: none;"> Vi=
+ew application </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> =
+</tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=
+=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; =
+padding-right: 24px; padding-top: 16px;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+data-test-id=3D"experience-section-module" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <tbody> <tr data-test-id=3D"experience-section-current-experience=
+"> <td class style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <h3 class=3D"text-lg=
+ text-color-text font-semibold pb-1" style=3D"margin: 0; padding-bottom: 8p=
+x; font-size: 20px; font-weight: 600; color: rgba(0, 0, 0, 0.9);"> Current =
+experience </h3> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt;"> <tbody> <tr> <td class=3D"text-sm leading-open text-system=
+-gray-90 pl-1 pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom:=
+ 8px; padding-left: 8px; font-size: 14px; line-height: 1.5; color: #282828;=
+"> <span class=3D"font-bold" aria-hidden=3D"true" style=3D"font-weight: 600=
+;">=E2=80=A2</span> Graphic Designer at Microsoft &middot; Jan 2023 - Prese=
+nt </td> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"experience=
+-section-current-experience"> <td class=3D"pt-2" style=3D"-webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; padding-top: 16px;"> <h3 class=3D"text-lg text-color-text fon=
+t-semibold pb-1" style=3D"margin: 0; padding-bottom: 8px; font-size: 20px; =
+font-weight: 600; color: rgba(0, 0, 0, 0.9);"> Past experience </h3> <table=
+ role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody=
+> <tr> <td class=3D"text-sm leading-open text-system-gray-90 pl-1 pb-1" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px; padding-left: 8px=
+; font-size: 14px; line-height: 1.5; color: #282828;"> <span class=3D"font-=
+bold" aria-hidden=3D"true" style=3D"font-weight: 600;">=E2=80=A2</span> Inf=
+ormation Technology Technical Support at TUFFSTEEL LIMITED &middot; Jan 202=
+2 - Jan 2023 </td> </tr> <tr> <td class=3D"text-sm leading-open text-system=
+-gray-90 pl-1 pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom:=
+ 8px; padding-left: 8px; font-size: 14px; line-height: 1.5; color: #282828;=
+"> <span class=3D"font-bold" aria-hidden=3D"true" style=3D"font-weight: 600=
+;">=E2=80=A2</span> Graphic Designer at Nautillus Creations &middot; Jan 20=
+20 - Jan 2022 </td> </tr> <tr> <td class=3D"text-sm leading-open text-syste=
+m-gray-90 pl-1 pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom=
+: 8px; padding-left: 8px; font-size: 14px; line-height: 1.5; color: #282828=
+;"> <span class=3D"font-bold" aria-hidden=3D"true" style=3D"font-weight: 60=
+0;">=E2=80=A2</span> Graphic Designer at vj Philix Brands &middot; Jan 2017=
+ - Jan 2022 </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pt-=
+2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" data-test-id=3D"email-button" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/hi=
+ring/jobs/3784539269/applicants/22059762213/detail/?lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;=
+midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&amp;ek=3Demail_online=
+_jobs_new_applicant&amp;e=3D3rysoq-lq5a9pkz-sl&amp;eid=3D3rysoq-lq5a9pkz-sl=
+&amp;m=3Dnull&amp;ts=3Dnull&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" aria-=
+label=3D"View all experience (4)" class=3D"align-top" style=3D"color: #0a66=
+c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;"> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"auto" class=3D"border-separate" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=
+=3D"btn-sm btn-secondary-emphasis border-color-brand button-link leading-re=
+gular !min-h-[auto] !shadow-none border-1 border-solid" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; height: min-content; border-radius: 24px; padding-top:=
+ 7px; padding-bottom: 7px; padding-left: 16px; padding-right: 16px; text-al=
+ign: center; font-size: 14px; font-weight: 600; cursor: pointer; text-decor=
+ation-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; borde=
+r-width: 1px; border-style: solid; border-color: #0a66c2; line-height: 1.25=
+; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 =
+!important;"> <a href=3D"https://www.linkedin.com/hiring/jobs/3784539269/ap=
+plicants/22059762213/detail/?lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jo=
+bs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd3=
+6Q&amp;midSig=3D0iiYs8BGrU-X01&amp;ek=3Demail_online_jobs_new_applicant&amp=
+;e=3D3rysoq-lq5a9pkz-sl&amp;eid=3D3rysoq-lq5a9pkz-sl&amp;m=3Dnull&amp;ts=3D=
+null&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" tabindex=3D"-1" aria-hidden=
+=3D"true" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; =
+text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%;"> <span class=3D"no-underline text-color-brand" style=3D"color: #0a=
+66c2; text-decoration-line: none;"> View all experience (4) </span> </a> </=
+td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> =
+</tbody> </table> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" class=3D"bg-green-20" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; background-color: #e1f9d5;"> <tbody> <tr> <td class=3D"px-3 py-2" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: =
+24px; padding-top: 16px; padding-bottom: 16px;"> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> <p class=3D"text-lg text-color-text font-b=
+old pb-1" style=3D"margin: 0; padding-bottom: 8px; font-size: 20px; font-we=
+ight: 600; color: rgba(0, 0, 0, 0.9);"> Looking for more qualified applican=
+ts? </p> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <p =
+class=3D"text-sm text-color-text" style=3D"margin: 0; font-weight: 400; fon=
+t-size: 14px; color: rgba(0, 0, 0, 0.9);"> Get 3x more qualified applicants=
+ when you promote. </p> </td> </tr> <tr> <td class=3D"pr-3 pt-2" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; padding-right: 24px; padding-top: 16px;"> <ta=
+ble role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" data-test-id=3D"email-button" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin=
+.com/job-posting/form/budget?jobId=3D3784539269&amp;lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;=
+midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&amp;ek=3Demail_online=
+_jobs_new_applicant&amp;e=3D3rysoq-lq5a9pkz-sl&amp;eid=3D3rysoq-lq5a9pkz-sl=
+&amp;m=3Dnull&amp;ts=3Dnull&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" aria-=
+label=3D"Promote Job" class=3D"align-top" style=3D"color: #0a66c2; cursor: =
+pointer; display: inline-block; text-decoration: none; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; vertical-align: top;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"auto" class=3D"border-separate" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm =
+btn-secondary-emphasis border-color-brand button-link leading-regular !min-=
+h-[auto] !shadow-none border-1 border-solid" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; height: min-content; border-radius: 24px; padding-top: 7px; paddi=
+ng-bottom: 7px; padding-left: 16px; padding-right: 16px; text-align: center=
+; font-size: 14px; font-weight: 600; cursor: pointer; text-decoration-line:=
+ none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1p=
+x; border-style: solid; border-color: #0a66c2; line-height: 1.25; min-heigh=
+t: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;=
+"> <a href=3D"https://www.linkedin.com/job-posting/form/budget?jobId=3D3784=
+539269&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3=
+BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0i=
+iYs8BGrU-X01&amp;ek=3Demail_online_jobs_new_applicant&amp;e=3D3rysoq-lq5a9p=
+kz-sl&amp;eid=3D3rysoq-lq5a9pkz-sl&amp;m=3Dnull&amp;ts=3Dnull&amp;li=3D0&am=
+p;t=3Dplh" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <span cla=
+ss=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-decorati=
+on-line: none;"> Promote Job </span> </a> </td> </tr> </tbody> </table> </a=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td cla=
+ss=3D"px-3" align=3D"center" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddin=
+g-left: 24px; padding-right: 24px;"> <img src=3D"https://static.licdn.com/a=
+ero-v1/sc/h/dg86cwsojgqzt93ev44mjlwnj" width=3D"128px" height=3D"128px" alt=
+=3D"Image of two Coworkers collaborating on a presentation" style=3D"outlin=
+e: none; text-decoration: none; -ms-interpolation-mode: bicubic;"> </td> </=
+tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-3 pt-2" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; paddin=
+g-top: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <tbody> <tr> <td class=3D"text-lg text-color-text font-semib=
+old pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px; font=
+-size: 20px; font-weight: 600; color: rgba(0, 0, 0, 0.9);"> Education </td>=
+ </tr> <tr> <td class=3D"text-sm leading-open text-system-gray-90 pl-1" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 8px; font-size: 14px; li=
+ne-height: 1.5; color: #282828;"> <span class=3D"font-bold" aria-hidden=3D"=
+true" style=3D"font-weight: 600;">=E2=80=A2</span> Coast Institute of Techn=
+ology </td> </tr> <tr> <td class=3D"text-sm leading-open text-system-gray-9=
+0 pl-2 pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px; p=
+adding-left: 16px; font-size: 14px; line-height: 1.5; color: #282828;"> <sp=
+an class=3D"pl-0.25" style=3D"padding-left: 2px;"> Information Communicatio=
+n Technology,Information Communication Technology &middot; Jan 2019 - Jan 2=
+021 </span> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-=
+3 pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding=
+-right: 24px; padding-top: 16px;"> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-te=
+st-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <a href=3D"https://www.linkedin.com/talent/api/talentResumes?applica=
+tionId=3D22059762213&amp;tokenId=3D6341621321&amp;checkSum=3DAQGw-_gBpzQvCT=
+pu-eQDDEAJkYG7FMN4iw0&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_=
+new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd36Q&=
+amp;midSig=3D0iiYs8BGrU-X01&amp;ek=3Demail_online_jobs_new_applicant&amp;e=
+=3D3rysoq-lq5a9pkz-sl&amp;eid=3D3rysoq-lq5a9pkz-sl&amp;m=3Dnull&amp;ts=3Dnu=
+ll&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" aria-label=3D"Download resume"=
+ class=3D"align-top" style=3D"color: #0a66c2; cursor: pointer; display: inl=
+ine-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; vertical-align: top;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" =
+class=3D"border-separate" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-co=
+llapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-secondary-emphasis=
+ border-color-brand button-link leading-regular !min-h-[auto] !shadow-none =
+border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-=
+content; border-radius: 24px; padding-top: 7px; padding-bottom: 7px; paddin=
+g-left: 16px; padding-right: 16px; text-align: center; font-size: 14px; fon=
+t-weight: 600; cursor: pointer; text-decoration-line: none; background-colo=
+r: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1px; border-style: solid=
+; border-color: #0a66c2; line-height: 1.25; min-height: auto !important; bo=
+x-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://=
+www.linkedin.com/talent/api/talentResumes?applicationId=3D22059762213&amp;t=
+okenId=3D6341621321&amp;checkSum=3DAQGw-_gBpzQvCTpu-eQDDEAJkYG7FMN4iw0&amp;=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk=
+2jDjbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X0=
+1&amp;ek=3Demail_online_jobs_new_applicant&amp;e=3D3rysoq-lq5a9pkz-sl&amp;e=
+id=3D3rysoq-lq5a9pkz-sl&amp;m=3Dnull&amp;ts=3Dnull&amp;li=3D0&amp;t=3Dplh" =
+target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <span class=3D"no-un=
+derline text-color-brand" style=3D"color: #0a66c2; text-decoration-line: no=
+ne;"> Download resume </span> </a> </td> </tr> </tbody> </table> </a> </td>=
+ </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-3 pt-2" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; pad=
+ding-top: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D"screenin=
+g-questions-module" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr d=
+ata-test-id=3D"screening-questions-qualifications"> <td style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt;"> <h3 class=3D"text-lg font-semibold text-color-text" =
+style=3D"margin: 0; font-size: 20px; font-weight: 600; color: rgba(0, 0, 0,=
+ 0.9);"> Screening qualifications </h3> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pt-2" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px;"> <span class=3D"te=
+xt-sm text-system-gray-90 font-semibold" style=3D"font-size: 14px; font-wei=
+ght: 600; color: #282828;"> 3 out of 3 preferred qualifications met </span>=
+ <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=
+ <tbody> <tr> <td class=3D"pt-2 text-sm text-color-text" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-top: 16px; font-size: 14px; color: rgba(0, 0,=
+ 0, 0.9);"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;"> <tbody> <tr> <td class=3D"pt-0.5 pr-0.25 text-sm w-1.5 align-to=
+p" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; width: 12px; padding-right: 2px;=
+ padding-top: 4px; vertical-align: top; font-size: 14px;" width=3D"12"> <im=
+g alt=3D"Answer passed" class=3D"w-[14px] h-[14px] green-color-filter" src=
+=3D"https://static.licdn.com/aero-v1/sc/h/bviyx9to82rq9labk828b3ulv" style=
+=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; =
+height: 14px; width: 14px;" width=3D"14" height=3D"14"> </td> <td class=3D"=
+pl-1 text-sm text-color-text" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddi=
+ng-left: 8px; font-size: 14px; color: rgba(0, 0, 0, 0.9);"> <span>How many =
+years of work experience do you have with Working Experience?</span> </td> =
+</tr> </tbody> </table> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pt-0.5 font-bold text-co=
+lor-text block pl-3 text-sm" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; displa=
+y: block; padding-left: 24px; padding-top: 4px; font-size: 14px; font-weigh=
+t: 600; color: rgba(0, 0, 0, 0.9);"> 5 </td> </tr> </tbody> </table> </td> =
+</tr> <tr> <td class=3D"pt-2 text-sm text-color-text" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; padding-top: 16px; font-size: 14px; color: rgba(0, 0, 0,=
+ 0.9);"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <tbody> <tr> <td class=3D"pt-0.5 pr-0.25 text-sm w-1.5 align-top" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; width: 12px; padding-right: 2px; pa=
+dding-top: 4px; vertical-align: top; font-size: 14px;" width=3D"12"> <img a=
+lt=3D"Answer passed" class=3D"w-[14px] h-[14px] green-color-filter" src=3D"=
+https://static.licdn.com/aero-v1/sc/h/bviyx9to82rq9labk828b3ulv" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 14px; width: 14px;" width=3D"14" height=3D"14"> </td> <td class=3D"pl-1 =
+text-sm text-color-text" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-le=
+ft: 8px; font-size: 14px; color: rgba(0, 0, 0, 0.9);"> <span>Have you compl=
+eted the following level of education: Bachelor's Degree?</span> </td> </tr=
+> </tbody> </table> <table role=3D"presentation" valign=3D"top" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td class=3D"pt-0.5 font-bold text-color-t=
+ext block pl-3 text-sm" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: bl=
+ock; padding-left: 24px; padding-top: 4px; font-size: 14px; font-weight: 60=
+0; color: rgba(0, 0, 0, 0.9);"> Yes </td> </tr> </tbody> </table> </td> </t=
+r> <tr> <td class=3D"pt-2 text-sm text-color-text" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; padding-top: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.=
+9);"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <tbody> <tr> <td class=3D"pt-0.5 pr-0.25 text-sm w-1.5 align-top" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; width: 12px; padding-right: 2px; padd=
+ing-top: 4px; vertical-align: top; font-size: 14px;" width=3D"12"> <img alt=
+=3D"Answer passed" class=3D"w-[14px] h-[14px] green-color-filter" src=3D"ht=
+tps://static.licdn.com/aero-v1/sc/h/bviyx9to82rq9labk828b3ulv" style=3D"out=
+line: none; text-decoration: none; -ms-interpolation-mode: bicubic; height:=
+ 14px; width: 14px;" width=3D"14" height=3D"14"> </td> <td class=3D"pl-1 te=
+xt-sm text-color-text" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left=
+: 8px; font-size: 14px; color: rgba(0, 0, 0, 0.9);"> <span>How many years o=
+f work experience do you have with Canva?</span> </td> </tr> </tbody> </tab=
+le> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <tbody> <tr> <td class=3D"pt-0.5 font-bold text-color-text block pl-3 t=
+ext-sm" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: block; padding-lef=
+t: 24px; padding-top: 4px; font-size: 14px; font-weight: 600; color: rgba(0=
+, 0, 0, 0.9);"> 2 </td> </tr> </tbody> </table> </td> </tr> </tbody> </tabl=
+e> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> =
+</tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-background-=
+canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f3f2=
+f0; padding: 24px;"> <table role=3D"presentation" valign=3D"top" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td cl=
+ass=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; paddi=
+ng-bottom: 8px;"> This email was intended for jobs@jiranimall.com </td> </t=
+r> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; marg=
+in: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/li=
+nkedin/answer/4788?lang=3Den&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_onlin=
+e_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVh=
+GEd36Q&amp;midSig=3D0iiYs8BGrU-X01&amp;trk=3Deml-email_online_jobs_new_appl=
+icant-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_online_jobs_new=
+_applicant-SecurityHelp-0-footerglimmer-null-3rysoq~lq5a9pkz~sl-null-null&a=
+mp;eid=3D3rysoq-lq5a9pkz-sl" target=3D"_blank" style=3D"color: #0a66c2; cur=
+sor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%;">Learn why we included this.</=
+a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; margin: 0px; padding-bottom: 8px;">You are receiving Job Applicant =
+emails.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.link=
+edin.com/comm/psettings/email-unsubscribe?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_online_jobs_new_applicant%3BkqLCkWe4Tk2jDjbfv2y1Sg%3D%3D&amp;midToken=
+=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&amp;trk=3Deml-email_online_jo=
+bs_new_applicant-unsubscribe-0-footerGlimmer&amp;trkEmail=3Deml-email_onlin=
+e_jobs_new_applicant-unsubscribe-0-footerGlimmer-null-3rysoq~lq5a9pkz~sl-nu=
+ll-null&amp;eid=3D3rysoq-lq5a9pkz-sl&amp;loid=3DAQFSWfvyCom1fgAAAYxor00OYrf=
+hOcARHk_EvogmNHFRA85wn537j3zO-spatIhlozBOnT7vdvX2Sy8JW4YWBvw4rPkz9ss0fU6szl=
+cMy2jByw" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; displ=
+ay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%;">Unsubscribe</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <=
+a href=3D"https://www.linkedin.com/help/linkedin/answer/67?lang=3Den&amp;li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk2j=
+Djbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X01&=
+amp;trk=3Deml-email_online_jobs_new_applicant-help-0-footerglimmer&amp;trkE=
+mail=3Deml-email_online_jobs_new_applicant-help-0-footerglimmer-null-3rysoq=
+~lq5a9pkz~sl-null-null&amp;eid=3D3rysoq-lq5a9pkz-sl" target=3D"_blank" styl=
+e=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoratio=
+n: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">Help<=
+/a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/feed/?=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_online_jobs_new_applicant%3BkqLCkWe4Tk=
+2jDjbfv2y1Sg%3D%3D&amp;midToken=3DAQFmrFVhGEd36Q&amp;midSig=3D0iiYs8BGrU-X0=
+1&amp;trk=3Deml-email_online_jobs_new_applicant-footer-0-logoGlimmer&amp;tr=
+kEmail=3Deml-email_online_jobs_new_applicant-footer-0-logoGlimmer-null-3rys=
+oq~lq5a9pkz~sl-null-null&amp;eid=3D3rysoq-lq5a9pkz-sl" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <i=
+mg src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" =
+alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-rendering-crisp" st=
+yle=3D"outline: none; text-decoration: none; image-rendering: -moz-crisp-ed=
+ges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-con=
+trast; image-rendering: crisp-edges; -ms-interpolation-mode: nearest-neighb=
+or; display: block; height: 14px; width: 56px;" width=3D"56" height=3D"14">=
+ </a> </td> </tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt;"> =C2=A9 2023 LinkedIn Corporation, 1&zwnj;000 West Maude =
+Avenue, Sunnyvale, CA 94085. <span data-test-trademarks-text> LinkedIn and =
+the LinkedIn logo are registered trademarks of LinkedIn. </span> </td> </tr=
+> </tbody> </table> </td> </tr> </tbody> </table> <img alt role=3D"presenta=
+tion" src=3D"https://www.linkedin.com/emimp/ip_TTNKNWMyOXhMV3h4TldFNWNHdDZM=
+WE5zOlpXMWhhV3hmYjI1c2FXNWxYMnB2WW5OZmJtVjNYMkZ3Y0d4cFkyRnVkQT09Og=3D=3D.gi=
+f" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: b=
+icubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_3786573_1894196508.1702563369127--
+

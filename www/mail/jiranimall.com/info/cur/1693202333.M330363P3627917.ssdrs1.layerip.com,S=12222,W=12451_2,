@@ -1,0 +1,229 @@
+Return-Path: <allison@webtechresearch.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id uBu1Ep037GSNWzcAvE7qNg
+	(envelope-from <allison@webtechresearch.com>)
+	for <info@jiranimall.com>; Mon, 28 Aug 2023 05:58:53 +0000
+Return-path: <allison@webtechresearch.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 28 Aug 2023 05:58:53 +0000
+Received: from mail-vs1-f66.google.com ([209.85.217.66]:51208)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <allison@webtechresearch.com>)
+	id 1qaVH3-00FEgM-0P
+	for info@jiranimall.com;
+	Mon, 28 Aug 2023 05:58:53 +0000
+Received: by mail-vs1-f66.google.com with SMTP id ada2fe7eead31-44e2bd06230so1144517137.2
+        for <info@jiranimall.com>; Sun, 27 Aug 2023 22:58:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20221208.gappssmtp.com; s=20221208; t=1693202288; x=1693807088;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=MzrLoOXDOIVrZe7cFoFfh3U1vCbbGBSn2DejV6REXH0=;
+        b=qmL0UZsZOtvP81r3qv8jnqZ6cGjie2mjTRPvOaz9FkLzBZbVSA/wbCc6V4v33OQxpF
+         z7/9B+Nj72iHjFp1RDu00KIsFkQoELcQIJNmG6ZYXEhlWhLCNuD2RGf7EegZsXoG/1g2
+         p9b6/JSo2M0eyVny6kTh9EQ8Y61h83ZZV/gkmRCQLSOuo+k07BIRgoWkiu/qCik0THWK
+         uLeX65kQCdCPskiQlaXeI3TOcdK9mziBwq1TQ8lxoWMDEj5RePj2/w2IoJUSTNvW6+RH
+         pcsBehAYphbWNChJ5g7HmthIP9WyrcKkN64HbJnGxGei3y+2hvBM8ck3WkShfLMtbnKt
+         Z+yA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1693202288; x=1693807088;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=MzrLoOXDOIVrZe7cFoFfh3U1vCbbGBSn2DejV6REXH0=;
+        b=MhoFg6VtTiPZS0TauOHmJhjDt/N3/bA0p3kls0Ab7kFVbi65YEiPONv7e2bx1/Q/3M
+         uBKlFp/0Gdm89SMleoUZwejV0cgs4e07Gfj3hey6N6Eo8yFDPvGItGUISoXY2ZNZ48bc
+         L3U3KBOX53jheJIh/gskxz3SnRlT41sAatKoIH7wBABQsR5r45gNT9eV37dqq8jtk1EZ
+         wjvmG61Ii2FLOoPQr6nbEDvmprp6+wKkA+2YWg67rEAEgkgKC87rXWhrlWGYTLsBkY+s
+         d2NndKVkP8ZoyYuKFAifONcJ7eLOzi4GuZYVoRpXXtXFWCG8/jRDg5m0AssGwXeh3xuN
+         3PPA==
+X-Gm-Message-State: AOJu0YyCay/ImzYvsZgJnjy2b4THbhfGtue0giG9g2d3yEIsUUWqDygc
+	6uGIGx7MK7DyEfmcAKDZoU2LN5zF87zoCF2Us2sI3i1eYqUCrxZDBzo=
+X-Google-Smtp-Source: AGHT+IH7npJCdLBiY8iwhnFXmMEEu7Gj8MLhWGARt99wGOtNhtzzIsOyl+zYg/P7wjwCcARJv0wxEdwmOAiD4V4/AlI=
+X-Received: by 2002:a67:f7c9:0:b0:44d:4a41:8948 with SMTP id
+ a9-20020a67f7c9000000b0044d4a418948mr19297654vsp.2.1693202287937; Sun, 27 Aug
+ 2023 22:58:07 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 28 Aug 2023 07:58:07 +0200
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 28 Aug 2023 07:58:06 +0200
+MIME-Version: 1.0
+Sender: Allison <allison@webtechresearch.com>
+From: Allison <allison@webtechresearch.com>
+Date: Mon, 28 Aug 2023 07:58:07 +0200
+X-Google-Sender-Auth: DC-eBVDLjeFyX01XfoQK6XdNY74
+Message-ID: <CAOezBw5nsMZNGsBU_GHM2QEsYxsS8+ubMkip-ydO4uBJek6NQQ@mail.gmail.com>
+Subject: jiranimall .com : Get Higher Ranking on Google, Yahoo Bing
+To: Info <info@jiranimall.com>
+Content-Type: multipart/alternative; boundary="000000000000e7da0e0603f5607a"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello *jiranimall .com,* Hope you are doing well We are a
+   web-based marketing firm that has expertise in *search engine Optimization*
+    (SEO). We can assist your company website increase its visibility on the
+   most popular search engines, including Goo [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+--000000000000e7da0e0603f5607a
+Content-Type: text/plain; charset="UTF-8"
+
+Hello *jiranimall .com,*
+
+Hope you are doing well
+
+We are a web-based marketing firm that has expertise in *search engine
+Optimization* (SEO). We can assist your company website increase its
+visibility on the most popular search engines, including Google, Bing, and
+Yahoo.
+
+Based on the study we conducted on your site Based on the research we
+conducted on your website, we've created an *SEO audit report that
+identifies the areas you must concentrate on*. The report will provide you
+with specific details of the changes you can make
+must be put into your website in order to be visible to be on the first
+page of search engines.
+
+The *SEO techniques* that are based on the latest internet marketing
+trends, can increase the number of daily visitors which will result in
+greater business prospects.
+
+If you would like us to present the *review of SEO with you and discuss the
+optimization of your website send* us a mail with the following contact
+information - telephone, Skype.
+
+We are looking for a positive response
+
+Kind Regards,
+
+*Allison Lowery* | Digital Marketing Specialist
+
+----------------------------------------------------------------------------------------------
+
+P.S. If you want to contact us, just tell Us *"Interested"* to receive the
+best SEO *Proposal and quote to your site*
+
+
+[image: beacon]
+
+--000000000000e7da0e0603f5607a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+=09
+=09
+
+
+<p align=3D"JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;line-height:100%">
+<font color=3D"#351c75"><font face=3D"Bookman Old Style, serif"><font style=
+=3D"font-size:9pt">Hello=C2=A0</font></font></font><font color=3D"#351c75">=
+<font face=3D"Bookman Old Style, serif"><font style=3D"font-size:9pt"><b>ji=
+ranimall .com,</b></font></font></font></p>
+<p align=3D"JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;line-height:100%"><span =
+style=3D"font-size:9pt;font-family:&quot;Bookman Old Style&quot;,serif;colo=
+r:rgb(0,0,0)">Hope
+you are doing well</span><br></p>
+<p align=3D"JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;line-height:100%"><font =
+color=3D"#000000"><font face=3D"Bookman Old Style, serif"><font style=3D"fo=
+nt-size:9pt">We
+are a web-based marketing firm that has expertise in=C2=A0</font></font></f=
+ont><font color=3D"#000000"><font face=3D"Bookman Old Style, serif"><font s=
+tyle=3D"font-size:9pt"><b>search
+engine Optimization</b></font></font></font><font color=3D"#000000"><font f=
+ace=3D"Bookman Old Style, serif"><font style=3D"font-size:9pt">
+(SEO).=C2=A0We can assist your company website=C2=A0increase its
+visibility on the most popular search engines, including Google,
+Bing, and Yahoo.</font></font></font><br></p><p align=3D"JUSTIFY" style=3D"=
+margin-bottom:0cm;line-height:100%"><font color=3D"#000000"><font face=3D"B=
+ookman Old Style, serif"><font style=3D"font-size:9pt">Based on the study w=
+e conducted on your site
+Based on the research we conducted on your website, we&#39;ve created
+an=C2=A0</font></font></font><font color=3D"#000000"><font face=3D"Bookman =
+Old Style, serif"><font style=3D"font-size:9pt"><b>SEO
+audit report that identifies the areas you must concentrate on</b></font></=
+font></font><font color=3D"#000000"><font face=3D"Bookman Old Style, serif"=
+><font style=3D"font-size:9pt">.=C2=A0The
+report will provide you with specific details of the changes you can
+make<br>must be put into your website in order to be visible to be on
+the=C2=A0first page of search engines.<br><br>The=C2=A0</font></font></font=
+><font color=3D"#000000"><font face=3D"Bookman Old Style, serif"><font styl=
+e=3D"font-size:9pt"><b>SEO
+techniques</b></font></font></font><font color=3D"#000000"><font face=3D"Bo=
+okman Old Style, serif"><font style=3D"font-size:9pt">=C2=A0that
+are based on the latest internet marketing trends, can increase the
+number of daily visitors which will result in greater business
+prospects.<br><br>If you would like us to present the=C2=A0</font></font></=
+font><font color=3D"#000000"><font face=3D"Bookman Old Style, serif"><font =
+style=3D"font-size:9pt"><b>review
+of SEO with you and discuss the optimization of your website=C2=A0send</b><=
+/font></font></font><font color=3D"#000000"><font face=3D"Bookman Old Style=
+, serif"><font style=3D"font-size:9pt">
+us a mail with the following=C2=A0contact information - telephone,
+Skype.<br><br>We are looking for a positive response</font></font></font></=
+p>
+<p align=3D"JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;line-height:100%">
+<font color=3D"#000000"><font face=3D"Bookman Old Style, serif"><font style=
+=3D"font-size:9pt">Kind
+Regards,</font></font></font></p>
+<p align=3D"JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;line-height:100%"><b sty=
+le=3D"font-family:Calibri,sans-serif;font-size:19.5px"><span style=3D"font-=
+family:Georgia,serif;color:rgb(53,28,117);font-size:18.6667px">Allison Lowe=
+ry</span></b><font color=3D"#000000"><font face=3D"Bookman Old Style, serif=
+"><font style=3D"font-size:9pt">=C2=A0|
+Digital Marketing Specialist=C2=A0</font></font></font></p>
+<p align=3D"JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;line-height:100%">
+<font color=3D"#000000"><font face=3D"Bookman Old Style, serif"><font style=
+=3D"font-size:9pt">--------------------------------------------------------=
+--------------------------------------</font></font></font></p><p align=3D"=
+JUSTIFY" style=3D"margin-bottom:0cm;background-image:initial;background-pos=
+ition:initial;background-size:initial;background-repeat:initial;background-=
+origin:initial;background-clip:initial;line-height:100%"><font color=3D"#00=
+0000"><font face=3D"Bookman Old Style, serif"><font style=3D"font-size:9pt"=
+>P.S.
+If you want to contact us, just tell Us </font></font></font><font color=3D=
+"#000000"><font face=3D"Bookman Old Style, serif"><font style=3D"font-size:=
+9pt"><b>&quot;Interested&quot;</b></font></font></font><font color=3D"#0000=
+00"><font face=3D"Bookman Old Style, serif"><font style=3D"font-size:9pt">=
+=C2=A0to
+receive the best SEO</font></font></font><font color=3D"#000000"><font face=
+=3D"Arial, serif"><font style=3D"font-size:10pt">
+</font></font></font><font color=3D"#000000"><font face=3D"Bookman Old Styl=
+e, serif"><font style=3D"font-size:9pt"><b>Proposal
+and quote to your site</b></font></font></font></p>
+<p style=3D"margin-bottom:0cm"><br>
+</p></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2_6B5qsfjZfl=
+mHPxU2-nFxfBb58VfxeVhynXeoCtTpGbsiLg6igG5C8SINRCxZplnTf3qrfMevNEVvp7MyCSNjS=
+zpAsGDp-JjE-NxslEJvHaSZj1-AbpBqPucMlHP8xyhATkqxww9u92-bP-zcJLugqaRE-nZByJY"=
+ width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:non=
+e!important;">
+
+--000000000000e7da0e0603f5607a--

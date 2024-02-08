@@ -1,0 +1,199 @@
+Return-Path: <sales@jiranimall.com>
+Delivered-To: jt@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id wJd3MNrDEWO1MSEAvE7qNg
+	(envelope-from <sales@jiranimall.com>)
+	for <jt@jiranimall.com>; Fri, 02 Sep 2022 08:50:34 +0000
+Return-path: <sales@jiranimall.com>
+Envelope-to: jt@jiranimall.com
+Delivery-date: Fri, 02 Sep 2022 08:50:34 +0000
+Received: from [37.61.232.138] (port=34644 helo=jiranimall.com)
+	by ssdrs1.layerip.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <sales@jiranimall.com>)
+	id 1oU2Nq-009HdO-KG
+	for jt@jiranimall.com;
+	Fri, 02 Sep 2022 08:50:34 +0000
+Message-ID: <f20bffb1524828167753cd768ef7bd1a@jiranimall.com>
+Date: Fri, 02 Sep 2022 11:50:34 +0300
+Subject: A new order has been placed - 20220902-11500898
+From: no-reply <sales@jiranimall.com>
+To: jt@jiranimall.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <title>Laravel</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html;"/>
+    <meta charset=3D"UTF-8">
+=09<style media=3D"all">
+=09=09@font-face {
+            font-family: 'Roboto';
+            src: url("https://jiranimall.com/public/fonts/Roboto-Regular.tt=
+f") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            line-height: 1.3;
+            font-family: 'Roboto';
+            color: #333542;
+        }
+=09=09body{
+=09=09=09font-size: .875rem;
+=09=09}
+=09=09.gry-color *,
+=09=09.gry-color{
+=09=09=09color:#878f9c;
+=09=09}
+=09=09table{
+=09=09=09width: 100%;
+=09=09}
+=09=09table th{
+=09=09=09font-weight: normal;
+=09=09}
+=09=09table.padding th{
+=09=09=09padding: .5rem .7rem;
+=09=09}
+=09=09table.padding td{
+=09=09=09padding: .7rem;
+=09=09}
+=09=09table.sm-padding td{
+=09=09=09padding: .2rem .7rem;
+=09=09}
+=09=09.border-bottom td,
+=09=09.border-bottom th{
+=09=09=09border-bottom:1px solid #eceff4;
+=09=09}
+=09=09.text-left{
+=09=09=09text-align:left;
+=09=09}
+=09=09.text-right{
+=09=09=09text-align:right;
+=09=09}
+=09=09.small{
+=09=09=09font-size: .85rem;
+=09=09}
+=09=09.currency{
+
+=09=09}
+=09</style>
+</head>
+<body>
+=09<div>
+=09=09=09=09<div style=3D"background: #eceff4;padding: 1.5rem;">
+=09=09=09<table>
+=09=09=09=09<tr>
+=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<img loading=3D"lazy"  src=3D"https:=
+//jiranimall.com/public/uploads/all/k1jiIYOiIqBUpG5DXgSEjv3hvPLB2VWNzBJ8EDL=
+c.png" height=3D"40" style=3D"display:inline-block;">
+=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<table>
+=09=09=09=09<tr>
+=09=09=09=09=09<td style=3D"font-size: 1.2rem;" class=3D"strong">Jirani Mal=
+l</td>
+=09=09=09=09=09<td class=3D"text-right"></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"gry-color small"></td>
+=09=09=09=09=09<td class=3D"text-right"></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"gry-color small">Email: info@jiranimall.com</td=
+>
+=09=09=09=09=09<td class=3D"text-right small"><span class=3D"gry-color smal=
+l">Order Id:</span> <span class=3D"strong">20220902-11500898</span></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"gry-color small">Phone: 0756 444 111</td>
+=09=09=09=09=09<td class=3D"text-right small"><span class=3D"gry-color smal=
+l">Order date:</span> <span class=3D" strong">02-09-2022</span></td>
+=09=09=09=09</tr>
+=09=09=09</table>
+
+=09=09</div>
+
+=09=09<div style=3D"padding: 1.5rem;padding-bottom: 0">
+            <table>
+=09=09=09=09=09=09=09=09<tr><td class=3D"strong small gry-color">Bill to:</=
+td></tr>
+=09=09=09=09<tr><td class=3D"strong">Njoki  &quot;Saint&quot; Matthew</td><=
+/tr>
+=09=09=09=09<tr><td class=3D"gry-color small">35177-00100 GPO, Nairobi, Ken=
+ya, Andole, Kenya</td></tr>
+=09=09=09=09<tr><td class=3D"gry-color small">Email: info@jiranimall.com</t=
+d></tr>
+=09=09=09=09<tr><td class=3D"gry-color small">Phone: 0728814975</td></tr>
+=09=09=09</table>
+=09=09</div>
+
+=09    <div style=3D"padding: 1.5rem;">
+=09=09=09<table class=3D"padding text-left small border-bottom">
+=09=09=09=09<thead>
+=09                <tr class=3D"gry-color" style=3D"background: #eceff4;">
+=09                    <th width=3D"35%">Product Name</th>
+=09=09=09=09=09=09<th width=3D"15%">Delivery Type</th>
+=09                    <th width=3D"10%">QTY</th>
+=09                    <th width=3D"15%">Unit price</th>
+=09                    <th width=3D"10%">Tax</th>
+=09                    <th width=3D"15%" class=3D"text-right">Total</th>
+=09                </tr>
+=09=09=09=09</thead>
+=09=09=09=09<tbody class=3D"strong">
+=09                =09=09                =09=09=09=09=09=09=09<tr class=3D"=
+">
+=09=09=09=09=09=09=09=09<td>Demo Product 22 </td>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Home Delivery
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09<td class=3D"gry-color">2</td>
+=09=09=09=09=09=09=09=09<td class=3D"gry-color currency">Ksh.55</td>
+=09=09=09=09=09=09=09=09<td class=3D"gry-color currency">Ksh.0</td>
+=09=09=09                    <td class=3D"text-right currency">Ksh.110</td>
+=09=09=09=09=09=09=09</tr>
+=09=09                =09=09=09=09=09=09            </tbody>
+=09=09=09</table>
+=09=09</div>
+
+=09    <div style=3D"padding:0 1.5rem;">
+=09        <table style=3D"width: 40%;margin-left:auto;" class=3D"text-righ=
+t sm-padding small strong">
+=09=09        <tbody>
+=09=09=09        <tr>
+=09=09=09            <th class=3D"gry-color text-left">Sub Total</th>
+=09=09=09            <td class=3D"currency">Ksh.110</td>
+=09=09=09        </tr>
+=09=09=09        <tr>
+=09=09=09            <th class=3D"gry-color text-left">Shipping cost</th>
+=09=09=09            <td class=3D"currency">Ksh.0</td>
+=09=09=09        </tr>
+=09=09=09        <tr class=3D"border-bottom">
+=09=09=09            <th class=3D"gry-color text-left">Total Tax</th>
+=09=09=09            <td class=3D"currency">Ksh.0</td>
+=09=09=09        </tr>
+                    <tr class=3D"border-bottom">
+=09=09=09            <th class=3D"gry-color text-left">Coupon</th>
+=09=09=09            <td class=3D"currency">Ksh.0</td>
+=09=09=09        </tr>
+=09=09=09        <tr>
+=09=09=09            <th class=3D"text-left strong">Grand Total</th>
+=09=09=09            <td class=3D"currency">Ksh.110</td>
+=09=09=09        </tr>
+=09=09        </tbody>
+=09=09    </table>
+=09    </div>
+
+=09</div>
+</body>
+</html>
+

@@ -1,0 +1,194 @@
+Return-Path: <danielbishop@webtechresearch.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id cLZFOW7if2Vr5g8AvE7qNg
+	(envelope-from <danielbishop@webtechresearch.com>)
+	for <info@jiranimall.com>; Mon, 18 Dec 2023 06:10:54 +0000
+Return-path: <danielbishop@webtechresearch.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 18 Dec 2023 06:10:54 +0000
+Received: from mail-yw1-f173.google.com ([209.85.128.173]:59765)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <danielbishop@webtechresearch.com>)
+	id 1rF6q2-004ZCl-1p
+	for info@jiranimall.com;
+	Mon, 18 Dec 2023 06:10:54 +0000
+Received: by mail-yw1-f173.google.com with SMTP id 00721157ae682-5e6c8b70766so2006427b3.3
+        for <info@jiranimall.com>; Sun, 17 Dec 2023 22:10:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1702879807; x=1703484607; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=1dk56E5hXMQ0qV/WuTZX/oYl+svyoSEncJxveVhaYTM=;
+        b=quFeyMPkX1hsPlOXOtndVRHJ+oBnDRS3k6CXxrO78Rm5Er+AF8kXucVHF7vyJMGJlm
+         pWHrzcMqyABf01gfjUXPeXJtsD3bZ6lV5TNSSk+Mmx+7tN+v454+R85wtsHrx2ErXc9t
+         cbvQCKYa7VqetzHyihEGf4zkgqgFDw7r0tkvIBuwk1fNxk2DVXC5OtfkvKybcYmBVbKS
+         TFDrAGkrRKqLvlCAvcZdyxOMN3Xh6QpfLc5omgso6mU1Z4SxolndEA2R8n/xvUDro0L0
+         2g99yQKE9gbz+Al4bYxLK/oQmn5R50V9lVUXToY7G59WhsoF8TdcnpImDTBA8A+nBLe7
+         nCBQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702879807; x=1703484607;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=1dk56E5hXMQ0qV/WuTZX/oYl+svyoSEncJxveVhaYTM=;
+        b=wWuJJly1spVear14V7kIOx7BjLEUUXu3qeX3+g4RWYkjL/3//Qp6F2eJfTDESyyNEE
+         ctFjK2zp1/ZO4dyNzH703Ke2uLdSPRlf55F2gjCf9NlIsomHqt8vIh0/YMJsFjT/sBeq
+         unu6C5taGb1a2khj4w/3KqBhAUP81JVrO9x9yO/Tv9Tv/Jm0+NXfAvcoOktfhApz+Q6c
+         12JsUHQ0yYa0LaCWp8emujbgBPmp8M51xnIdAWmCtHMRSx2c0qpg0j8CIgw2r7UIW+i5
+         wBdoaWRBPCSlhoQEl0jRFyyaCn/umGrRJs8NWpzyAziVcD4SgzVIgb8mpq7gh4ywQ1ET
+         hAOA==
+X-Gm-Message-State: AOJu0YzFUZ6im7075EoB5hfe4WmEmV7APWHzKvg5XpY5iskKcgJMCQjY
+	rro+V5yZta+mxMjGDTfZkp4rzBFm55O911RN9HM1y7jAh1k4sFh4
+X-Google-Smtp-Source: AGHT+IG3icG917qVRXs0fR6QugvzGO0qVnoZc2d75KBFqwaeEK9tR5PxKXCQzjd6And667BXoWMEO62XvaJuOVMryQk=
+X-Received: by 2002:a0d:dd86:0:b0:5e6:7409:9f7d with SMTP id
+ g128-20020a0ddd86000000b005e674099f7dmr543198ywe.101.1702879807386; Sun, 17
+ Dec 2023 22:10:07 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 17 Dec 2023 22:10:07 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 17 Dec 2023 22:10:06 -0800
+MIME-Version: 1.0
+Sender: danielbishop@webtechresearch.com
+From: danielbishop@webtechresearch.com
+Date: Sun, 17 Dec 2023 22:10:07 -0800
+X-Google-Sender-Auth: QU2R-ExOQ4dkLm5VEMY_-MDnvCY
+Message-ID: <CAJMBCJjgHRvM3xsDtG+TumYgG4jGrTJcVQh3nSWeFev3hDHfLQ@mail.gmail.com>
+Subject: jiranimall .com : We will fix it at least possible cost.
+To: Info <info@jiranimall.com>
+Content-Type: multipart/alternative; boundary="00000000000003c4e0060cc29ad4"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello jiranimall .com*, * Hope you are doing well. I was looking
+    for Keywords and found your website is Not listed on top Google. If you were
+    on page #1, you'd get so many prospects/new clients every day. Most of your
+    targeted keywords are on pages #3 [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 T_SPF_TEMPERROR        SPF: test of record failed (temperror)
+  0.0 HTML_OBFUSCATE_05_10   BODY: Message is 5% to 10% HTML obfuscation
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000003c4e0060cc29ad4
+Content-Type: text/plain; charset="UTF-8"
+
+Hello jiranimall .com*, *
+
+Hope you are doing well.
+
+I was looking for Keywords and found your website is Not listed on top
+Google. If you were on page #1, you'd get so many prospects/new clients
+every day. Most of your targeted keywords are on pages #3-5. You're so
+close! Do you mind if I sent an *SEO Package* and *Price list* of your site
+to see why you're not on page #1?
+
+I can send the *past work details* And *Website Audit Report* in a couple
+of hours. If you have any questions, feel free to ask me. I have more than
+10 years of experience in digital marketing.
+
+Can I send it over?
+
+Look forward to your reply.
+
+Kind Regards,
+
+*Daniel Bishop* | Business Development Manager
+
+---------------------------------------------------------------------------
+
+P.S: Reply back with us "*Interested"* and get the best SEO Proposal and
+quote for your website.
+
+P.S: This is our marketing strategy. We use Gmail id/Marketing mail ID,
+after a reply, our sales team will follow the corporate company email.
+[image: beacon]
+
+--00000000000003c4e0060cc29ad4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p style=3D"margin:0cm 0cm 10pt;line-height:13.8pt;font-fa=
+mily:Calibri,sans-serif"><span style=3D"font-size:13.5pt;font-family:Arial,=
+sans-serif;color:rgb(33,16,74)">Hello jiranimall .com</span><b style=3D"fon=
+t-size:11pt"><span style=3D"font-size:13.5pt;font-family:&quot;Bookman Old =
+Style&quot;,serif;color:rgb(33,16,74)">,=C2=A0</span></b></p><p style=3D"ma=
+rgin:0cm 0cm 10pt;line-height:13.8pt;font-size:11pt;font-family:Calibri,san=
+s-serif"><span style=3D"font-size:12pt;font-family:Arial,sans-serif"></span=
+></p><p style=3D"margin:0cm 0cm 10pt;line-height:13.8pt;font-size:11pt;font=
+-family:Calibri,sans-serif"><span style=3D"font-size:13.5pt;font-family:&qu=
+ot;Bookman Old Style&quot;,serif;color:rgb(33,16,74)">Hope you are doing we=
+ll.=C2=A0</span><span style=3D"font-size:12pt;font-family:Arial,sans-serif"=
+></span></p><p style=3D"margin:0cm 0cm 10pt;font-size:11pt;font-family:Cali=
+bri,sans-serif"><span style=3D"font-size:13.5pt;font-family:&quot;Bookman O=
+ld Style&quot;,serif;color:rgb(33,16,74)">I was looking for=C2=A0Keywords=
+=C2=A0and=C2=A0</span><span lang=3D"EN-AU" style=3D"font-size:13.5pt;font-f=
+amily:&quot;inherit&quot;,serif;color:rgb(33,16,74);border:1pt none windowt=
+ext;padding:0cm">found your website is Not listed on=C2=A0top Google</span>=
+<span style=3D"font-size:13.5pt;font-family:&quot;Bookman Old Style&quot;,s=
+erif;color:rgb(33,16,74)">. If you were on page #1, you&#39;d get so many p=
+rospects/new clients every day. Most of your targeted keywords are on pages=
+ #3-5. You&#39;re so close! Do you mind if I sent an=C2=A0<b>SEO Package</b=
+>=C2=A0and=C2=A0<b>Price list</b>=C2=A0of your site to see why you&#39;re n=
+ot on page #1?</span><span style=3D"font-size:12pt;font-family:Arial,sans-s=
+erif"></span></p><p style=3D"margin:0cm 0cm 10pt;font-size:11pt;font-family=
+:Calibri,sans-serif"><span style=3D"font-size:13.5pt;font-family:&quot;Book=
+man Old Style&quot;,serif;color:rgb(33,16,74)">I can send the=C2=A0<b>past =
+work details</b>=C2=A0And=C2=A0<b>Website Audit Report</b>=C2=A0in a couple=
+ of hours. If you have any questions, feel free to ask me. I have more than=
+ 10 years of experience in digital=C2=A0marketing.</span><span style=3D"fon=
+t-size:12pt;font-family:Arial,sans-serif"></span></p><p style=3D"margin:0cm=
+ 0cm 10pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"fon=
+t-size:13.5pt;font-family:&quot;Bookman Old Style&quot;,serif;color:rgb(33,=
+16,74)">Can I send it over?</span><span style=3D"font-size:12pt;font-family=
+:Arial,sans-serif"></span></p><p style=3D"margin:0cm 0cm 10pt;font-size:11p=
+t;font-family:Calibri,sans-serif"><span style=3D"font-size:13.5pt;font-fami=
+ly:&quot;Bookman Old Style&quot;,serif;color:rgb(33,16,74)">Look forward to=
+ your reply.</span><span style=3D"font-size:12pt;font-family:Arial,sans-ser=
+if"></span></p><p style=3D"margin:0cm;font-size:11pt;font-family:Calibri,sa=
+ns-serif"><span style=3D"font-size:13.5pt;font-family:&quot;Bookman Old Sty=
+le&quot;,serif;color:rgb(33,16,74)">Kind Regards,</span><span style=3D"font=
+-size:12pt;font-family:Arial,sans-serif"></span></p><p style=3D"margin:0cm =
+0cm 10pt"><font size=3D"4"><b>Daniel Bishop</b><span style=3D"font-family:A=
+rial,Helvetica,sans-serif;color:rgb(33,16,74)"><font face=3D"Georgia, serif=
+">=C2=A0</font></span></font><span style=3D"font-family:Cambria,serif;font-=
+size:13.5pt;color:rgb(33,16,74)">|=C2=A0</span><span style=3D"font-family:&=
+quot;Bookman Old Style&quot;,serif;font-size:13.5pt;color:rgb(33,16,74)">Bu=
+siness Development Manager</span></p><h6 style=3D"margin:0cm"><span style=
+=3D"font-size:12pt;font-family:Arial,sans-serif;font-size:12pt"></span></h6=
+><p style=3D"margin:0cm;font-family:Calibri,sans-serif"><span style=3D"font=
+-size:13.5pt;font-family:Cambria,serif">-----------------------------------=
+----------------------------------------</span></p><p style=3D"margin:0cm;f=
+ont-family:Calibri,sans-serif"><span style=3D"color:rgb(53,28,117);font-fam=
+ily:&quot;Bookman Old Style&quot;,serif;text-align:justify">P.S</span><span=
+ style=3D"font-size:12pt;color:rgb(53,28,117);font-family:&quot;Bookman Old=
+ Style&quot;,serif;text-align:justify">: Reply back with us &quot;</span><b=
+ style=3D"font-size:12pt;color:rgb(53,28,117);font-family:&quot;Bookman Old=
+ Style&quot;,serif;text-align:justify">Interested&quot;</b><span style=3D"f=
+ont-size:12pt;color:rgb(53,28,117);font-family:&quot;Bookman Old Style&quot=
+;,serif;text-align:justify">=C2=A0and get the best SEO Proposal and quote f=
+or your website.</span></p><p style=3D"margin:0cm;font-family:Calibri,sans-=
+serif"><span style=3D"font-family:Verdana,sans-serif"><font color=3D"#20124=
+d">P.S: This is our marketing strategy. We use Gmail id/Marketing mail ID, =
+after a reply, our sales team will follow the corporate</font></span><span =
+style=3D"font-family:Verdana,sans-serif;font-size:12pt">=C2=A0company email=
+.</span></p></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2HBxl2ctzdZf=
+S4FfEBSeWjq6Ncz78coalegtEHJ0PGOasxYt7jAGieuGX1tSiiiGlooxUHz4pwxrkpZhuNduTCj=
+_SBUF3XvnT5qpjeuPwzbyrnqq7qWRrFHVKwaiUXlhf7K5Worer-n-equwGlQhfflOItVCIQHLZK=
+sznTk4K" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; dis=
+play:none!important;">
+
+--00000000000003c4e0060cc29ad4--

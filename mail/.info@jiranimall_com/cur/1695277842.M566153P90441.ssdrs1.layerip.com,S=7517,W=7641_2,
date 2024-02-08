@@ -1,0 +1,124 @@
+Return-Path: <postman@livemailservice.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id ECicIRLjC2VJYQEAvE7qNg
+	(envelope-from <postman@livemailservice.com>)
+	for <info@jiranimall.com>; Thu, 21 Sep 2023 06:30:42 +0000
+Return-path: <postman@livemailservice.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Thu, 21 Sep 2023 06:30:42 +0000
+Received: from tsmtp-2.livemailservice.com ([162.215.231.94]:57453)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <postman@livemailservice.com>)
+	id 1qjDD7-000NRK-03
+	for info@jiranimall.com;
+	Thu, 21 Sep 2023 06:30:42 +0000
+Received: from tmail.livemailservice.com (tmail.livemailservice.com [162.215.231.88])
+	by tsmtp-1.livemailservice.com (Postfix) with ESMTP id DE9F532DFFC
+	for <info@jiranimall.com>; Thu, 21 Sep 2023 06:29:50 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=livemailservice.com;
+	s=LVMAIL; t=1695277790;
+	bh=p8qul78VqraByCUBK+MWkTDNH3kIphUvmR3ptt/1alI=;
+	h=Date:From:To:Subject;
+	b=EMbc3BOlr42TZ6tUlT7E1aY5/5HWaP7705aUZJG0xKUICqC0dF15y/Wu8rvJE1dpI
+	 XPfhZtQoao82HM12Uy95mPhn7JbKbV2tgxYqAXo5yIlUSPqu7moWXDrJPqHabYPN89
+	 eGVfeoDiI/XtarRYOdWix+D7igQF2QIHP3KDtrDg=
+Date: Thu, 21 Sep 2023 06:29:50 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=livemailservice.com;
+	s=LVMAIL; t=1695277790;
+	bh=p8qul78VqraByCUBK+MWkTDNH3kIphUvmR3ptt/1alI=;
+	h=Date:From:To:Subject:From;
+	b=Z2/HQV58xRjvnwMoVnszfG2q6LYaUUGVOPiNiosCM+VkojOPl5b/1u2YfUeW/r2Tb
+	 lznZEyYIOKT+izbdDHmDUpJinx2138NEovF/D7Wrt7J1/L8wOAa91rDwV1MyhStG+p
+	 bFb2iukqdZUzdSo8FDb+s3er9hqLa2RP0QofhuGY=
+From: Kenya Website Experts <info@kenyawebexperts.co.ke>
+To: info@jiranimall.com
+Subject: IMPORTANT! Verify your contact information for jiraniacademy.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Kenya Website Experts Dear Customer, Your email address, info@jiranimall.com,
+    has been set as the Registrant contact for 1 domain names registered through
+    Kenya Website Experts. Please click on the following link to verify your
+   email add [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: kenyawebexperts.co.ke]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3Dutf-8" /><title>Kenya Website Experts</title></head><body><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:650px;">=
+<tbody><tr><td style=3D"width:10px;"></td><td style=3D"font-family:Arial, s=
+ans-serif; font-size:12px; color:#333;"><p style=3D"padding-bottom:10px;">D=
+ear Customer,</p><p style=3D"padding-bottom:10px; line-height:20px;">Your e=
+mail address, <a href=3D"mailto:info@jiranimall.com" style=3D"color:#306eae=
+; text-decoration:underline;">info@jiranimall.com</a>, has been set as the =
+Registrant contact for 1 domain names registered through Kenya Website Expe=
+rts. Please click on the following link to verify your email address. By cl=
+icking on the following link you are agreeing to <a target=3D"_blank" href=
+=3D"http://www.registry.kenyawebexperts.co.ke/servlet/ViewAgreementServlet?=
+requestfor=3Ddomainregistrationagreement">Terms of Services</a>. </p><p sty=
+le=3D"padding-bottom:10px;"><a href=3D"http://www.registry.kenyawebexperts.=
+co.ke/linkhandler/servlet/ValidateRAAServlet?id=3D18258777&token=3Defe0bbc6=
+f5c1430e834a0032175d4609&lang=3Den" style=3D"color:#306eae; text-decoration=
+:underline;">http://www.registry.kenyawebexperts.co.ke/linkhandler/servlet/=
+ValidateRAAServlet?id=3D18258777&token=3Defe0bbc6f5c1430e834a0032175d4609&l=
+ang=3Den</a></p><p style=3D"padding-bottom:10px; line-height:20px;">This no=
+tice is being sent due to the registration, transfer, or change to the WHOI=
+S information on your domain(s). Please note that failure to verify the Reg=
+istrant contact email address will lead to deactivation of the respective d=
+omain name(s) if not completed within 15 days from the date of that action.=
+ Once deactivated, the domain names will not function until the email addre=
+ss is verified.</p><p style=3D"line-height:18px;">Affected domain names:</p=
+><ul style=3D"padding-bottom:10px;">
+<li>jiraniacademy.com</li>
+</ul><p style=3D"padding-bottom:10px; line-height:20px;"><strong>Support:</=
+strong><br />For any support with respect to your relationship with us you =
+can always contact us directly using the following Information.<table  cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0"  style=3D"width:635px; backgro=
+und:#f7f7f7;"><tbody><tr style=3D"font-family:Arial, Helvetica; font-size:1=
+2px;"><td colspan=3D"3" style=3D"text-align:center; font-weight:bold; color=
+:#959595; padding:10px; border-top:1px solid #d7d7d7;">CONTACT US</td></tr>=
+<tr style=3D"font-family:Arial, Helvetica; font-size:11px;"><td valign=3D"t=
+op" style=3D"text-align:center; color:#959595; border-top:1px solid #d7d7d7=
+;  border-right:1px solid #d7d7d7; padding:10px; line-height:18px; width:33=
+%"><strong style=3D"color:#959595;">Technical Support</strong><p>info@kenya=
+webexperts.co.ke</p></td><td valign=3D"top"  style=3D"text-align:center; co=
+lor:#959595; border-top:1px solid #d7d7d7;  border-right:1px solid #d7d7d7;=
+ padding:10px; line-height:18px; width:33%"><strong style=3D"color:#959595;=
+">Billing Contact:</strong><p>info@kenyawebexperts.co.ke<br>https://kenyawe=
+bexperts.co.ke<br>Tel: +254.722209414<br></p></td><td valign=3D"top"  style=
+=3D"text-align:center; color:#959595; border-top:1px solid #d7d7d7; padding=
+:10px; line-height:18px; width:33%"><strong style=3D"color:#959595;">Sales =
+Contact:</strong><p>info@kenyawebexperts.co.ke<br>https://kenyawebexperts.c=
+o.ke<br>Tel: +254.722209414<br></p></td></tr></tbody></table></td><td style=
+=3D"width:10px;"></td></tr></tbody></table></body></html>

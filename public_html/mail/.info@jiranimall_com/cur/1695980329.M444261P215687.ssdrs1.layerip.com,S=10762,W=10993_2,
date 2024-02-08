@@ -1,0 +1,231 @@
+Return-Path: <peter.betty14325@gmail.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id oMaEGSmbFmWHSgMAvE7qNg
+	(envelope-from <peter.betty14325@gmail.com>)
+	for <info@jiranimall.com>; Fri, 29 Sep 2023 09:38:49 +0000
+Return-path: <peter.betty14325@gmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Fri, 29 Sep 2023 09:38:49 +0000
+Received: from mail-vk1-f196.google.com ([209.85.221.196]:55354)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <peter.betty14325@gmail.com>)
+	id 1qm9xX-000uvn-0l
+	for info@jiranimall.com;
+	Fri, 29 Sep 2023 09:38:49 +0000
+Received: by mail-vk1-f196.google.com with SMTP id 71dfb90a1353d-49618e09f16so5077508e0c.2
+        for <info@jiranimall.com>; Fri, 29 Sep 2023 02:38:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1695980284; x=1696585084; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ELhKSmCnywfkP66kKDsCRLixYWjYYMqolr0rZkjnoxM=;
+        b=ndPQOiGAyHAP310eYtuPMOJGc7RrajA8DIll/KhP6uNaTYkuK7Trqz21th3uNSbYim
+         2nBVwHm8DfuISwiEGOMkAnFYizqp2lzBPbSEPyMimLgUBqqA+3E6jeV9A/72myz65+tv
+         XAIXbfuKG3Sc4xeZM+GKIEbuPAZwek7PDAaDJNLRRKX20ynuWhMD4H3TLFqrDqLrNQk0
+         LLREUCOTglsrxow8MYOtSrHIZQjXLtYooiFBvRqgx2BFUKxwPXHm+B7zCnAIkq+mj9je
+         nXko2JvBG8BzwcsjcbTWrH3cNfJN4SqinYHpc23Zq9ejEE2j40SdOx0TvUkG2XNibt4U
+         WSCw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695980284; x=1696585084;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ELhKSmCnywfkP66kKDsCRLixYWjYYMqolr0rZkjnoxM=;
+        b=JbQzCcXhbbhRvpalGBWIAZUCgH0C0adKKAPvPnolMvP0dMu84xmCSrWqcEDIh+/1Yl
+         PymxqqyuOLcrKwrllpX0Aas29iSJA5IZ5WV/FjnKOfoSdn47tXqJAfDDYB5+7O/pf0Hm
+         xP3ceJN+4CJraEQdVEvCbZ/phSa9O54qywjSaNb4Dm3i2tNB27ImklKnoud5FIB4n2v/
+         yiRh3+aPCBLFOJNvDF9GEdSdVOJ+t8fMMpuafWhHefRfZ6cCWSKHJHaFNKYcMv3r342n
+         1HONWIerlFr/ymXIP+ZzH7TqZFBtyjFB/n4/aethkyXVBzjt8kUND/8Q5MKEgjxJIqLd
+         45EQ==
+X-Gm-Message-State: AOJu0YwsW+ZQa0cQpN7Tq9sEFnK/phXrX9qW6Fw6xyB3AknLPc7O5FtT
+	c1LfUBnCh6e7ndwqe6+0kmpaDZbCR2NyR2T8u0dpUCE5lmY=
+X-Google-Smtp-Source: AGHT+IE6IprNQmiGumfLPuHPkTV+USuLAy6m8NNFA4PzXBr8ADi35wuhxnbyNXNIZJZ8jz7rgJ2cMP446TmkhePV9CY=
+X-Received: by 2002:a1f:cd87:0:b0:49a:b0be:3a00 with SMTP id
+ d129-20020a1fcd87000000b0049ab0be3a00mr3022165vkg.8.1695980284092; Fri, 29
+ Sep 2023 02:38:04 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 29 Sep 2023 02:38:03 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 29 Sep 2023 02:38:03 -0700
+MIME-Version: 1.0
+Sender: Peter Betty <peter.betty14325@gmail.com>
+From: Peter Betty <peter.betty14325@gmail.com>
+Date: Fri, 29 Sep 2023 02:38:03 -0700
+X-Google-Sender-Auth: Q744Q2dIL5lwUT-Fjat_BwXVXm0
+Message-ID: <CALMT1g1R2dU4kiL=aHMAsAdL3jte=5JD9LaHrQg2-JU35gGofA@mail.gmail.com>
+Subject: Expand Online Presence: jiranimall.com
+To: Info <info@jiranimall.com>
+Content-Type: multipart/alternative; boundary="000000000000612a3a06067c2e3b"
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi jiranimall.com My experts were analyzing your website and
+    found that your website is not handling recent updates from search engines.
+    Competitor analysis has always been an important criterion for any strategic
+    layout where you can compare your strategies and accordingly prepare a road
+    map to stay ahead of competition. We can guide [...] 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                            [URIs: peter-betty14325-dot-yamm-track.appspot.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [peter.betty14325[at]gmail.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [peter.betty14325[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--000000000000612a3a06067c2e3b
+Content-Type: text/plain; charset="UTF-8"
+
+Hi jiranimall.com
+
+My experts were analyzing your website and found that your website is not
+handling recent updates from search engines.
+
+Competitor analysis has always been an important criterion for any
+strategic layout where you can compare your strategies and accordingly
+prepare a road map to stay ahead of competition. We can guide you by
+providing the details in a form of thorough Analysis.
+
+
+*Google wants its visitors to have the best possible experience and these
+factors play an important role in determining your rank in SERP:*
+
+
+
+   - Key phrases selected for your site are not competitive enough to
+   present you on the first page.
+   - On page and website issues is the major setback leading to
+   non-performance on search engines.
+   - Search based landing page relevance has been broadly ignored, leading
+   to higher bounce rate.
+   - Aggressive Social media promotion will help you to achieve brand
+   visibility.
+   - So many technical errors present on your website making it difficult
+   to index.
+   - We follow a technically advanced and tested approach to adhere to the
+   latest algorithmic updates.
+   - We will prepare an advanced digital marketing Campaign to generate
+   maximum traffic and enhance your ranking.
+
+
+
+
+This e-mail provides you with a glimpse of services which we offer. If you
+require any sort of website assistance or have any query about our
+services, kindly reply to us back.
+
+
+
+
+
+
+*Best Regards,*
+
+*Peter BettyMarketing Consultant
+------------------------------------------------------------------*
+[image: beacon]
+
+--000000000000612a3a06067c2e3b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:normal"><font face=3D"verdana, sans-serif" style=3D"">Hi
+<a href=3D"http://jiranimall.com">jiranimall.com</a>=C2=A0<br>
+<br>
+My experts were analyzing your website and found that your website is not
+handling recent updates from search engines.<br>
+<br>
+Competitor analysis has always been an important criterion for any strategi=
+c
+layout where you can compare your strategies and accordingly prepare a road=
+ map
+to stay ahead of competition. We can guide you by providing the details in =
+a
+form of thorough Analysis.<br>
+<br>
+<br>
+<b style=3D"">Google wants its visitors to have the best possible experienc=
+e and these
+factors play an important role in determining your rank in SERP:</b><br>
+<br>
+</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-hei=
+ght:normal"><font face=3D"verdana, sans-serif"><br></font></p>
+
+<ul type=3D"disc" style=3D"margin-bottom:0in">
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">Key phrases selected for your site are no=
+t
+     competitive enough to present you on the first page.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">On page and website issues is the major
+     setback leading to non-performance on search engines.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">Search based landing page relevance has b=
+een
+     broadly ignored, leading to higher bounce rate.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">Aggressive Social media promotion will he=
+lp
+     you to achieve brand visibility.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">So many technical errors present on your
+     website making it difficult to index.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">We follow a technically advanced and test=
+ed
+     approach to adhere to the latest algorithmic updates.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">We will prepare an advanced digital marke=
+ting
+     Campaign to generate maximum traffic and enhance your ranking.</font><=
+/li>
+</ul>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%"><font=
+ face=3D"verdana, sans-serif" style=3D""><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0<br>
+<br>
+This e-mail provides you with a glimpse of services which we offer. If you
+require any sort of website assistance or have any query about our services=
+,
+kindly reply to us back.<br>
+<br>
+=C2=A0<br>
+<br>
+=C2=A0<br>
+<br>
+<b style=3D"">Best Regards,<br></b><b style=3D"">Peter Betty<br>Marketing C=
+onsultant<br>
+------------------------------------------------------------------</b></fon=
+t></p></div>
+<img src=3D"https://peter-betty14325-dot-yamm-track.appspot.com/2j1qf9Daadq=
+xbKirnHQMuklG65al9rKnhI87huXf6J5dwZU3gigEjoepZIeIDFQbCQ5C9umbnoAGEpBOUvslN1=
+qvaqLQBBZvAWD1qb1KG1aufyQrOVMq1kIGByY95QUfmzvhTpTgxz2weySiGds-XMMCayuJ9U7Vr=
+" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:no=
+ne!important;">
+
+--000000000000612a3a06067c2e3b--

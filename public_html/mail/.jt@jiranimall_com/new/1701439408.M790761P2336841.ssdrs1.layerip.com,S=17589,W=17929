@@ -1,0 +1,340 @@
+Return-Path: <support@computers1000.com>
+Delivered-To: jt@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id GOY8LrDnaWVJqCMAvE7qNg
+	(envelope-from <support@computers1000.com>)
+	for <jt@jiranimall.com>; Fri, 01 Dec 2023 14:03:28 +0000
+Return-path: <support@computers1000.com>
+Envelope-to: jt@jiranimall.com
+Delivery-date: Fri, 01 Dec 2023 14:03:28 +0000
+Received: from mail.univalence.com ([51.255.204.47]:36658)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <support@computers1000.com>)
+	id 1r9477-009qtZ-2b
+	for jt@jiranimall.com;
+	Fri, 01 Dec 2023 14:03:28 +0000
+Received: from mail.univalence.com (localhost [127.0.0.1])
+	by mail.univalence.com (Postfix) with ESMTP id AB99613CBF1
+	for <jt@jiranimall.com>; Fri,  1 Dec 2023 14:02:44 +0000 (UTC)
+Authentication-Results: mail.univalence.com (amavisd-new);
+	dkim=pass (1024-bit key) reason="pass (just generated, assumed good)"
+	header.d=univalence.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=univalence.com;
+	 h=content-type:content-type:mime-version:to:reply-to:from:from
+	:subject:subject:date:date:message-id; s=dkim; t=1701439364; x=
+	1702303365; bh=Dzd/rk03b7QI/P0CFx7qJEEkt5x/FaEVHutboln6+q8=; b=o
+	SFIEjeZ7rtG+889dtP4Xd2megeDrzuAqgo6vRZtBoUFU6Cgt9BaSYgcuxyY82OAn
+	fpgzhMPp1EWJY1Ca9rsaAl37OxIDpZWEw1W+U6OJjCmPPteXgIzMX4AceoA6xTnT
+	v1m6E0UEhBnMRui3/7KqBFABYu6cEc83yA56pBdHv0=
+Received: from mail.univalence.com ([127.0.0.1])
+	by mail.univalence.com (mail.univalence.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id 2CA22KsUsIV7 for <jt@jiranimall.com>;
+	Fri,  1 Dec 2023 14:02:44 +0000 (UTC)
+Received: from [127.0.0.1] (ns5015159.ip-15-235-66.net [15.235.66.199])
+	by mail.univalence.com (Postfix) with ESMTPSA id 5B47713CBEE
+	for <jt@jiranimall.com>; Fri,  1 Dec 2023 14:02:44 +0000 (UTC)
+Message-ID: <fa2ea842e8eea688330ca91f579ab243@swift.generated>
+Date: Fri, 01 Dec 2023 14:02:43 +0000
+Subject: JiraniTechnologies computer company listed on Computers1000
+From: Computers1000 <support@computers1000.com>
+Reply-To: Computers1000 <support@computers1000.com>
+To: jt@jiranimall.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1701439363_5ec0664cb51126217ea94d2a75ba4be4_=_"
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear JiraniTechnologies, Get ready to fuel the digital revolution
+    and empower businesses with innovative solutions! We are thrilled to announce
+    that your esteemed computer company has been successfully added to Computers1000
+    [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                             [51.255.204.47 listed in bl.score.senderscore.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: univalence.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+
+--_=_swift_v4_1701439363_5ec0664cb51126217ea94d2a75ba4be4_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear JiraniTechnologies,
+
+Get ready to fuel the digital revolution and =
+empower businesses with innovative
+solutions! We are thrilled to announce=
+ that your esteemed computer company
+has been successfully added to Compu=
+ters1000
+=E2=80=93 the ultimate online directory for exceptional technolo=
+gy-related businesses
+and services. Congratulations on joining our dynami=
+c community of tech
+innovators!
+
+Computers1000 serves as a comprehens=
+ive platform designed to connect
+individuals and businesses with cutting-=
+edge IT and computing related solutions
+like yours. Whether you specializ=
+e in graphical and web design, electronics,
+online marketing, or any othe=
+r aspect of the tech industry, our website is
+the perfect destination for=
+ individuals to discover and engage with your=20
+exceptional services.
+=
+
+
+
+
+We invite you to visit our website to explore your newly create=
+d listing=20
+and make the most of the remarkable features available to you.=
+ Here are some=20
+exciting benefits of being listed on our platform:
+
+1=
+. Amplify Your Online Presence: By joining Computers1000, you can amplify y=
+our
+online presence and reach a wider audience actively seeking reliable =
+and=20
+innovative technology solutions. Stand out from the competition and =
+showcase=20
+your expertise in graphical and web design, electronics, online=
+ marketing,=20
+and more.
+
+2. Showcase Your Technological Excellence: Ou=
+r platform allows you to showcase=20
+your range of services, highlight your=
+ technical prowess, share client=20
+success stories, and more. Attract pote=
+ntial clients with your ability to=20
+transform businesses through your exp=
+ertise.
+
+3. Connect with Targeted Clients: As a trusted directory websi=
+te, we attract=20
+individuals and businesses who value the power of technol=
+ogy and seek top-notch
+IT solutions. A captivating listing on Computers10=
+00 will magnetize
+potential clients who are actively seeking reliable and=
+ trustworthy IT
+and computing service providers like you.
+
+4. Ignite =
+a Social Media Tech Revolution: Harness the power of social media to
+crea=
+te a tech revolution! Share your listing on your preferred social media=20
+=
+platforms and witness the excitement as your existing clients, followers, =
+
+and potential customers spread the word about your exceptional technolog=
+y=20
+services.
+
+To help you kickstart your social media promotion, we'v=
+e prepared an example=20
+message for you to share:
+
+    "Revolutionize =
+your business with cutting-edge technology! We're thrilled
+    to announc=
+e that JiraniTechnologies is now listed on Computers1000, the go-to
+    p=
+latform for exceptional IT and computing services!
+
+    Explore our ran=
+ge of services at=20
+    https://www.computers1000.com/KE/Nairobi/107668558=
+361321/JiraniTechnologies.
+    Let our team of tech experts fuel your bus=
+iness' digital transformation.
+
+    Join the tech revolution! Share our=
+ listing with your network and the entire
+    social media community. Tog=
+ether, let's shape a future where innovation propels
+    businesses to ne=
+w heights!"
+
+Congratulations on becoming an integral part of Computers1=
+000! We are
+delighted to showcase your computer company and contribute to=
+ the
+digital transformation of businesses and industries. Together, let's=
+ embrace=20
+the power of technology and shape a future where innovation kno=
+ws no bounds.
+
+Your listing is free of charge and can be found at: http=
+s://www.computers1000.com/KE/Nairobi/107668558361321/JiraniTechnologies?e=
+=3D47936318
+
+Please use the menu entry labelled "Claim ownership or rep=
+ort listing" to manage
+your page, or use this direct link: https://www.co=
+mputers1000.com/login/107668558361321?e=3D47936318
+
+
+Best regards,
+=
+
+Computers1000
+
+
+--_=_swift_v4_1701439363_5ec0664cb51126217ea94d2a75ba4be4_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html> <head> <meta http-equ=
+iv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" /> <meta propert=
+y=3D"og:title" content=3D"JiraniTechnologies computer company listed on Com=
+puters1000" /> <title>JiraniTechnologies computer company listed on Compute=
+rs1000</title> <style type=3D"text/css"> #outlook a{padding:0;} body{width:=
+100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} bod=
+y{-webkit-text-size-adjust:none;} body{margin:0; padding:0;} img{border:0; =
+height:auto; line-height:100%; outline:none; text-decoration:none;} table t=
+d{border-collapse:collapse;} #backgroundTable{height:100% !important; margi=
+n:0; padding:0; width:100% !important;} body, #backgroundTable{ background-=
+color:#FAFAFA; } #templateContainer{ border: 1px solid #DDDDDD; } h1, .h1{ =
+color:#202020; display:block; font-family:Arial; font-size:34px; font-weigh=
+t:bold; line-height:100%; margin-top:0; margin-right:0; margin-bottom:10px;=
+ margin-left:0; text-align:left; } h2, .h2{ color:#202020; display:block; f=
+ont-family:Arial; font-size:30px; font-weight:bold; line-height:100%; margi=
+n-top:0; margin-right:0; margin-bottom:10px; margin-left:0; text-align:left=
+; } h3, .h3{ color:#202020; display:block; font-family:Arial; font-size:26p=
+x; font-weight:bold; line-height:100%; margin-top:0; margin-right:0; margin=
+-bottom:10px; margin-left:0; text-align:left; } h4, .h4{ color:#202020; dis=
+play:block; font-family:Arial; font-size:22px; font-weight:bold; line-heigh=
+t:100%; margin-top:0; margin-right:0; margin-bottom:10px; margin-left:0; te=
+xt-align:left; } #templateHeader{ border-bottom:0; padding:10px 0 10px 0; }=
+ .headerContent{ color:#202020; font-family:Arial; font-size:18px; font-wei=
+ght:bold; line-height:100%; text-align:center; vertical-align:middle; } .he=
+aderContent a:link, .headerContent a:visited, .headerContent a .yshortcuts{=
+ color:#336699; font-weight:normal; text-decoration:underline; } #headerIma=
+ge{ height:auto; max-width:560px !important; padding-left:20px; } #template=
+Container, .bodyContent{ background-color:#FFFFFF; } .bodyContent div{ colo=
+r:#505050; font-family:Arial; font-size:14px; line-height:150%; text-align:=
+left; } .bodyContent div a:link, .bodyContent div a:visited, .bodyContent d=
+iv a .yshortcuts{ color:#336699; font-weight:normal; text-decoration:underl=
+ine; } .templateButton{ -moz-border-radius:3px; -webkit-border-radius:3px; =
+background-color:#336699; border:0; border-collapse:separate !important; bo=
+rder-radius:3px; } .templateButton, .templateButton a:link, .templateButton=
+ a:visited, .templateButton a .yshortcuts{ color:#FFFFFF; font-family:Arial=
+; font-size:15px; font-weight:bold; letter-spacing:-.5px; line-height:100%;=
+ text-align:center; text-decoration:none; } .bodyContent img{ display:inlin=
+e; height:auto; } #templateFooter{ background-color:#FFFFFF; border-top:0; =
+} .footerContent div{ color:#707070; font-family:Arial; font-size:12px; lin=
+e-height:125%; text-align:center; } .footerContent div a:link, .footerConte=
+nt div a:visited, .footerContent div a .yshortcuts{ color:#336699; font-wei=
+ght:normal; text-decoration:underline; } .footerContent img{ display:inline=
+; } #utility{ background-color:#FFFFFF; border:0; } #utility div{ text-alig=
+n:center; } #monkeyRewards img{ max-width:190px; } </style> </head> <body l=
+eftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0" offset=
+=3D"0"> <center> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" he=
+ight=3D"100%" width=3D"100%" id=3D"backgroundTable"> <tr> <td align=3D"cent=
+er" valign=3D"top" style=3D"padding-top:20px;"> <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"480" id=3D"templateContainer"> <tr> <=
+td align=3D"center" valign=3D"top"> <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"480" id=3D"templateHeader"> <tr> <td class=3D"hea=
+derContent"> <img src=3D"https://www.computers1000.com/img/computers1000/lo=
+go.png" width=3D"400" style=3D"max-width:400px;" id=3D"headerImage" mc:labe=
+l=3D"header_image" mc:edit=3D"header_image" mc:allowdesigner mc:allowtext /=
+> </td> </tr> <tr> <td class=3D"headerContent"> <em>Information Technology =
+Service Directory</em> </td> </tr> </table> </td> </tr> <tr> <td align=3D"c=
+enter" valign=3D"top"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"480" id=3D"templateBody"> <tr> <td valign=3D"top"> <table bord=
+er=3D"0" cellpadding=3D"20" cellspacing=3D"0" width=3D"100%"> <tr> <td vali=
+gn=3D"top" class=3D"bodyContent"> <div mc:edit=3D"std_content00"> <br/> Dea=
+r <b>JiraniTechnologies</b>, <p> Get ready to fuel the digital revolution a=
+nd empower businesses with innovative solutions! We are thrilled to announc=
+e that your esteemed computer company has been successfully added to <b><a =
+href=3D"https://www.computers1000.com?e=3D47936318">Computers1000</a></b> =
+=E2=80=93 the ultimate online directory for exceptional technology-related =
+businesses and services. Congratulations on joining our dynamic community o=
+f tech innovators! </p> <p> <b>Computers1000</b> serves as a comprehensive =
+platform designed to connect individuals and businesses with cutting-edge I=
+T and computing related solutions like yours. Whether you specialize in gra=
+phical and web design, electronics, online marketing, or any other aspect o=
+f the tech industry, our website is the perfect destination for individuals=
+ to discover and engage with your exceptional services. </p> <p> We invite =
+you to visit our website to explore your newly created listing and make the=
+ most of the remarkable features available to you. Here are some exciting b=
+enefits of being listed on our platform: </p> <h5>Amplify Your Online Prese=
+nce:</h5> By joining <b>Computers1000</b>, you can amplify your online pres=
+ence and reach a wider audience actively seeking reliable and innovative te=
+chnology solutions. Stand out from the competition and showcase your expert=
+ise in graphical and web design, electronics, online marketing, and more. <=
+h5>Showcase Your Technological Excellence:</h5> Our platform allows you to =
+showcase your range of services, highlight your technical prowess, share cl=
+ient success stories, and more. Attract potential clients with your ability=
+ to transform businesses through your expertise. <h5>Connect with Targeted =
+Clients:</h5> As a trusted directory website, we attract individuals and bu=
+sinesses who value the power of technology and seek top-notch IT solutions.=
+ A captivating listing on <b>Computers1000</b> will magnetize potential cli=
+ents who are actively seeking reliable and trustworthy IT and computing ser=
+vice providers like you. <h5>Ignite a Social Media Tech Revolution:</h5> Ha=
+rness the power of social media to create a tech revolution! Share your lis=
+ting on your preferred social media platforms and witness the excitement as=
+ your existing clients, followers, and potential customers spread the word =
+about your exceptional technology services. <p> To help you kickstart your =
+social media promotion, we've prepared an example message for you to share:=
+ </p> <p><em> "Revolutionize your business with cutting-edge technology! We=
+'re thrilled to announce that JiraniTechnologies is now listed on Computers=
+1000, the go-to platform for exceptional IT and computing services! </em></=
+p> <p><em> Explore our range of services at https://www.computers1000.com/K=
+E/Nairobi/107668558361321/JiraniTechnologies. Let our team of tech experts =
+fuel your business' digital transformation. </em></p> <p><em> Join the tech=
+ revolution! Share our listing with your network and the entire social medi=
+a community. Together, let's shape a future where innovation propels busine=
+sses to new heights!" </em></p> <p> Congratulations on becoming an integral=
+ part of <b>Computers1000</b>! We are delighted to showcase your computer c=
+ompany and contribute to the digital transformation of businesses and indus=
+tries. </p> <p> Your listing is free of charge and can be found at: </p> <p=
+><table cellpadding=3D5><tr><td><img width=3D"32" height=3D"32" src=3D"http=
+s://graph.facebook.com/107668558361321/picture?type=3Dsquare" style=3D"bord=
+er-radius: 50%\;"/></td><td><a href=3D"https://www.computers1000.com/KE/Nai=
+robi/107668558361321/JiraniTechnologies?e=3D47936318">JiraniTechnologies</a=
+></td></tr></table></p> <p> Please use the menu entry labelled "Claim owner=
+ship or report listing" to manage your page, or use this direct link: https=
+://www.computers1000.com/login/107668558361321?e=3D47936318 </p> <br/> <p> =
+Best regards, </p> <p> Computers1000 </p> </div> </td> </tr> </table> </td>=
+ </tr> </table> </td> </tr> <tr> <td align=3D"center" valign=3D"top"> <tabl=
+e border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"480" id=3D"tem=
+plateFooter"> <tr> <td valign=3D"top" class=3D"footerContent"> <table borde=
+r=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100%"> <tr> <td valig=
+n=3D"top"> <div mc:edit=3D"std_footer"> <em>Computers1000 2023</em> <br /> =
+<strong>Our mailing address is:</strong> <br /> support@computers1000.com <=
+br /> <br /> <a href=3D"https://www.computers1000.com/login/107668558361321=
+/unsubscribe?e=3D47936318" target=3D"_blank">Unsubscribe</a> </div> </td> <=
+/tr> </table> </td> </tr> </table> <br /> </td> </tr> </table> </center> </=
+body> </html>=20
+
+--_=_swift_v4_1701439363_5ec0664cb51126217ea94d2a75ba4be4_=_--
+

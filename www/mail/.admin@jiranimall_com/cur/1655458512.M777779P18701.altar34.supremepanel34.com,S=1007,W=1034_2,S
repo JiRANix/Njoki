@@ -1,0 +1,27 @@
+Return-Path: <admin@jiranimall.com>
+Delivered-To: admin@jiranimall.com
+Received: from altar34.supremepanel34.com
+	by altar34.supremepanel34.com with LMTP
+	id mE8/KdBKrGINSQAAEL+hhQ
+	(envelope-from <admin@jiranimall.com>)
+	for <admin@jiranimall.com>; Fri, 17 Jun 2022 09:35:12 +0000
+Return-path: <admin@jiranimall.com>
+Envelope-to: admin@jiranimall.com
+Delivery-date: Fri, 17 Jun 2022 09:35:12 +0000
+Received: from [198.23.59.221] (port=57616 helo=www.jiranimall.com)
+	by altar34.supremepanel34.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <admin@jiranimall.com>)
+	id 1o28Nk-00064h-85
+	for admin@jiranimall.com;
+	Fri, 17 Jun 2022 09:35:12 +0000
+Message-ID: <4e7cfdcb5fe242a43567fcc32f8cee40@www.jiranimall.com>
+Date: Fri, 17 Jun 2022 12:35:12 +0300
+Subject: SMTP Test
+From: no-reply <admin@jiranimall.com>
+To: admin@jiranimall.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+This is a test email.

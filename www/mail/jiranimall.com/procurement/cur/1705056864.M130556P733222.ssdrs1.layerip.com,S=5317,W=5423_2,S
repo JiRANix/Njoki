@@ -1,0 +1,106 @@
+Return-Path: <matthewnjoki@gmail.com>
+Delivered-To: procurement@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id oLG7BmAaoWUmMAsAvE7qNg
+	(envelope-from <matthewnjoki@gmail.com>)
+	for <procurement@jiranimall.com>; Fri, 12 Jan 2024 10:54:24 +0000
+Return-path: <matthewnjoki@gmail.com>
+Envelope-to: procurement@jiranimall.com
+Delivery-date: Fri, 12 Jan 2024 10:54:24 +0000
+Received: from mail-yb1-f170.google.com ([209.85.219.170]:42477)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <matthewnjoki@gmail.com>)
+	id 1rOFBB-0035Oq-2k
+	for procurement@jiranimall.com;
+	Fri, 12 Jan 2024 10:54:24 +0000
+Received: by mail-yb1-f170.google.com with SMTP id 3f1490d57ef6-dbdb124491cso4981758276.1
+        for <procurement@jiranimall.com>; Fri, 12 Jan 2024 02:54:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1705056820; x=1705661620; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=E2iMHV1ChaG3wwm3d0y3JhyKjKE2WxgL4MkmpaEqmcc=;
+        b=mJdf4ZxiLZY4L6irxQvV0yQObtsu53PxgQIwOYcg+sY0VEGA7O5az4tE3VP5O6nGnA
+         EhGPqLmdnSMXypf64Iu4mRWYdxluPUSyAD5MMOB9oGHkGJfY2qaBXxsZFYrjHdpWKslS
+         2fATiO7F1/yWlnhhTn//VM+0zV7qtbHV5COyeVmJ6UhPNfAhUhfB1D8v0VXJ55gHWtwY
+         xtV9d72wCpgjC+I0Czl9ltwnKgfOrJX0r8H3ir+WF1Ze8piHDeqa0YYmDCNVmZcp5HXw
+         5jyiamB3XC+33W/GBAWclxz5cykLC0/nma0ZqoSf0w8KMc0Q0Ht0omUPHtWHyr2reDoW
+         ttlg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705056820; x=1705661620;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=E2iMHV1ChaG3wwm3d0y3JhyKjKE2WxgL4MkmpaEqmcc=;
+        b=axVOWaS3wJ4I33lTzRilHIEUJzkyoYTLpn3BDEMknYZ7wpu2Zx9mbAKHCF8GOmJYfl
+         BxcF9q524VyV3vaBL4SZqjTnuMQRbN+k1RBt65gzyIJ7Mwl9LbWAZUjbhexbxgY5CmSK
+         mvSMyCJshBFw6yFvXfuTR6dkZFRfZht9aYYT3hXiodqiUudyfVWbPlYGQUEySy4DuGJi
+         Fwa1ptqj+xZ7gg6PjBkw6lDNa9hfmGZVCwQJ5W2LQAhbyc6TgRPexoI3WjFDkIIFmox/
+         uFS+86flnpugGNoBKT4c/ac9jP+YPmF9JGEfdR8PLaf0JHifQBH3Y/iA2v100Mt0uVob
+         dXTA==
+X-Gm-Message-State: AOJu0YyvswmPdPlZPORj60WSLp5cHxphFKmuhew6S3mxdhew5j/VlZGS
+	P5yX7O2VUDS+NJI7iw3I3R4yzJaWSBh06j9tGzd+ilpV
+X-Google-Smtp-Source: AGHT+IELu9KZZj4Y21c/Lf2w8XumXzhuHz+lWBNxqDDCaGkxLvr0LECFCsEscPd9JsvwNm0WdZ8af8FeVsEa3JJSHec=
+X-Received: by 2002:a25:8a0f:0:b0:dbd:d033:9983 with SMTP id
+ g15-20020a258a0f000000b00dbdd0339983mr376811ybl.6.1705056820409; Fri, 12 Jan
+ 2024 02:53:40 -0800 (PST)
+MIME-Version: 1.0
+References: <d5cff2106c9845e24631794604e70209@jiranimall.com>
+In-Reply-To: <d5cff2106c9845e24631794604e70209@jiranimall.com>
+From: Matthew Njoki <matthewnjoki@gmail.com>
+Date: Fri, 12 Jan 2024 13:53:28 +0300
+Message-ID: <CAFgm4hcgQ6GBHixD2YGrHjXskk84BNF0vUfEs7c-jVRf62Dimg@mail.gmail.com>
+Subject: Re: Test
+To: procurement@jiranimall.com
+Content-Type: multipart/alternative; boundary="0000000000001a3b9e060ebd7a4f"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Confirmed On Fri, 12 Jan 2024, 10:52 , wrote: > Kindly confirm
+    > 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [matthewnjoki[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--0000000000001a3b9e060ebd7a4f
+Content-Type: text/plain; charset="UTF-8"
+
+Confirmed
+
+On Fri, 12 Jan 2024, 10:52 , <procurement@jiranimall.com> wrote:
+
+> Kindly confirm
+>
+
+--0000000000001a3b9e060ebd7a4f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Confirmed=C2=A0</div><br><div class=3D"gmail_quote"><div =
+dir=3D"ltr" class=3D"gmail_attr">On Fri, 12 Jan 2024, 10:52 , &lt;<a href=
+=3D"mailto:procurement@jiranimall.com">procurement@jiranimall.com</a>&gt; w=
+rote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex=
+;border-left:1px #ccc solid;padding-left:1ex">Kindly confirm<br>
+</blockquote></div>
+
+--0000000000001a3b9e060ebd7a4f--

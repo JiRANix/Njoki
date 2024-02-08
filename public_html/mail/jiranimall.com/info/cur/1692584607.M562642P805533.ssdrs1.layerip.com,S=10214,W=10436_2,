@@ -1,0 +1,222 @@
+Return-Path: <alice@toply.in>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id gMKhIJ/K4mSdSgwAvE7qNg
+	(envelope-from <alice@toply.in>)
+	for <info@jiranimall.com>; Mon, 21 Aug 2023 02:23:27 +0000
+Return-path: <alice@toply.in>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 21 Aug 2023 02:23:27 +0000
+Received: from mail-lj1-f193.google.com ([209.85.208.193]:53630)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <alice@toply.in>)
+	id 1qXuZi-003O5G-0a
+	for info@jiranimall.com;
+	Mon, 21 Aug 2023 02:23:27 +0000
+Received: by mail-lj1-f193.google.com with SMTP id 38308e7fff4ca-2bcb50e194dso15375371fa.3
+        for <info@jiranimall.com>; Sun, 20 Aug 2023 19:23:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=toply-in.20221208.gappssmtp.com; s=20221208; t=1692584561; x=1693189361;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Qombo7pyNj9UUWQBhRVI7CDqA48pLTZVuw64K+KZvT0=;
+        b=Z2p5yegplifaeAXNEjBoGuSqPolHslwWI9ycLldFwSUel1mk4VeGTADXqvSYjdZ1zU
+         C18HWiaAIK1zKADysGyrvtMs9H35UKn1uVtQt29wVAfV95ozga/0swOmwPvsw7ROXyaz
+         8xqe5FgoAK0Pe3V9XQAY16wjweDmf3MmG5I6AlbeP/vdKz30mtmlbdZpM1Cub8yEKSrQ
+         DQ4Ytdwh0NblyfSZXONi83BAAamS/9WA7FqyMdnNbrZSLdQN3MQYjgb70DAK47s5ldd3
+         tOKfVd8izjMDYk96k0O22j+MYF2ydZQxHLY/5+ue5LuJu0oyo1TF6TvbIYgrLiE3iyA/
+         TNzA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1692584561; x=1693189361;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Qombo7pyNj9UUWQBhRVI7CDqA48pLTZVuw64K+KZvT0=;
+        b=dDpcAadscQBVgmthqin9QjEl3EkvUDaB5aOeMGuMOpCpQIlRemr4k9xsum8/ySAQ3F
+         mImTGpAaWqxVK/5H9vl0EzZ9o3Q88JeCMZl2jfzelUjQiB22L8nKopcPvJYyEOwDB87s
+         9lgyAg0TZnE9l0yLR1q74BeiaKyjBfuZhAQm8hymOJDQyOS36C0uZ8ALWrgVR1XX1MIz
+         GBovWyrj1sE0So6eSA54AjNLQuFrsPeiHCyzC/1lLl/u4mY9OmFS/te7hERtfsPco4Qc
+         VdPjwRDAjp6+HsKVaVElGcJTMmhPfy4kPMJa/yLNUEINfSudQyXK5GCP6JcLCCzDQZ2o
+         yvwQ==
+X-Gm-Message-State: AOJu0YwhIdy148DuBo4t3yA+60ZNOTiqv7P7/JSbhebajF0MlBGB556x
+	Q105maiVxs40Im+HrjnoMYNaVWslZVIoOhuH6WqKs1hLrUNE+Q7vV5Af
+X-Google-Smtp-Source: AGHT+IE2MlJ/cEsbZc+pAjoxLF3kXXONvFI6p5JzeoAbuMuTE3OuP9pd1VZzOdgkBWzMCzW62c//ra5i1Fmrbzw2VZQ=
+X-Received: by 2002:a2e:91cc:0:b0:2b5:89a6:c12b with SMTP id
+ u12-20020a2e91cc000000b002b589a6c12bmr3674725ljg.10.1692584561144; Sun, 20
+ Aug 2023 19:22:41 -0700 (PDT)
+Received: from 421280360010 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 21 Aug 2023 02:22:40 +0000
+MIME-Version: 1.0
+Sender: alice@toply.in
+From: alice@toply.in
+Date: Mon, 21 Aug 2023 02:22:40 +0000
+X-Google-Sender-Auth: CsRhDGxYlk9bemFsZPoB0-cBaSg
+Message-ID: <CAEUFkqLCxWu3_ThGDWJJ-hhaW6te5Ri4NFCD8Gs8bEsD3ZX_tQ@mail.gmail.com>
+Subject: Rank better and increase conversions at minimum cost jiranimall.com
+To: info@jiranimall.com
+Content-Type: multipart/alternative; boundary="0000000000008504180603658d4f"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello jiranimall.com, Your website is your most valuable tool
+    for attracting and converting customers. We specialize in expert web design
+    and development that can help take your website to the next level. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--0000000000008504180603658d4f
+Content-Type: text/plain; charset="UTF-8"
+
+Hello jiranimall.com,
+
+Your website is your most valuable tool for attracting and converting
+customers. We specialize in expert web design and development that can help
+take your website to the next level.
+
+Did you know that including a clear call-to-action (CTA) on your website
+can significantly increase your conversion rates? Our team of expert
+designers can create a website that encourages users to take action and
+engage with your business.
+
+A well-designed website with a better user interface (UI) can increase user
+engagement and lead to higher conversion rates. We'll work with you to
+create a website that reflects your brand identity, is visually appealing,
+and provides a seamless user experience.
+
+Fast page loading time is critical to your website's success. Our team will
+optimize your website for speed, ensuring that your users have a smooth and
+speedy experience.
+
+A search engine optimized (SEO) website is vital for increasing your
+website's visibility and driving organic traffic to your site. Our SEO
+experts can optimize your website's content, structure, and code to improve
+your search engine rankings and increase your online visibility.
+
+Finally, a mobile-responsive website is essential in today's mobile-driven
+world. Our team will create a website that is optimized for both desktop
+and mobile devices, providing a seamless user experience across all
+platforms.
+
+If you're ready to boost your website's conversions and take your online
+presence to the next level. Please reply to us to learn more about our
+expert web design and development services.
+
+Thank you for your time and consideration. We look forward to the
+opportunity to work with you.
+
+
+
+
+
+Thanks,
+* Alice Kim *
+
+DM Consultant
+
+--0000000000008504180603658d4f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">Hello <a href=3D"http://j=
+iranimall.com">jiranimall.com</a>,</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">Your website is your most=
+ valuable tool for
+attracting and converting customers. We specialize in expert web design and
+development that can help take your website to the next level.</font></span=
+></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">Did you know that includi=
+ng a clear
+call-to-action (CTA) on your website can significantly increase your conver=
+sion
+rates? Our team of expert designers can create a website that encourages us=
+ers
+to take action and engage with your business.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">A well-designed website w=
+ith a better user
+interface (UI) can increase user engagement and lead to higher conversion
+rates. We&#39;ll work with you to create a website that reflects your brand
+identity, is visually appealing, and provides a seamless user experience.</=
+font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">Fast page loading time is=
+ critical to your
+website&#39;s success. Our team will optimize your website for speed, ensur=
+ing that
+your users have a smooth and speedy experience.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">A search engine optimized=
+ (SEO) website is
+vital for increasing your website&#39;s visibility and driving organic traf=
+fic to
+your site. Our SEO experts can optimize your website&#39;s content, structu=
+re, and
+code to improve your search engine rankings and increase your online
+visibility.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">Finally, a mobile-respons=
+ive website is
+essential in today&#39;s mobile-driven world. Our team will create a websit=
+e that
+is optimized for both desktop and mobile devices, providing a seamless user
+experience across all platforms.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%"><span =
+lang=3D"EN-IN"><font face=3D"verdana, sans-serif">If you&#39;re ready to bo=
+ost your website&#39;s
+conversions and take your online presence to the next level. Please reply t=
+o us to
+learn more about our expert web design and development services.</font></sp=
+an></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%"><font=
+ face=3D"verdana, sans-serif">Thank you for your time and consideration.
+We look forward to the opportunity to work with you.=C2=A0<br></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif"><span lang=3D"EN-IN">=C2=A0</span></fon=
+t></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif"><span lang=3D"EN-IN">=C2=A0</span></fon=
+t></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif"><span style=3D"color:black" lang=3D"EN-=
+IN">Thanks,</span></font></p><font face=3D"verdana, sans-serif"><b>
+Alice Kim
+
+</b>
+
+</font><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:=
+normal"><span style=3D"color:rgb(32,33,36);letter-spacing:0.1pt" lang=3D"EN=
+-IN"><font face=3D"verdana, sans-serif">DM Consultant</font></span><span st=
+yle=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;font-size:=
+12pt"></span></p>
+
+</div>
+
+--0000000000008504180603658d4f--

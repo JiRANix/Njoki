@@ -1,0 +1,42 @@
+Return-Path: <ceo@jiranimall.com>
+Delivered-To: Procurement@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id yJzyL2U4pGWN6AoAvE7qNg
+	(envelope-from <ceo@jiranimall.com>)
+	for <Procurement@jiranimall.com>; Sun, 14 Jan 2024 19:39:17 +0000
+Return-path: <ceo@jiranimall.com>
+Envelope-to: Procurement@jiranimall.com
+Delivery-date: Sun, 14 Jan 2024 19:39:17 +0000
+Received: from [196.250.208.46] (port=51464 helo=[127.0.0.1])
+	by ssdrs1.layerip.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <ceo@jiranimall.com>)
+	id 1rP6KD-00346Z-36
+	for Procurement@jiranimall.com;
+	Sun, 14 Jan 2024 19:39:17 +0000
+Date: Sun, 14 Jan 2024 22:39:13 +0300
+From: "CEO, JiRANi MALL Ltd" <ceo@jiranimall.com>
+To: Procurement@jiranimall.com
+Subject: Application 
+User-Agent: Webmail for Android
+Message-ID: <50CBF13C-5772-4505-BCF0-C6059F47060D@jiranimall.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=----LBGYFKRYCD1LP75XPMK1YVHA1AW8R2
+Content-Transfer-Encoding: 7bit
+
+------LBGYFKRYCD1LP75XPMK1YVHA1AW8R2
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello, do we have a sufficient number of applicants? 
+------LBGYFKRYCD1LP75XPMK1YVHA1AW8R2
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><body><div dir=3D"auto">Hello, do we have a sufficient=
+ number of applicants? </div></body></html>
+------LBGYFKRYCD1LP75XPMK1YVHA1AW8R2--

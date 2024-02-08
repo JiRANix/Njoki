@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/jiranim1/kinyanjui.jiranimall.com
+group: jiranim1
+hascgi: 1
+homedir: /home/jiranim1
+ip: 198.23.59.221
+ipv6: ~
+owner: cloudkwe
+phpopenbasedirprotect: 1
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@kinyanjui.jiranimall.com
+serveralias: www.kinyanjui.jiranimall.com
+servername: kinyanjui.jiranimall.com
+ssl: 1
+usecanonicalname: 'Off'
+user: jiranim1
+userdirprotect: ''

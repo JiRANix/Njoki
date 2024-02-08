@@ -1,0 +1,125 @@
+Return-Path: <kzulje@dagadu.co.id>
+Delivered-To: info+spam@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id EC21NTQJtWSxsSoAvE7qNg
+	(envelope-from <kzulje@dagadu.co.id>)
+	for <info+spam@jiranimall.com>; Mon, 17 Jul 2023 09:26:12 +0000
+Return-path: <kzulje@dagadu.co.id>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 17 Jul 2023 09:26:12 +0000
+Received: from dagadu.co.id ([103.27.36.100]:38558)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <kzulje@dagadu.co.id>)
+	id 1qLKUa-00Bk38-2N
+	for info@jiranimall.com;
+	Mon, 17 Jul 2023 09:26:12 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=dagadu.co.id; s=default; h=Date:To:Subject:From:Sender:Reply-To:Message-ID:
+	Cc:MIME-Version:Content-Type:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=Ln2oLpNARQqjkaQy+pYgpwLChAxsyOxUKCSw5XRXta8=; b=n2tnzriHrWdCOABBazjy4tSOrb
+	ubYJcuyrWzm0CiMuI7a1DdJXP7t4bGx0YTifc7fz8gPg/KtO3ipFA9pxxrV1LlP1xhU4y9DsfrtGU
+	x+5WqjFpWh3hWZKUzmPf+V8mwaoX1kfs+/nnt1sBs5MiUUTwvM53VTgMewY9UGH8sY9/A07U5ejN1
+	j1GzUfXOwhqCPBOHxolYL+3cVX1aIGcwNI9G8r+2bE04e4MQ2oQ7bDUVznWEK0Q7o0PF5yldk+41/
+	t/WhfL1kvVy8LGUlAoiX4P1HTf/lhpqEm9EDL8eooxfKIaLUMy85xFzjD4rNMBY0syUS+b9WycQLh
+	w7KJ1QgQ==;
+Received: from [103.27.36.97] (port=17465 helo=mail.dagadu.co.id)
+	by server.dagadu.co.id with esmtp (Exim 4.96)
+	(envelope-from <kzulje@dagadu.co.id>)
+	id 1qLKTv-0003Hy-2s;
+	Mon, 17 Jul 2023 16:25:26 +0700
+From: "SUPER LIST" <kzulje@dagadu.co.id>
+To: info@jiranimall.com
+Date: Tue, 16 Mar 2010 19:55:09 -0300
+X-PopBeforeSMTPSenders: salesacc@dagadu.co.id,mirza@dagadu.co.id,projectofficer@dagadu.co.id,admin@yogyatourium.com,yogyatourium@dagadu.co.id
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.dagadu.co.id
+X-AntiAbuse: Original Domain - jiranimall.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - dagadu.co.id
+X-Get-Message-Sender-Via: server.dagadu.co.id: acl_c_recent_authed_mail_ips_text_entry: -unknown-@dagadu.co.id|dagadu.co.id
+X-Authenticated-Sender: server.dagadu.co.id: -unknown-@dagadu.co.id
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: Yes, score=9.1
+X-Spam-Score: 91
+X-Spam-Bar: +++++++++
+X-Spam-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get the best email lists for your email marketing. 100% VALID
+    email lists of any country in the world. Talk to us in WhatsApp: +55 21 97885-8377
+    
+ Content analysis details:   (9.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  2.1 DATE_IN_PAST_96_XX     Date: is 96 hours or more before Received:
+                             date
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.5 NA_DOLLARS             BODY: Talks about a million North American dollars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  3.0 BIGNUM_EMAILS_MANY     Lots of email addresses/leads, over and over
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Email lists 100% VALID - Any country in the world
+
+
+Get the best email lists for your email marketing.
+
+100% VALID email lists of any country in the world.
+
+Talk to us in WhatsApp:
++55 21 97885-8377
+
+Or Skype:
+corbettsoftware
+
+-------------------------------------------
+Email lists from any country in the world:
+
+Each 100.000 emails = US$ 150
+Each 500.000 emails = US$ 350
+Each 1 million emails = US$ 500
+Each 5 million emails = US$ 750
+Each 10 million emails = US$ 1000
+
+Segmented email lists from any country:
+
+Each 10.000 emails = US$ 150
+Each 50.000 emails = US$ 350
+Each 100.000 emails = US$ 500
+Each 500.000 emails = US$ 750
+Each 1 million emails = US$ 1000
+--------------------------------------------
+
+
+We are waiting for you.
+
+Best regards,
+
+SUPER LIST
+The best email lists since 1998
+
+WhatsApp: 
++55 21 97885-8377
+
+Skype:
+corbettsoftware

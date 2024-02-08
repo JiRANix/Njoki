@@ -1,0 +1,98 @@
+Return-Path: <ryanodhiambo2001@gmail.com>
+Delivered-To: jobs+spam@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id uFHcClZNgWXnli8AvE7qNg
+	(envelope-from <ryanodhiambo2001@gmail.com>)
+	for <jobs+spam@jiranimall.com>; Tue, 19 Dec 2023 07:59:18 +0000
+Return-path: <ryanodhiambo2001@gmail.com>
+Envelope-to: jobs@jiranimall.com
+Delivery-date: Tue, 19 Dec 2023 07:59:18 +0000
+Received: from mail-oo1-f66.google.com ([209.85.161.66]:42414)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <ryanodhiambo2001@gmail.com>)
+	id 1rFV0Y-00D8eU-2o
+	for jobs@jiranimall.com;
+	Tue, 19 Dec 2023 07:59:18 +0000
+Received: by mail-oo1-f66.google.com with SMTP id 006d021491bc7-5906c569a1fso1723927eaf.1
+        for <jobs@jiranimall.com>; Mon, 18 Dec 2023 23:58:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1702972715; x=1703577515; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=F1iVZLycTjKiRmhyFIWy/xW2gQ7Ozkbim1PaJiOBLWE=;
+        b=YO/FqbvD5ZboxYzvYiYFQCVmnqNH5FiYydMKlDPZEkQ1EkHZDWH2uFzUslOXjPgTUY
+         0Ur1vOYKkSvRETJXlCmeEb3XZbjKIISQ6ClRMKDdVtnca5cm36RvQ8Flp87VI/sPF+BV
+         nc6cyNGMaX46jflSokMUbitloyHsEz4OMFWEFPFPKEdL7QrmC+UjCTUM8GUwN6OEsJSN
+         gvPgCD0p06xfzzohn2/3RH3+Q5mREZqmwb2H9n/QoXxcXJf4n3igb8L0+w8mF5CrkjK7
+         byCoG3ss4jkN5M0ArBG2Z9vD2uMKDhXTf6Eth18nobc10BBtWE+CXd4U5QSEsrgI7LSY
+         4Dbg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702972715; x=1703577515;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=F1iVZLycTjKiRmhyFIWy/xW2gQ7Ozkbim1PaJiOBLWE=;
+        b=aJd8G7rh5rwlQ8Ifgv/w8QYhETjNRIIUtO0Q1A9erFEr5KiIFM4gQH6O9ofp3e3eTZ
+         /0hT1dKjbLlhM1nbTubGPOBCBPUr6u61MZfP8fUMpDxWd78Ljhylnz2gnXK6js2Z6QjM
+         9XuT+cJdRo94LAqotiDqiOMaVSnkuaA1+nzgblq0QQCvolOqV5ajy3iGjQMvyXAA/twq
+         OehxXRMvxiVPBtvYbpa+y+dbrdkBXqpeAxxuB1smC9yqV38Q0P+JtkeZrjn5GYupK7/q
+         rxd4BvsGJN7W6GnSzjjY7/x/qyr9kUkox3AJMjLPFG6hvxzVDBicCJrBeDa75S+d1mzS
+         xXIw==
+X-Gm-Message-State: AOJu0Yw2FTqM7sz+XcqQGH/w1NmWX0A8VSMBmG14FR/C9OwFx6b723Ug
+	sKytl/0ltlmKaoQ+8QnZ600Uw/A/liVPJojOZ2+4EZtbXFo=
+X-Google-Smtp-Source: AGHT+IFcLdM8CwKPcVdhVGkyubHtxVV/68CDsUMa6ZL6lXiWAv2s0kPYsLm9kdE715efwwBldBQ9viZoT8fzc7Gsdjs=
+X-Received: by 2002:a05:6820:2405:b0:593:ebe1:f258 with SMTP id
+ cp5-20020a056820240500b00593ebe1f258mr85430oob.2.1702972715552; Mon, 18 Dec
+ 2023 23:58:35 -0800 (PST)
+MIME-Version: 1.0
+From: brian odhiambo <ryanodhiambo2001@gmail.com>
+Date: Tue, 19 Dec 2023 10:58:20 +0300
+Message-ID: <CAByJbbLDrKQ89xM5ODt7b+XwrvHSRmXishmCGEGvyOJ4h2Z6hQ@mail.gmail.com>
+To: jobs@jiranimall.com
+Content-Type: multipart/alternative; boundary="000000000000c5d77f060cd83b3b"
+X-Spam-Status: Yes, score=5.9
+X-Spam-Score: 59
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  
+ Content analysis details:   (5.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [ryanodhiambo2001[at]gmail.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [ryanodhiambo2001[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  2.3 EMPTY_MESSAGE          Message appears to have no textual parts
+  1.5 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  
+
+--000000000000c5d77f060cd83b3b
+Content-Type: text/plain; charset="UTF-8"
+
+
+
+--000000000000c5d77f060cd83b3b
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto"></div>
+
+--000000000000c5d77f060cd83b3b--

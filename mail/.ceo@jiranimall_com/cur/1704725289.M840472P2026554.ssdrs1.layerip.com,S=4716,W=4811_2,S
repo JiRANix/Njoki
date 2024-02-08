@@ -1,0 +1,95 @@
+Return-Path: <matthewnjoki@gmail.com>
+Delivered-To: ceo@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id KN+FMSkLnGU67B4AvE7qNg
+	(envelope-from <matthewnjoki@gmail.com>)
+	for <ceo@jiranimall.com>; Mon, 08 Jan 2024 14:48:09 +0000
+Return-path: <matthewnjoki@gmail.com>
+Envelope-to: ceo@jiranimall.com
+Delivery-date: Mon, 08 Jan 2024 14:48:09 +0000
+Received: from mail-yw1-f179.google.com ([209.85.128.179]:45411)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <matthewnjoki@gmail.com>)
+	id 1rMqvC-008Vxu-1r
+	for ceo@jiranimall.com;
+	Mon, 08 Jan 2024 14:48:09 +0000
+Received: by mail-yw1-f179.google.com with SMTP id 00721157ae682-5e734d6cbe4so13194167b3.3
+        for <ceo@jiranimall.com>; Mon, 08 Jan 2024 06:47:48 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1704725247; x=1705330047; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=1THcM5Nynr7hn4wbl2P/a1l1cbMk4up22GPcP+T2p/s=;
+        b=mCWwiP+ATKtsP3InRAsvGOaIJnckjHtSlLHQoGXASmJV54FtwVi9TbdtSD86Ovz3lE
+         g9Oi44svZeFntaiilJ93sfJS+sV1bivtrAUnW2GfiaVogvCxGIBn2XYDqvPqcjT47iA1
+         Aenz1ucqTdVNgzrR1dkBSa5P0McLFjBdvKOnvQObaxbabHXLhqvWlnG1PXqPwwAnDzpn
+         bj2zQ6VL0se8aUuFAh9EnjhzpQv1i7fJHsIM8QB49x7IcpvRH61Sc9mWZ5FyZs6DJfA8
+         NjUSuBEbWa2M4a3j7aLenMBx07C/M6TPzuFXQodXqrNSEiH1ZshX6NqSdn1kmpNRXFBF
+         nUaw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704725247; x=1705330047;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=1THcM5Nynr7hn4wbl2P/a1l1cbMk4up22GPcP+T2p/s=;
+        b=pHJO7Fq2aWweXkDd/8vgh7PeuvCnqapJD9tTjRscwXybaVePC9PyoW1tAwEja4mHVy
+         RZoUF2VDjfipDlsD33qTA1TWbZWuleKK8pXqFNalLEVhAMdoEWUYmAY+T3DTOPaW3Lcc
+         VAf+eE46+/PufB0wGEnWBdBi943rbBlZ+SRsJrrrFu6V4TOmK5djKUSNEJ+v8gJyd4KP
+         5rrVEi0APTSJo0dMZMLUpacS22j5bwdigRTZo2YVTfUQnKNRVLDuBD7R75CuR/RUB06x
+         12euI0bnd0cQsDmgPUEOITM1ndIa5kEo6DIzqGOqnRnG5kN2mXjASDZwyAjhX7Mam9qn
+         KOJA==
+X-Gm-Message-State: AOJu0YxoI2yb0GPbYyLXaEBlfA782/pAS5Wov7i3niTxQIhqc+wH4xzJ
+	/qeDCh8i0JB4GbJqeE30182r3sX2oa793dNc223+XvRLed4=
+X-Google-Smtp-Source: AGHT+IFE8cbTk+HE6QojEPiIZv2ryULgKARxOW0JW0XxYd7C1xrKa16WLEm/vFWkVIHoOko0gu0QeyGG6Z0Bl/fHgZs=
+X-Received: by 2002:a0d:eb12:0:b0:5ec:e2cd:a91 with SMTP id
+ u18-20020a0deb12000000b005ece2cd0a91mr2120174ywe.30.1704725247176; Mon, 08
+ Jan 2024 06:47:27 -0800 (PST)
+MIME-Version: 1.0
+From: Matthew Njoki <matthewnjoki@gmail.com>
+Date: Mon, 8 Jan 2024 17:47:15 +0300
+Message-ID: <CAFgm4hea3NDEOaGP8aCi0aV_QgoQnuNavFmJs9WjK+X6VRsMSQ@mail.gmail.com>
+Subject: Fff
+To: ceo@jiranimall.com
+Content-Type: multipart/alternative; boundary="000000000000cc35bf060e70467a"
+X-Spam-Status: No, score=3.3
+X-Spam-Score: 33
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Ccc Ccc 
+ Content analysis details:   (3.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [matthewnjoki[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.5 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+--000000000000cc35bf060e70467a
+Content-Type: text/plain; charset="UTF-8"
+
+Ccc
+
+--000000000000cc35bf060e70467a
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">Ccc</div>
+
+--000000000000cc35bf060e70467a--

@@ -1,0 +1,231 @@
+Return-Path: <onlinemarket@dwrtechnology.com>
+Delivered-To: info@jiranimall.com
+Received: from altar34.supremepanel34.com
+	by altar34.supremepanel34.com with LMTP
+	id mH5wI+Aw2WJnNwAAEL+hhQ
+	(envelope-from <onlinemarket@dwrtechnology.com>)
+	for <info@jiranimall.com>; Thu, 21 Jul 2022 10:56:32 +0000
+Return-path: <onlinemarket@dwrtechnology.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Thu, 21 Jul 2022 10:56:32 +0000
+Received: from mail-yw1-f193.google.com ([209.85.128.193]:39528)
+	by altar34.supremepanel34.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <onlinemarket@dwrtechnology.com>)
+	id 1oETr6-00049I-8S
+	for info@jiranimall.com;
+	Thu, 21 Jul 2022 10:56:32 +0000
+Received: by mail-yw1-f193.google.com with SMTP id 00721157ae682-31e560aa854so12910317b3.6
+        for <info@jiranimall.com>; Thu, 21 Jul 2022 03:56:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dwrtechnology-com.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=+UPWzPlmPbJbTaWnQDZ/JkOM64TMi6hTctb4FbXDXGU=;
+        b=gS+wHMdveTEAzgwBma6Q5YtDDWH0VDprtDuqd8uMjY3qJEO5A8pZqyehd+gu7xhbl8
+         rN9UqtbwI5Arvc2MuneeVsB1U5pmN5LXK+imhxoD82SCaBCvW43A7qVjvkvdm+hBKLg7
+         3y+45ri3nwUNCYjONzB1b9HJRz6s4SvlP6pxXxD3qLOJAWz+SuxknTFZYDhgGQv0CCp+
+         tUih6uCd0JaksMwFMXVwgqpuPqwLz3mjjxNRwTCBTO2Iv94iYpP8CTUKFQsHf0mU5gAI
+         bSVTtYlwmz/Nejiy5rKEDoRsK85QVwAF5LP8kYRWRJcOi+92qXOEA+rJB9EVTCgG+g+n
+         w6Rw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=+UPWzPlmPbJbTaWnQDZ/JkOM64TMi6hTctb4FbXDXGU=;
+        b=fetWEPiPZEPIjBz5ca6Dy774QxrpaCdrsiIqPyJgMAIplsr7gnoc00lCZx6WhBYheV
+         uRdKS9cCwW6YT65giJnXkXwwIp4Aux+JbjG5QAa3H2Ytl+SUT8rKOxiMj3D2cKLToM3y
+         HATSQcMlhKsi2x8O0+THYaTTqX6pi5ennnjXWkkm/unWFVgNQBu7q1H4KzBOG9N1Q0Km
+         W72VyOcFJvxbKsUGEg5IWHOAzyVZOtps6JLNIMbpoYnOJeTwwvgIq9HuQks7P6Fyot/0
+         9826ikr/2abX7oEO3ARukG2cRtWnOhMHiGEuxRQHSRhhS8Zj2jtSKTV26H2w0oLcn4CQ
+         wTlA==
+X-Gm-Message-State: AJIora8NptLdBP9rc8NjisZOH3SC0TtlbWVq73wG7h9GnvhDqIki1qX/
+	QSCK0Qcq5p+ik5k6nnjFXl902WFcqauKeSWAZi006fPSsEA=
+X-Google-Smtp-Source: AGRyM1tnNqtgVw8tnTBh9Rfd716G1gNosF1IeWb+pbeLCK5uqDr3YTk+lcY8hgl37Vxm8P2V5SEchb/fu/F1/S7NMpo=
+X-Received: by 2002:a0d:c602:0:b0:31c:822a:c168 with SMTP id
+ i2-20020a0dc602000000b0031c822ac168mr48746960ywd.134.1658400948782; Thu, 21
+ Jul 2022 03:55:48 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 21 Jul 2022 05:55:48 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 21 Jul 2022 05:55:48 -0500
+MIME-Version: 1.0
+Sender: Elena <onlinemarket@dwrtechnology.com>
+From: Elena <onlinemarket@dwrtechnology.com>
+Date: Thu, 21 Jul 2022 05:55:48 -0500
+X-Google-Sender-Auth: 0zERprmzdPp0v7FKEcqtRsy8hZk
+Message-ID: <CAN26w5MOQ+Dsf9gqSJhC1O4+DO3NE4cSVf+ZzOXTSbxU4RjZfg@mail.gmail.com>
+Subject: See how to improve your website rank.
+To: Info <info@jiranimall.com>
+Content-Type: multipart/alternative; boundary="000000000000728a9305e44e8fa6"
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "altar34.supremepanel34.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, I found your website *jiranimall.com <http://jiranimall.com>*
+    listed under the Google sponsored listing for which you pay a significant
+    amount. But sometimes this sponsored listing or PPC creates bidd [...] 
+ Content analysis details:   (1.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: dwrtechnology-dot-yamm-track.appspot.com]
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--000000000000728a9305e44e8fa6
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Sir/Madam,
+
+I found your website *jiranimall.com <http://jiranimall.com>* listed under
+the Google sponsored listing for which you pay a significant amount. But
+sometimes this sponsored listing or PPC creates bidding wars. You pay for
+every single click on it. It definitely hurts!  So, why not try organic SEO
+for your website and boost its growth?
+
+90% of users prefer natural results over the sponsored ones because these
+results are more relevant and valuable. So, just imagine how many valuable
+customers you are losing without acquiring organic search results.
+
+By investing a few months in SEO, you can see drastic changes inside your
+web pages and outside in various search engines. We will show you
+improvements in your keyword rankings, link popularity, organic traffic and
+many more.
+
+How about I fix those and also promote your through engaging content on
+relevant place on the web (read, social media).
+
+After reviewing you website *jiranimall.com <http://jiranimall.com>*, I
+noticed some major on-page and off-page issues need to be fixed soon. For
+more information about your website errors, please respond to my email.
+
+Soon after receiving your email, I would be glad to provide you with the
+detailed *analysis report* of your website (*free of cost*) together with
+our company profile, and client testimonials. Kindly suggest me your best
+time and number so that I can reach you without disturbing your business
+hours.
+
+I guarantee our team will give you successful results than others. Our main
+AIM is customer satisfaction and timely reporting. We have limited
+customers and make it sure they are really happy with our performance.
+
+I look forward to hearing from you.
+
+Note: Our next conversation will be on my corporate E-mail ID.
+
+Best Regards
+
+Warm Regards,
+
+ Elena
+
+Sales Manager
+[image: beacon]
+
+--000000000000728a9305e44e8fa6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div id=3D"gmail-:dk" class=3D"gmail-Ar gmail-Au gmail-Ao"=
+><div id=3D"gmail-:dj" class=3D"gmail-Am gmail-Al editable gmail-LW-avf gma=
+il-tS-tW gmail-tS-tY" aria-label=3D"Message Body" role=3D"textbox" aria-mul=
+tiline=3D"true" tabindex=3D"1" style=3D"direction:ltr;min-height:268px"><p =
+class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-size=
+:11pt;font-family:Calibri,&quot;sans-serif&quot;">Dear Sir/Madam, </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">I found your website <=
+b><a href=3D"http://jiranimall.com">jiranimall.com</a></b>
+listed under the Google sponsored listing for which you pay a significant
+amount. But sometimes this sponsored listing or PPC creates bidding wars. Y=
+ou
+pay for every single click on it. It definitely hurts!=C2=A0 So, why not tr=
+y organic SEO for your website
+and boost its growth? =C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">90% of users prefer na=
+tural results over the sponsored ones
+because these results are more relevant and valuable. So, just imagine how =
+many
+valuable customers you are losing without acquiring organic search results.=
+ </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">By investing a few mon=
+ths in SEO, you can see drastic
+changes inside your web pages and outside in various search engines. We wil=
+l
+show you improvements in your keyword rankings, link popularity, organic
+traffic and many more. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">How about I fix those =
+and also promote your through engaging
+content on relevant place on the web (read, social media). </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">After reviewing you we=
+bsite <b><a href=3D"http://jiranimall.com">jiranimall.com</a></b>, I notice=
+d some major on-page and off-page issues need to
+be fixed soon. For more information about your website errors, please respo=
+nd
+to my email. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">Soon after receiving y=
+our email, I would be glad to provide
+you with the detailed <b>analysis report</b>
+of your website (<b>free of cost</b>)
+together with our company profile, and client testimonials. Kindly suggest =
+me
+your best time and number so that I can reach you without disturbing your
+business hours. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">I guarantee our team w=
+ill give you successful results than
+others. Our main AIM is customer satisfaction and timely reporting. We have
+limited customers and make it sure they are really happy with our performan=
+ce. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">I look forward to hear=
+ing from you.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">Note: Our next convers=
+ation will be on my corporate E-mail
+ID.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">Best Regards</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;">Warm Regards,</p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b>=C2=A0</b><span =
+style=3D"font-size:12pt;color:black">Elena</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font=
+-size:12pt;color:black">Sales Manager</span></p></div></div></div>
+<img src=3D"https://dwrtechnology-dot-yamm-track.appspot.com/2At73gHuOW2YXl=
+LxuwluyKNGZ2WrQWEql8-hGjd9BaI1gP2YgggEq1UL5oyilcPep5y0PhQ0FkPCe4M6Q5Oc3Rma0=
+N7rNTMCZUsdwCm_FgaY3XMCAdcsYANVp0W6NqU22Tgh8HdP6HwBV0igiX6ZJXIOiHS25Ovqd2zc=
+PcKokGQ" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; dis=
+play:none!important;">
+
+--000000000000728a9305e44e8fa6--

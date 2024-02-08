@@ -1,0 +1,135 @@
+Return-Path: <SMTP00879@Aws.amazon.com>
+Delivered-To: info+spam@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id YL1QKH5wjWUmCDUAvE7qNg
+	(envelope-from <SMTP00879@Aws.amazon.com>)
+	for <info+spam@jiranimall.com>; Thu, 28 Dec 2023 12:56:30 +0000
+Return-path: <SMTP00879@Aws.amazon.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Thu, 28 Dec 2023 12:56:30 +0000
+Received: from [23.92.179.188] (port=48037 helo=ns-349.awsdns-43.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <SMTP00879@Aws.amazon.com>)
+	id 1rIpw6-00EaKm-0E
+	for info@jiranimall.com;
+	Thu, 28 Dec 2023 12:56:30 +0000
+Received: from [72.251.232.29] (port=64473)
+	by ns-349.awsdns-43.com with esmtpsa  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <SMTP00879@Aws.amazon.com>)
+	id 1rIpvR-000OQx-2m
+	for info@jiranimall.com;
+	Thu, 28 Dec 2023 07:55:47 -0500
+Reply-To: bradleywa@investmentlmtd.com
+From: Thomas Brad<SMTP00879@Aws.amazon.com>
+To: info@jiranimall.com
+Date: 28 Dec 2023 04:55:45 -0800
+Message-ID: <20231228045545.856036093CDB6979@Aws.amazon.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - ns-349.awsdns-43.com
+X-AntiAbuse: Original Domain - jiranimall.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - Aws.amazon.com
+X-Get-Message-Sender-Via: ns-349.awsdns-43.com: authenticated_id: smtp00879@aws.amazon.com
+X-Authenticated-Sender: ns-349.awsdns-43.com: smtp00879@aws.amazon.com
+X-Spam-Status: Yes, score=7.8
+X-Spam-Score: 78
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Good day, Our investors are exploring all possibilities to
+    initiate change on a massive scale of investment opportunities, We offer
+   personal, business, loans at a fixed interest rate of 2% per annum. 
+ Content analysis details:   (7.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [23.92.179.188 listed in psbl.surriel.com]
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  1.0 KAM_LAZY_DOMAIN_SECURITY Sending domain does not have any
+                             anti-forgery methods
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  2.0 TO_NO_BRKTS_NORDNS_HTML To: lacks brackets and no rDNS and HTML
+                             only
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Introducing Funding
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<blockquote style=3D'color: rgb(51, 51, 51); text-transform: none; text-ind=
+ent: 0px; letter-spacing: normal; font-family: "Lucida Grande", Verdana, Ar=
+ial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weigh=
+t: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; back=
+ground-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-vari=
+ant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness=
+: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;' type=3D"cite"><div align=3D"justify" style=
+=3D"padding-top: 0px; border-top-color: currentColor; border-top-width: 0px=
+; border-top-style: none;" dir=3D"ltr"><div class=3D"v1v1rcmBody" style=3D"=
+padding-top: 0px; font-family: Verdana, Geneva, sans-serif; font-size: 10pt=
+; border-top-color: currentColor; border-top-width: 0px; border-top-style: =
+none;">
+<blockquote style=3D'color: rgb(51, 51, 51); text-transform: none; text-ind=
+ent: 0px; letter-spacing: normal; font-family: "Lucida Grande", Verdana, Ar=
+ial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weigh=
+t: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; back=
+ground-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-vari=
+ant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: in=
+itial; text-decoration-color: initial;' type=3D"cite">
+<div align=3D"justify" style=3D"padding-top: 0px; border-top-color: current=
+Color; border-top-width: 0px; border-top-style: none;" dir=3D"ltr"><div cla=
+ss=3D"v1v1v1rcmBody" style=3D"padding-top: 0px; font-family: Verdana, Genev=
+a, sans-serif; font-size: 10pt; border-top-color: currentColor; border-top-=
+width: 0px; border-top-style: none;"><span style=3D"color: rgb(34, 34, 34);=
+ font-family: Arial, sans-serif; font-size: 12pt;">
+<p style=3D'background: white; color: rgb(51, 51, 51); text-transform: none=
+; text-indent: 0px; letter-spacing: normal; font-family: "Lucida Grande", V=
+erdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widow=
+s: 2;'><span style=3D"color: rgb(34, 34, 34); font-family: Arial, sans-seri=
+f; font-size: 12pt;"></span>
+<p style=3D"color: rgb(51, 51, 51); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-size: 13.33px; font-style: normal; font-weigh=
+t: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; back=
+ground-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-vari=
+ant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: in=
+itial; text-decoration-color: initial;">
+<span style=3D"color: rgb(51, 51, 51); text-transform: none; text-indent: 0=
+px; letter-spacing: normal; font-family: Verdana, sans-serif; font-size: 13=
+=2E33px; font-style: normal; font-weight: 400; word-spacing: 0px; float: no=
+ne; display: inline !important; white-space: normal; orphans: 2; widows: 2;=
+ background-color: rgb(255, 255, 255);"><span style=3D"color: rgb(34, 34, 3=
+4); font-family: Arial, sans-serif; font-size: 12pt;">Good day,<br><br>
+<span style=3D"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font=
+-size: 12pt;">Our investors are exploring all possibilities to initiate cha=
+nge on a massive scale of investment opportunities, We offer personal, busi=
+ness, loans at a fixed interest rate of 2% per annum.<br><br><span style=3D=
+"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 12pt;">=
+Regards</span></span></span></span></p>
+<div style=3D"color: rgb(51, 51, 51); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-size: 11px; font-style: normal; font-weight=
+: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; backg=
+round-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: ini=
+tial; text-decoration-color: initial;">
+<p class=3D"v1v1v1v1v1msonormal" style=3D"background: white; font-size: 11p=
+t; margin-right: 0cm; margin-left: 0cm;"><font face=3D"Verdana">Thomas Brad=
+</font></p></div></span><p style=3D'background: white; color: rgb(51, 51, 5=
+1); text-transform: none; text-indent: 0px; letter-spacing: normal; font-fa=
+mily: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; font-size: 11=
+px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: n=
+ormal; orphans: 2; widows: 2;'><br></p></div></div>
+</blockquote></div></div></blockquote></body></html>

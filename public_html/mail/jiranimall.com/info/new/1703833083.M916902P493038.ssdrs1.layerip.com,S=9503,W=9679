@@ -1,0 +1,176 @@
+Return-Path: <carter.taylor5216@gmail.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id WO/mNfttjmXuhQcAvE7qNg
+	(envelope-from <carter.taylor5216@gmail.com>)
+	for <info@jiranimall.com>; Fri, 29 Dec 2023 06:58:03 +0000
+Return-path: <carter.taylor5216@gmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Fri, 29 Dec 2023 06:58:03 +0000
+Received: from mail-vk1-f179.google.com ([209.85.221.179]:47510)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <carter.taylor5216@gmail.com>)
+	id 1rJ6ol-0029Jy-1g
+	for info@jiranimall.com;
+	Fri, 29 Dec 2023 06:58:03 +0000
+Received: by mail-vk1-f179.google.com with SMTP id 71dfb90a1353d-4b72f2bdbdaso841477e0c.3
+        for <info@jiranimall.com>; Thu, 28 Dec 2023 22:57:41 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1703833039; x=1704437839; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=miOP0gB133c+9GVzCBS11rO+FZjHCVomOPopUcGmjK4=;
+        b=i/o+e/2wCQ1IzKIM2y4FXmaQzgLYHZNoWmqtjy6MhlFipNAPxYU0s1aHvbyr2UKI5A
+         dgfB5AXrEUACRvf+DQNR2srE/zoqpNd+GoWbUYx0TVJDK2tcrpfucPZpOo1o3Blj+nfu
+         5r4hGqNjKNdqfWlHkxhRUMS4vDzxGSOmkAB0im4sVJcQ654wp56YpK9tBrQQrtW0l/ET
+         527WyY4NSOdnX3bz5sHR9xgdvIsnmkcUa/OkMushXRy6l4/DLdrB42gXCMbZOF/hFdat
+         T+BGIQKwt7AURnCKxzRbHxSADkt1dde9bDW5NGCv0QEvbB7oRlyTbjs4w4/W1m+YYAqU
+         JLoA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1703833039; x=1704437839;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=miOP0gB133c+9GVzCBS11rO+FZjHCVomOPopUcGmjK4=;
+        b=iNhzXU5+CwXPOsBQ7GBh7dKPFSdtVZo43Ruuvcx9Fr5Vvf++tHx5u73heQ/EOZKKNE
+         FVVczBh2Vam5/Gj7avRfaF2R+UFwacaxi3PW75lXp+SzUdfHUS7iB2/jKCH/vHMUqtqs
+         0utn1bhWseeEQPQhOdyhTBr6OoTfpQZgxqVjG19XlKSY+IZ9p4h76Bn6KuuSnVYXU9Cx
+         50mKEF75V1sbSIsJ+IqROJHBy7DDXDJQ2egFCEYgDffVCUXkVg65ur/LeS3lH1X5GwqQ
+         uMDEW/CaXGGy2XykGu0/GF2UooTqmqweWjn5RnToQBUtVebDkuhaWtkjmXzhji3L+eoq
+         u0vQ==
+X-Gm-Message-State: AOJu0YxO6QJcfeXBoelQQIBnoD74mkQUjIBuZwJdzoUDUskp7Hak1MYy
+	YFnSuHZwWD47OEeq0rPfWa5Hhk0Hs/g678YQGHdaFhLP
+X-Google-Smtp-Source: AGHT+IFeVLg0hBU1a+TcrczbrKFc2keAEglg1TazLEHapJPHwH7u9QFxVCed/RZZKKDoIJav9rlQH7BRGBp5kwrW1wM=
+X-Received: by 2002:a05:6122:a02:b0:4b7:3eee:3a3f with SMTP id
+ 2-20020a0561220a0200b004b73eee3a3fmr2674848vkn.31.1703833039312; Thu, 28 Dec
+ 2023 22:57:19 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 29 Dec 2023 00:57:19 -0600
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 29 Dec 2023 00:57:18 -0600
+MIME-Version: 1.0
+Sender: Carter Taylor <carter.taylor5216@gmail.com>
+From: Carter Taylor <carter.taylor5216@gmail.com>
+Date: Fri, 29 Dec 2023 00:57:19 -0600
+X-Google-Sender-Auth: Zhi_L3Noljz8IAzvKMEODVpcm8k
+Message-ID: <CAC25YyiBWVUS52FwzVuboORupPdDjrGJbrj3AsBfFoP5+YYTBw@mail.gmail.com>
+Subject: Increase online visitors: jiranimall.com
+To: Info <info@jiranimall.com>
+Content-Type: multipart/alternative; boundary="000000000000109e70060da08b98"
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi jiranimall Team, My experts were analyzing your website
+    and found that your website is not handling recent updates from search engines.
+    Also your traffic flow is poor from the last couple of months due to some
+    of the [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [carter.taylor5216[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                           [URIs: carter-taylor5216-dot-yamm-track.appspot.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [carter.taylor5216[at]gmail.com]
+  1.3 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--000000000000109e70060da08b98
+Content-Type: text/plain; charset="UTF-8"
+
+Hi jiranimall  Team,
+
+My experts were analyzing your website and found that your website is not
+handling recent updates from search engines.
+Also your traffic flow is poor from the last couple of months due to some
+of the reasons. You might know about recent Google UPDATES like *Phantom
+3.0, Panda 4.2, and Penguin 4.0.*
+Google has completely dropped all authorship functionality from the search
+results and webmaster tools. So be careful of it and take the help of a SEO
+company to fix it.
+
+*Google wants its visitors to have the best possible experience and these
+factors play an important role in determining your rank in SERP:*
+
+   - For most of the competitive keywords or phrases you rank beyond 100.
+   - Your website is not ready for the upcoming responsive design update.
+   - So many technical errors present on your website making it difficult
+   to index.
+   - Lack of theme based quality backlinks.
+
+We follow a technically advanced and tested approach to adhere to the
+latest algorithmic updates. We will prepare an advanced digital marketing
+campaign to generate maximum traffic and enhance your ranking.
+
+
+
+
+
+*Best Regards,*
+*Carter Taylor*
+*Marketing Consultant*
+----------------------------------------------------------------
+[image: beacon]
+
+--000000000000109e70060da08b98
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><font color=3D"#000000" =
+face=3D"verdana, sans-serif">Hi jiranimall=C2=A0 Team,<br><br>My experts we=
+re analyzing your website and found that your website is not handling recen=
+t updates from search engines.<br>Also your traffic flow is poor from the l=
+ast couple of months due to some of the reasons. You might know about recen=
+t Google UPDATES like=C2=A0<b>Phantom 3.0, Panda 4.2, and Penguin 4.0.</b><=
+br>Google has completely dropped all authorship functionality from the sear=
+ch results and webmaster tools. So be careful of it and take the help of a =
+SEO company to fix it.<br><br><b>Google wants its visitors to have the best=
+ possible experience and these factors play an important role in determinin=
+g your rank in SERP:</b><br><ul><li><font color=3D"#000000">For most of the=
+ competitive keywords or phrases you rank beyond 100.</font></li><li><font =
+color=3D"#000000">Your website is not ready for the upcoming responsive des=
+ign update.</font></li><li><font color=3D"#000000">So many technical errors=
+ present on your website making it difficult to index.</font></li><li><font=
+ color=3D"#000000">Lack of theme based quality backlinks.</font></li></ul>W=
+e follow a technically advanced and tested approach to adhere to the latest=
+ algorithmic updates. We will prepare an advanced digital marketing campaig=
+n to generate maximum traffic and enhance your ranking.<br><br>=C2=A0</font=
+></div><div dir=3D"ltr"><font color=3D"#000000" face=3D"verdana, sans-serif=
+"><br></font></div><div dir=3D"ltr"><font color=3D"#000000" face=3D"verdana=
+, sans-serif"><br><b>Best Regards,<br></b></font><div><b><font color=3D"#00=
+0000" face=3D"verdana, sans-serif">Carter Taylor</font></b></div><div><font=
+ color=3D"#000000" face=3D"verdana, sans-serif"><b>Marketing Consultant</b>=
+<br></font></div><font color=3D"#000000" face=3D"verdana, sans-serif">-----=
+-----------------------------------------------------------=C2=A0=C2=A0=C2=
+=A0=C2=A0</font><br></div></div></div>
+<img src=3D"https://carter-taylor5216-dot-yamm-track.appspot.com/2clUa0hMK1=
+IJn3oVGPhLk4hHvzH5a3qhPJyXFFcAlyjjq71y0jAGAZ8Ha9flLFWeZOQ1Z89730t6nxyfq5M11=
+ASjbrzlcRapu_mz6edK2RIzqGkObhcPAtSeIxaMG89xj09BUGGXC8zUkWnKh6GKf13xyM-fWNJl=
+1" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--000000000000109e70060da08b98--

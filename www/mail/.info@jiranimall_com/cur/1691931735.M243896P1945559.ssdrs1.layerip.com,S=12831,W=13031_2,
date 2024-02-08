@@ -1,0 +1,200 @@
+Return-Path: <3JtTYZA0JBF8LQFBKL7ISFKbbDJ7FI.9LJFKCLGFO7KFJ7II.9LJ@doclist.bounces.google.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id AGhxDVfU2GTXrx0AvE7qNg
+	(envelope-from <3JtTYZA0JBF8LQFBKL7ISFKbbDJ7FI.9LJFKCLGFO7KFJ7II.9LJ@doclist.bounces.google.com>)
+	for <info@jiranimall.com>; Sun, 13 Aug 2023 13:02:15 +0000
+Return-path: <3JtTYZA0JBF8LQFBKL7ISFKbbDJ7FI.9LJFKCLGFO7KFJ7II.9LJ@doclist.bounces.google.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Sun, 13 Aug 2023 13:02:15 +0000
+Received: from mail-pl1-f200.google.com ([209.85.214.200]:47443)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <3JtTYZA0JBF8LQFBKL7ISFKbbDJ7FI.9LJFKCLGFO7KFJ7II.9LJ@doclist.bounces.google.com>)
+	id 1qVAjT-008B18-2m
+	for info@jiranimall.com;
+	Sun, 13 Aug 2023 13:02:15 +0000
+Received: by mail-pl1-f200.google.com with SMTP id d9443c01a7336-1bba5563cd6so40617445ad.3
+        for <info@jiranimall.com>; Sun, 13 Aug 2023 06:01:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1691931688; x=1692536488;
+        h=to:from:subject:date:message-id:references:reply-to:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=B/8f528hoa2I2lJBfQWsJX/0d37X5vh/CdkRDlr5/5I=;
+        b=eoqSl68uitFcdklVsbYn4BobL1OI3lSVt1tKh4EYvMh7vo6BZJwp1v0YmXZxwLTFgX
+         sa/uVad8OgDjjKlEP4an4qow6wNXsf2Q3bVWw89xftuc0KIpcd2G6bsxAvie73OygXJq
+         em4tp5wknpJHQjRhXUbhhIOlHwC5DwWZyQ/ti1StH7eVuVbhCuUvxapkFXQq7thG8XoR
+         TVDjPag21TRb3zZCx1dPeUV5Eh3Iz/CQ04BNgCJw/hPeof7mCbqfiXi47FMyG9R2Du0L
+         Zf6mJrjKXwEQmWdzYOvfCClHUr6MzZUmcMb9TwtdkKQ8PFbdFx4Fn3eva+v5E2GxoE8J
+         GlvQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1691931688; x=1692536488;
+        h=to:from:subject:date:message-id:references:reply-to:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=B/8f528hoa2I2lJBfQWsJX/0d37X5vh/CdkRDlr5/5I=;
+        b=B7SIu8x2B+kN+Zv5iDp4OMX6GP40rd5khudqo0U0bO178bzzqddpWatnHxicdNTBOF
+         00YwJoM3mVvaf3tqJi7CPmP8nfMiGA6n9tcQTgK4i24EYgoEq63X3U/n9/3dT8wV/PeP
+         G2vPasIzZx+du0BwfeNazm00FYXZbzg9drmHZxahhpDdDeuByVt1BLYxIWmNfIf71DYL
+         lPPucULwm/KVoGAMfHsnIbejhSxQy8jBVXzfmnoDcDxVrGsqK2TpgIjjqxtuxfcg+vXu
+         xyuQKEt4i18Taz+iJJTs7JAwtT7r423+l+gJXIk9KuZFHe8WV7AwXb8FIHhJyfXrbZLA
+         CA7g==
+X-Gm-Message-State: AOJu0YwohgbNTIBUqCQWVcbFSMP4Lck5kYvm/gwRWocfnsP2zgQbOdoA
+	y5JgLgZdsg3DSjd7VfWU8BhWRnk88dr4A8bF
+X-Google-Smtp-Source: AGHT+IFrjvuKe/GTyx+4RKcepebkTZIi8YYe/dUbzC+aB3gv1JlSkfr3CvM/VbxSO2B5scN/nzOa8/vX260=
+MIME-Version: 1.0
+X-Received: by 2002:a17:902:f2d1:b0:1b5:2871:cd1 with SMTP id
+ h17-20020a170902f2d100b001b528710cd1mr2445494plc.0.1691931686830; Sun, 13 Aug
+ 2023 06:01:26 -0700 (PDT)
+Reply-To: otieno alvin <otienoalvin44@gmail.com>
+X-No-Auto-Attachment: 1
+References: <71ca3abd-0e66-4198-a341-5a60a1daa09d@docs-share.google.com>
+Message-ID: <autogen-java-9cf3d9cd-e380-43b4-b883-79f97b7b744b@google.com>
+Date: Sun, 13 Aug 2023 13:01:26 +0000
+Subject: Document shared with you: "JIRANI MALL  APP SOFTWARE DEVELOPMENT PROPOSAL"
+From: "otieno alvin (via Google Docs)" <otienoalvin44@gmail.com>
+To: info@jiranimall.com
+Content-Type: multipart/alternative; boundary="0000000000002d88560602cd8bce"
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  I've shared an item with you: JIRANI MALL APP SOFTWARE DEVELOPMENT
+    PROPOSAL https://docs.google.com/document/d/1NM0Gt_Kei-Avp9iyLLhj32FycR4JGaurAKR7cNVMbDE/edit?usp=sharing&invite=CMyOzbwC&ts=64d8d426
+    
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [otienoalvin44[at]gmail.com]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [otienoalvin44[at]gmail.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+X-Spam-Flag: NO
+
+--0000000000002d88560602cd8bce
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+I've shared an item with you:
+
+JIRANI MALL  APP SOFTWARE DEVELOPMENT PROPOSAL
+https://docs.google.com/document/d/1NM0Gt_Kei-Avp9iyLLhj32FycR4JGaurAKR7cNVMbDE/edit?usp=sharing&invite=CMyOzbwC&ts=64d8d426
+
+It's not an attachment -- it's stored online. To open this item, just click  
+the link above.
+
+JiraniMall Ecommerce Mobile App Proposal
+
+--0000000000002d88560602cd8bce
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><table style=3D"border-collapse: collapse; width: =
+100%; background-color: white; text-align: center;" role=3D"presentation"><=
+tr><td style=3D"padding: 24px 0 16px 0;"><table style=3D"border-collapse: c=
+ollapse;font-family: Roboto, Arial, Helvetica, sans-serif;hyphens: auto; ov=
+erflow-wrap: break-word; word-wrap: break-word; word-break: break-word;widt=
+h: 90%; margin: auto;max-width: 700px;min-width: 280px; text-align: left;" =
+role=3D"presentation"><tr><td style=3D"padding: 0;"><table style=3D"width:1=
+00%; border: 1px solid #dadce0; border-radius: 8px; border-spacing: 0; tabl=
+e-layout:fixed; border-collapse: separate;" role=3D"presentation"><tr><td s=
+tyle=3D"padding: 4.5%;" dir=3D"ltr"><div style=3D"margin-bottom:32px;font-f=
+amily: Google Sans, Roboto, Arial, Helvetica, sans-serif; font-style: norma=
+l; font-size: 28px; line-height: 36px; color: #3c4043;">otieno alvin shared=
+ a document</div><table style=3D"border-collapse: collapse;font-family: Rob=
+oto, Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:=
+#202124; letter-spacing:0.1px; table-layout:fixed; width:100%; overflow-wra=
+p: break-word;" role=3D"presentation"><tr><td style=3D"padding: 0; vertical=
+-align:top; width:50px;"><!--[if mso]><v:oval xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" style=3D"hei=
+ght:50px;width:50px;" fill=3D"t" stroke=3D"f"><v:fill type=3D"frame" src=3D=
+"https://ssl.gstatic.com/s2/profiles/images/silhouette64.png" alt=3D"Unknow=
+n profile photo" style=3D"height:50px;width:50px;"/></v:oval><![endif]--><d=
+iv style=3D"mso-hide:all;"><img style=3D"border-radius:50%; display:block;"=
+ width=3D"50" height=3D"50" src=3D"https://ssl.gstatic.com/s2/profiles/imag=
+es/silhouette64.png" alt=3D"Unknown profile photo"></div></td><td style=3D"=
+padding: 0; vertical-align:top; padding-left:12px;"><div style=3D"padding-t=
+op:12px;">otieno alvin (<a href=3D"mailto:otienoalvin44@gmail.com" style=3D=
+"color:inherit;text-decoration:none">otienoalvin44@gmail.com</a>) has invit=
+ed you to <b>edit</b> the following document:</div><div style=3D"margin-top=
+:24px; color:#5F6368">JiraniMall Ecommerce Mobile App Proposal</div></td></=
+tr></table><table style=3D"border-spacing:0 4px; table-layout:fixed; width:=
+100%; overflow-wrap: break-word;" role=3D"presentation"><tr style=3D"height=
+:28px;"></tr><tr><td style=3D"padding: 0;"><a href=3D"https://docs.google.c=
+om/document/d/1NM0Gt_Kei-Avp9iyLLhj32FycR4JGaurAKR7cNVMbDE/edit?usp=3Dshari=
+ng_eil_m&amp;invite=3DCMyOzbwC&amp;ts=3D64d8d426" target=3D"_blank" style=
+=3D"color: #3c4043; display: inline-block; max-width: 100%; text-decoration=
+: none; vertical-align: top;border: 1px solid #DADCE0; border-radius: 16px;=
+ white-space: nowrap;"><div style=3D"line-height: 18px; overflow: hidden; t=
+ext-overflow: ellipsis;padding: 6px 12px;"><span style=3D"display: inline-b=
+lock; vertical-align: top; min-width: 26px; width: 26px;"><img src=3D"https=
+://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x64.png" w=
+idth=3D"18" height=3D"18" style=3D"vertical-align: top;" role=3D"presentati=
+on"></span><span style=3D"font: 500 14px/18px Google Sans, Roboto, Arial, H=
+elvetica, sans-serif; display: inline; letter-spacing: 0.2px;">JIRANI MALL =
+ APP SOFTWARE DEVELOPMENT PROPOSAL</span></div></a></td></tr></table><table=
+ style=3D"border-collapse: collapse;" role=3D"presentation"><tr style=3D"he=
+ight: 24px"><td></td></tr></table><div style=3D"background: #fef7e0; border=
+-radius: 4px; padding:12px 16px;"><div style=3D"display: table-cell; vertic=
+al-align: middle;"><img src=3D"https://ssl.gstatic.com/docs/documents/share=
+/images/warning_callout_outline_yellow.png" width=3D"24px" height=3D"24px" =
+style=3D"margin-left: 7px; margin-right: 19px; vertical-align: middle;"></d=
+iv><div style=3D"color: #3c4043; display: table-cell; font-size: 14px; line=
+-height: 20px; vertical-align: middle;">This email grants access to this it=
+em without logging in. Only forward it to people you trust.</div></div><tab=
+le style=3D"border-collapse: collapse;" role=3D"presentation"><tr style=3D"=
+height: 32px"><td></td></tr></table><div><!--[if mso]><v:roundrect xmlns:v=
+=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:off=
+ice:word" href=3D"https://docs.google.com/document/d/1NM0Gt_Kei-Avp9iyLLhj3=
+2FycR4JGaurAKR7cNVMbDE/edit?usp=3Dsharing_eip_m&amp;invite=3DCMyOzbwC&amp;t=
+s=3D64d8d426" style=3D"height:36px;v-text-anchor:middle;width:100px;" arcsi=
+ze=3D"50%" stroke=3D"f" fillcolor=3D"#1a73e8"><w:anchorlock/><center style=
+=3D"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:500;fo=
+nt-size:14px;">Open </center></v:roundrect><![endif]--><a href=3D"https://d=
+ocs.google.com/document/d/1NM0Gt_Kei-Avp9iyLLhj32FycR4JGaurAKR7cNVMbDE/edit=
+?usp=3Dsharing_eip_m&amp;invite=3DCMyOzbwC&amp;ts=3D64d8d426" class=3D"mate=
+rial-button material-button-filled" target=3D"_blank" tabindex=3D"0" role=
+=3D"button" style=3D"mso-hide:all;padding: 0 24px;font: 500 14px/36px Googl=
+e Sans, Roboto, Arial, Helvetica, sans-serif; border: none; border-radius: =
+18px; box-sizing: border-box; display: inline-block; letter-spacing: .25px;=
+ min-height: 36px; text-align: center; text-decoration: none;background-col=
+or: #1a73e8; color: #fff; cursor: pointer;">Open</a></div><table style=3D"b=
+order-collapse: collapse;" role=3D"presentation"><tr style=3D"height: 32px"=
+><td></td></tr></table><div style=3D"font-size: 12px; color: #5F6368">If yo=
+u don't want to receive files from this person, <a href=3D"https://drive.go=
+ogle.com/drive/blockuser?blockerEmail=3Dinfo@jiranimall.com&amp;blockeeEmai=
+l=3Dotienoalvin44@gmail.com&amp;usp=3Dsharing_eib_m" target=3D"_blank" styl=
+e=3D"color: #1a73e8; text-decoration: none;">block the sender</a> from Driv=
+e</div></td></tr></table><table style=3D"border-collapse: collapse; width: =
+100%;" role=3D"presentation"><tr><td style=3D"padding: 24px 4.5%"><table st=
+yle=3D"border-collapse: collapse; width: 100%;" dir=3D"ltr"><tr><td style=
+=3D"padding: 0;font-family: Roboto, Arial, Helvetica, sans-serif; color: #5=
+F6368; width: 100%; font-size: 12px; line-height: 16px; min-height: 40px; l=
+etter-spacing: .3px;">Google LLC, 1600 Amphitheatre Parkway, Mountain View,=
+ CA 94043, USA<br/> You have received this email because <a href=3D"mailto:=
+otienoalvin44@gmail.com" style=3D"color:inherit;text-decoration:none">otien=
+oalvin44@gmail.com</a> shared a document with you from Google Docs.</td><td=
+ style=3D"padding: 0;padding-left: 20px; min-width: 96px"><a href=3D"https:=
+//www.google.com/" target=3D"_blank" style=3D"text-decoration: none"><img s=
+rc=3D"https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_grey=
+_tm_color_96x40dp.png" width=3D"96" height=3D"40" alt=3D"Google" style=3D"f=
+ont-size:16px;font-weight:500;color:#5F6368"></a></td></tr></table></td></t=
+r></table></td></tr></table></td></tr></table></body></html>
+--0000000000002d88560602cd8bce--

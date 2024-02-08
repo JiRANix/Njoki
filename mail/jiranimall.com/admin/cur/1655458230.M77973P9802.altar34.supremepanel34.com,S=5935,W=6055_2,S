@@ -1,0 +1,120 @@
+Return-Path: <matthewnjoki@gmail.com>
+Delivered-To: admin@jiranimall.com
+Received: from altar34.supremepanel34.com
+	by altar34.supremepanel34.com with LMTP
+	id yFFRA7ZJrGJKJgAAEL+hhQ
+	(envelope-from <matthewnjoki@gmail.com>)
+	for <admin@jiranimall.com>; Fri, 17 Jun 2022 09:30:30 +0000
+Return-path: <matthewnjoki@gmail.com>
+Envelope-to: admin@jiranimall.com
+Delivery-date: Fri, 17 Jun 2022 09:30:30 +0000
+Received: from mail-yb1-f180.google.com ([209.85.219.180]:33621)
+	by altar34.supremepanel34.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <matthewnjoki@gmail.com>)
+	id 1o28JA-0002KX-2v
+	for admin@jiranimall.com;
+	Fri, 17 Jun 2022 09:30:29 +0000
+Received: by mail-yb1-f180.google.com with SMTP id v81so6390431ybe.0
+        for <admin@jiranimall.com>; Fri, 17 Jun 2022 02:30:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=k8OblmSA+dozpPt3aM6n0+lBV9PJx+OP+EVdS5wkhSQ=;
+        b=ocbrAGqsRMsCFZTLDED+R+AjVLnKxcJO8R7aDlkstKoamEsjlPqy1bvSxsJ9OTc4oW
+         BgiajoaKKW5d2XgRATiDPpaWTRISP6mZSZdHNHWqOJT2lQocxf0iR9QCKYZHwXa3ncb5
+         t4PyXcvxL3IJKkp85gVRU8agPxROFOlHxOeauGyN4D4XtcomK8KLSPOE0WrDAEqpMYf8
+         o682i6a9waTAlkH6LA6XYvoyimIxGTw9Bus4hOfkdPl3ZcPXGQTRvH0IkEN838h67TLV
+         XERWy9QzU4pfJlZ2Jtb3bQcOGZ2SqazRoRea1JpOdg1fzL19PwcKQ15xQ16KAJPX4lW0
+         HFlw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=k8OblmSA+dozpPt3aM6n0+lBV9PJx+OP+EVdS5wkhSQ=;
+        b=Mr3wuAvw8cBKXnVxAXgeh+m+GJhTNcOp7JMaJ1lYKeNU4QalwnktMetjr9Hs3Wh5Gz
+         4+C9nouMMZFnDpDmAYEnYYlWiIzAX7Ig4MAVVPO+Sz6C+ybdnu2bDMhZEx+JVfJ/Ytpy
+         8nwxafzqVSG4WGX6fiSsbeU1KUMCBk+h8ENaoFbyR8WZQqSI0B+zNBjKF3vwDHCMFFA1
+         utoo4alS76e+G8KvmRmTz2J5eWx3TJ5AhdgzHUFnA5EST4m6Qdcx0fL0r93p0RvQsg6A
+         598Ue9cZWNQbaMnEO99FTXXELSsAdgYTGJ9IgGw7T5RYFCK/r/BJcz4+0FM49lx3kst9
+         uUvA==
+X-Gm-Message-State: AJIora/C4rrVLNHgrN8otu+duxGxMq/jMoZ00lcZYifPfChvhRYRvYc6
+	k3fhxZjRbBLjr2WX7RbzSqisZEW/jgJDpXODSIUi4yoKjhArdQ==
+X-Google-Smtp-Source: AGRyM1tOAAo1G3Gl8a5DciHVBLX6O1TAFkRRQzjMjR62NgjK3rWu2NX3GPtTk2R+dggGUNUDD3L94o0g+Y1tKcPTZkA=
+X-Received: by 2002:a25:ac05:0:b0:668:ac6f:8ec5 with SMTP id
+ w5-20020a25ac05000000b00668ac6f8ec5mr5218108ybi.439.1655458186516; Fri, 17
+ Jun 2022 02:29:46 -0700 (PDT)
+MIME-Version: 1.0
+References: <f8e6184583be78aa729440e90e485984@jiranimall.com>
+In-Reply-To: <f8e6184583be78aa729440e90e485984@jiranimall.com>
+From: Matthew Njoki <matthewnjoki@gmail.com>
+Date: Fri, 17 Jun 2022 12:29:32 +0300
+Message-ID: <CAFgm4heNRFpF5cLKMCegcpLrD60ENgKjUD7n+9OYLZMdOaahCQ@mail.gmail.com>
+Subject: Re: TEST
+To: admin@jiranimall.com
+Content-Type: multipart/alternative; boundary="00000000000025dede05e1a165c3"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "altar34.supremepanel34.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  It works! On Fri, Jun 17, 2022 at 12:28 PM wrote: > Please
+    see this > 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [matthewnjoki[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000025dede05e1a165c3
+Content-Type: text/plain; charset="UTF-8"
+
+It works!
+
+On Fri, Jun 17, 2022 at 12:28 PM <admin@jiranimall.com> wrote:
+
+> Please see this
+>
+
+
+-- 
+____________________________________________________________________________________________
+Best regards,
+Matthew Njoki
+0728814975 / 0202 444 111
+
+--00000000000025dede05e1a165c3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif">It works!=C2=A0<br></div></div><br><div class=3D"gmail_quote"><div d=
+ir=3D"ltr" class=3D"gmail_attr">On Fri, Jun 17, 2022 at 12:28 PM &lt;<a hre=
+f=3D"mailto:admin@jiranimall.com">admin@jiranimall.com</a>&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;bor=
+der-left:1px solid rgb(204,204,204);padding-left:1ex">Please see this<br>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><fon=
+t color=3D"#0000ff" face=3D"arial black, sans-serif">______________________=
+______________________________________________________________________</fon=
+t></div><font color=3D"#0000ff" face=3D"georgia, serif">Best regards,</font=
+><div><font color=3D"#0000ff" face=3D"georgia, serif">Matthew Njoki</font><=
+/div><div><font color=3D"#0000ff" face=3D"georgia, serif">0728814975 / 0202=
+ 444 111</font></div></div></div></div></div>
+
+--00000000000025dede05e1a165c3--

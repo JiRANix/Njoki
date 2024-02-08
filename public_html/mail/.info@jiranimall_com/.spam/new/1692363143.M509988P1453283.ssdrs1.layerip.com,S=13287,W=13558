@@ -1,0 +1,271 @@
+Return-Path: <Amber.King.011@hotmail.com>
+Delivered-To: info+spam@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id 8N1fHYdp32TjLBYAvE7qNg
+	(envelope-from <Amber.King.011@hotmail.com>)
+	for <info+spam@jiranimall.com>; Fri, 18 Aug 2023 12:52:23 +0000
+Return-path: <Amber.King.011@hotmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Fri, 18 Aug 2023 12:52:23 +0000
+Received: from mail-ps2kor01olkn0156.outbound.protection.outlook.com ([104.47.109.156]:34880 helo=KOR01-PS2-obe.outbound.protection.outlook.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <Amber.King.011@hotmail.com>)
+	id 1qWyxo-0069pB-1A
+	for info@jiranimall.com;
+	Fri, 18 Aug 2023 12:52:23 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=IcudOJSN7iAFfTJwhwvc2iTYh4GJS2sLbv6ODxIvr3JUYlXufFcpQy+VpSyD0u0Aea7bzqlqnf7YKzEffE5apQoWOjkIphz8q/EISbNcSLYf7l4TvpMeBJnprAQOsWOOzXqNkuQj4fhQtBt6vaDrWav7yB/0K38+D7lFzNWgjEK8emtGYxC1XZE/oeE6A8uJ4bZ8Y9zeuFqt4tfX9FkC4q1WmbS0I0FHVjk5Yv59fzlZHSebo4N46hTyoPWdiHhfzxeX2ma0izObBjd13jGtREvjMPqgmOjpd5XnR7pEoPjvSrlXLjwIZ0vNPT6VIwjHB/JUqZepWZRtZuCEklr/EA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=yzLLFUuO/Bm6VQhCKVlH1Ve4oEZx997QnhzubKsvdUc=;
+ b=NfenYp6dUp0HlzL5APVq84UuHcdt2AJ37n6wQ2jcCUZP+oPI5hNa/bkaVfKyjzAe31av1725VOWj6ME4urOYEKMHM8N0YTcwgdQHZ11+uj/xCXcFKTdlEHnLPN5heyJ1661pEwGVngdDRbY8XA0EqJwe5hajz+c1OM0/dhzOopzd4x09VA+4J5K+NIlCp8C+FfR/MbqiPE1Ghc7m04NfRDnjPm1tNJl31B+wrrSDqnLhYwzn9Ae00R8nOrFD92+48V9HxOCOIDZHWi9NKsry1Uzbk4dA4U1Zsb+90SZC+X0xFJCqFfq8HO6/opTaVasFr+v3B6K1R9SkQlNMZKNUhQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=yzLLFUuO/Bm6VQhCKVlH1Ve4oEZx997QnhzubKsvdUc=;
+ b=JC9GYDZ+lpLmrKdNj/gP65OHHL1rcl7pcnoouyvv/zhpJD1xaFFg5FFxTafVEwVgeRm6my74+g1IOfnG6Wrmrj+zNWEcDt3n8uQkR5TNTX5LVQfrXk7Bcz7/5OkhWMVfL1KjkwfCH1u1GI02kHOCt0TSwkd9vjvHiiKxYsyeTZIbgEioIvuNNAZafF1yJjOHgtKqpBx7M8ZV83E8KZqKW6Bi+54szhLSkeO3/IC/L56PdJBhEEDLESHWLPhe3Rp6h5OM57sjz5IgUE6089lywIxhfdxWQzB8lRPTRyMZn6Onf1vYZFqyBJjfYOeBVpquKxRT0Pg46R1LGFqeGyT4xQ==
+Received: from SL2P216MB1498.KORP216.PROD.OUTLOOK.COM (2603:1096:101:33::10)
+ by SE1P216MB1995.KORP216.PROD.OUTLOOK.COM (2603:1096:101:15c::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6699.20; Fri, 18 Aug
+ 2023 12:50:48 +0000
+Received: from SL2P216MB1498.KORP216.PROD.OUTLOOK.COM
+ ([fe80::a964:1175:b1fa:22f2]) by SL2P216MB1498.KORP216.PROD.OUTLOOK.COM
+ ([fe80::a964:1175:b1fa:22f2%5]) with mapi id 15.20.6699.020; Fri, 18 Aug 2023
+ 12:50:48 +0000
+From: "Amber King" <Amber.King.011@hotmail.com>
+To: "Amber King" <Amber.King.011@hotmail.com>
+Date: Fri, 18 Aug 2023 18:19:55 +0530
+Message-ID:
+ <SL2P216MB14980B845A5A70AFB4EF4C468D1BA@SL2P216MB1498.KORP216.PROD.OUTLOOK.COM>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_016B_01D9D200.B3C02F90"
+X-Mailer: Microsoft Office Outlook 12.0
+Content-Language: en-in
+Thread-Index: AdnRzuCOZbVfeOOgTqq16wxn7NpEyg==
+X-TMN:
+ [kgp7mx1COocIkW6QGXy/sdEeHuoAdfJP2LsdQpynRXxJgJqrsYUJuEtpVam9by52cjepsoSwyYg=]
+X-ClientProxiedBy: BM1P287CA0021.INDP287.PROD.OUTLOOK.COM
+ (2603:1096:b00:40::24) To SL2P216MB1498.KORP216.PROD.OUTLOOK.COM
+ (2603:1096:101:33::10)
+X-Microsoft-Original-Message-ID:
+ <016a01d9d1d2$9a07f390$ce17dab0$@King.011@hotmail.com>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SL2P216MB1498:EE_|SE1P216MB1995:EE_
+X-MS-Office365-Filtering-Correlation-Id: 738de083-8ff5-49ea-eef0-08db9fe9bc9d
+X-MS-Exchange-SLBlob-MailProps:
+	BoO1yrQemBikpk8Rq9b9ylEm5Ef7QwkeVPVlXe4zTxu3M3UNXxf05L+Oc5TL9dHItcP+nh8DAieuj4dYoJTbpSeeEsAuoaC2BxSqb/LJcRKs2wErt91DVRANnZPJNXl6dXEj7n7Mf0bikaNCMAFwuzlUXvmis/0bevP0tHD3v8cSx571MNeMZfhgAnU8a/q7DqMX05LLNgFfquzrVnGksdD/nXabHdCU+JNM6clNf0k8kHC7o8qASDJkA314LFb31j6BB5IMROvtLbMvphSvwnxI/8T5motpO21lEwdpo8rvKAYTMVyEOblJBe8PVIbXP6XcmdJL03s+6nwRv7hzF/7cqZNbLrVf5BHCCUw1ZSN4LDQ3LD2doaPnKHi52EuEUWoDR3cFQCuuPbt5WzierkWrYM37EFpRDpeAmJadbw6hCrkISIVT/+rLhxcPK8AdZuP8zy3KTDn67+yM53F9SPQmz/OJVAXyNeaierLxZKU47fQ884uS+h99xDMI2IkGc+LOER17utbW6rGGo+RzAUCYb7ZIwtTcR0YATMANsdcB4GOxiCzwATSTfMHAPwTDBES81/IZ4udtp+YKI0t1Fy13Ci7QqRs3zFMoZVyJCiaTjbcFirkH5ODSY6j0QbHji7q7ZRK7/HhK6IpwomVj1hn9WqcROi7f
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	3AVNbE5jAwaxW2dduy4sEh5GXDIGZhhneQ8iM5/7GNNBw/Es9U9cLM5vWigoE8NkAtBcVD0NLpRwFwXG6PYcSOyK8Sb/CLq7I4x46J+LUkDAAlVhkodI3dUwX3gWng+mb7ZjD5NGaEZ2ql7xv1Zwmps/AEwqMyjiIvM+sxO7aAFaXQ6Nj8xV2mcAJ9MazZxusD8Y4epdFGatuii6ZkoYgd19VcQb8DoKLB3FAJjm3jdbpbwpAWiVRpykgTyHtNip0UN+pDN8sU+puhUxtOJnEeOR32UyMhRy/Ab9nuZ19lbvi7Es08Zi9tKHz/fi/Xpgslhd70TKK48qaGZxWXcmzrEVwMxSc9IT441KE4IlrnCx88utU0m021HS9IrDttvMCgVppAooqJ5P/NPuRaWPHqCqJclwpr5nVPbCUETr9pOkdQTBmTVn6+UaI2aJR9Dy4rR6Yb+ZR1+ayLh8kh9ybYbbMG2KzeGX5h0IZS2N26hm++DfzeU73qZ7zrB8el+Tv95jtljdjtIGCOmqDmLA7muKMgaLXIqGS4JttTspnHKGNdBGT5RumJPRGlWsnMBv1R573Z0XIVzBHqJ/49oNiS5MQLdL9zYsl9VcSGk6wC7MIu+1SHf5G3oLf3O1E6N1
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?04x9buYWt0M94aJM9zpCtMY1Lu5RPX17Zr9isUFs9Ai4RSeVrUkTbj2PGt/w?=
+ =?us-ascii?Q?LGEjXDypzVnGvCCDIUiGkyXaUQM8F2fojOu94YwuqyMlNQw1qvqUgPaXyXvT?=
+ =?us-ascii?Q?aHi0NlaqA4FT/EWyrR+lwcRRKTThO+dsPEHjRAAL+yDPC49UH6iP22JdlP2V?=
+ =?us-ascii?Q?85c67kLkMgWwr73xSsj+yuwjHWvCyQ7nZVDW4C3AQsixOeEx++cWngZ1BnKn?=
+ =?us-ascii?Q?iS4NsSksStzKjx1fQp8cnvtAcxvukapNOSi0EmjvMUdgisXJM9ZnRgLuAFXa?=
+ =?us-ascii?Q?v/KaP4U/37ye8iOWJldXk5xV/ewTlrhNRPD1AbmCnUymcrjzPBGG5uHXSMl3?=
+ =?us-ascii?Q?Ucc1EVsZqwPKW7n0+mNujhAH0DlUj1CnYesBIEM5sVM7vPlHD168wks9cIOn?=
+ =?us-ascii?Q?/wBDL08HTMi7M6virlPTpEOH9kLKJXAlQyA0cGbkAGMV/04QFRP/CmhxgxOi?=
+ =?us-ascii?Q?bBJsna4E/DtrYjkeD4PSH7MpkhgIV+KL59kEjieW8fd7EhNfKxcLoqSwyMFv?=
+ =?us-ascii?Q?HvWD9oY8JZuWQ4kyllMWp2pN6GV2Dvh0hvqw1tjgfpLpHJiAxkDqDSTIbNqu?=
+ =?us-ascii?Q?UtZKZBRKYtxn7ovKl1lNVpWJQWL+Nqqy6H4HCfFE8gBqFAOIjnS3VDXFcuE3?=
+ =?us-ascii?Q?t0Q5I5wcNuPOIuByvFMnIi++xL8yUpSD0YHmW3qQAKxFJHrue292sm5Msl3S?=
+ =?us-ascii?Q?qS4Pp/fWaw6g5/GZEsz6/EntjYwt8X99qw5Gxqn4syBeJL3E9CoINggqJhRw?=
+ =?us-ascii?Q?RposJZjPe/xUXnJ6NPUZTHyCsPMJeGR6dr3cGLbNas0eVM0s/I9ja5wN+v5S?=
+ =?us-ascii?Q?Gro1LCGyO/pNp+ogtoYZQrMTmxlQ0FGXGnq7ISQ2aPrjEzihfwv7XebJT3da?=
+ =?us-ascii?Q?vJXe1wUCmtXXQF7RDzIBajKyZ02JBrsaneBEJcEpu9a7fggGmnUrVBcIQ1mQ?=
+ =?us-ascii?Q?E6P6gBsoSZiJH5xXZlxNlWKl95PorTtjjdYC8zQWxwC49zCFEjiUaZKuvTSq?=
+ =?us-ascii?Q?V2F11ItrFdcnWR3Porp5l90HQeVbDt0toUPB6UN9/VyrlW6AuzLaSDAfSkmG?=
+ =?us-ascii?Q?bUCpbmcWck5qq/Um5ZlkP1VZh91xtuf61LKegranim4lRVTPTm0wjqQT4axl?=
+ =?us-ascii?Q?apPz9l+G3SfjFrKCcFjfUwSzmpCKzuiIpCDjYbsU4m1HFkPyRuL9xe07XbZ2?=
+ =?us-ascii?Q?Gm2WPJcRUHmzVHwZvvt9EhInp9V0VYPogbxphxoNaaaPagIJvQd6zPgCZM/W?=
+ =?us-ascii?Q?ycE107pn76yI+CNuOl64+sycyl5yhMHizZGvRAoWnay1nxr5uPZKcDsH8ivl?=
+ =?us-ascii?Q?JOQ=3D?=
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-0555f.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 738de083-8ff5-49ea-eef0-08db9fe9bc9d
+X-MS-Exchange-CrossTenant-AuthSource: SL2P216MB1498.KORP216.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Aug 2023 12:50:48.0305
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SE1P216MB1995
+X-Spam-Status: Yes, score=5.1
+X-Spam-Score: 51
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Time for a website upgrade? Our web redesign & development
+    services are the answer. 
+ Content analysis details:   (5.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  4.0 SPF_FAIL               SPF: sender does not match SPF record (fail)
+ [SPF failed: Please see http://www.openspf.org/Why?s=mfrom;id=amber.king.011%40hotmail.com;ip=104.47.109.156;r=ssdrs1.layerip.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [amber.king.011[at]hotmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [amber.king.011[at]hotmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  1.0 FORGED_SPF_HELO        No description available.
+  0.0 TO_EQ_FM_DOM_SPF_FAIL  To domain == From domain and external SPF
+                             failed
+  0.0 TO_EQ_FM_SPF_FAIL      To == From and external SPF failed
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Fw: Beautify Web
+
+------=_NextPart_000_016B_01D9D200.B3C02F90
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+ 
+
+Time for a website upgrade?
+
+Our web redesign & development services are the answer. 
+
+Want a quote and a glimpse of our past work?
+
+ Let's connect!
+
+ 
+
+Regards,
+
+Amber King
+
+ 
+
+
+------=_NextPart_000_016B_01D9D200.B3C02F90
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+
+<div class=3D"Section1">
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%">He=
+llo,<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%"><o=
+:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%">Ti=
+me for a
+website upgrade?<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%">Ou=
+r web
+redesign &amp; development services are the answer. <o:p></o:p></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%">Wa=
+nt a quote
+and a glimpse of our past work?<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%">&n=
+bsp;Let's
+connect!<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;line-height:115%"><o=
+:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt"><s=
+pan style=3D"font-size:10.0pt;line-height:115%">Regards,<o:p></o:p></span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt"><s=
+pan style=3D"font-size:10.0pt;line-height:115%">Amber King<o:p></o:p></span=
+></p>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_016B_01D9D200.B3C02F90--

@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: dev@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id 0ONwA7OIsmX9vjsAvE7qNg
+	(envelope-from <>)
+	for <dev@jiranimall.com>; Thu, 25 Jan 2024 16:13:39 +0000
+Return-path: <>
+Envelope-to: dev@jiranimall.com
+Delivery-date: Thu, 25 Jan 2024 16:13:39 +0000
+Received: from mailnull by ssdrs1.layerip.com with local (Exim 4.96.2)
+	id 1rT2ME-00GR5e-3A
+	for dev@jiranimall.com;
+	Thu, 25 Jan 2024 16:13:38 +0000
+X-Failed-Recipients: pascale.mazzamurro@orange.fr
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@ssdrs1.layerip.com>
+To: dev@jiranimall.com
+References: <eph2nbrzfqplo3h9utveuo8z.1741480646320@jiranimall.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1706199218-eximdsn-974263606
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rT2ME-00GR5e-3A@ssdrs1.layerip.com>
+Date: Thu, 25 Jan 2024 16:13:38 +0000
+
+--1706199218-eximdsn-974263606
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  pascale.mazzamurro@orange.fr
+    host smtp-in.orange.fr [80.12.26.32]
+    SMTP error from remote mail server after end of data:
+    550 5.2.0 T2MCrxV43nJ7k Mail rejete. Mail rejected. OFR_506 [506]
+
+--1706199218-eximdsn-974263606
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; ssdrs1.layerip.com
+
+Action: failed
+Final-Recipient: rfc822;pascale.mazzamurro@orange.fr
+Status: 5.0.0
+Remote-MTA: dns; smtp-in.orange.fr
+Diagnostic-Code: smtp; 550 5.2.0 T2MCrxV43nJ7k Mail rejete. Mail rejected. OFR_506 [506]
+
+--1706199218-eximdsn-974263606
+Content-type: message/rfc822
+
+Return-path: <dev@jiranimall.com>
+Received: from [124.104.16.66] (port=53586 helo=[127.0.0.1])
+	by ssdrs1.layerip.com with esmtpsa  (TLS1) tls TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	(Exim 4.96.2)
+	(envelope-from <dev@jiranimall.com>)
+	id 1rT2MD-00GR01-37
+	for pascale.mazzamurro@orange.fr;
+	Thu, 25 Jan 2024 16:13:36 +0000
+Date: Thu, 25 Jan 2024 19:12:10 +0300
+Subject: Special offer
+Message-ID: <eph2nbrzfqplo3h9utveuo8z.1741480646320@jiranimall.com>
+From: "Discount Pharmacy - Exclusive Store" <dev@jiranimall.com>
+To: pascale.mazzamurro@orange.fr
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Do you want to avoid ED, which is irritating not only you,=20
+but at least 55% of men around the country? It is time to obtain your=20=
+
+normal sexual living and to have this amazing pill that helps everybod=
+y.
+
+https://google.com
+
+To have a huge allowance on this treatment, all you need to do is to b=
+uy pill using this code: t35p33v4
+
+--1706199218-eximdsn-974263606--

@@ -1,0 +1,29 @@
+Return-Path: <admin@jiranimall.com>
+Delivered-To: sales@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id OOdkJu51EGOpmzYAvE7qNg
+	(envelope-from <admin@jiranimall.com>)
+	for <sales@jiranimall.com>; Thu, 01 Sep 2022 09:05:50 +0000
+Return-path: <admin@jiranimall.com>
+Envelope-to: sales@jiranimall.com
+Delivery-date: Thu, 01 Sep 2022 09:05:50 +0000
+Received: from [::1] (port=47792 helo=ssdrs1.layerip.com)
+	by ssdrs1.layerip.com with esmtpa (Exim 4.95)
+	(envelope-from <admin@jiranimall.com>)
+	id 1oTg92-00F4iD-TL
+	for sales@jiranimall.com;
+	Thu, 01 Sep 2022 09:05:50 +0000
+MIME-Version: 1.0
+Date: Thu, 01 Sep 2022 09:05:50 +0000
+From: admin@jiranimall.com
+To: sales@jiranimall.com
+Subject: TEST
+User-Agent: Roundcube Webmail/1.5.2
+Message-ID: <0036d9ecd71621ae167bb930e81b7b79@jiranimall.com>
+X-Sender: admin@jiranimall.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+
+have you received this email?

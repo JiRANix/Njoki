@@ -1,0 +1,82 @@
+Return-Path: <frank@datadyno.co.uk>
+Delivered-To: info+spam@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id GDUtK4dtA2PPYCwAvE7qNg
+	(envelope-from <frank@datadyno.co.uk>)
+	for <info+spam@jiranimall.com>; Mon, 22 Aug 2022 11:50:31 +0000
+Return-path: <frank@datadyno.co.uk>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 22 Aug 2022 11:50:31 +0000
+Received: from [185.238.2.54] (port=55307 helo=stuff.datadyno.co.uk)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <frank@datadyno.co.uk>)
+	id 1oQ5wv-00CEif-5Y
+	for info@jiranimall.com;
+	Mon, 22 Aug 2022 11:50:31 +0000
+Received: from authenticated-user (stuff.datadyno.co.uk [185.238.2.54])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by stuff.datadyno.co.uk (Postfix) with ESMTPSA id B509644A9F
+	for <info@jiranimall.com>; Mon, 22 Aug 2022 14:49:48 +0300 (EEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=datadyno.co.uk;
+	s=mail; t=1661168989;
+	bh=PNj4Fmk1XJDQM862Q/PotXIIK9owtWbwClR0dMeSQC4=;
+	h=Date:To:From:Reply-To:Subject:From;
+	b=bUz9jvbTo4S14Ozd5zL/ZPn6/Sla3ZPeq2d0KHup6wU5MJ/zFqHiqmRyif7M6C3A5
+	 QcTi2bKjWUYNXc1edH1ZwyipbV7lZxGavpDMv9wGGF7EIhp6VGNrRyLmSjkXamnsH3
+	 Fh6iydSFzllUTAnMIjbCcc0CYgovC8SI4b5yGbkPuMIMXYIBZ4j0j9dIMibGgl/mO6
+	 c8omXf20aIDW36NTF80JY+/S+/UeJ+6KbSMeYSIecBQV8iLI1jcajUlHPuLcg8v/8y
+	 aVDReoJITpViIyG1jVQ9ikrnm2MyOmno8zY1r8wmneWwEyN3B0t5g39mzNJgrdMX6r
+	 tAwe/cUwwkaVQ==
+Date: Mon, 22 Aug 2022 13:49:47 +0200
+To: info@jiranimall.com
+From: Frank Richardson <frank@datadyno.co.uk>
+Reply-To: "LeadsTree.org" <johan@datacompany.co.za>
+Message-ID: <OD3A4vYzo2qrERi7DDhgGfxFHPzVXlCjMCLLhCqjuuE@localhost>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+X-Spam-Status: Yes, score=8.1
+X-Spam-Score: 81
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, My name is Frank Richardson. I regret to inform you
+    that LeadsTree.org will shut down this week. 
+ Content analysis details:   (8.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: datadyno.co.uk]
+  1.1 KAM_COUK               Scoring .co.uk emails higher due to poor registry
+                             security.
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  LeadsTree.org
+
+SGVsbG8sIDxici8+PGJyLz4NCg0KTXkgbmFtZSBpcyBGcmFuayBSaWNoYXJkc29uLiA8YnIvPjxi
+ci8+DQoNCkkgcmVncmV0IHRvIGluZm9ybSB5b3UgdGhhdCBMZWFkc1RyZWUub3JnIHdpbGwgc2h1
+dCBkb3duIHRoaXMgd2Vlay48YnIvPjxici8+DQoNCldlIGhhdmUgbm93IG1hZGUgYWxsIG91ciBk
+YXRhYmFzZXMgYXZhaWxhYmxlIHRvIHRoZSBwdWJsaWMgb24gb3VyIHdlYnNpdGUgYXQgYSBvbmUt
+dGltZSBmZWUuPGJyLz48YnIvPg0KDQpMZWFkc1RyZWUub3JnPGJyLz48YnIvPg0KDQpFbWFpbCBJ
+RDogMTBkZGJh
+

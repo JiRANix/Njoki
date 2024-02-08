@@ -1,0 +1,312 @@
+Return-Path: <greatcoagency@gmail.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id 2A0jH6+zEWQLDDQAvE7qNg
+	(envelope-from <greatcoagency@gmail.com>)
+	for <info@jiranimall.com>; Wed, 15 Mar 2023 12:01:51 +0000
+Return-path: <greatcoagency@gmail.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Wed, 15 Mar 2023 12:01:51 +0000
+Received: from rs6.rcnoc.com ([173.249.26.135]:56198)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <greatcoagency@gmail.com>)
+	id 1pcPpF-00EJtQ-BW
+	for info@jiranimall.com;
+	Wed, 15 Mar 2023 12:01:51 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=lakewoodautospares.com; s=default; h=Content-Transfer-Encoding:Content-Type
+	:MIME-Version:To:Reply-To:From:Subject:Date:Message-ID:Sender:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=z60u6SUBdR7MJOBrE/J9OSrpElFT5C4/AGsLkzBzyaQ=; b=LwHgztRINA8e/fKHEZjp4IAVCD
+	ICxtgtSLOCHMiRwqflLiulTJ3vzBJSvGTOx5bFofnGEB+4Yu1HgN0MOSs4g1CIs5vaTTxP29lJTbS
+	rpbIY+f/itmVHBqI4u1lcGTVwRk25HMyK3KcAcpjB3zo8X2isPyTtHgsvYd1BwsMPKpc9KkuVvzGm
+	7DM/9CQkCQKZp3AGUOssZiTDKrO3wT/mC9/iIgAfvVauG0B6lWUkRmXEaq6mop/JUqh4kksHPRaM+
+	qRmtdQB4voa9Om5snA7/Hg5kFSrHOlT9R/PPfuSP29356czMpI5aHBZ4WlFnstPcoRR/sIEoV/8vj
+	8i08AHvw==;
+Received: from [173.249.60.35] (port=54140 helo=lakewoodautospares.com)
+	by rs6.rcnoc.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <greatcoagency@gmail.com>)
+	id 1pcPob-0007hH-0i
+	for info@jiranimall.com;
+	Wed, 15 Mar 2023 15:01:09 +0300
+Message-ID: <d0c4dec4f64139c22d98c8471aea940a@lakewoodautospares.com>
+Date: Wed, 15 Mar 2023 15:01:08 +0300
+Subject: Elevate Your Online Presence with Greatco - Get more clients today!
+From: Greatco <bryan@lakewoodautospares.com>
+Reply-To: greatcoagency@gmail.com
+To: info@jiranimall.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - rs6.rcnoc.com
+X-AntiAbuse: Original Domain - jiranimall.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: rs6.rcnoc.com: authenticated_id: bryan@lakewoodautospares.com
+X-Authenticated-Sender: rs6.rcnoc.com: bryan@lakewoodautospares.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-From-Rewrite: rewritten was: [greatcoagency@gmail.com], actual sender does not match
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Owner, I hope this email finds you well. I came across
+    your company's website and was impressed by the services and products you
+    offer. As a fellow business owner in Kenya, I understand the challenges of
+    sta [...] 
+ Content analysis details:   (2.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [greatcoagency[at]gmail.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html><head><meta http-equiv=3D"Content-T=
+ype" content=3D"text/html; charset=3Dutf-8"></head><body><p><span style=3D'=
+background-color: rgb(247, 247, 248); color: rgb(55, 65, 81); font-family: =
+S=C3=B6hne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ub=
+untu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple C=
+olor Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-=
+size: 16px; white-space: pre-wrap;'>Dear Owner,</span></p><p style=3D'borde=
+r: 0px solid rgb(217, 217, 227); --tw-border-spacing-x:0; --tw-border-spaci=
+ng-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:=
+0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y:=
+ ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: =
+; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-=
+numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-rin=
+g-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset=
+-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 =
+transparent; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightn=
+ess: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ;=
+ --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; -=
+-tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscal=
+e: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opac=
+ity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-top: 1.25em;=
+ margin-bottom: 1.25em; color: rgb(55, 65, 81); font-family: S=C3=B6hne, ui=
+-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarel=
+l, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "=
+Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; wh=
+ite-space: pre-wrap; background-color: rgb(247, 247, 248);'>I hope this ema=
+il finds you well. I came across your company's website and was impressed b=
+y the services and products you offer. As a fellow business owner in Kenya,=
+ I understand the challenges of standing out in a competitive online market=
+place.</p><p style=3D'border: 0px solid rgb(217, 217, 227); --tw-border-spa=
+cing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; =
+--tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1=
+; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictnes=
+s:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --=
+tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring=
+-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130=
+,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 tr=
+ansparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparent=
+; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-h=
+ue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow=
+: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contras=
+t: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-i=
+nvert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-s=
+epia: ; margin-top: 1.25em; margin-bottom: 1.25em; color: rgb(55, 65, 81); =
+font-family: S=C3=B6hne, ui-sans-serif, system-ui, -apple-system, "Segoe UI=
+", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Ar=
+ial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color =
+Emoji"; font-size: 16px; white-space: pre-wrap; background-color: rgb(247, =
+247, 248);'>That's why I wanted to reach out and introduce you to Greatco -=
+ Your one-stop SMMA agency for all your digital marketing needs. We special=
+ize in web redesign services, email marketing, social media management, SEO=
+, product listing optimization, funnel building, running ads, and lead gene=
+ration.</p><p style=3D'border: 0px solid rgb(217, 217, 227); --tw-border-sp=
+acing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0;=
+ --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:=
+1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictne=
+ss:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; -=
+-tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-rin=
+g-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,13=
+0,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 t=
+ransparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparen=
+t; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-=
+hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shado=
+w: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contra=
+st: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-=
+invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-=
+sepia: ; margin-top: 1.25em; margin-bottom: 1.25em; color: rgb(55, 65, 81);=
+ font-family: S=C3=B6hne, ui-sans-serif, system-ui, -apple-system, "Segoe U=
+I", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", A=
+rial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color=
+ Emoji"; font-size: 16px; white-space: pre-wrap; background-color: rgb(247,=
+ 247, 248);'>We have helped numerous businesses in Kenya and beyond to esta=
+blish a strong online presence and increase their sales and revenue. Our te=
+am of experts is dedicated to providing personalized services that cater to=
+ your unique business needs.</p><p style=3D'border: 0px solid rgb(217, 217,=
+ 227); --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0=
+; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-sca=
+le-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw=
+-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --t=
+w-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-r=
+ing-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-=
+ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; -=
+-tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent; --tw-shadow-c=
+olored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --=
+tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sep=
+ia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ;=
+ --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rot=
+ate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-satur=
+ate: ; --tw-backdrop-sepia: ; margin-top: 1.25em; margin-bottom: 1.25em; co=
+lor: rgb(55, 65, 81); font-family: S=C3=B6hne, ui-sans-serif, system-ui, -a=
+pple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif=
+, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI=
+ Symbol", "Noto Color Emoji"; font-size: 16px; white-space: pre-wrap; backg=
+round-color: rgb(247, 247, 248);'>As a friend and fellow entrepreneur, I st=
+rongly advise you to consider investing in digital marketing to stay ahead =
+of the competition. Our services will help you increase your brand visibili=
+ty, attract more customers, and drive sales.</p><p style=3D'border: 0px sol=
+id rgb(217, 217, 227); --tw-border-spacing-x:0; --tw-border-spacing-y:0; --=
+tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-sk=
+ew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pi=
+nch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-sla=
+shed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fr=
+action: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-c=
+olor:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 =
+0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparen=
+t; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --t=
+w-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-satu=
+rate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdr=
+op-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-=
+backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --t=
+w-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-top: 1.25em; margin-bo=
+ttom: 1.25em; color: rgb(55, 65, 81); font-family: S=C3=B6hne, ui-sans-seri=
+f, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto S=
+ans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI E=
+moji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; white-space:=
+ pre-wrap; background-color: rgb(247, 247, 248);'>To sweeten the deal, we a=
+re offering a special promotion exclusively for Kenyan businesses. Sign up =
+for any of our services before the end of this month, and you'll receive a =
+10% discount on your first project.We will refund you 100% of your money in=
+ the first week if you fail to see results.</p><p style=3D'border: 0px soli=
+d rgb(217, 217, 227); --tw-border-spacing-x:0; --tw-border-spacing-y:0; --t=
+w-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-ske=
+w-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pin=
+ch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slas=
+hed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fra=
+ction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-co=
+lor:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0=
+ transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent=
+; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw=
+-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-satur=
+ate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdro=
+p-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-b=
+ackdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw=
+-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-top: 1.25em; margin-bot=
+tom: 1.25em; color: rgb(55, 65, 81); font-family: S=C3=B6hne, ui-sans-serif=
+, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sa=
+ns", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Em=
+oji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; white-space: =
+pre-wrap; background-color: rgb(247, 247, 248);'>Don't let your competitors=
+ steal the limelight. Let Greatco help you elevate your online presence and=
+ take your business to the next level.</p><p style=3D'border: 0px solid rgb=
+(217, 217, 227); --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-tra=
+nslate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0=
+; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zo=
+om: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-z=
+ero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction=
+: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#=
+fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 tran=
+sparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent; --t=
+w-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-cont=
+rast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: =
+; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-bri=
+ghtness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdr=
+op-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-back=
+drop-saturate: ; --tw-backdrop-sepia: ; margin-top: 1.25em; margin-bottom: =
+1.25em; color: rgb(55, 65, 81); font-family: S=C3=B6hne, ui-sans-serif, sys=
+tem-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", =
+sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji",=
+ "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; white-space: pre-w=
+rap; background-color: rgb(247, 247, 248);'>If you're interested in learnin=
+g more about our services or have any questions, please don't hesitate to c=
+ontact us. We look forward to hearing from you soon.</p><p style=3D'border:=
+ 0px solid rgb(217, 217, 227); --tw-border-spacing-x:0; --tw-border-spacing=
+-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0;=
+ --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ;=
+ --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; =
+--tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-nu=
+meric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-=
+offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-s=
+hadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 tr=
+ansparent; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightnes=
+s: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; -=
+-tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --t=
+w-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale:=
+ ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacit=
+y: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-top: 1.25em; m=
+argin-bottom: 1.25em; color: rgb(55, 65, 81); font-family: S=C3=B6hne, ui-s=
+ans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,=
+ "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Se=
+goe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; whit=
+e-space: pre-wrap; background-color: rgb(247, 247, 248);'>Best regards,</p>=
+<p style=3D'border: 0px solid rgb(217, 217, 227); --tw-border-spacing-x:0; =
+--tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotat=
+e:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan=
+-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximit=
+y; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric=
+-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-wi=
+dth:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5);=
+ --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent;=
+ --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparent; --tw-blu=
+r: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate:=
+ ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-b=
+ackdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-=
+backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; -=
+-tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; ma=
+rgin-top: 1.25em; margin-bottom: 1.25em; color: rgb(55, 65, 81); font-famil=
+y: S=C3=B6hne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,=
+ Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Appl=
+e Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fo=
+nt-size: 16px; white-space: pre-wrap; background-color: rgb(247, 247, 248);=
+'>Emmanuel Bryan</p><p style=3D'border: 0px solid rgb(217, 217, 227); --tw-=
+border-spacing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0; --tw-trans=
+late-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw=
+-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap=
+-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-fi=
+gure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ;=
+ --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:r=
+gba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-sha=
+dow:0 0 transparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 t=
+ransparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale=
+: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-d=
+rop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdr=
+op-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-=
+backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-=
+backdrop-sepia: ; margin-top: 1.25em; color: rgb(55, 65, 81); font-family: =
+S=C3=B6hne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ub=
+untu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple C=
+olor Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-=
+size: 16px; white-space: pre-wrap; background-color: rgb(247, 247, 248);'>G=
+reatco - Your One-Stop SMMA Agency</p></body></html>
+

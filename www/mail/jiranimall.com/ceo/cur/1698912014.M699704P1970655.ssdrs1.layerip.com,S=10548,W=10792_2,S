@@ -1,0 +1,244 @@
+Return-Path: <matthewnjoki@gmail.com>
+Delivered-To: ceo@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id kHwVKQ5XQ2XfER4AvE7qNg
+	(envelope-from <matthewnjoki@gmail.com>)
+	for <ceo@jiranimall.com>; Thu, 02 Nov 2023 08:00:14 +0000
+Return-path: <matthewnjoki@gmail.com>
+Envelope-to: ceo@jiranimall.com
+Delivery-date: Thu, 02 Nov 2023 08:00:14 +0000
+Received: from mail-yb1-f171.google.com ([209.85.219.171]:52465)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <matthewnjoki@gmail.com>)
+	id 1qySch-008FOH-13
+	for ceo@jiranimall.com;
+	Thu, 02 Nov 2023 08:00:14 +0000
+Received: by mail-yb1-f171.google.com with SMTP id 3f1490d57ef6-da2e786743aso657276276.0
+        for <ceo@jiranimall.com>; Thu, 02 Nov 2023 00:59:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1698911971; x=1699516771; darn=jiranimall.com;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=bBQsuFDUyVEG7OfQB1TLglsa8oDjJucO5Elsb/tnGXk=;
+        b=NqaYUEMGb00Vxv7ZhAXjBK2oSGoopn57R+xz/bwAcUBguR/apGXBt7wCelckTWPOfJ
+         4ucrK5V6xLmKmEeB7WI52oaRVJ6xEf3E0vcZwI9yXj+2Qb81CEIhyPOdbMKQ9IaFSsAj
+         d41Gs6nWigM3nTxYISowUekuGgmkrR2nukQYeS47XhfSddDdtEmNVcq2e6kfHf4+mERR
+         nbKGVw1L7HIZeGiQPA8HR4ph6S61M1Sa77cUvgHPO7ctdyBcNNI1dPruCVT6p29TwIw7
+         IzNd3EQRK4nd5h4BF3g9xhqOrM2f1VB0RORZ4KLDtHYeuQgQIzE6SwszNG+WgT1Ic4wb
+         fvTg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698911971; x=1699516771;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=bBQsuFDUyVEG7OfQB1TLglsa8oDjJucO5Elsb/tnGXk=;
+        b=EPnVjwfvtFkUOZLBVXWEpUzPkjT+pBAtmzqwqRuulpVHxKZRK5UL7H/eAbiskNkS+P
+         lhm65L3eDuhdiFNEU0paIIU62ZNCfJ6aFsaQiCyniH2698tQOGUxyITqVCHVTki0qyVI
+         9oTRa0oQw2OBEH2ITZGsl9U5g40O/ef2rAxggJu3Z2HOK0f2BbNot2fY8KE2kkOF9BGI
+         tmcgNypfq7CHeh4wUI+K777UYhp9TBqD6bPOThXdFqpBgBYDoh/z5HRkOLy4nSFww39x
+         JGjo+GO5WkFRH5E4k9gLNwVZdmZM5FdiTJTlAhX+y4jI+3XTMnd+Uj7699G+H7toQZwd
+         0PVw==
+X-Gm-Message-State: AOJu0YxAnZ/XXRtj2nldirSQaCrL9SSluRgYGN19YsDnnnnANX1uoMBO
+	cFxfTpXBjE0DjwG3MaeIpaXtitdIj02sZ0Zgo20=
+X-Google-Smtp-Source: AGHT+IEoMJWOWA4AUV3KybIKT6GZpWvT+TuyrM9j9qIpSHSZSTCVhdpxXxrzZbPpxazRa9I62oAEqu63Rnm2Jd15eNU=
+X-Received: by 2002:a25:844e:0:b0:d81:894b:28e4 with SMTP id
+ r14-20020a25844e000000b00d81894b28e4mr16003646ybm.51.1698911970743; Thu, 02
+ Nov 2023 00:59:30 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAFgm4hfd6w7G61Y0WBSbTnEFiyS3zxox=LGbF6=vjb0BWA9MzA@mail.gmail.com>
+ <DB6P189MB029536B404BC898A78A16AFCB3A6A@DB6P189MB0295.EURP189.PROD.OUTLOOK.COM>
+In-Reply-To: <DB6P189MB029536B404BC898A78A16AFCB3A6A@DB6P189MB0295.EURP189.PROD.OUTLOOK.COM>
+From: Matthew Njoki <matthewnjoki@gmail.com>
+Date: Thu, 2 Nov 2023 10:59:18 +0300
+Message-ID: <CAFgm4hdU2PTiSQN_evzbrz808kXmDP3-8aU0d_QN4Fgtx42rZA@mail.gmail.com>
+Subject: Re: REVISION Final Branding Marking Plan JiRANi MALL
+To: grantsmanager <grants@yalieastafrica.org>
+Cc: ceo@jiranimall.com
+Content-Type: multipart/alternative; boundary="000000000000855892060926c433"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Thanks, I will. On Thu, 2 Nov 2023, 09:00 grantsmanager, wrote:
+    > > > Good Morning Njoki > > > > Kindly consider a phone call with Mark Simiyu.
+    > > > > Your milestone is dragging. > > > > *From:* Matthew Njoki > *Sent:*
+    Monday, October 30, 2023 1:47 PM > *To:* g [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [matthewnjoki[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000855892060926c433
+Content-Type: text/plain; charset="UTF-8"
+
+Thanks, I will.
+
+On Thu, 2 Nov 2023, 09:00 grantsmanager, <grants@yalieastafrica.org> wrote:
+
+>
+>
+> Good Morning Njoki
+>
+>
+>
+> Kindly consider a phone call with Mark Simiyu.
+>
+>
+>
+> Your milestone is dragging.
+>
+>
+>
+> *From:* Matthew Njoki <matthewnjoki@gmail.com>
+> *Sent:* Monday, October 30, 2023 1:47 PM
+> *To:* grantsmanager <grants@yalieastafrica.org>; ceo@jiranimall.com
+> *Subject:* REVISION Final Branding Marking Plan JiRANi MALL
+>
+>
+>
+> Hello, See the attached copies for the Final Branding  Marking Plan for
+> JiRANi Mall for your further action.
+>
+> Kindly note that, the approval and disbursement of funds for milestone one
+> is a bit urgent.
+>
+>
+>
+> --
+>
+>
+> ____________________________________________________________________________________________
+>
+> Best regards,
+>
+> Matthew Njoki
+>
+> 0728814975 / 0202 444 111
+> IMPORTANT NOTICE: This e-mail message is intended to be received only by
+> persons entitled to receive the confidential information it may contain.
+> E-mail messages from YALI Regional Leadership Center- East Africa may
+> contain information that is confidential and legally privileged. Please do
+> not copy, disclose, forward, or store this message unless you are an
+> intended recipient of it and have been granted permissions to do so. If you
+> have received this message in error, please forward it to the sender and
+> delete it completely from your computer system.
+>
+
+--000000000000855892060926c433
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Thanks, I will.=C2=A0</div><br><div class=3D"gmail_quote"=
+><div dir=3D"ltr" class=3D"gmail_attr">On Thu, 2 Nov 2023, 09:00 grantsmana=
+ger, &lt;<a href=3D"mailto:grants@yalieastafrica.org">grants@yalieastafrica=
+.org</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"mar=
+gin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:b=
+reak-word">
+<div class=3D"m_2525873125327289478WordSection1">
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Lao UI&quot;,sans-s=
+erif">Good Morning Njoki<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Lao UI&quot;,sans-s=
+erif"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Lao UI&quot;,sans-s=
+erif">Kindly consider a phone call with Mark Simiyu.<u></u><u></u></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Lao UI&quot;,sans-s=
+erif"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Lao UI&quot;,sans-s=
+erif">Your milestone is dragging.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Matthew Njoki &lt;<a href=3D"mailto:mat=
+thewnjoki@gmail.com" target=3D"_blank" rel=3D"noreferrer">matthewnjoki@gmai=
+l.com</a>&gt; <br>
+<b>Sent:</b> Monday, October 30, 2023 1:47 PM<br>
+<b>To:</b> grantsmanager &lt;<a href=3D"mailto:grants@yalieastafrica.org" t=
+arget=3D"_blank" rel=3D"noreferrer">grants@yalieastafrica.org</a>&gt;; <a h=
+ref=3D"mailto:ceo@jiranimall.com" target=3D"_blank" rel=3D"noreferrer">ceo@=
+jiranimall.com</a><br>
+<b>Subject:</b> REVISION Final Branding Marking Plan JiRANi MALL<u></u><u><=
+/u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Georgia&quot;,serif=
+">Hello, See the attached copies for the Final Branding =C2=A0Marking Plan =
+for JiRANi Mall for your further=C2=A0action.<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Georgia&quot;,serif=
+">Kindly note that, the approval and disbursement of funds for milestone on=
+e is a bit urgent.<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<p class=3D"MsoNormal"><span class=3D"m_2525873125327289478gmailsignaturepr=
+efix">-- </span><u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial Black&quot;,s=
+ans-serif;color:blue">_____________________________________________________=
+_______________________________________</span><u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Georgia&quot;,serif=
+;color:blue">Best regards,</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Georgia&quot;,serif=
+;color:blue">Matthew Njoki</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Georgia&quot;,serif=
+;color:blue">0728814975 / 0202 444 111</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+IMPORTANT NOTICE: This e-mail message is intended to be received only by pe=
+rsons entitled to receive the confidential information it may contain. E-ma=
+il messages from YALI Regional Leadership Center- East Africa may contain i=
+nformation that is confidential
+ and legally privileged. Please do not copy, disclose, forward, or store th=
+is message unless you are an intended recipient of it and have been granted=
+ permissions to do so. If you have received this message in error, please f=
+orward it to the sender and delete
+ it completely from your computer system.
+</div>
+
+</blockquote></div>
+
+--000000000000855892060926c433--

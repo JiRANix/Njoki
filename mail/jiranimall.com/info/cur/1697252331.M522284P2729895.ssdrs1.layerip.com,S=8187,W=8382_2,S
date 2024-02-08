@@ -1,0 +1,195 @@
+Return-Path: <return@apps.crabtreesolutions.org>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id uLg+HusDKmWnpykAvE7qNg
+	(envelope-from <return@apps.crabtreesolutions.org>)
+	for <info@jiranimall.com>; Sat, 14 Oct 2023 02:58:51 +0000
+Return-path: <return@apps.crabtreesolutions.org>
+Envelope-to: info@jiranimall.com
+Delivery-date: Sat, 14 Oct 2023 02:58:51 +0000
+Received: from apps.crabtreesolutions.org ([192.3.166.180]:33546)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.1)
+	(envelope-from <return@apps.crabtreesolutions.org>)
+	id 1qrUrd-00BTDW-3B
+	for info@jiranimall.com;
+	Sat, 14 Oct 2023 02:58:51 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=asdzxcv; d=crabtreesolutions.org;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:
+ List-Unsubscribe:List-Id; i=celina.jones@crabtreesolutions.org;
+ bh=i56ODdmae7xNlBaqPnGEXe9VA+PYemjrk8uvCSYCoA8=;
+ b=Y/fpPir1D6rtnyt4c+QQ2We5eZrHBawFotH1sbK2fc7teXTYrKu5iJ2uqiAHG7mteV0pPdZ5hwfq
+   3klRWkxyY+TfZLOkQV31a2ebWsDdpL7Kshdnrw9piKPQ78nzfyJ+uf38aJjOrmDsLNuziztNbfGt
+   bfiLIZq6PJOGXpVlMFU=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=asdzxcv; d=crabtreesolutions.org;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:
+ List-Unsubscribe:List-Id; i=celina.jones@crabtreesolutions.org;
+ bh=i56ODdmae7xNlBaqPnGEXe9VA+PYemjrk8uvCSYCoA8=;
+ b=Y/fpPir1D6rtnyt4c+QQ2We5eZrHBawFotH1sbK2fc7teXTYrKu5iJ2uqiAHG7mteV0pPdZ5hwfq
+   3klRWkxyY+TfZLOkQV31a2ebWsDdpL7Kshdnrw9piKPQ78nzfyJ+uf38aJjOrmDsLNuziztNbfGt
+   bfiLIZq6PJOGXpVlMFU=
+Message-ID: <658cad9399e763aacd3b9406076c78e9@apps.crabtreesolutions.org>
+Date: Sat, 14 Oct 2023 02:58:06 +0000
+Subject: Logo & Website Design For Your Business
+From: Celina Jones <celina.jones@crabtreesolutions.org>
+Reply-To: Celina Jones <celina.jones@crabtreesolutions.net>
+To: "info@jiranimall.com" <info@jiranimall.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1697252286_7765393f1e4f4e7116b889da6c3ebc33_=_"
+X-Sender: return@apps.crabtreesolutions.org
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://192.3.166.180/index.php/campaigns/pq791jyep63ca/report-abuse/hd526pkv7t86c/az90059dpf32c
+X-Receiver: info@jiranimall.com
+X-Mw-Tracking-Did: 0
+X-Mw-Subscriber-Uid: az90059dpf32c
+X-Mw-Mailer: SwiftMailer - 5.4.x
+X-Mw-EBS: http://192.3.166.180/index.php/lists/block-address
+X-Mw-Delivery-Sid: 1
+X-Mw-Customer-Uid: yv2319mmrs604
+X-Mw-Customer-Gid: 1
+X-Mw-Campaign-Uid: pq791jyep63ca
+Precedence: bulk
+List-Unsubscribe: <http://192.3.166.180/index.php/lists/hd526pkv7t86c/unsubscribe/az90059dpf32c/pq791jyep63ca/unsubscribe-direct?source=email-client-unsubscribe-button>,
+ <mailto:celina.jones@crabtreesolutions.net?subject=Campaign-Uid:pq791jyep63ca
+ / Subscriber-Uid:az90059dpf32c - Unsubscribe request&body=Please unsubscribe
+ me!>
+List-Id: hd526pkv7t86c <Shared Hosting>
+Feedback-ID: pq791jyep63ca:az90059dpf32c:hd526pkv7t86c:yv2319mmrs604
+X-Spam-Status: No, score=2.9
+X-Spam-Score: 29
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Have you ever thought about giving your business a
+   new appearance with a new logo & a website ? Do you know with just giving
+   your business a new look, you can experience huge sales of products [...] 
+ Content analysis details:   (2.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: crabtreesolutions.org]
+  0.0 NORMAL_HTTP_TO_IP      URI: URI host has a public dotted-decimal IPv4
+                              address
+  0.0 NUMERIC_HTTP_ADDR      URI: Uses a numeric IP address in URL
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 RAND_MKTG_HEADER       Has partially-randomized marketing/tracking
+                             header(s)
+  1.0 URI_DQ_UNSUB           IP-address unsubscribe URI
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+X-Spam-Flag: NO
+
+
+--_=_swift_v4_1697252286_7765393f1e4f4e7116b889da6c3ebc33_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+Have you ever thought about giving your business a new appearance=
+
+with a new logo & a website ? Do you know with just giving your
+busine=
+ss a new look, you can experience huge sales of products or
+services? Wel=
+l, we are here to make your business look great in this
+our era of techno=
+logy.
+We are a group of professionals, rendering various forms of service=
+s
+to individuals, and businesses. No matter how big or small your
+busin=
+ess is, we will give it that exact look that suits it.
+Our Services
+* L=
+ogo Designs
+* Photoshop / Graphics Designing
+* Website Designing & Deve=
+lopment
+* Audio Transcription
+* Website Content / Article Writing
+* S=
+EO
+We will design a logo for your business and we do it with much
+creat=
+ivity. We will provide you with 4 different designs of the same
+idea. Bel=
+ow are some of our logo designs
+Our pricing is better or comparable to in=
+dividual service provider.
+You can contact us by replying to this email f=
+or a free quote and
+portfolio.
+Regards,
+Celina Jones
+http://192.3.1=
+66.180/index.php/lists/hd526pkv7t86c/unsubscribe/az90059dpf32c/pq791jyep63c=
+a
+
+--_=_swift_v4_1697252286_7765393f1e4f4e7116b889da6c3ebc33_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><meta charset=3D"utf-8"/>
+=09<title></title>
+</head>
+<body>Hello,<br />
+<br />
+Have you ever thought about giving your business a new appearance with a ne=
+w logo & a website ? Do you know with just giving your business a new look,=
+ you can experience huge sales of products or services? Well, we are here t=
+o make your business look great in this our era of technology.<br />
+<br />
+We are a group of professionals, rendering various forms of services to ind=
+ividuals, and businesses. No matter how big or small your business is, we w=
+ill give it that exact look that suits it.<br />
+<br />
+Our Services
+<ul>
+=09<li>Logo Designs</li>
+=09<li>Photoshop / Graphics Designing</li>
+=09<li>Website Designing & Development</li>
+=09<li>Audio Transcription</li>
+=09<li>Website Content / Article Writing</li>
+=09<li>SEO</li>
+</ul>
+<br />
+We will design a logo for your business and we do it with much creativity. =
+We will provide you with 4 different designs of the same idea. Below are so=
+me of our logo designs<br />
+<br />
+Our pricing is better or comparable to individual service provider.<br />
+<br />
+You can contact us by replying to this email for a free quote and portfolio=
+.<br />
+<br />
+Regards,<br />
+Celina Jones<br />
+<br />
+http://192.3.166.180/index.php/lists/hd526pkv7t86c/unsubscribe/az90059dpf32=
+c/pq791jyep63ca<img width=3D"1" height=3D"1" src=3D"http://192.3.166.180/in=
+dex.php/campaigns/pq791jyep63ca/track-opening/az90059dpf32c" alt=3D"" />
+=
+</body>
+</html>
+
+--_=_swift_v4_1697252286_7765393f1e4f4e7116b889da6c3ebc33_=_--
+

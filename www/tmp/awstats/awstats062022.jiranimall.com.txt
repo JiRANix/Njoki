@@ -1,0 +1,671 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202206 will be lost/reset.
+# Last config file used to build this data file was /home/jiranim1/tmp/awstats/awstats.jiranimall.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 21709               
+POS_DAY 23139               
+POS_DOMAIN 3455                
+POS_LOGIN 3845                
+POS_ROBOT 4000                
+POS_WORMS 4366                
+POS_EMAILSENDER 4497                
+POS_EMAILRECEIVER 4640                
+POS_SESSION 23397               
+POS_SIDER 23582               
+POS_FILETYPES 4775                
+POS_DOWNLOADS 5032                
+POS_OS 5804                
+POS_BROWSER 5977                
+POS_SCREENSIZE 6484                
+POS_UNKNOWNREFERER 6558                
+POS_UNKNOWNREFERERBROWSER 7107                
+POS_ORIGIN 7565                
+POS_SEREFERRALS 7701                
+POS_PAGEREFS 7862                
+POS_SEARCHWORDS 8010                
+POS_KEYWORDS 8162                
+POS_MISC 2353                
+POS_ERRORS 8221                
+POS_CLUSTER 3701                
+POS_SIDER_404 8407                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220701012034 31 5926 15645952342408
+FirstTime 20220610111911
+LastTime 20220621173421
+LastUpdate 20220701121704 31 0 30 0 0
+TotalVisits 35                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 12 3991568 26 36 94052
+1 0 0 0 93 95 767121
+2 1 1 10315 32 33 19171
+3 0 0 0 9 13 36309
+4 1 1 85761 16 23 122224
+5 1 1 14214 35 37 13878
+6 8 8 17029 18 18 48917
+7 33 117 7522544 139 144 62125
+8 21 27 688975 209 216 378879
+9 10 13 280647 122 122 914421
+10 6 10 238231 68 78 226807
+11 9 15 450527 106 112 193796
+12 19 92 4668033 302 309 316121
+13 14 18 1034911 230 233 80777
+14 2 2 25513 56 72 590350
+15 33 42 660481 52 67 558050
+16 14 27 1029526 37 40 153195
+17 4 4 96487 58 68 511678
+18 0 0 0 42 107 119049
+19 14 63 4511308 17 31 30048
+20 18 68 4637292 22 23 11085
+21 1 1 0 39 48 140992
+22 2 2 171564 45 53 903914
+23 0 0 0 52 59 211261
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+ke 96 204 10284775
+in 34 43 746266
+us 33 107 5167321
+za 32 131 9148600
+id 5 13 524649
+fr 3 15 4001699
+cn 2 2 10315
+ca 2 2 142158
+ru 1 1 11321
+it 1 1 85761
+at 1 1 86
+gb 1 4 11975
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+zoominfobot 31 404528 20220616125218 0
+Googlebot/ 26 981827 20220616180421 0
+AhrefsBot/ 2 13906 20220617083739 0
+bot[\s_+:,\.\;\/\\-] 1 14218 20220617004234 0
+bingbot/ 1 4215 20220610110321 0
+Googlebot\-Image/ 1 1906 20220617185339 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+js 24 5626923 0 0
+txt 27 1962 0 0
+Unknown 109 913855 0 0
+woff2 22 1385848 0 0
+css 27 2554779 0 0
+png 100 10323400 0 0
+webp 46 1265444 0 0
+html 80 1404806 0 0
+jpg 88 6653201 0 0
+svg 1 4708 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/.well-known/pki-validation/A67A06C2FDDC01C9897C7EE3C8865150.txt 18 0 1386
+/.well-known/pki-validation/4BD82D6E49CA726A9885B1B4CF114D4C.txt 1 0 64
+/.well-known/pki-validation/78ADA4540E36A33EAD969CC899F04541.txt 1 0 64
+/.well-known/pki-validation/ADE12FF6D586E7B18F802811CB045DC8.txt 1 0 64
+/.well-known/pki-validation/09226D624BC19A3E93378DAD38010C8E.txt 1 0 64
+/.well-known/pki-validation/7CCE45332E7144283C07F65ACBAE1994.txt 1 0 64
+/.well-known/pki-validation/8F883A3BA76EB991434910FBCE3E0E28.txt 1 0 64
+/.well-known/pki-validation/424D8DF546AE64B32CFB0E55C481F7D3.txt 1 0 64
+/.well-known/pki-validation/082F8775E17A5FC8C028764D7585D9EA.txt 1 0 64
+/.well-known/pki-validation/43CBC3BFAE7D42BBC00CC15FA5DA185D.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+Unknown 31 4
+linux 6 6
+android 29 11
+win7 53 41
+win10 387 143
+androidnougat 2 2
+linuxubuntu 15 3
+win8.1 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+mozilla 1 1
+Unknown 30 3
+chrome60.0.3112.107 2 2
+firefox59.0 42 33
+chrome36.0.1985.67 1 1
+chrome102.0.0.0 343 128
+firefox58.0 15 3
+chrome89.0.4389.90 1 1
+chrome102.0.5005.115 3 3
+chrome91.0.4472.114 1 1
+chrome100.0.4896.127 2 2
+chrome76.0.3809.71 46 9
+chrome100.0.4896.60 1 1
+chrome79.0.3945.79 18 8
+chrome95.0.4638.69 3 3
+opera53.0.2907.68 1 1
+chrome74.0.3729.169 1 1
+firefox89.0 1 1
+chrome83.0.4103.61 9 6
+chrome66.0.3359.181 2 2
+chrome68.0.3440.106 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+python-requests/2.21.0 20220619212527
+COMODO_DCV 20220609125208
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220615072252
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220614174050
+Sectigo_DCV 20220609125213
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220615072252
+COMODO_DCV 20220609125208
+python-requests/2.21.0 20220619212527
+Sectigo_DCV 20220609125213
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 76
+From1 0 0
+From2 1 1
+From3 0 0
+From4 173 447
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_bing_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+500 131 21674
+403 32 39328
+405 21 10740
+206 2 3253
+419 732 55907
+302 560 121818
+301 117 82719
+404 359 4748181
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 274
+/wp-content/wp-old-index.php 1 anonymousfox.co
+/.well-known/pki-validation/A6E34169BEBAB834D7C25B5328EC3D4E.txt 1 -
+//wp-content/themes/zakra/image.php 2 www.google.com
+//shell20211028.php 2 www.google.com
+/wp-admin/config.bak.php 1 anonymousfox.co
+/assets/global/plugins/jquery-file-upload/server/php/files/jquery.php 1 jiranimall.com
+/.well-known/pki-validation/22885213DD2E5AB36DEA2F5D1ECDDC9F.txt 1 -
+/wp-admin/tool.php 1 jiranimall.com
+/wp-includes/wp-class.php 1 -
+/.well-known/pki-validation/7350EBD919A430B9CCECBF31889DE59D.txt 1 -
+//images/mod_config.php 1 www.google.com
+/product/variant_price 1 http://jiranimall.com
+/.well-known/pki-validation/E101AE67D0F1399E21340F3A79B1E93B.txt 1 -
+/wp-admin/include.php 1 jiranimall.com
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+//modules/mod_ariimageslidersa/mod_ariimageslidersa.php 1 www.google.com
+/.well-known/pki-validation/D421DC3C97E20E82B2385433820BCF25.txt 1 -
+//cgi-etc/quti.php 2 www.google.com
+/robots.txt 11 -
+//content.php 2 www.google.com
+//wp-includes/images/wlw/content.php 2 www.google.com
+/.well-known/pki-validation/C51FCE525FC4CADDE283A936FD1027C5.txt 1 -
+/.well-known/pki-validation/A4A3BFCD1B853A3693F4FF70986DFD64.txt 1 -
+/.well-known/pki-validation/C0132CFC13E9A85713EDF07DF565E3A0.txt 1 -
+/wp-content/plugins/ninja-forms/assets/css/admin-addons.css 1 jiranimall.com
+/wp-admin/maint 2 www.google.com
+/.well-known/pki-validation/315DA871D5A50F07288C0BF11AAC576E.txt 1 -
+/wp-content/export.php 1 -
+/wp-includes/images 2 www.google.com
+//wp-admin/network/xleet.php 1 www.google.com
+/.well-known/pki-validation/7C9933D858D5AE93582DB68EF4D5D1D2.txt 1 -
+/old/wp-content/themes/twentyfive/include.php 1 www.google.com
+//wordpress/wp-content/themes/twentyfive/include.php 1 www.google.com
+//wp-content/31cx4.php 2 www.google.com
+/wp-login.php 4 http://jiranimall.com
+/wordpress/wp-admin/setup-config.php 1 -
+/assets/images/accesson.php 1 -
+//1index.php 2 www.google.com
+//wordpress/wp-content/themes/sketch/404.php 1 www.google.com
+/wordpress/wp-login.php 2 http://jiranimall.com
+//wp-includes/images/media/new-index.php 2 www.google.com
+/.well-known/pki-validation/A288A9E878CAD9C24D4EE841952F6079.txt 1 -
+/.well-known/pki-validation/A6B67EC7A88FB0EE5CA1E9F637782A9D.txt 1 -
+/wp-content/config.bak.php 1 anonymousfox.co
+/.well-known/pki-validation/4A4625645806726ACCE0BA4A10B97947.txt 1 -
+/blog/wp-content/themes/twentyfive/include.php 1 www.google.com
+//config/aws.yml 1 -
+//alwso.php 2 www.google.com
+/sites/default/files 2 binance.com
+/wp-includes/fonts/css.php 1 anonymousfox.co
+/assets/images/search.php 1 -
+/wp-content/themes/sketch/404.php 2 -
+/wp-content/wp-1ogin_bak.php 1 anonymousfox.co
+/wp-content/plugins/t_file_wp/t_file_wp.php 1 anonymousfox.co
+//wp-includes/xleet.php 1 www.google.com
+//images/up.php 1 www.google.com
+/.well-known/pki-validation/90BCF7783EAF375D8ECC44BE46E48AEA.txt 1 -
+//info.php 1 -
+/wp-includes/small.php 1 anonymousfox.co
+//style.php 1 www.google.com
+//xl33t.php 1 www.google.com
+/.well-known/pki-validation/4A44F5BBD2CBF5227E6B4938E936E641.txt 1 -
+//debug/default/view 1 -
+//wp-content/xleet.php 1 www.google.com
+//config.json 1 -
+/.well-known/pki-validation/0078588B22110B00A9122FA6EA98F3BB.txt 1 -
+/.well-known/pki-validation/BE7534C04B9FBE2CAA3DBAE065697B97.txt 1 -
+//wp-content/plugins/ubh/up.php/.well-known 2 www.google.com
+/_ignition/execute-solution 1 -
+/wp-content/langar.php 1 anonymousfox.co
+//wp-config.php.bak 1 -
+/services 1 http://jiranimall.com/
+/public/.env 2 -
+/src/environments/environment.ts 2 -
+/wp-content/fw.php 1 -
+//old-index.php 2 www.google.com
+//wp-includes/wp-class.php 2 www.google.com
+//wp-includes/images/smilies/2index.php 2 www.google.com
+//wp-signin.php 2 www.google.com
+/wp-content/uploads/wp-blockdown.php 1 -
+/wordpress/wp-content/themes/sketch/404.php 1 www.google.com
+//phpinfo.php 1 -
+//ups.php 2 www.google.com
+//wp-content/themes/twentytwenty/content.php 2 www.google.com
+/.well-known/pki-validation/EAECEF2E61FBD08283CF3F1A35C2D66A.txt 1 -
+/wp-content/themes/config.bak.php 1 anonymousfox.co
+/.well-known/pki-validation/244034B6B12C4212264513CAD84A9416.txt 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+//wp-includes/Text/Diff/radio.php 2 www.google.com
+/old-index.php 1 jiranimall.com
+//defaul1.php 2 www.google.com
+//qindex.php 2 www.google.com
+/files 1 binance.com
+/wp-content/plugins/wp-striplple/wp-striplple.php 1 -
+//ffAA531.php 2 www.google.com
+/view-source: 1 -
+/wp/wp-content/themes/twentyfive/include.php 1 www.google.com
+/category/nav-element-list 1 http://jiranimall.com
+/environments/environment.ts 2 -
+//wp-content/themes/sketch/404.php 1 www.google.com
+/assets/colors/accesson.php 1 -
+//gank.php.PhP 1 www.google.com
+/.well-known/pki-validation/A8D87D5044A761FB04977558A837FEC7.txt 1 -
+/misc/ajax.js 1 -
+/.well-known 1 binance.com
+/.well-known/pki-validation/5CC8343F4DD30EC25FC73CC45BAFFA35.txt 1 -
+/.well-known/pki-validation/7DC1BF4308EC238699C9B1CF12F66DB1.txt 1 -
+/storage/.env 2 -
+//modules/mod_araticlws/mod_araticlws.php 1 www.google.com
+//phpinfo 1 -
+/wp-content/plugins/kivicare-clinic-management-system/README.txt 1 -
+/assets/images/s_e.php 1 -
+/.well-known/pki-validation/D7CA57B428D687C9E2E939BB7BD00D76.txt 1 -
+/.well-known/pki-validation/4B476142894B91EFFDB83CC9C3E73D23.txt 1 -
+/wp-content/plugins 3 www.google.com
+/blog/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2022/02/wp_wrong_datlib.php 1 -
+//wp-includes/Text/Diff/content.php 2 www.google.com
+//vabba.php 2 www.google.com
+//wp-admin/maint/xleet.php 1 www.google.com
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 anonymousfox.co
+/language 1 http://jiranimall.com
+//xleet.php 2 www.google.com
+//autoload_classmap.php 2 www.google.com
+/.well-known/pki-validation/062FCBD54675100DF17B80FFF6415EBB.txt 1 -
+/.well-known/pki-validation/7472583610F429789F06540928F33E03.txt 1 -
+//fw.php 2 www.google.com
+//.aws/credentials 1 -
+/wp-content/plugins/ubh/up.php 1 anonymousfox.co
+/currency 1 http://jiranimall.com
+/.well-known/pki-validation/9FA50C9A49D356A1629C7A78BFB61892.txt 1 -
+//wp-includes/rest-api/search/2index.php 2 www.google.com
+/.well-known/pki-validation/D2976A21FCC8E82504B302C5CC33033D.txt 1 -
+/.well-known/pki-validation/5A0F4F6AE7EEB8C3424B36705A37E764.txt 1 -
+/wp-content/plugins/wp-striplple/striplple.php 1 -
+//varb.php 2 www.google.com
+/wp-plain.php 1 jiranimall.com
+/site/wp-includes/wlwmanifest.xml 1 -
+/ajax-search 1 http://jiranimall.com
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/BD371F1EF57BE0851CA536A92E02C2B8.txt 1 -
+/.well-known/pki-validation/F1A866BF28C5EA47649BB90AD5A0FAF2.txt 1 -
+/wp-admin/css/colors/light/colors.php 1 -
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 1 anonymousfox.co
+/uploads 1 binance.com
+/.well-known/pki-validation/B043B0F0D12352DBAF059E228A1E6E03.txt 1 -
+/wp-includes/xl33t.php 1 www.google.com
+/.well-known/pki-validation/F23324E5237FA747CEEDBD639EF90B20.txt 1 -
+/old/wp-content/themes/sketch/404.php 1 www.google.com
+/site/wp-content/themes/sketch/404.php 1 www.google.com
+/wp-admin/network 2 www.google.com
+/wp-content/plugins/core-engine/index.php 1 jiranimall.com
+/test/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/wp-sleeeps/wp-sleeeps.php 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/BA2F813077B9B5E30CB513D73D7F342E.txt 1 -
+/wp-includes/css 2 www.google.com
+//new-index.php 2 www.google.com
+//403.php 2 www.google.com
+/wp-content/plugins/backup_index.php 1 anonymousfox.co
+/wordpress/wp-content/themes/twentyfive/include.php 1 www.google.com
+/.well-known/pki-validation/D8036D9D11FB73728C0E74601FA9DA24.txt 1 -
+/wp-content/plugins/wpconfig.bak.php 1 anonymousfox.co
+//wp-content/languages/themes/radio.php 2 www.google.com
+/.well-known/pki-validation/27E24C06235F8EBA813FBB5CBF6C28AF.txt 1 -
+/.well-known/acme-challenge 1 www.google.com
+//wp-content/uploads/xleet.php 1 www.google.com
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/uploads/up.php 1 -
+/wp-content/app.php 1 jiranimall.com
+/wp-content/themes/twentyfive/include.php 2 -
+/wp/wp-login.php 2 http://jiranimall.com
+//.env.bak 1 -
+//wp.php 2 www.google.com
+//wp-plugins.php 2 www.google.com
+/.well-known/pki-validation/389F2486207C0A233AE088C35ECE30CF.txt 1 -
+/wp-includes/lfx.php 1 anonymousfox.co
+/upload/image 2 www.google.com
+//xleet-shell.php 2 www.google.com
+//baindex.php 2 www.google.com
+//wp-2019.php 2 www.google.com
+/wp-content/plugins/ubh 2 www.google.com
+/.well-known/pki-validation/2F29E7A5F2CEF94E7393023B1004B508.txt 1 -
+/vendor/.env 2 -
+//wp-admin/css/xleet.php 1 www.google.com
+/.well-known/pki-validation/CC6B1D96F74431213F7D8EEA6BA27904.txt 1 -
+/wp-content/uploads 3 www.google.com
+/cms/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/css 5 binance.com
+/.well-known/pki-validation/019CE68229009225ECA759CCDB753EBF.txt 1 -
+/.well-known/pki-validation/AB086A0923E0CBAE16CFA8BCD5F1B870.txt 1 -
+/images 1 binance.com
+/.well-known/pki-validation/9B725E6FC51BDFBC70037843C8F62E87.txt 1 -
+/smtphec.php 1 jiranimall.com
+/wp-includes/js/plupload/plupload.php 1 jiranimall.com
+/2020/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/8DAAD92C3B0E04236AFAF02070F4E63E.txt 1 -
+/wp-content/cache.php 1 jiranimall.com
+//wp-admin/meta/xleet.php 1 www.google.com
+/wp-includes/css/css.php 1 anonymousfox.co
+/wp-admin/setup-config.php 2 -
+//qws.php 2 www.google.com
+/demo328/fw.php 1 -
+/wp-content/plugins/wp-romain/wp-romain.php 1 -
+/.well-known/pki-validation/3766284D9737B2436081EB1CEE84F8D5.txt 1 -
+/site/wp-content/themes/twentyfive/include.php 1 www.google.com
+/administrator/index.php 1 -
+/.well-known/pki-validation/15908A8E121472277ACCB8D2DE02A27E.txt 1 -
+/wp/wp-content/themes/sketch/404.php 1 www.google.com
+//_profiler/phpinfo 1 -
+/wp-content/uploads/wp-blockup.php 1 -
+/blog/wp-content/themes/sketch/404.php 1 www.google.com
+/wp-includes/config.bak.php 1 anonymousfox.co
+//wp-content/export.php 2 www.google.com
+/.well-known/pki-validation/6CEF9EAC738E23AA19FD113DF79AEEDF.txt 1 -
+/.well-known/pki-validation/E83D28DEF7EB5D53DDC873AE91A97195.txt 1 -
+/wp-content/themes/twentythree/inc/index.php 1 jiranimall.com
+/.well-known/pki-validation/BDD02999B121B6B7F8054A7825A5DEAB.txt 1 -
+/.well-known/pki-validation/D39DE11162008A13FACB9207662B332A.txt 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/9E6471AF713586905893D8ADD5E03D24.txt 1 -
+/wp-content/plugins/wp-zzz/wp-zzz.php 1 -
+/wp-content/languages 2 www.google.com
+//1975.php 1 www.google.com
+/.well-known/pki-validation/995DA567A646C46CE1C2693A7C317428.txt 1 -
+/.well-known/pki-validation/81B2276E0433BD5D1BDEDBA2E982F9E0.txt 1 -
+//admin.php 2 www.google.com
+//.well-known/xleet.php 1 www.google.com
+/.well-known/pki-validation/CC77645F29F720908D09196874010386.txt 1 -
+/.well-known/pki-validation/3BE9434E653DCB75852E424C69EB255C.txt 1 -
+/.well-known/pki-validation/A31BE2714A055B0C38D1796C3105F398.txt 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/18D91F1E681BCD8DE5DB3E36F37FF934.txt 1 -
+/wp-includes/css/wp-config.php 1 jiranimall.com
+//wp-admin/user/xleet.php 1 www.google.com
+//wp-content/plugins/apikey/nocap.php 2 www.google.com
+/wp-content/plugins/ioptimization/IOptimize.php 1 anonymousfox.co
+/.well-known/pki-validation/5BCE917ECF44B45F58A3D9FDAE4CC827.txt 1 -
+/wp-includes/wpconfig.bak.php 1 anonymousfox.co
+/assets/images/wp_wrong_datlib.php 1 -
+/2021/wp-includes/wlwmanifest.xml 1 -
+//wp-includes/images/media/about.php 2 www.google.com
+//config.js 1 -
+/.well-known/pki-validation/165C34A8E476A4FA5BF73FBA6A54A1E4.txt 1 -
+/wp-content/mu-plugins/db-safe-mode.php 1 anonymousfox.co
+//aws.yml 1 -
+/wp-content/plugins/background-image-cropper/image/ico/accesson.php 1 -
+/wp-content/themes/classic/inc/index.php 1 jiranimall.com
+/.well-known/pki-validation/871B838B162E18D1CE6DCE547AC6956D.txt 1 -
+/.well-known/pki-validation/BAC24845AA0A16A86CA5F713ADAD301D.txt 1 -
+//inbexw.php 2 www.google.com
+/xmlrpc.php 1 -
+//templates/atomic/error.php 1 www.google.com
+/wp-content/db_cache.php 1 anonymousfox.co
+/web/wp-includes/wlwmanifest.xml 1 -
+//local.php 1 www.google.com
+/.well-known/pki-validation/72A471F7EC15874B024117E5C121D995.txt 1 -
+//wp-content/themes/twentyfive/include.php 1 www.google.com
+/.well-known/pki-validation/8648D632F7D6F5E272020C37EDE12BC2.txt 1 -
+//radio.php 2 www.google.com
+/.well-known/pki-validation/5BF591DAACED1CDB509B634BFDC821B9.txt 1 -
+//wp-admin/images/xleet.php 1 www.google.com
+//wp-admin/includes/xleet.php 1 www.google.com
+/wp-content/mu-plugins-old/index.php 1 -
+/.well-known/pki-validation/94C84247E6F7D4AFE36B36C79512195A.txt 1 -
+/wp-content/plugins/config.bak.php 1 anonymousfox.co
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 1 anonymousfox.co
+/.well-known/pki-validation/76F3A797930541E30FA4B9ED02AC0860.txt 1 -
+/admin/controller/extension/extension 2 binance.com
+//2index.php 2 www.google.com
+/.well-known/pki-validation/8A45934E11D8383AA3B7C8F6B125336A.txt 1 -
+/wp-load.php 1 jiranimall.com
+//wp-vatva.php 2 www.google.com
+/wp-content/plugins/apikey 2 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+105.160.40.105 82 144 6101444 20220616063744
+45.152.177.205 33 42 660481 20220616150313
+196.250.212.161 32 131 9148600 20220616204351
+205.169.39.98 14 27 1029526 20220614165940
+105.160.105.143 10 56 4129648 20220616090801
+205.169.39.21 9 46 3873681 20220616121434
+102.5.90.213 5 13 524649 20220616070337
+35.166.138.195 2 2 28430 20220616101211
+51.255.62.12 2 3 620701 20220610111911
+159.65.0.114 2 2 171564 20220616223627
+197.136.0.6 1 1 13199 20220614082957
+34.212.180.22 1 1 11318 20220614142008
+38.18.33.114 1 1 14215 20220616172815
+167.94.138.63 1 1 11338 20220614174050
+164.92.77.153 1 1 0 20220619212527
+52.12.188.164 1 1 14195 20220615143132
+167.172.178.60 1 1 11744 20220615130742
+1.116.195.130 1 1 0 20220615065843
+205.210.31.27 1 1 70848 20220614172127
+51.255.62.2 1 2 87343 20220610111911
+105.160.57.252 1 1 13073 20220614082949
+42.83.147.34 1 1 10315 20220615025127
+193.46.254.155 1 1 86 20220621173421
+45.133.173.48 1 1 85785 20220616110029
+185.181.60.12 1 1 11321 20220614135237
+51.255.62.7 0 1 83961 
+51.255.62.11 0 2 702065 
+91.199.212.132 0 3 231 
+51.255.62.15 0 4 1694052 
+105.160.40.18 1 1 14214 20220617053218
+74.208.50.87 1 1 11323 20220614110406
+198.235.24.152 1 1 71310 20220615072252
+84.17.43.165 1 1 85761 20220616041029
+197.136.9.4 1 1 13197 20220614080935
+51.255.62.14 0 2 365668 
+51.255.62.4 0 1 447909 
+198.23.59.221 0 24 1731 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20220609 0 27 1962 0
+20220610 3 3 10131 2
+20220612 0 12 3991568 0
+20220614 46 79 2578433 12
+20220615 80 142 6191979 7
+20220616 79 258 17346553 11
+20220617 1 1 14214 1
+20220619 1 1 0 1
+20220621 1 1 86 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+15mn-30mn 1
+0s-30s 28
+1h+ 3
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 44
+/ 78 1376376 27 21
+/blog 18 203712 1 0
+/public/assets/fonts/la-regular-400.woff2 8 103200 0 0
+/public/assets/fonts/la-solid-900.woff2 8 774016 0 0
+/home/section/best_selling 7 3983 0 0
+/home/section/best_sellers 7 5567 0 2
+/home/section/auction_products 7 0 0 1
+/home/section/featured 7 1963 0 0
+/users/login 7 87267 0 0
+/home/section/home_categories 7 0 0 2
+/public/assets/fonts/la-brands-400.woff2 6 508632 0 1
+/blog/smart-home-devices-for-a-cooler-more-intelligent-living-space 5 74586 0 0
+/cpanel 5 65872 4 4
+/category/professional%20services 3 41234 0 1
+/categories 2 22414 0 0
+/shops/create 2 23952 0 0
+// 2 28430 1 1
+/brands 2 24311 0 0
+/category/Computers--Accessories-sZ4oJ 2 25375 0 0
+/category/Hardware-29lFV 2 25826 0 0
+/product/diy-wall-clock 2 29824 0 0
+/blog/how-to-start-an-online-store 2 25437 0 1
+/category/water%20tank 1 13231 0 0
+/privacy-policy 1 11326 0 0
+/return-policy 1 11328 0 0
+/track-your-order 1 11533 0 0
+/category/Software--Technology-hxMva 1 13274 0 0
+/terms 1 11323 0 0
+/users/registration 1 12406 0 0
+/category/Electricals-and-Electronics-BCpfI 1 13199 0 0
+/support-policy 1 11322 0 0
+/search 1 14076 0 0
+/category/phones--accessories-wdpjk 1 13137 0 0
+/category/fashion%20&%20cloths 1 13145 0 0
+/category/Decor-pR9Cb 1 13122 0 0
+/category/stationery--bookshop-y59mw 1 13127 0 0
+/category/sports--games-zyl4e 1 13133 0 0
+/refresh-csrf 1 60 1 0
+/blog/8-smart-home-devices-for-a-cooler-more-intelligent-living-space 1 14166 0 0
+/compare 1 11486 0 0
+/api/index/viewpage 1 86 1 1
+/category/Farm--Agriculture-V3Yf7 1 13146 0 0
+/blog/t-shirts-every-man-needs-in-his-wardrobe 1 12013 0 0
+/cart 1 12893 0 0
+END_SIDER

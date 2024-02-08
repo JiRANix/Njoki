@@ -1,0 +1,119 @@
+Return-Path: <export@mkt.ewtppal.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id WCygEkDwe2Vo+TkAvE7qNg
+	(envelope-from <export@mkt.ewtppal.com>)
+	for <info@jiranimall.com>; Fri, 15 Dec 2023 06:20:48 +0000
+Return-path: <export@mkt.ewtppal.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Fri, 15 Dec 2023 06:20:48 +0000
+Received: from out208-205.dm.aliyun.com ([140.205.208.205]:46622)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <export@mkt.ewtppal.com>)
+	id 1rE1Yy-00FzFc-2M
+	for info@jiranimall.com;
+	Fri, 15 Dec 2023 06:20:48 +0000
+X-AliDM-RcptTo: aW5mb0BqaXJhbmltYWxsLmNvbQ==
+Feedback-ID: default:export@mkt.ewtppal.com:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=mkt.ewtppal.com; s=aliyun-cn-hangzhou;
+	t=1702621198; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=uosWVblZ4E/Xgv8D6lXumNeJ9keUGEpdsdG2YLBDigM=;
+	b=B8qX2525sAdeOwozDZ+TUmc0Kft0Wp1KMBAgcSN0ANr++3CVmvtZIC3JfwGx/Q9xENzekk1fOtMLei3mkmAH46f3HlTZ1Spy+/+m6sfs+pYOLoXZzUQZkDsVxlWjeKq3h4KIqFwJgykAeYPgBoCXjSrUh5df8UlV/hDsuc6u96Q=
+X-EnvId: 600000054233165401
+Received: from msgdactuatorserv-8588bf8c56-994wq(mailfrom:export@mkt.ewtppal.com fp:SMTPD_-VHcBvFm4tJ)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Fri, 15 Dec 2023 14:19:57 +0800
+Date: Fri, 15 Dec 2023 14:19:57 +0800 (CST)
+From: Cathy <export@mkt.ewtppal.com>
+Reply-To: sales@cjinan.com
+To: info@jiranimall.com
+Message-ID: XTMMID:ALI_CLOUD:28990100552000023120710440609,28990100539003123121509167933,XTransfer
+Subject: Discover the Ultimate Surveillance Solution with our IP Camera
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=1.9
+X-Spam-Score: 19
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I hope this message finds you well. I would like to introduce
+    our cutting-edge IP Camera, which is revolutionizing the surveillance industry
+    worldwide. Here are the key advantages of our IP Camera [...] 
+ Content analysis details:   (1.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: xtrfr.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.7 HTML_IMAGE_ONLY_28     BODY: HTML: images with 2400-2800 bytes of
+                             words
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+<html><head><meta charset=3D"UTF-8" /><meta http-equiv=3D"X-UA-Compatible" =
+content=3D"IE=3Dedge" /><meta name=3D"viewport" content=3D"width=3Ddevice-w=
+idth, initial-scale=3D1.0" /><title></title></head><body><table role=3D"pre=
+sentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border=
+-spacing: 0;border-collapse: collapse;mso-line-height-rule: exactly;mso-mar=
+gin-bottom-alt: 0;mso-margin-top-alt: 0;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;padding: 0;width: 100%;min-width: 600px;background-color: #fff;dir=
+ection: ltr;font-synthesis: none;"><tbody><tr><td><table class=3D"edm-conte=
+nt" role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+style=3D"border-spacing: 0;border-collapse: collapse;mso-line-height-rule: =
+exactly;mso-margin-bottom-alt: 0;mso-margin-top-alt: 0;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;padding: 0;width: 600px;height: 100%;background-col=
+or: #fff;direction: ltr;font-synthesis: none;"><tbody><tr style=3D"font-fam=
+ily: Arial; padding: 0; word-break: break-word"><td valign=3D"top" style=3D=
+"border-collapse: collapse; font-family: Arial; word-break: break-word"><di=
+v id=3D'TEMPLATE_REPLACEMENT_STRING_ID'><pre style=3D'white-space: pre-wrap=
+;font-family: Arial;'> Hi,=20
+I hope this message finds you well.=20
+I would like to introduce our cutting-edge IP Camera, which is revolutioniz=
+ing the surveillance industry worldwide.=20
+Here are the key advantages of our IP Camera:=20
+1. High Definition: Our IP Camera offers crystal clear video quality, ensur=
+ing that every detail is captured with precision.
+2. Easy Installation: With our user-friendly interface, setting up our IP C=
+amera is a breeze. No technical expertise required!
+3. Remote Access: Monitor your premises from anywhere in the world through =
+our mobile app, providing you with peace of mind and control at all times.
+4. Motion Detection: Our IP Camera is equipped with advanced motion detecti=
+on technology, instantly alerting you of any suspicious activity.
+5. Versatile Applications: Whether it's for home security, office surveilla=
+nce, or retail monitoring, our IP Camera caters to all your needs.
+
+Please feel free to reach out to us at sales@cjinan.com or visit our websit=
+e at www.cjinan.com for more information. We would be delighted to assist y=
+ou in finding the perfect surveillance solution for your requirements.
+
+Thank you for your time and consideration.
+
+Best regards,
+Cathy
+Manager
+Shenzhen Chijinan Digital Co.,Ltd</pre></div></td></tr></tbody></table></td=
+></tr></tbody></table></body></html><img height=3D"1" src=3D"https://xtrfr.=
+com/t/1/m3Inhc?p=3D1kpU6OsHJ-6E6AUEV4_1kpU72q8p-6Atyi4Vg" width=3D"1"><a hr=
+ef=3D"https://www.xtransfer.cn/unsubscribe?p=3D1kpU6OsHJ-6E6AUEV4_1kpU72q8p=
+-6Atyi4Vg" target=3D"_blank" style=3D"text-decoration:none; color:#FAAC58;"=
+rel=3D"noopener">Click to unsubscribe</a>

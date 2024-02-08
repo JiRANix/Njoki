@@ -1,0 +1,1 @@
+CREATE USER "jiranim1" WITH PASSWORD E'md5a2ac15811e28b82d2c8a53e9e5beee01';

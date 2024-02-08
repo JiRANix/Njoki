@@ -1,0 +1,1 @@
+{"status":1,"version":"2.4","statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","mode":"simple","action":"fetch","error":0,"exit_code":0,"data":[{"user":"jiranim1","homedir":"/home/jiranim1","type":"main"},{"homedir":"/etc/apache2/logs/domlogs/jiranim1","type":"logaccess","user":"jiranim1_logs"}],"timeout":0}

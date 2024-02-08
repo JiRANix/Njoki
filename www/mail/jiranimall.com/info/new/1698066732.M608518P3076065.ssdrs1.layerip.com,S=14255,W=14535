@@ -1,0 +1,280 @@
+Return-Path: <dutta.mobileapps@outlook.com>
+Delivered-To: info@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id 4J3XIixxNmXh7y4AvE7qNg
+	(envelope-from <dutta.mobileapps@outlook.com>)
+	for <info@jiranimall.com>; Mon, 23 Oct 2023 13:12:12 +0000
+Return-path: <dutta.mobileapps@outlook.com>
+Envelope-to: info@jiranimall.com
+Delivery-date: Mon, 23 Oct 2023 13:12:12 +0000
+Received: from mail-ps2kor01olkn2080.outbound.protection.outlook.com ([40.92.242.80]:31664 helo=KOR01-PS2-obe.outbound.protection.outlook.com)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <dutta.mobileapps@outlook.com>)
+	id 1quuj6-00CwTy-2I
+	for info@jiranimall.com;
+	Mon, 23 Oct 2023 13:12:12 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=F9N60Z1l2LL/QwtRmZWK0jI+imw9ePB+3JDuChodBkHtYhsHOn/lKl+VHT1HZZ0+7ebezG64rAfZhRlPaKWMJY/CY66WSEFUTg/jxBBBpQCjl0ylJ4nF5YLRiNZXWE/eoW0ZU6K0aymwc9smh2AnxIxo2hdhlnr3/P5f4k+WAegODWsYuQHDkF/uLonOyVD2G4j1W3obGi1+Qu1VLdviBKRfWUCD8PiWijn5KMdJkBLKpA6d+JUGZAA4fjQKV8zAoRAJDCxqc2KjDrVdaUpkW8zWdTHq+0Km2KnjwnNfarfvGsKZ23Qcys0E2pdQ+4rQFutPhIlzRB42ORfB8FI6hQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=lKx+uFuVbuXQLwzxC7wS2032NOiQ4gIsZk7UcqGOXmY=;
+ b=WwBrgwmwvJmg3Wr4UJf3xRHXze4cvXfOAH9SRGu5fLvWm9TO8pYsBZz/hFCwKhpc4kykxllvbFPORVk2GDm35hmvLS2zrI6/JK2bsDg8QvTQlnu74DtX2xLwuWP2JNEiEUSsEkBOYvJKurzSIEBDf3WLh71t+TuOB4qh2O1sYYJOWc1Qnr62Bupb1Sw5tEZg2wQvtJm8ayoWcUUdSNHEgcFj8P0+t7A1Ikagji9J2veD7lh+n3G/yFWxabrxVAklCZUBTEoU+VOyZhQh3/ZqnXMvSwfHQU89Nxd/Rzt/wBLSlG6FcnaKmRMRUFp8/23lE+bircazvyOZa4LT5/K+gQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=lKx+uFuVbuXQLwzxC7wS2032NOiQ4gIsZk7UcqGOXmY=;
+ b=QAsPM3CYT8keypAWQM+JiKUT+qmA/NWLLhkyJF6o1Scbx/OvFXW6mgQVTfIylu1XA7njC5oLps01t5xUKVrpzK4yacF5hBSbdHWLHLCZnYcSBWJTvedoycKtFlYxXaUsszByY9TSLmnysRanH9mrzUv7hihn/Av1rI2KGOnD7keUygRQiTDdazu+aruHC3QKgCpsZcItrdM6vO5q6pZ12hnTi4Zj2NucHBwsGnjI9RIwwUO8vALMAKaZW0tCWcFLeQEjdNEjwTeatKurXRHHq7hPxXlsG0owadgskrc3hB6n4rgiWM611IDxl2HJmkwmV+XuhOh5h2g6JhZC9QQRoA==
+Received: from SLXP216MB1179.KORP216.PROD.OUTLOOK.COM (2603:1096:101:9::9) by
+ SE1P216MB2498.KORP216.PROD.OUTLOOK.COM (2603:1096:101:1d2::7) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6933.14; Mon, 23 Oct 2023 13:11:25 +0000
+Received: from SLXP216MB1179.KORP216.PROD.OUTLOOK.COM
+ ([fe80::b8ee:1fbf:871:a6a]) by SLXP216MB1179.KORP216.PROD.OUTLOOK.COM
+ ([fe80::b8ee:1fbf:871:a6a%7]) with mapi id 15.20.6933.011; Mon, 23 Oct 2023
+ 13:11:25 +0000
+From: "Tina" <dutta.mobileapps@outlook.com>
+To: <info@jiranimall.com>
+Subject: RE: Web | Logo Design
+Date: Mon, 23 Oct 2023 18:41:17 +0530
+Message-ID:
+ <SLXP216MB1179A92A125622F579C3A0FD90D8A@SLXP216MB1179.KORP216.PROD.OUTLOOK.COM>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_12589_01DA05E0.8667E560"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdoFsPbmSj8ho8ORR4mj3i9gD33bKQ==
+Content-Language: en-in
+X-TMN: [ZXzOLfHPoYEJjfzBxf6Hrr/gAffOOUF2yMAprFsyT8TRcJYSStaQd1BUQocsCs9d]
+X-ClientProxiedBy: PN2PR01CA0213.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:c01:ea::7) To SLXP216MB1179.KORP216.PROD.OUTLOOK.COM
+ (2603:1096:101:9::9)
+X-Microsoft-Original-Message-ID:
+ <1258401da05b2$6cac7510$46055f30$@outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SLXP216MB1179:EE_|SE1P216MB2498:EE_
+X-MS-Office365-Filtering-Correlation-Id: d08859e4-ed8a-493c-794d-08dbd3c98f26
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	rJOQGq3v11hXWnZKsZ8dKqqp4+Re2wlVcEKtAG011B3+gEIax4kwhPvmqZNDOlDWbE7cJsqGDZTRDWOBSfbP03CxoGPiqlhKJMVGKegakUyD0Iivh9D8gzdRDTjb1tghS+Hesrhk4dALsvqRVd5N/5GajTzhBn2NypSePuuK2nZZQyotgcP3OYT3l1GbtgW5YjFmqRQD89/TeBIfbs49F4P8m+2SjOLkL4IMMLo+NK8iumvWh9+x7oy9HNseW6hKISXz2mUUf2w0elcJjQXWJDCaT3MINFw094uNRLuXLEiZRxc7pH1EWb4JobO0jfIGx6KzQWDORp5jq9jtwsNSeIovzYeFb6ETxqqkXZjjxLvxckt9zLTyKdq2mrzWVOUc3ah/+8CvIjO/22f/pO8brdA08FqPumQ/2dg4zWKg4OwyQYyLsJC2AYzGZ4YrHX7uZY0HEzYLfY1CrRv/7aVsqWlqDk6xbTzuNdcrP9clMo+u3bUlMVP01lvgBOaIlVsAvvm1NeXIJPmWelriGOB1P0T/mGes57TjoOHgVb7EFTe99iWDvF0LjQJNV+2DHWbF
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?zp5MMOqCoOoADkJg56D5CE6NQEprXVmcDVnL8nF6CDinMVbg+rX+Svf7QnbN?=
+ =?us-ascii?Q?+qQUAYbHyWf7ScPXZ4yARaK8UsvmSblGwduMDvrbfRfO6Bv3Es2ZNXPFo0Eu?=
+ =?us-ascii?Q?9fCy8XVzBGmEsdn/QO7Nt6WKgz+IeoitGuEqYqRrC094zrLL6QbNzULmKZA7?=
+ =?us-ascii?Q?tlLh97hjnItdXGb+9B4Ixxlw5fTk/ZsWip60rs8shavi3nqr/pEr6Gv27LYv?=
+ =?us-ascii?Q?Up14X2EaH4s55K2n/CIFdbkuJ5W99mPFcTD+//2DrFjkl5l6LfX8Tl4rithM?=
+ =?us-ascii?Q?Vmc7iMePdKwD4F0mmVJJFzPgnaAU5kKLSoTQVpirmvrmRltKB/nLq7GISVcy?=
+ =?us-ascii?Q?9QWVUozeK6fq91P1L4lUb0g0V7VpV+ylGvO4Q1s8RbcIFh4S0HrQQVgSTyJ2?=
+ =?us-ascii?Q?GA/3HafD+cwk9ZVVmlr2cLVq6x2IFaRlKwVxOlnHVpCjlmOcY/C3kNHK0W/c?=
+ =?us-ascii?Q?VrQTNSeF0AqApP3fphf+GBdqEgICHaMPp21pFOhJrV1CRATHc5MkwNz05MRb?=
+ =?us-ascii?Q?Ipp+Jrd23Vh/DkP5w6eMPyn/K26NEvD44b4AhgzE2tsiQMMd/FN9D1tKLE/S?=
+ =?us-ascii?Q?fkIu55ckHWsSZzFUR+gq6G/gyct0NmnjWy5tiUflQamOWuA6j0ScG2DggfrD?=
+ =?us-ascii?Q?hSlMAxR+YwC8ULfvlYjwyPu+nAk3VdcAVFOYWiQzJzoE8vHJmdZyDBAnNo/+?=
+ =?us-ascii?Q?E4y9bvyQyEq5ZRrZvdnrEmyfgkJklKuTcvHFqumaOkvdhboFTU+v469PhSya?=
+ =?us-ascii?Q?wPPbKy7fuzcCfzpuvLYFIy0S15cIMnbtA/FQ39hjjcdyPQ+fqK9jUMLdWwD+?=
+ =?us-ascii?Q?lbYGsy+gIjlci8iEk2y87C42Rzd8jLmP6FSCjC/8/IgSIfpv1qKBcJKw7kQm?=
+ =?us-ascii?Q?oFMGYRbTmq8iw9is3Z+jETEQz5XrD1sHcmKSH+Y7tdFz67pGK7x2n/W8puU1?=
+ =?us-ascii?Q?WxlUVM3EDXJO9Nuw8bW/yHIwiQrMzNAksAA3lZu5+eL8sJCj7drOdTQ/QpuM?=
+ =?us-ascii?Q?kg5/EWM+6wEEjsxPEoMZ+7hGK34MEsTw21+Und38kFzavAvrnq6qkSqEwIO+?=
+ =?us-ascii?Q?/BVPrc8m7+deBoLkEpWO/oLIF6CoXZgLrjJkRU+qLUkZR5mntpzeV3yJnWQR?=
+ =?us-ascii?Q?ezrB9U6a6BYeg4x4TsOxmgKzY027oONPBuvOtkqr+QflMR0JUWEyDOxerMoJ?=
+ =?us-ascii?Q?icRKyz5eHaSi7dJLJcNpX9PLLh1kRdWk3kjMRhFbmSOywYi7cpNKZLfngpgu?=
+ =?us-ascii?Q?JWhMaoii7WDlgvqOkt7QdoiU02nes4hKOzD5EuYSGFvEB0DHdQqBfklzTZSr?=
+ =?us-ascii?Q?pLw=3D?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: d08859e4-ed8a-493c-794d-08dbd3c98f26
+X-MS-Exchange-CrossTenant-AuthSource: SLXP216MB1179.KORP216.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Oct 2023 13:11:25.2001
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SE1P216MB2498
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, We were just wondering if you had a chance to review the
+    previous email we send to you. We understand the value of your time so we'd
+    like to know what's the best way to reach you and when can we discuss this
+    in more detail? 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [dutta.mobileapps[at]outlook.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+------=_NextPart_000_12589_01DA05E0.8667E560
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+We were just wondering if you had a chance to review the previous email we
+send to you.
+
+We understand the value of your time so we'd like to know what's the best
+way to reach you and when can we discuss this in more detail? 
+
+Waiting,
+
+..................................................................
+
+From: Tina [mailto: dutta.mobileapps@outlook.com]
+
+Sent: Friday, October 20, 2023, 04:00 PM
+
+To: info@jiranimall.com
+
+Subject: Web | Logo Design
+
+ 
+
+Hi,
+
+ 
+
+We offer services like Logo Design, Website Design/Development, etc. on a
+competitive budget.
+
+ 
+
+If you have any requirements or queries, please reply.
+
+ 
+
+Our price is very competitive for all types of website Services.
+
+ 
+
+Thanks,
+
+
+------=_NextPart_000_12589_01DA05E0.8667E560
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-priority:99;
+	mso-style-link:"Plain Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Plain Text";
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-IN" link=3D"#0563=
+C1" vlink=3D"#954F72"><div class=3D"WordSection1"><p class=3D"MsoPlainText"=
+><span style=3D"color:#0000CC">Hi,<o:p></o:p></span></p><p class=3D"MsoPlai=
+nText"><span style=3D"color:#0000CC">We were just wondering if you had a ch=
+ance to review the previous email we send to you.<o:p></o:p></span></p><p c=
+lass=3D"MsoPlainText"><span style=3D"color:#0000CC">We understand the value=
+ of your time so we&#8217;d like to know what&#8217;s the best way to reach=
+ you and when can we discuss this in more detail? <o:p></o:p></span></p><p =
+class=3D"MsoPlainText"><span style=3D"color:#0000CC">Waiting,<o:p></o:p></s=
+pan></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC">&#8230;&#82=
+30;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#=
+8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;=
+&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#823=
+0;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8=
+230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&=
+#8230;..........<o:p></o:p></span></p><p class=3D"MsoPlainText"><span style=
+=3D"color:#0000CC">From: Tina [mailto: dutta.mobileapps@outlook.com]<o:p></=
+o:p></span></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC">Sent=
+: Friday, October 20, 2023, 04:00 PM<o:p></o:p></span></p><p class=3D"MsoPl=
+ainText"><span style=3D"color:#0000CC">To: info@jiranimall.com<o:p></o:p></=
+span></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC">Subject: W=
+eb | Logo Design<o:p></o:p></span></p><p class=3D"MsoPlainText"><span style=
+=3D"color:#0000CC"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoPlainText"><s=
+pan style=3D"color:#0000CC">Hi,<o:p></o:p></span></p><p class=3D"MsoPlainTe=
+xt"><span style=3D"color:#0000CC"><o:p>&nbsp;</o:p></span></p><p class=3D"M=
+soPlainText"><span style=3D"color:#0000CC">We offer services like Logo Desi=
+gn, Website Design/Development, etc. on a competitive budget.<o:p></o:p></s=
+pan></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC"><o:p>&nbsp;=
+</o:p></span></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC">If=
+ you have any requirements or queries, please reply.<o:p></o:p></span></p><=
+p class=3D"MsoPlainText"><span style=3D"color:#0000CC"><o:p>&nbsp;</o:p></s=
+pan></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC">Our price i=
+s very competitive for all types of website Services.<o:p></o:p></span></p>=
+<p class=3D"MsoPlainText"><span style=3D"color:#0000CC"><o:p>&nbsp;</o:p></=
+span></p><p class=3D"MsoPlainText"><span style=3D"color:#0000CC">Thanks,<o:=
+p></o:p></span></p></div></body></html>=
+
+------=_NextPart_000_12589_01DA05E0.8667E560--

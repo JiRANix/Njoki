@@ -1,0 +1,98 @@
+Return-Path: <mordieng568@gmail.com>
+Delivered-To: jt@jiranimall.com
+Received: from ssdrs1.layerip.com
+	by ssdrs1.layerip.com with LMTP
+	id cHQzKeXI+WR5+DcAvE7qNg
+	(envelope-from <mordieng568@gmail.com>)
+	for <jt@jiranimall.com>; Thu, 07 Sep 2023 12:58:13 +0000
+Return-path: <mordieng568@gmail.com>
+Envelope-to: jt@jiranimall.com
+Delivery-date: Thu, 07 Sep 2023 12:58:13 +0000
+Received: from mail-lj1-f179.google.com ([209.85.208.179]:53567)
+	by ssdrs1.layerip.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <mordieng568@gmail.com>)
+	id 1qeEaM-00FOQo-2L
+	for jt@jiranimall.com;
+	Thu, 07 Sep 2023 12:58:13 +0000
+Received: by mail-lj1-f179.google.com with SMTP id 38308e7fff4ca-2bcb50e194dso16501061fa.3
+        for <jt@jiranimall.com>; Thu, 07 Sep 2023 05:57:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1694091450; x=1694696250; darn=jiranimall.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=hWncNPyw4O35zOrH109yenIepp/LARP4iKXOYbYl3rQ=;
+        b=sdA9Pjegacuno1hLLeN+6PtXpZ66kPcAIJs0diS3gWdpuQS4hTUD3K/LbXFvObnA2j
+         jWJBdyOGWTMF5aZKmV64xfHoLGkRnE2RD06n3V9UmqiK8jqgBjjHG977ClXqBSuoAgdr
+         I7GGy3vhinyjmdUV1RkPMstPaPPpH3oJ9Ul0r270RwRAth3cRgWmvO3Bg41i5ddYd1qC
+         Bu1k9LGv5v5l6JFAKA9KrVYaJwrVRFqiwkdeAE0F6BCtTB5qMruiNjkoBn/I94KOsGFk
+         3Lb5PCuz/mDvKTUobkFE0Q6rQftrTlcfTRQz3gA7dX0gCiKZG0fIUVt4JpYPJdsLIodL
+         ryNA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1694091450; x=1694696250;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=hWncNPyw4O35zOrH109yenIepp/LARP4iKXOYbYl3rQ=;
+        b=fgc5VpHdnsPdbymZg24PJPdPGcEue4WsrIIlXVxT7OQPMCR+a37zwWSlhc/e0/Vmye
+         7fQprzqyjrtdkdcf0waPqUbxCq7D8GQyNhieSeMKvZlL5AP/aQ0VyYQEgAoGTX1qKmSe
+         8fzNCEpzUu9Dbqm4/cjdzamUEaoOO0I8W1+JpHP50n8DGd+ezblJ+AkrvlvsVHecjIPC
+         WlqsctY7rjqoO2KfkZ0Ir3UMCnS8hHa12uM+wkhFa8aRCsY3KZCuCYljcdmv3sWbzBIz
+         2pCN6VmqjmldNKeeHxKD2h2D6O7CHoTunVwYQmpWO7f6JvFoB0BEK1DkixRaMErycbKU
+         1/eQ==
+X-Gm-Message-State: AOJu0YzcBePAfrGdirntYrfVe1yzrq3XA2uE2+ibu02mCxy9HwrFWXpx
+	Y6TS3rEXwfkLjBFpwJRYENwYPxoUPMvGlj5+kUc=
+X-Google-Smtp-Source: AGHT+IEyvxHBk2cKV/MraZWBiH8SgZozU6oOZIlJwwRki31cl+RMEMowcYvKV9B4gzo+/1DTfyO44Ag8vV+hzjJXm3s=
+X-Received: by 2002:a2e:9884:0:b0:2bc:d6d8:fd35 with SMTP id
+ b4-20020a2e9884000000b002bcd6d8fd35mr4299858ljj.47.1694091450338; Thu, 07 Sep
+ 2023 05:57:30 -0700 (PDT)
+MIME-Version: 1.0
+From: aveennsss <aveennsss1@gmail.com>
+Date: Thu, 7 Sep 2023 13:56:55 +0100
+Message-ID: <CAM2P43cyqgD+8B8ipMMUP6T67m1N_aXdNVTzyY2pm0tk2xBxkw@mail.gmail.com>
+Subject: 
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="0000000000001d53340604c467df"
+Bcc: jt@jiranimall.com
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "ssdrs1.layerip.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  سلام سلام 
+ Content analysis details:   (2.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [mordieng568[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [aveennsss1[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+--0000000000001d53340604c467df
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+2LPZhNin2YUNCg==
+--0000000000001d53340604c467df
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdiBkaXI9Imx0ciI+2LPZhNin2YU8YnI+PC9kaXY+DQo=
+--0000000000001d53340604c467df--
